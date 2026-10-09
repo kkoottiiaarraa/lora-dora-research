@@ -1,73 +1,92 @@
-# Research continuation
+# Актуальное состояние исследования
 
-## Current decision (2026-10-09)
+Обновлено 9 октября 2026 года. Основной файл передачи состояния между чатами.
+Готовый промпт продолжения: [CONTINUE_RESEARCH.md](CONTINUE_RESEARCH.md).
 
-The user cancelled the proposed HTTPS research API/Cloudflare route as too
-complicated. They now want to assess Codex CLI on their own Finland VM, which
-would operate the GPU server through ordinary SSH. This supersedes the earlier
-preference to keep the agent exclusively in Codex Cloud. Do not install an agent
-on the shared GPU server. See `docs/VM_CLI.md` for feasibility, measurement limits
-and the small setup procedure.
+## Среда и доступ
 
-The Finland VM is Ubuntu 24.04.4 LTS, 1 vCPU, 2 GB RAM, 32 GB NVMe, 500 Mbps.
-User-confirmed public IP: 2.26.67.204; Tailscale IP: 100.105.205.79.
-TCP ports 80/443 are occupied by docker-proxy (IPv4 and IPv6); container identity
-and actual VPN CPU/RAM use are unknown. Do not modify those containers or VPN.
-Root credentials were supplied in the chat and intentionally not stored here.
-No SSH authentication or command from this agent has succeeded on either host.
-No remote CLI/API installation, model download or GPU pilot has occurred.
+Пользователь сообщает, что новый чат/окружение Codex уже настроены.
+Выбранная схема: Codex CLI на собственной финской VM → обычный SSH →
+общий GPU-сервер. Агент на GPU-сервере не устанавливается.
+Не повторять установку CLI, настройку VPN или разработку инфраструктуры доступа.
+Пользователь отменил HTTPS API/Cloudflare и попросил удалить прежние компоненты
+Codex, Tailscale и SSH-relay перед установкой CLI; очистка из этого облака не
+проверялась. Amnezia VPN, её Caddy и Docker должны сохраниться.
 
-The cloud executor uses the inherited HTTP/HTTPS proxy. This original task has
-vpn_configured=false and empty TCP grants; proxy:8088 refuses connections.
-The user also tested a fresh published task: vpn_configured=true, still empty
-TCP grants and refused listener. There is no confirmed UI field for TCP grants.
-Do not ask them to repeat that test or contact Support: they rejected that route.
-The working VM-local SSH relay at 100.105.205.79:2222 to 185.185.59.19:22 proves
-only VM-local TCP forwarding and an SSH banner, not cloud access or authentication.
-The hostname vm2093721.vds.chsl.one was NXDOMAIN in public DNS during this session.
+VM: Ubuntu 24.04.4 LTS, публичный IP 2.26.67.204, 1 vCPU, RAM 1.92 GiB,
+32 GB NVMe, 500 Mbps. По переданным пользователем измерениям доступно 1.46 GiB
+RAM и 25 GB диска, CPU занят на 3–5%; amnezia-awg2 использует около 36.62 MiB
+RAM, amnezia-downloads (Caddy) — 12.66 MiB. Исторический максимум занятой памяти
+VM оставлял 1.37 GiB доступной RAM. Это данные пользователя, не измерения агента.
 
-Cancelled HTTP drafts were never committed, pushed or deployed. They are archived
-outside Git at /tmp/lora-dora-cancelled-http-api-20261009 in this cloud executor.
-No installer or Cloudflare service was created. Their private signing key is
-outside Git and is not used by the new route. Do not restart API development.
+GPU SSH: kotelnikovni@185.185.59.19. Пароли были переданы в чате и намеренно
+не записаны в Git. Аутентификацию в новом окружении проверить обычным SSH
+с сохранением проверки ключа хоста. Сообщённые семь RTX A4000 по 16 GiB и
+их загрузка агентом ещё не проверены. Если новый чат уже сохранил результаты,
+прочитать их перед повторными запусками и не перезаписывать.
 
-## Research scope and preparation
+## Что готово и что ещё нет
 
-Analyze already trained matched DoRA/LoRA checkpoints and mechanisms behind their
-quality differences. No training requested. Audit found ten main candidate pairs
-plus reserve Mistral/PeRL series; metadata/file access is not runtime validation.
-Our symmetry argument establishes that the original magnitude/direction metric
-is not invariant; it does not refute DoRA's quality advantage or establish a
-replacement mechanism. Preserve those distinctions and negative-control pairs.
+Ветка: research/prepare-checkpoint-study.
+Origin: https://github.com/kkoottiiaarraa/lora-dora-research.git.
+Исходный облачный checkout: /workspace/lora-dora-research.
+Получить свежую ветку на VM и GPU, сохранив любые локальные изменения.
+Существующий другой репозиторий GPU-сервера не трогать; создать новый checkout.
 
-Branch: research/prepare-checkpoint-study. Cloud checkout:
-/workspace/lora-dora-research. Use a new directory on the GPU server, next to
-the user's other repository; do not touch that repository. SSH host:
-185.185.59.19; user: kotelnikovni. Authentication is still unchecked.
+Готово:
+- Контекст, каталог десяти основных пар-кандидатов и резервных Mistral/PeRL.
+  Наличие metadata/файлов не равно проверенной совместимости и воспроизведению.
+- Проверяемые гипотезы и ограничения выводов в RESEARCH_PROTOCOL.md.
+- Pinned manifest Qwen3-4B/GSM8K: revisions, размеры, SHA256 весов,
+  около 8.25 GB загрузки; восемь фиксированных smoke-примеров.
+- scripts/server_preflight.py, scripts/download_pilot.py, scripts/run_pilot.py
+  и pilot_worker.py: диагностика, проверка загрузок, короткая генерация,
+  измерение времени/памяти, проверка merge на одном входе/токене.
+- NumPy algebra и GPU guards; ранее десять CPU tests прошли.
 
-Prepared: `checkpoint_inventory.json`, protocol, pinned pilot manifest
-`configs/shadow_qwen3_4b_gsm8k.json` (about 8.25 GB), eight fixed GSM8K smoke
-examples, NumPy algebra, read-only preflight, verified downloader, bounded pilot.
-Ten CPU tests pass. GPU dependency compatibility and inference remain untested.
-Reported hardware: seven RTX A4000 16 GiB; actual utilization is unknown.
-Max three GPUs simultaneously, first pilot one idle card; follow scheduler rules.
+Ещё не сделано этим агентом:
+- Проверка реальных GPU, CUDA/PyTorch, создание GPU-venv, загрузка весов,
+  запуск технического пилота. GPU-код ещё может требовать runtime исправлений.
+- Полный одинаковый evaluator base/LoRA/DoRA на GSM8K: его нужно реализовать.
+  Восемь коротких примеров и 64 generated tokens не являются оценкой качества.
+- Интеграция математических операций с реальными PEFT весами, контрольные
+  вмешательства, активации и повторная оценка. Есть только математические helper
+  functions и протокол, не готовый экспериментальный pipeline.
+- Проверка закономерностей на нескольких парах. Новые модели не обучались;
+  качество, преимущество DoRA и механизм нами ещё не установлены.
 
-## Next steps
+## Исследовательская цель
 
-1. Obtain the VM's actual baseline (RAM, ten-second CPU sample, Docker stats).
-   The cloud cannot inspect it directly with the current transport. The user can
-   run the read-only commands in `docs/VM_CLI.md` from their existing VM terminal.
-2. If sufficient headroom remains, install official standalone Codex CLI under
-   an ordinary VM user, sign in using device code, clone this branch. Give the
-   VM-side CLI `AGENTS.md`, context, inventory, protocol and this handoff.
-3. Establish ordinary VM-to-GPU SSH, preserving host-key verification. Bootstrap
-   a new GPU checkout. Read scheduler/allocation rules; run server preflight and
-   report real GPU utilization, RAM/disk and compatible CUDA/PyTorch.
-4. Prepare GPU-local venv/cache, download the first pinned pair, verify hashes.
-5. Pilot base/LoRA/DoRA serially on one idle card. Record separate download/load/
-   adapter/inference timings, VRAM and host RAM. Only then consider 2–3 workers.
-6. Report a measured resource/time estimate and fix runtime/merge fidelity issues
-   before full evaluation. Eight smoke examples are not a quality comparison.
+Понять, когда и за счёт чего конкретные опубликованные DoRA checkpoints
+превосходят сопоставимые LoRA. Исследование опирается на готовые пары, не на
+собственное первоначальное обучение. Сохранять положительные и отрицательные
+сравнения, неизвестные training revisions/seeds и прочие confounds.
 
-Communicate in Russian. Keep the access procedure simple. Do not claim actual
-VM or GPU measurements from cloud-only tests.
+Математический аргумент о симметриях показывает неинвариантность корреляции
+magnitude/direction; он не доказывает, что авторы неправильно её посчитали,
+не опровергает преимущество DoRA и не исключает условную интерпретацию внутри
+фиксированной параметризации. Финальные веса и posthoc абляции сами по себе
+не идентифицируют причину обучающей траектории. См. исходный контекст и протокол.
+
+## Следующий конкретный шаг
+
+Проверить GPU-сервер, изолированный checkout и фактическое окружение.
+Подготовить venv/cache, скачать pinned первый набор и выполнить base/LoRA/DoRA
+serial pilot на одной свободной GPU. Исправить runtime ошибки и записать
+реальные download/load/attach/inference timings, VRAM, RSS и merge fidelity.
+Учитывать scheduler/allocation; не занимать чужие карты и не останавливать процессы.
+Общий предел — три GPU одновременно, первым запуском использовать одну.
+
+После пилота: реализовать и проверить полный matched evaluation; затем
+вмешательства из протокола и повторение на нескольких сопоставимых парах.
+Не выбирать объяснение под заранее желаемый положительный результат.
+
+## Где хранить состояние
+
+Git: код, manifests/revisions, fixtures, протокол, гипотезы, этот HANDOFF,
+небольшие итоговые таблицы и отчёты (например docs/reports/).
+VM: checkout кода и управление, без больших данных и Torch.
+GPU: отдельный checkout, .venv/, cache/, results/ и большие активации/предсказания.
+Эти большие файлы исключены из Git; в HANDOFF указывать их пути и идентификаторы.
+После этапа фиксировать Git revision, команды, зависимости, результаты,
+ограничения и следующий шаг. История чата не заменяет такое состояние.
