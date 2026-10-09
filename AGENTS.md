@@ -27,3 +27,8 @@ Read `LORA_DORA_RESEARCH_CONTEXT.md`, `CHECKPOINT_INVENTORY_2026-10-09.md`,
   proof of a training mechanism; a weight correlation is not itself causality.
 - Never save passwords, auth keys or account tokens in research files/reports.
   Do not inspect unrelated credentials or print full process command lines.
+- Latest access decision: the user cancelled the HTTPS API/Cloudflare route and
+  is considering Codex CLI on their Finland VM. The CLI may run there; the GPU
+  server runs ordinary research scripts only. See docs/VM_CLI.md. No CLI or API
+  has been installed remotely by this cloud agent. Keep VM memory use small:
+  one CLI session, code and small reports only; download/load weights on GPU host.
