@@ -16,6 +16,21 @@ datasets/
 checkpoints/
 runs/
 wandb/
+cache/
+results/
+downloads/
+artifact-audit/
+sora-source/
+dora-trainer-source.py
+papers/2405.13952.pdf
+papers/2511.00051v2.pdf
+papers/2511.00051v2.txt
+papers/2512.23165.pdf
+papers/2604.19254.pdf
+*.safetensors
+*.pt
+*.bin
+*.parquet
 
 # Operating system files
 .DS_Store

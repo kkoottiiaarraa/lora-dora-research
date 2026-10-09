@@ -1,0 +1,116 @@
+{
+  "format_version": 1,
+  "pair": "shadow-qwen3-4b-gsm8k",
+  "audited_on": "2026-10-09",
+  "artifacts": {
+    "base": {
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+      "files": [
+        {
+          "path": "config.json",
+          "size": 726,
+          "sha256": null
+        },
+        {
+          "path": "generation_config.json",
+          "size": 239,
+          "sha256": null
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671853,
+          "sha256": null
+        },
+        {
+          "path": "model-00001-of-00003.safetensors",
+          "size": 3957900840,
+          "sha256": "328a91d3122359d5547f9d79521205bc0a46e1f79a792dfe650e99fc2d651223"
+        },
+        {
+          "path": "model-00002-of-00003.safetensors",
+          "size": 3987450520,
+          "sha256": "6cd087b316306a68c562436b5492edbcf6e16c6dba3a1308279caa5a58e21ca5"
+        },
+        {
+          "path": "model-00003-of-00003.safetensors",
+          "size": 99630640,
+          "sha256": "e4bf436957184f4eeb86a80e9db394503f1f56446b2e6b7edeac5b81470f4ca1"
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 32819,
+          "sha256": null
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11422654,
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 9732,
+          "sha256": null
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "sha256": null
+        }
+      ]
+    },
+    "lora": {
+      "repo_id": "shadow-llm/Qwen3-4B-GSM8k-LoRA",
+      "revision": "83f1d1515f410cd3df48e808ae2071e39a06faf1",
+      "files": [
+        {
+          "path": "adapter_config.json",
+          "size": 876,
+          "sha256": null
+        },
+        {
+          "path": "adapter_model.safetensors",
+          "size": 94410616,
+          "sha256": "48cdde661ce36c022d85fad29f3dfe8acacf21ed1f0438d25951a8e44c73f252"
+        }
+      ]
+    },
+    "dora": {
+      "repo_id": "shadow-llm/Qwen3-4B-GSM8k-DoRA",
+      "revision": "07f6a59c2ab6b36b1cecb5feb66187638202521d",
+      "files": [
+        {
+          "path": "adapter_config.json",
+          "size": 875,
+          "sha256": null
+        },
+        {
+          "path": "adapter_model.safetensors",
+          "size": 95684080,
+          "sha256": "d3f6e22524c7caf60c81dd3133aed0c3f2df4bd503e542ebe1fa152b2da46d3c"
+        }
+      ]
+    }
+  },
+  "dataset": {
+    "repo_id": "openai/gsm8k",
+    "revision": "740312add88f781978c0658806c59bc2815b9866",
+    "configuration": "main",
+    "split": "test",
+    "path": "main/test-00000-of-00001.parquet",
+    "seed": 42
+  },
+  "source": {
+    "repo": "https://github.com/ShadowLLM/shadow-peft",
+    "revision": "b667348c51e24d21f67c329c5f514f80e2c124d4"
+  },
+  "limits": {
+    "max_gpus": 3,
+    "default_gpus": 1,
+    "max_used_mib_before_start": 1024,
+    "max_gpu_utilization_before_start": 10,
+    "batch_size": 1,
+    "max_input_tokens": 256,
+    "max_new_tokens": 64
+  }
+}
