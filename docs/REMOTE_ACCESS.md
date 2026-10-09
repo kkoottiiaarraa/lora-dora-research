@@ -32,6 +32,10 @@ Installer может запросить sudo. Открыть ссылку, вы�
 
 ## Финская VM как промежуточный сервер
 
+Это выбранная пользователем схема. VM успешно подключена к Tailscale,
+ОС Ubuntu 24.04.4 LTS. Агент остаётся в облаке, sudo на GPU-сервере нет.
+Облачная среда пока без VPN и TCP grants; SSH к GPU ещё не проверен.
+
 Если GPU-сервер общий и устанавливать пакеты нельзя, установить Tailscale
 по тем же командам на собственную финскую VM. AmneziaWG не является VPN
 provider для Codex; менять её конфигурацию для этой схемы не требуется.
@@ -52,6 +56,34 @@ service с тем же ExecStart и непривилегированным по�
 SSH credentials relay не нужны: authentication остаётся на GPU-сервере.
 Codex подключается к VM_TAILSCALE_IP:2222, а SSH проверяет host key GPU-сервера.
 Это relay одного сервиса, не перенаправление всего интернет-трафика.
+
+Для постоянной пересылки подготовлен standalone helper
+`scripts/setup_ssh_relay.py` (Python stdlib, Ubuntu/Debian). Он сначала
+проверяет, что local Tailscale IP соответствует `--listen-ip`, и только потом
+устанавливает socat и собственную systemd-службу. Запускать **на relay VM**:
+
+```sh
+python3 scripts/setup_ssh_relay.py --listen-ip VM_TAILSCALE_IP --target-ip GPU_PUBLIC_IP --print-unit
+sudo python3 scripts/setup_ssh_relay.py --listen-ip VM_TAILSCALE_IP --target-ip GPU_PUBLIC_IP
+```
+
+Служба `lora-dora-ssh-relay.service` работает от nobody, слушает только заданный
+Tailscale IPv4 на порту 2222, автоматически запускается после перезагрузки.
+SSH credentials ей не нужны. Helper отказывается перезаписывать чужую службу
+с тем же именем. Баннер SSH в результате доказывает работу VM-local TCP relay,
+но не доступ из Codex или успешную SSH-аутентификацию. Если баннер не получен,
+посмотреть собственный журнал службы и доступ VM к TCP/22 GPU-сервера:
+
+```sh
+sudo systemctl status lora-dora-ssh-relay.service --no-pager
+sudo journalctl -u lora-dora-ssh-relay.service -n 20 --no-pager
+```
+
+Остановка и отключение именно этой службы:
+
+```sh
+sudo systemctl disable --now lora-dora-ssh-relay.service
+```
 
 ## Облачная среда и разрешения
 

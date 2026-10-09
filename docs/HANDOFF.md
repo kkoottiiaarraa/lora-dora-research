@@ -17,8 +17,11 @@ server-local Codex CLI and then cancelled that route. Do not install an agent
 on the GPU server. The agreed access path is cloud Tailscale VPN to the user's
 Finland VM, which relays one TCP port to the GPU server's existing OpenSSH.
 There is no sudo permission on the GPU server; none is required for this relay.
-The user sees the Tailscale option in Codex Cloud settings. Finland VM setup
-and cloud VPN/TCP grants still need completing. No remote install has happened.
+The user sees the Tailscale option in Codex Cloud settings. They confirmed the
+Finland VM is connected to Tailscale (Ubuntu 24.04.4 LTS, accept-dns/routes off).
+Its SSH relay and cloud VPN/TCP grants still need completing. The agent has not
+executed any remote command. `scripts/setup_ssh_relay.py` is prepared for the
+user to install the relay on their own VM, not on the GPU server.
 
 Branch: `research/prepare-checkpoint-study`. Cloud workspace:
 `/workspace/lora-dora-research`. Clone into a new directory on the server.
