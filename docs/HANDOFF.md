@@ -17,11 +17,23 @@ server-local Codex CLI and then cancelled that route. Do not install an agent
 on the GPU server. The agreed access path is cloud Tailscale VPN to the user's
 Finland VM, which relays one TCP port to the GPU server's existing OpenSSH.
 There is no sudo permission on the GPU server; none is required for this relay.
-The user sees the Tailscale option in Codex Cloud settings. They confirmed the
-Finland VM is connected to Tailscale (Ubuntu 24.04.4 LTS, accept-dns/routes off).
-Its SSH relay and cloud VPN/TCP grants still need completing. The agent has not
-executed any remote command. `scripts/setup_ssh_relay.py` is prepared for the
-user to install the relay on their own VM, not on the GPU server.
+The user confirmed the Finland VM is connected to Tailscale (Ubuntu 24.04.4 LTS,
+accept-dns/routes off). They installed the relay and returned a successful SSH
+banner. Endpoint: 100.105.205.79:2222, relayed to 185.185.59.19:22.
+Service: lora-dora-ssh-relay.service; SSH banner:
+SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.19. This proves the VM-local relay, not
+SSH host identity/authentication or cloud access. The agent has not executed
+any remote command. No GPU diagnosis or model restoration has run.
+
+The user also supplied screenshots of the published cloud environment with
+Tailscale marked Configured. Its UI has **no separate TCP/IP/CIDR field**;
+do not repeat the earlier mistaken request to find one. This original cloud
+task still has vpn_configured=false and empty TCP grants. The official docs
+say updated published configurations apply to new tasks while existing tasks
+keep their state. First inspect a new task started from the published setup.
+Runtime CONNECT requires VPN + TCP grant; do not assume Internet=Unrestricted
+adds that grant. If the fresh environment has none, report the platform policy
+gap and request its supported configuration flow; do not bypass it.
 
 Branch: `research/prepare-checkpoint-study`. Cloud workspace:
 `/workspace/lora-dora-research`. Clone into a new directory on the server.
@@ -32,13 +44,19 @@ Full public inventory is `checkpoint_inventory.json`; first pinned pilot is
 
 Prepared: research protocol, metadata manifest, eight pinned GSM8K test examples,
 NumPy weight algebra, read-only server probe, checksum-verified downloader and
-bounded pilot scripts. CPU tests pass. GPU execution and package compatibility
+bounded pilot scripts. Ten CPU tests pass. GPU execution and package compatibility
 still need validation on real hardware. No measured quality gap or mechanism
 has been established by us. Raw third-party downloads are ignored, not vendored.
 
 ## Next authorized steps
 
-1. Read the root context, inventory, protocol and AGENTS.md.
+1. Read the root context, inventory, protocol and AGENTS.md. Before any server
+   work, inspect /etc/codex/network-policy.json and current environment status.
+   Confirm that this is the updated VPN-configured environment and use the
+   permitted CONNECT workflow for 100.105.205.79:2222 if the grant exists.
+   Do not attempt a denied route. SSH username: kotelnikovni. Credentials were
+   supplied in the original chat and deliberately not saved in Git; a new task
+   may need the user to provide authentication after transport is verified.
 2. Run `python3 scripts/server_preflight.py --output results/preflight.json`.
    Report actual utilization of all GPUs, available RAM and disk. Inspect
    compatible Python/Torch/CUDA without dumping other users' command lines.
