@@ -6,6 +6,14 @@
 среды, но текущая задача сохраняет прежнюю конфигурацию. Нужно проверить
 новую задачу из опубликованной среды. Это не проверка пароля сервера.
 
+Обновление: пользователь уже проверил новую опубликованную среду. Там
+`vpn_configured=true`, но TCP grants всё ещё пусты, а подключение к
+`proxy:8088` возвращает Connection refused. CONNECT и SSH authentication
+не выполнялись. Доступный пользователю редактор TCP-разрешений не найден;
+следующий шаг — уточнить поддержку TCP CONNECT у платформы. Текст запроса:
+`docs/TCP_SUPPORT_REQUEST.md`. Повторное создание задачи как решение
+того же результата не предлагать.
+
 Официальная настройка: Settings → Codex Cloud → Environments → Edit →
 Advanced → VPN → Add → Tailscale. Источник:
 https://learn.chatgpt.com/docs/environments/cloud-environments#private-networking-vpn

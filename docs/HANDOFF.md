@@ -28,12 +28,17 @@ any remote command. No GPU diagnosis or model restoration has run.
 The user also supplied screenshots of the published cloud environment with
 Tailscale marked Configured. Its UI has **no separate TCP/IP/CIDR field**;
 do not repeat the earlier mistaken request to find one. This original cloud
-task still has vpn_configured=false and empty TCP grants. The official docs
-say updated published configurations apply to new tasks while existing tasks
-keep their state. First inspect a new task started from the published setup.
-Runtime CONNECT requires VPN + TCP grant; do not assume Internet=Unrestricted
-adds that grant. If the fresh environment has none, report the platform policy
-gap and request its supported configuration flow; do not bypass it.
+task still has vpn_configured=false and empty TCP grants. The user has now
+tested a **new task from the published setup**: vpn_configured=true, but TCP
+domains/ip_ranges remain empty, and proxy:8088 returns Connection refused.
+No CONNECT or SSH banner from the cloud occurred. The user reports that the
+new task is on branch research/prepare-checkpoint-study at d41a071, clean tree.
+Do not repeat the request to create another task as a proposed fix; this test
+has been completed. No documented user-facing TCP grant editor was found.
+Runtime CONNECT requires VPN + TCP grant; Internet=Unrestricted does not prove
+that grant. Ask platform Support how TCP CONNECT is enabled for this plan and
+environment. See docs/TCP_SUPPORT_REQUEST.md. Do not edit the local snapshot,
+try a different relay port, or bypass the denied/unavailable transport.
 
 Branch: `research/prepare-checkpoint-study`. Cloud workspace:
 `/workspace/lora-dora-research`. Clone into a new directory on the server.
