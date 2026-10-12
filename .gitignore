@@ -1,0 +1,47 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Downloaded data and generated training artifacts
+data/
+datasets/
+checkpoints/
+runs/
+wandb/
+cache/
+results/
+downloads/
+artifact-audit/
+sora-source/
+dora-trainer-source.py
+papers/2405.13952.pdf
+papers/2511.00051v2.pdf
+papers/2511.00051v2.txt
+papers/2512.23165.pdf
+papers/2604.19254.pdf
+*.safetensors
+*.pt
+*.bin
+*.parquet
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Scratch files; research outputs have explicit artifact directories
+*.tmp
+*.bak
+*.orig
+*~
+
+# Private infrastructure context
+/OPERATIONS_PRIVATE.md
+/local-only/

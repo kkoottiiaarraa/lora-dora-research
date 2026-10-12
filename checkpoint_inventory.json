@@ -1,0 +1,1454 @@
+{
+  "audited_at": "2026-10-09",
+  "verification": "metadata, configurations, safetensors headers, source; full weights not downloaded, inference not run",
+  "counts": {
+    "primary_pairs": 10,
+    "mistral_reserve_pairs": 15,
+    "perl_trajectory_pair": 1,
+    "mistral_excluded_pairs": 1
+  },
+  "primary": [
+    {
+      "pair_id": "answerai_llama2_10k",
+      "status": "primary_candidate_not_runtime_verified",
+      "training_family": "quantized_SFT",
+      "base": "meta-llama/Llama-2-7b-hf",
+      "training_data": "microsoft/orca-math-word-problems-200k",
+      "subset": "10k",
+      "code": "https://github.com/AnswerDotAI/fsdp_qlora",
+      "lora": {
+        "repo_id": "answerdotai/llama-7b-orca-math-10k-bnb-qlora",
+        "revision": "8f1eaf4284987de5f409187ce40657bfddc8af07",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "model_state_dict.safetensors",
+            "size": 4049181232,
+            "lfs": {
+              "sha256": "4bb1e889d6a4c3c1f23c826adc0c01bc06b76f1360135022bbfc0e62b4f4915d",
+              "size": 4049181232,
+              "pointerSize": 135
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "answerdotai/llama-7b-orca-math-10k-bnb-qdora",
+        "revision": "ea139cf68eb4bb98af7fc97c59a34641b8e0d7cc",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "model_state_dict.safetensors",
+            "size": 288792992,
+            "lfs": {
+              "sha256": "ef1012e7b5c9ec69b793b7aaeaab0feefdd5342af3025a346506207dbda36e99",
+              "size": 288792992,
+              "pointerSize": 134
+            }
+          }
+        ]
+      },
+      "known_gaps": [
+        "custom checkpoint loading",
+        "exact base/quantization environment",
+        "single seed",
+        "no intermediate weights"
+      ]
+    },
+    {
+      "pair_id": "answerai_llama2_100k",
+      "status": "primary_candidate_not_runtime_verified",
+      "training_family": "quantized_SFT",
+      "base": "meta-llama/Llama-2-7b-hf",
+      "training_data": "microsoft/orca-math-word-problems-200k",
+      "subset": "100k",
+      "code": "https://github.com/AnswerDotAI/fsdp_qlora",
+      "lora": {
+        "repo_id": "answerdotai/llama-7b-orca-math-100k-bnb-qlora",
+        "revision": "097759da69497292749c5eacf12ff666551d4ab7",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "model_state_dict.safetensors",
+            "size": 4049181232,
+            "lfs": {
+              "sha256": "795ea578ff6c8859f2c1503b53bf7003fa7263b13493923c49d580ac1496a125",
+              "size": 4049181232,
+              "pointerSize": 135
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "answerdotai/llama-7b-orca-math-100k-bnb-qdora",
+        "revision": "7e327af1deba2425b19cc421384f29ec2980bba2",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "model_state_dict.safetensors",
+            "size": 288792992,
+            "lfs": {
+              "sha256": "c29d181aa490edc6a2f18a174f70fa6a820761b639c6f916c7ccecfc358f9c53",
+              "size": 288792992,
+              "pointerSize": 134
+            }
+          }
+        ]
+      },
+      "known_gaps": [
+        "custom checkpoint loading",
+        "exact base/quantization environment",
+        "single seed",
+        "no intermediate weights"
+      ]
+    },
+    {
+      "pair_id": "answerai_llama3_10k",
+      "status": "primary_candidate_not_runtime_verified",
+      "training_family": "quantized_SFT",
+      "base": "meta-llama/Meta-Llama-3-8B",
+      "training_data": "microsoft/orca-math-word-problems-200k",
+      "subset": "10k",
+      "code": "https://github.com/AnswerDotAI/fsdp_qlora",
+      "lora": {
+        "repo_id": "answerdotai/llama-3-8b-orca-math-10k-bnb-qlora",
+        "revision": "6c468d0821dc5facd1f6e445895807618919da3a",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "model_state_dict.safetensors",
+            "size": 5893626600,
+            "lfs": {
+              "sha256": "d92fcf0aa58016b822d347893be9bd48f6d21840caa3dc2fc3998846cd3a37a1",
+              "size": 5893626600,
+              "pointerSize": 135
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "answerdotai/llama-3-8b-orca-math-10k-bnb-qdora",
+        "revision": "2b820a57c865c252335d72906d1b92a4db15e08b",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "model_state_dict.safetensors",
+            "size": 304554424,
+            "lfs": {
+              "sha256": "1e81b4d24ddffb06f4cca986a2c3f006d190c5177029c60c2e8e109edcff5556",
+              "size": 304554424,
+              "pointerSize": 134
+            }
+          }
+        ]
+      },
+      "known_gaps": [
+        "custom checkpoint loading",
+        "exact base/quantization environment",
+        "single seed",
+        "no intermediate weights"
+      ]
+    },
+    {
+      "pair_id": "answerai_llama3_100k",
+      "status": "primary_candidate_not_runtime_verified",
+      "training_family": "quantized_SFT",
+      "base": "meta-llama/Meta-Llama-3-8B",
+      "training_data": "microsoft/orca-math-word-problems-200k",
+      "subset": "100k",
+      "code": "https://github.com/AnswerDotAI/fsdp_qlora",
+      "lora": {
+        "repo_id": "answerdotai/llama-3-8b-orca-math-100k-bnb-qlora",
+        "revision": "a082b5820bdb5d015fd875ec4abab25cf7ba0250",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "model_state_dict.safetensors",
+            "size": 5893626600,
+            "lfs": {
+              "sha256": "bb7a6816841206fecbf93fee09a235c9bab30078502441182018d63d7982cd8a",
+              "size": 5893626600,
+              "pointerSize": 135
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "answerdotai/llama-3-8b-orca-math-100k-bnb-qdora",
+        "revision": "b059c9f55c0b4571229b609fb0ce0c2e81257525",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "model_state_dict.safetensors",
+            "size": 304554424,
+            "lfs": {
+              "sha256": "e1c3dc6897d714d4e53e84df1cde4151959eaf191cb884df97cdf056b4a172da",
+              "size": 304554424,
+              "pointerSize": 134
+            }
+          }
+        ]
+      },
+      "known_gaps": [
+        "custom checkpoint loading",
+        "exact base/quantization environment",
+        "single seed",
+        "no intermediate weights"
+      ]
+    },
+    {
+      "pair_id": "shadow_4b_gsm8k",
+      "status": "primary_candidate_not_runtime_verified",
+      "training_family": "SFT",
+      "base": "Qwen/Qwen3-4B",
+      "training_data": "openai/gsm8k",
+      "code": "https://github.com/ShadowLLM/shadow-peft",
+      "lora": {
+        "repo_id": "shadow-llm/Qwen3-4B-GSM8k-LoRA",
+        "revision": "83f1d1515f410cd3df48e808ae2071e39a06faf1",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 876
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 94410616,
+            "lfs": {
+              "sha256": "48cdde661ce36c022d85fad29f3dfe8acacf21ed1f0438d25951a8e44c73f252",
+              "size": 94410616,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "shadow-llm/Qwen3-4B-GSM8k-DoRA",
+        "revision": "07f6a59c2ab6b36b1cecb5feb66187638202521d",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 875
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 95684080,
+            "lfs": {
+              "sha256": "d3f6e22524c7caf60c81dd3133aed0c3f2df4bd503e542ebe1fa152b2da46d3c",
+              "size": 95684080,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "adapter_conditions": {
+        "r": 32,
+        "alpha": 32,
+        "dropout": 0.05,
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ]
+      },
+      "known_gaps": [
+        "per-run optimizer hyperparameters",
+        "exact base snapshot",
+        "link paper metric to published checkpoint",
+        "no intermediate weights"
+      ]
+    },
+    {
+      "pair_id": "shadow_4b_squadv2",
+      "status": "primary_candidate_not_runtime_verified",
+      "training_family": "SFT",
+      "base": "Qwen/Qwen3-4B",
+      "training_data": "squad_v2",
+      "code": "https://github.com/ShadowLLM/shadow-peft",
+      "lora": {
+        "repo_id": "shadow-llm/Qwen3-4B-SquadV2-LoRA",
+        "revision": "316c3de126ba99233c254d2b13a1c668dcc8401a",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 876
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 94410616,
+            "lfs": {
+              "sha256": "7c7b956ea0594f6555ae13d6133c6582fa36789365fa5debf9c8a92f8a65b6a8",
+              "size": 94410616,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "shadow-llm/Qwen3-4B-SquadV2-DoRA",
+        "revision": "d973bb90e3468d3f3ba340237215a9486ad40716",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 875
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 95684080,
+            "lfs": {
+              "sha256": "e1c567c1cc934b307d98e6eedd0e164d1c15bc108183cd93c92071ec45ccb12c",
+              "size": 95684080,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "adapter_conditions": {
+        "r": 32,
+        "alpha": 32,
+        "dropout": 0.05,
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ]
+      },
+      "known_gaps": [
+        "per-run optimizer hyperparameters",
+        "exact base snapshot",
+        "link paper metric to published checkpoint",
+        "no intermediate weights"
+      ]
+    },
+    {
+      "pair_id": "shadow_4b_mmlu",
+      "status": "primary_candidate_not_runtime_verified",
+      "training_family": "SFT",
+      "base": "Qwen/Qwen3-4B",
+      "training_data": "cais/mmlu",
+      "code": "https://github.com/ShadowLLM/shadow-peft",
+      "lora": {
+        "repo_id": "shadow-llm/Qwen3-4B-MMLU-LoRA",
+        "revision": "4c076cb6d2c3242e84bd26c7a939dfb4098f06d8",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 876
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 94410616,
+            "lfs": {
+              "sha256": "ac9b4b286c432acbbc91e9c4aca3fcc63bbc413ca36f2f1e3bbe2f6e256eda89",
+              "size": 94410616,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "shadow-llm/Qwen3-4B-MMLU-DoRA",
+        "revision": "bb4b03b38a429d3eaed44b89e7878327bd664106",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 875
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 95684080,
+            "lfs": {
+              "sha256": "c68070ebd27edad359bccb99cd726a8fbf109e77ec6c2c9142408d0d7f00ac4c",
+              "size": 95684080,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "adapter_conditions": {
+        "r": 32,
+        "alpha": 32,
+        "dropout": 0.05,
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ]
+      },
+      "known_gaps": [
+        "per-run optimizer hyperparameters",
+        "exact base snapshot",
+        "link paper metric to published checkpoint",
+        "no intermediate weights"
+      ]
+    },
+    {
+      "pair_id": "shadow_8b_gsm8k",
+      "status": "primary_candidate_not_runtime_verified",
+      "training_family": "SFT",
+      "base": "Qwen/Qwen3-8B",
+      "training_data": "openai/gsm8k",
+      "code": "https://github.com/ShadowLLM/shadow-peft",
+      "lora": {
+        "repo_id": "shadow-llm/Qwen3-8B-GSM8k-LoRA",
+        "revision": "0ecc88a7f623f500cf0ea7f754b1c96280ed3647",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 876
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 122722288,
+            "lfs": {
+              "sha256": "1832b489644322e3d1c0be03150ad710625245868e10079885504710b297d890",
+              "size": 122722288,
+              "pointerSize": 134
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "shadow-llm/Qwen3-8B-GSM8k-DoRA",
+        "revision": "5e435461f6a2008dbde29b7624f2fa18b10f9660",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 875
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 124217008,
+            "lfs": {
+              "sha256": "49039dd0339dd329727902881bbf7ea3135d0f1f69056fda9317682dc3d43b07",
+              "size": 124217008,
+              "pointerSize": 134
+            }
+          }
+        ]
+      },
+      "adapter_conditions": {
+        "r": 32,
+        "alpha": 32,
+        "dropout": 0.05,
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ]
+      },
+      "known_gaps": [
+        "per-run optimizer hyperparameters",
+        "exact base snapshot",
+        "link paper metric to published checkpoint",
+        "no intermediate weights"
+      ]
+    },
+    {
+      "pair_id": "shadow_8b_squadv2",
+      "status": "primary_candidate_not_runtime_verified",
+      "training_family": "SFT",
+      "base": "Qwen/Qwen3-8B",
+      "training_data": "squad_v2",
+      "code": "https://github.com/ShadowLLM/shadow-peft",
+      "lora": {
+        "repo_id": "shadow-llm/Qwen3-8B-SquadV2-LoRA",
+        "revision": "eed99fb0c206d9e7814d20c2655ec9670ece3eee",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 876
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 122722288,
+            "lfs": {
+              "sha256": "11388ef759debabe7ca71fd1816cfc3485c9ab32a175a902c31850fc5230546e",
+              "size": 122722288,
+              "pointerSize": 134
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "shadow-llm/Qwen3-8B-SquadV2-DoRA",
+        "revision": "ecb67d5f30e8ad2308e87386d2d0c534667a523e",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 875
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 124217008,
+            "lfs": {
+              "sha256": "2fd1592c1edc63e30fe991f1706c54965168a559a44ab09b1dff82118e2be28d",
+              "size": 124217008,
+              "pointerSize": 134
+            }
+          }
+        ]
+      },
+      "adapter_conditions": {
+        "r": 32,
+        "alpha": 32,
+        "dropout": 0.05,
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj"
+        ]
+      },
+      "known_gaps": [
+        "per-run optimizer hyperparameters",
+        "exact base snapshot",
+        "link paper metric to published checkpoint",
+        "no intermediate weights"
+      ]
+    },
+    {
+      "pair_id": "llava_7b",
+      "status": "primary_candidate_not_runtime_verified",
+      "training_family": "multimodal_SFT",
+      "base": "lmsys/vicuna-7b-v1.5",
+      "vision_base": "openai/clip-vit-large-patch14-336",
+      "training_data": "liuhaotian/LLaVA-Instruct-150K / llava_v1_5_mix665k.json and original image sources",
+      "code": "https://github.com/NVlabs/DoRA/tree/main/visual_instruction_tuning",
+      "lora": {
+        "repo_id": "liuhaotian/llava-v1.5-7b-lora",
+        "revision": "9e448573c5cc914781d02074102381cf92b37287",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 575
+          },
+          {
+            "rfilename": "adapter_model.bin",
+            "size": 639786637,
+            "lfs": {
+              "sha256": "6a7951255073a472277af72ac69daaed4c63b012a6b01cddefeb38e891760343",
+              "size": 639786637,
+              "pointerSize": 134
+            }
+          },
+          {
+            "rfilename": "config.json",
+            "size": 1001
+          },
+          {
+            "rfilename": "non_lora_trainables.bin",
+            "size": 41961191,
+            "lfs": {
+              "sha256": "f7a3d4196ab4ed486a584c73ee6f92095da8ebe5c656fb33622e0adec67e6454",
+              "size": 41961191,
+              "pointerSize": 133
+            }
+          },
+          {
+            "rfilename": "trainer_state.json",
+            "size": 629816
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "sliuau/DoRA-weights",
+        "revision": "c266e51523330848a9ea493054a43af7dfa737be",
+        "subfolder": "llava-v1.5-7b-dora-release",
+        "files": [
+          {
+            "rfilename": "llava-v1.5-7b-dora-release/adapter_config.json",
+            "size": 559
+          },
+          {
+            "rfilename": "llava-v1.5-7b-dora-release/adapter_model.bin",
+            "size": 642585933,
+            "lfs": {
+              "sha256": "ad9af7463746776c764613a5f97b506febef3fe2bba571afc173c5d6abea2e28",
+              "size": 642585933,
+              "pointerSize": 134
+            }
+          },
+          {
+            "rfilename": "llava-v1.5-7b-dora-release/config.json",
+            "size": 1102
+          },
+          {
+            "rfilename": "llava-v1.5-7b-dora-release/non_lora_trainables.bin",
+            "size": 41961191,
+            "lfs": {
+              "sha256": "219791205770c09c6f274b3adfdea95090d6c49018a6a3c4a38581de80db9a76",
+              "size": 41961191,
+              "pointerSize": 133
+            }
+          },
+          {
+            "rfilename": "llava-v1.5-7b-dora-release/trainer_state.json",
+            "size": 629700
+          }
+        ]
+      },
+      "adapter_conditions": {
+        "r": 128,
+        "alpha": 256,
+        "dropout": 0.05
+      },
+      "known_gaps": [
+        "separately trained projector",
+        "baseline training identity",
+        "some metrics require remote evaluation",
+        "no intermediate weights"
+      ]
+    }
+  ],
+  "reserve": [
+    {
+      "pair_id": "fangzhaoz_mistralv1_r24_1e3",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fangzhaoz/mistralv1_lora_r24_1e3",
+        "revision": "da257dd38d21fa1afb793fef2ddd353d090f60f9",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 696
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 69249216,
+            "lfs": {
+              "sha256": "6f827c60e2940b4e4dccb8c9f177d62bf3a1d0ec780ea6547f1735df8d2a9ba4",
+              "size": 69249216,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fangzhaoz/mistralv1_dora_r24_1e3",
+        "revision": "020db34c7494410fc886f77ed7ad654d0ed0eebc",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 695
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 70844488,
+            "lfs": {
+              "sha256": "7c4088222936aa6722030cc2acd139270eadc624ce005e1b67c069879c66cc0b",
+              "size": 70844488,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fangzhaoz_mistralv1_r24_1e4",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fangzhaoz/mistralv1_lora_r24_1e4",
+        "revision": "794ba455928f85ec29d2a6e857c51026c08e927a",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 696
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 69249216,
+            "lfs": {
+              "sha256": "40daeec145f7c96e4ab48b6efdf6b35c98bf2b3546cb7aa64becee2c55cbc7a9",
+              "size": 69249216,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fangzhaoz/mistralv1_dora_r24_1e4",
+        "revision": "cecdb25b812ea9fcfabd1c20f47a8da53325ac29",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 695
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 70844488,
+            "lfs": {
+              "sha256": "c83a67dff698dd1d947146aaaecb249d6438c68c3cac167b004ebd3963e7b313",
+              "size": 70844488,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fangzhaoz_mistralv1_r24_1e5",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fangzhaoz/mistralv1_lora_r24_1e5",
+        "revision": "0d39d59054fb9868b77928b9beeaba7b242f4a9c",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 696
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 69249216,
+            "lfs": {
+              "sha256": "c7e4f3c94bd3288a786925e60d0ba6a372f40c9e20b8b0aabd573565bbb0d97b",
+              "size": 69249216,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fangzhaoz/mistralv1_dora_r24_1e5",
+        "revision": "c737a34e086a03f8154d43960f77f6d388149724",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 695
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 70844488,
+            "lfs": {
+              "sha256": "b2d58b63204f86fb2eef8137a007b2ac5e2b219f82b563860bd47e999fae4387",
+              "size": 70844488,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fangzhaoz_mistralv1_r4_1e-4_e5",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fangzhaoz/mistralv1_lora_r4_1e-4_e5",
+        "revision": "52ecb59f837b38ea92e52fad67ca8201f54df6c0",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 718
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 11576704,
+            "lfs": {
+              "sha256": "011aeb66f7db7eece14d0b5d1eb0d592242c5614c49e5782a4ada7adc5eacd92",
+              "size": 11576704,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fangzhaoz/mistralv1_dora_r4_1e-4_e5",
+        "revision": "4711e37dfaf2c348cd2f52b872fc65351bfcc993",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 693
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 13171832,
+            "lfs": {
+              "sha256": "14a5fa49594b1c254ee96d35bb16a2d910fc30a6030b816ed7bc48312db38c98",
+              "size": 13171832,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fangzhaoz_mistralv1_r8_25e5_e3",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fangzhaoz/mistralv1_lora_r8_25e5_e3",
+        "revision": "cc55be64af71e7941e8f47aa254ef402956c0b27",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 719
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 23111352,
+            "lfs": {
+              "sha256": "df8f6afbf3f2c1e6531ec32229d5a51f489203d417dbf0d4667d37969ed29629",
+              "size": 23111352,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fangzhaoz/mistralv1_dora_r8_25e5_e3",
+        "revision": "5e548b853e181fd3da307881370542a797b55cb3",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 694
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 24706536,
+            "lfs": {
+              "sha256": "6f01d7c54cb7c6af32a0e73764a6acd8ec7cb049237cd816db92c437edc67116",
+              "size": 24706536,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fangzhaoz_mistralv1_r8_2e4_e3",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fangzhaoz/mistralv1_lora_r8_2e4_e3",
+        "revision": "56c4265d69aeb4e7e48287a1b1dfda0d3e7b4163",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 719
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 23111352,
+            "lfs": {
+              "sha256": "5a436763dee22ba24b1f99779516d859b76c07b9c4c2720dc3882efee62ea7f6",
+              "size": 23111352,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fangzhaoz/mistralv1_dora_r8_2e4_e3",
+        "revision": "80da38aa1c0fc945d0fa255f88dc1501445f67ae",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 694
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 24706536,
+            "lfs": {
+              "sha256": "34e56ed2c74322c9158996fe29ea2dcf8efe5e8bec1378eca1b5432fd1b4e1ac",
+              "size": 24706536,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fzzhang_mistralv1_r16_25e5_e01",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fzzhang/mistralv1_lora_r16_25e5_e01",
+        "revision": "c385d23d631355b4d10348b7885bf85c7944aedc",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 749
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 46180496,
+            "lfs": {
+              "sha256": "3788316f7d8215d7ed19f3ae0add6b4aa8aa8b28f86b1e779e957e22d126ca5d",
+              "size": 46180496,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fzzhang/mistralv1_dora_r16_25e5_e01",
+        "revision": "379b7d9291111213169024da91793c82a57873b3",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 748
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 47775744,
+            "lfs": {
+              "sha256": "4a26008eb93d7685e2c5087d734c3dea81c4bd6a68a635875a714fc2c01ee5c9",
+              "size": 47775744,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fzzhang_mistralv1_r16_25e5_e03",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fzzhang/mistralv1_lora_r16_25e5_e03",
+        "revision": "c140f2dbe97a000151b94ee8d078a02ff980e346",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 749
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 46180496,
+            "lfs": {
+              "sha256": "74e200a1b11d6e0adad5e6dc1147d0fbc3c4c8bb7c6c2bea7951e1d8a7fd6662",
+              "size": 46180496,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fzzhang/mistralv1_dora_r16_25e5_e03",
+        "revision": "c4e99622a6e01dda3ef3b1cb4e20cbf938a71c7b",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 748
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 47775744,
+            "lfs": {
+              "sha256": "0d7aecbf2ab95749fb5c6fd3f348c57304007efe064323e2bad23b3342255df8",
+              "size": 47775744,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fzzhang_mistralv1_r16_25e5_e05",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fzzhang/mistralv1_lora_r16_25e5_e05",
+        "revision": "2f592fec2999013c5e4e4976edc04ca144f54d4a",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 749
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 46180496,
+            "lfs": {
+              "sha256": "1555d9911b8dcb452184d1a2158d8831f05d8bb86820469af2c820df579a3cda",
+              "size": 46180496,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fzzhang/mistralv1_dora_r16_25e5_e05",
+        "revision": "3a457d3a3dc0a7f689f60f73332501264bc30545",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 748
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 47775744,
+            "lfs": {
+              "sha256": "22dedb7d59ed721a026c5d5b54f4c57c2b1c7d121965116a1b9ad9b88c284532",
+              "size": 47775744,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fzzhang_mistralv1_r16_5e5_e03",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fzzhang/mistralv1_lora_r16_5e5_e03",
+        "revision": "1dcb948bfc86afb8f108a8ba6ab5e4454680978e",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 749
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 46180496,
+            "lfs": {
+              "sha256": "8c34bdee03e18ce5369791b05ce865cddb8ef3b692c2179ccc6423a267f1c730",
+              "size": 46180496,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fzzhang/mistralv1_dora_r16_5e5_e03",
+        "revision": "b4d7d5fb587ad6cc9d4360219f50908f935fccf8",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 748
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 47775744,
+            "lfs": {
+              "sha256": "1ad4e0e1b40e67fe3e163951d2782e0f156130c087d9b1ce8f99eabac9417d5b",
+              "size": 47775744,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fzzhang_mistralv1_r32_25e5_e05",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fzzhang/mistralv1_lora_r32_25e5_e05",
+        "revision": "e64c0f1a3a1d65bb3c529264cbb672c95b7db8d5",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 749
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 92317920,
+            "lfs": {
+              "sha256": "7b19a3d548a109e5da624596c5a0baec47b2573c7a7a3dfccf5002d1e1ab074a",
+              "size": 92317920,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fzzhang/mistralv1_dora_r32_25e5_e05",
+        "revision": "f27c212d9067b676e50db989d99c6b90bcf491a4",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 748
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 93913200,
+            "lfs": {
+              "sha256": "b03e743d22a0ca0106d6a2c1b6feff250b24dd4a233a2e216d0870aa3dc2981a",
+              "size": 93913200,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fzzhang_mistralv1_r4_25e5_e05",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fzzhang/mistralv1_lora_r4_25e5_e05",
+        "revision": "69ac5a5b348f5a2c1a4683c6297609a3ce4c746e",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 747
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 11576704,
+            "lfs": {
+              "sha256": "65ddcfea0add4ed1afb195bf9fe627ada19f215d76c9489cff906bc120d6a727",
+              "size": 11576704,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fzzhang/mistralv1_dora_r4_25e5_e05",
+        "revision": "819c33f987fc3a055af847e5c64263f35bca11b4",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 746
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 13171832,
+            "lfs": {
+              "sha256": "a161e31cf1d3570ce93a33cc0fdb8cd1237fdf60549f43da41804e456297d01e",
+              "size": 13171832,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fzzhang_mistralv1_r8_1e4_e05",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fzzhang/mistralv1_lora_r8_1e4_e05",
+        "revision": "fdd948e065efb2de055244b325ad6b0e8646916c",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 748
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 23111352,
+            "lfs": {
+              "sha256": "9688984d48c3a166e26f6a4b667df684a815d76af27b57953e530ed483c2895b",
+              "size": 23111352,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fzzhang/mistralv1_dora_r8_1e4_e05",
+        "revision": "f9e11268452c43d79373d25bb456705f0cb702bd",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 747
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 24706536,
+            "lfs": {
+              "sha256": "82572f1d237ab66431d674a5cb1657ebc735c234e1a6f3752278afc698083367",
+              "size": 24706536,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fzzhang_mistralv1_r8_1e5_e05",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fzzhang/mistralv1_lora_r8_1e5_e05",
+        "revision": "30f5e76ce9aef39a97e491dd322dcb4353310501",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 748
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 23111352,
+            "lfs": {
+              "sha256": "03f4d5f23fb31cfe67a8b5400fd76df8c14fa891482e03781e066395c605beb1",
+              "size": 23111352,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fzzhang/mistralv1_dora_r8_1e5_e05",
+        "revision": "1a8cd00d620d60f57a1d079144c1402c52824909",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 747
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 24706536,
+            "lfs": {
+              "sha256": "de488b26459c1520f5ed6a2e18acf1546e93ca16a258fa7f82762ba3f46aeef5",
+              "size": 24706536,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "fzzhang_mistralv1_r8_25e5_e05",
+      "status": "reserve_dataset_and_provenance_unresolved",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fzzhang/mistralv1_lora_r8_25e5_e05",
+        "revision": "27f3e504ed621d7ba481e53b5059b5558569ac89",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 748
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 23111352,
+            "lfs": {
+              "sha256": "f42e04847f86d8e17060700c4122ec60361b0e1b9619c18f4683fa0a38a483ae",
+              "size": 23111352,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fzzhang/mistralv1_dora_r8_25e5_e05",
+        "revision": "b212fb94caa6ceee6445ce546c42b20ea1510bfc",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 747
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 24706536,
+            "lfs": {
+              "sha256": "b5c24096f84b426e115bb96b9a2663f0d474cc66b95346c1a3ef5c64837b2643",
+              "size": 24706536,
+              "pointerSize": 133
+            }
+          }
+        ]
+      }
+    },
+    {
+      "pair_id": "perl_1_5b_r32_lr_mismatch",
+      "status": "reserve_confounded_learning_rate",
+      "base": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+      "training_family": "RLVR_DAPO",
+      "training_data": "open-r1/DAPO-Math-17k-Processed",
+      "code": "https://github.com/MikaStars39/PeRL",
+      "lora": {
+        "repo_id": "MikaStars39/PeRL",
+        "revision": "3056decc9b83357fc50993aea984e2028704f833",
+        "subfolder": "dapo_lora_lr5_20251129_222821",
+        "files": [
+          {
+            "rfilename": "dapo_lora_lr5_20251129_222821/adapter_config.json",
+            "size": 953
+          },
+          {
+            "rfilename": "dapo_lora_lr5_20251129_222821/adapter_model.safetensors",
+            "size": 73911504,
+            "lfs": {
+              "sha256": "b1e20188b1164f1fdab47932102775a74fbdadd8aac5cfcb2746eb50fb5cbd84",
+              "size": 73911504,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "MikaStars39/PeRL",
+        "revision": "3056decc9b83357fc50993aea984e2028704f833",
+        "subfolder": "dapo_dora_qwen2_5_1_5b_20251126_115730",
+        "files": [
+          {
+            "rfilename": "dapo_dora_qwen2_5_1_5b_20251126_115730/adapter_config.json",
+            "size": 952
+          },
+          {
+            "rfilename": "dapo_dora_qwen2_5_1_5b_20251126_115730/adapter_model.safetensors",
+            "size": 75228904,
+            "lfs": {
+              "sha256": "db40403d691da552719ce2b79b9c0355e903fc67d8c1781e683cd433ff10f5fd",
+              "size": 75228904,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "checkpoint_steps": [
+        64,
+        128,
+        192,
+        256,
+        320,
+        384,
+        448,
+        512,
+        576,
+        640,
+        704,
+        768,
+        832,
+        896,
+        960,
+        1024
+      ],
+      "lora_lr": 5e-06,
+      "dora_lr": 1e-05,
+      "r": 32,
+      "seed": 42,
+      "known_gaps": [
+        "learning_rate differs",
+        "alternative same-LR LoRA has different rank",
+        "training rollouts differ by policy"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "pair_id": "fangzhaoz_mistralv1_r24_1e6",
+      "status": "excluded_learning_rate_contradiction",
+      "base": "mistralai/Mistral-7B-v0.1",
+      "possible_training_data": "GSM8K, inferred from author project, not per-checkpoint manifest",
+      "code": "https://github.com/pilancilab/spectral_adapter/tree/main/mistral_tune",
+      "lora": {
+        "repo_id": "fangzhaoz/mistralv1_lora_r24_1e6",
+        "revision": "d9c027948d85ff151c71c5b1189fa81ac173409a",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 696
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 69249216,
+            "lfs": {
+              "sha256": "f4e3362b424d57cb8d86bde6b2a6e770ac72b01069399f4a0862a4a24a8fe636",
+              "size": 69249216,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "dora": {
+        "repo_id": "fangzhaoz/mistralv1_dora_r24_1e6",
+        "revision": "adde440f1158f9116de23e2b9557aec8f6d746e6",
+        "subfolder": null,
+        "files": [
+          {
+            "rfilename": "adapter_config.json",
+            "size": 695
+          },
+          {
+            "rfilename": "adapter_model.safetensors",
+            "size": 70844488,
+            "lfs": {
+              "sha256": "a81edd8f903002c52f33d18a41f581c6ada75793fda9387b15e81792790c0fad",
+              "size": 70844488,
+              "pointerSize": 133
+            }
+          }
+        ]
+      },
+      "known_gaps": [
+        "LoRA README LR 0.001; DoRA README LR 0.000001"
+      ]
+    }
+  ],
+  "more_candidates_documented_in": "CHECKPOINT_INVENTORY_2026-10-09.md"
+}

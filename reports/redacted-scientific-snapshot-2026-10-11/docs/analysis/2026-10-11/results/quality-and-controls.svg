@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<rect width="1200" height="620" fill="white"/>
+<g font-family="sans-serif" font-size="14" fill="#15202b">
+<text x="30" y="30" font-size="20">Fixed-checkpoint quality contrasts and dense conversion controls</text>
+<text x="30" y="55">Historical pointwise paired-example CI95; no training-seed uncertainty</text>
+<line x1="500.0" x2="500.0" y1="85" y2="490" stroke="#dddddd"/><text x="492.0" y="515">-2</text>
+<line x1="575.0" x2="575.0" y1="85" y2="490" stroke="#dddddd"/><text x="567.0" y="515">-1</text>
+<line x1="650.0" x2="650.0" y1="85" y2="490" stroke="#dddddd"/><text x="642.0" y="515">0</text>
+<line x1="725.0" x2="725.0" y1="85" y2="490" stroke="#dddddd"/><text x="717.0" y="515">1</text>
+<line x1="800.0" x2="800.0" y1="85" y2="490" stroke="#dddddd"/><text x="792.0" y="515">2</text>
+<line x1="875.0" x2="875.0" y1="85" y2="490" stroke="#dddddd"/><text x="867.0" y="515">3</text>
+<line x1="650" x2="650" y1="85" y2="490" stroke="#333"/>
+<text x="30" y="110">mmlu accuracy</text>
+<line x1="619.5556188577126" x2="690.0583962398518" y1="105" y2="105" stroke="#2364aa" stroke-width="2"/>
+<circle cx="654.2728955989176" cy="105" r="4" fill="#2364aa"/>
+<text x="885" y="110" font-size="12">+0.057 [-0.406, +0.534]</text>
+<text x="30" y="152">squadv2 exact</text>
+<line x1="613.9939358207698" x2="665.1604480754653" y1="147" y2="147" stroke="#2364aa" stroke-width="2"/>
+<circle cx="639.8930346163564" cy="147" r="4" fill="#2364aa"/>
+<text x="885" y="152" font-size="12">-0.135 [-0.480, +0.202]</text>
+<text x="30" y="194">squadv2 f1</text>
+<line x1="608.0229895964421" x2="651.7710446023573" y1="189" y2="189" stroke="#2364aa" stroke-width="2"/>
+<circle cx="630.0863937435876" cy="189" r="4" fill="#2364aa"/>
+<text x="885" y="194" font-size="12">-0.266 [-0.560, +0.024]</text>
+<text x="30" y="236">gsm8k author_em</text>
+<line x1="604.510993176649" x2="854.7005307050796" y1="231" y2="231" stroke="#2364aa" stroke-width="2"/>
+<circle cx="729.6057619408643" cy="231" r="4" fill="#2364aa"/>
+<text x="885" y="236" font-size="12">+1.061 [-0.607, +2.729]</text>
+<text x="30" y="278">gsm8k final_em</text>
+<line x1="604.510993176649" x2="854.7005307050796" y1="273" y2="273" stroke="#2364aa" stroke-width="2"/>
+<circle cx="729.6057619408643" cy="273" r="4" fill="#2364aa"/>
+<text x="885" y="278" font-size="12">+1.061 [-0.607, +2.729]</text>
+<text x="30" y="320">gsm8k-dense-dora author_em</text>
+<line x1="530.4492039423807" x2="695.489006823351" y1="315" y2="315" stroke="#a45a16" stroke-width="2"/>
+<circle cx="610.1971190295677" cy="315" r="4" fill="#a45a16"/>
+<text x="885" y="320" font-size="12">-0.531 [-1.594, +0.607]</text>
+<text x="30" y="362">gsm8k-dense-dora final_em</text>
+<line x1="519.2191053828658" x2="678.5727824109152" y1="357" y2="357" stroke="#a45a16" stroke-width="2"/>
+<circle cx="598.8248673237294" cy="357" r="4" fill="#a45a16"/>
+<text x="885" y="362" font-size="12">-0.682 [-1.744, +0.381]</text>
+<text x="30" y="404">gsm8k-dense-lora author_em</text>
+<line x1="570.3942380591357" x2="729.6057619408643" y1="399" y2="399" stroke="#a45a16" stroke-width="2"/>
+<circle cx="650.0" cy="399" r="4" fill="#a45a16"/>
+<text x="885" y="404" font-size="12">+0.000 [-1.061, +1.061]</text>
+<text x="30" y="446">gsm8k-dense-lora final_em</text>
+<line x1="564.7081122062168" x2="723.9196360879454" y1="441" y2="441" stroke="#a45a16" stroke-width="2"/>
+<circle cx="644.3138741470814" cy="441" r="4" fill="#a45a16"/>
+<text x="885" y="446" font-size="12">-0.076 [-1.137, +0.986]</text>
+<text x="465" y="550">Difference in percentage points (right minus left)</text>
+<text x="30" y="580">Blue: DoRA − LoRA. Brown: dense − original corresponding adapter. Means and all 15 contrasts in quality-overview.csv.</text>
+<text x="30" y="604">Historical Holm families: baseline 3/6/6 metric hypotheses; dense 16 metric hypotheses. CI are unadjusted.</text>
+</g></svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="480" viewBox="0 0 1120 480">
+<rect width="1120" height="480" fill="white"/>
+<g font-family="sans-serif" font-size="15" fill="#18212b">
+<text x="28" y="30" font-size="20">GSM8K compression: accuracy change from corresponding dense reference</text>
+<text x="28" y="55">Historical pointwise 95% paired-example CI; fixed checkpoints, n=1319. Units: percentage points.</text>
+<line x1="510.0" x2="510.0" y1="76" y2="388" stroke="#ccd2d8"/><text x="502.0" y="410">-1</text>
+<line x1="600.0" x2="600.0" y1="76" y2="388" stroke="#ccd2d8"/><text x="592.0" y="410">0</text>
+<line x1="690.0" x2="690.0" y1="76" y2="388" stroke="#ccd2d8"/><text x="682.0" y="410">1</text>
+<line x1="780.0" x2="780.0" y1="76" y2="388" stroke="#ccd2d8"/><text x="772.0" y="410">2</text>
+<line x1="870.0" x2="870.0" y1="76" y2="388" stroke="#ccd2d8"/><text x="862.0" y="410">3</text>
+<text x="28" y="103">r32 / author_em</text>
+<line x1="559.0598938589841" x2="763.7604245640637" y1="98" y2="98" stroke="#1565a7" stroke-width="3"/><circle cx="661.4101592115236" cy="98" r="5" fill="#1565a7"/>
+<text x="890" y="103">+0.682 [-0.455, +1.820]</text>
+<text x="28" y="142">r32 / final_em</text>
+<line x1="572.7065959059894" x2="777.407126611069" y1="137" y2="137" stroke="#a34a13" stroke-width="3"/><circle cx="675.0568612585294" cy="137" r="5" fill="#a34a13"/>
+<text x="890" y="142">+0.834 [-0.303, +1.971]</text>
+<text x="28" y="181">e95 / author_em</text>
+<line x1="559.0598938589841" x2="777.407126611069" y1="176" y2="176" stroke="#1565a7" stroke-width="3"/><circle cx="668.233510235027" cy="176" r="5" fill="#1565a7"/>
+<text x="890" y="181">+0.758 [-0.455, +1.971]</text>
+<text x="28" y="220">e95 / final_em</text>
+<line x1="572.7065959059894" x2="791.0538286580743" y1="215" y2="215" stroke="#a34a13" stroke-width="3"/><circle cx="681.8802122820318" cy="215" r="5" fill="#a34a13"/>
+<text x="890" y="220">+0.910 [-0.303, +2.123]</text>
+<text x="28" y="259">e99 / author_em</text>
+<line x1="531.7664897649735" x2="729.6436694465503" y1="254" y2="254" stroke="#1565a7" stroke-width="3"/><circle cx="627.2934040940106" cy="254" r="5" fill="#1565a7"/>
+<text x="890" y="259">+0.303 [-0.758, +1.440]</text>
+<text x="28" y="298">e99 / final_em</text>
+<line x1="538.5898407884761" x2="736.4670204700531" y1="293" y2="293" stroke="#a34a13" stroke-width="3"/><circle cx="634.116755117514" cy="293" r="5" fill="#a34a13"/>
+<text x="890" y="298">+0.379 [-0.682, +1.516]</text>
+<text x="28" y="337">lora-matched-impact / author_em</text>
+<line x1="606.8233510235027" x2="838.8172858225928" y1="332" y2="332" stroke="#1565a7" stroke-width="3"/><circle cx="722.8203184230482" cy="332" r="5" fill="#1565a7"/>
+<text x="890" y="337">+1.365 [+0.076, +2.654]</text>
+<text x="28" y="376">lora-matched-impact / final_em</text>
+<line x1="600.0" x2="831.9939347990902" y1="371" y2="371" stroke="#a34a13" stroke-width="3"/><circle cx="715.9969673995448" cy="371" r="5" fill="#a34a13"/>
+<text x="890" y="376">+1.289 [+0.000, +2.578]</text>
+<text x="28" y="449">r32/E95/E99 reference: dense DoRA. Matched attenuation reference: dense LoRA.</text>
+<text x="28" y="471">Dense conversion already changes generated answers; pre-intervention fidelity does not certify compressed weights.</text>
+</g></svg>

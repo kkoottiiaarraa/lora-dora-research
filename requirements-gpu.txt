@@ -1,0 +1,8 @@
+# Install inside a dedicated research venv. Install/select compatible CUDA torch
+# separately after inspecting the server; never change its global environment.
+transformers==4.57.1
+peft==0.17.1
+accelerate==1.11.0
+huggingface-hub==0.35.3
+safetensors==0.6.2
+numpy==1.26.4
