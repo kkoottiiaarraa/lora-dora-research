@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "created_utc": "2026-10-11T19:48:39.357507+00:00",
+  "scope": "local/server identity of final script and six compact package files; manifest matches script and all five declared outputs",
+  "local_root": "/path/to/user/Documents/Codex/2026-10-09/dora-lora-https-github-com-kkoottiiaarraa/work/lora-dora-series",
+  "server_root": "/path/to/user-user/lora-dora-series",
+  "files": [
+    {
+      "path": "execution/existing-data-followup/build_direct_contrasts.py",
+      "local_sha256": "8bedb47487d9c22a2c0485e4ba4597f093f7992198f8d749f7ccbe88890d2cd7",
+      "server_sha256": "8bedb47487d9c22a2c0485e4ba4597f093f7992198f8d749f7ccbe88890d2cd7",
+      "identical": true
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/direct-contrasts.csv",
+      "local_sha256": "1ca53f39377fcb45c17d90079f321d2f76aa5211eec1a1f004390181696b20d3",
+      "server_sha256": "1ca53f39377fcb45c17d90079f321d2f76aa5211eec1a1f004390181696b20d3",
+      "identical": true
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/FINDINGS.md",
+      "local_sha256": "a4b29d8046f3c0516c6cb1730c448a91ef68a40dee35742952ff7b7171459f76",
+      "server_sha256": "a4b29d8046f3c0516c6cb1730c448a91ef68a40dee35742952ff7b7171459f76",
+      "identical": true
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/METHOD.md",
+      "local_sha256": "e965ff030817cdcc8659304a06d1db04a75ca9d9ff7b50a6e94e2d74d4b40a62",
+      "server_sha256": "e965ff030817cdcc8659304a06d1db04a75ca9d9ff7b50a6e94e2d74d4b40a62",
+      "identical": true
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/resources.json",
+      "local_sha256": "d538ee82720d50c6b69067132d8bdce385c4da0f217098ad4d581fe0d2ab9fbe",
+      "server_sha256": "d538ee82720d50c6b69067132d8bdce385c4da0f217098ad4d581fe0d2ab9fbe",
+      "identical": true
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/validation.json",
+      "local_sha256": "af7006f9bf89cbcc8f8807284c22924a5f3e14204233dc25f7c887ec3b046ada",
+      "server_sha256": "af7006f9bf89cbcc8f8807284c22924a5f3e14204233dc25f7c887ec3b046ada",
+      "identical": true
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/manifest.json",
+      "local_sha256": "16f84fbf4c99d6ef3db49bba9a1b5ab39b89cfc9f0d563dfc9fb07a37ddfbc91",
+      "server_sha256": "16f84fbf4c99d6ef3db49bba9a1b5ab39b89cfc9f0d563dfc9fb07a37ddfbc91",
+      "identical": true
+    }
+  ],
+  "manifest_sha256": "16f84fbf4c99d6ef3db49bba9a1b5ab39b89cfc9f0d563dfc9fb07a37ddfbc91"
+}

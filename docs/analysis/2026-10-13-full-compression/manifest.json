@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "files": {
+    "REPORT.md": "fcbc0e7c12fe6beef1bec86b83ca47338548aa1cbfea97eb62e49bfabcaab656",
+    "SPEC.md": "e5b7bb19d6ddd720f5cbd7520fad136a5f5954cfada9e6d7ea8ab56c9df3ca31",
+    "quality.csv": "e168fde4ca2511d4373fcadd137494224a7a6b02e36fd69a1168d0c12ce6da2b",
+    "ranks.json": "a7ce3c0673213ba595de9fd965e7f7dd21b9976d243d883cf38b5d6d60204bd2",
+    "validation.json": "02ba79791a329c28bacf5d42d4dcc9de2ca1fdfe389b5cf70d01c1c17077860a"
+  },
+  "code_sha256": {
+    "lora_dora_study/full_compression.py": "843f0b8da4c20b0f4fa7efd1319fc185af481ff25fdcf02beda2a0dcc9052517",
+    "tests/test_full_compression.py": "b31c60b5bb6d1a686675538f7e1bbe7318110b53b47800e2dae492c77ebea7f7",
+    "execution/next-experiments/full_compression_screen.py": "27a347b414f034560a0bb021b3bee903506d470ac4c1d0dd27332247e08ecff3",
+    "execution/scientific-analysis/analyze_full_compression.py": "00d4f9ae72cb7115555f1b226fbb0222103dc08ca707f149edf23d8ed2f6365a",
+    "execution/scientific-analysis/analyze_compression_followup.py": "f1482e591e92a18fe9b8182655bb34e32391eb3009c13e0c8ecd51828a2c497c"
+  }
+}

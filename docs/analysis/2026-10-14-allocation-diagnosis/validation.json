@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "case_count": 64,
+  "tokens_per_condition": 2048,
+  "rows": 256,
+  "cases_sha256": "cc30c2fa181cf9c10e464998d046b161cc8326118e78a79782bcb143684ab533",
+  "source_sha256": {
+    "execution/next-experiments/allocation_validate.py": "3f5a2558105b813632a1422deaac7b85dc8327d3d4455d421ae3d64011c7c660",
+    "lora_dora_study/full_compression.py": "843f0b8da4c20b0f4fa7efd1319fc185af481ff25fdcf02beda2a0dcc9052517",
+    "lora_dora_study/fidelity_audit.py": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+    "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+    "lora_dora_study/benchmarks.py": "1abd84b8e6b5e1c145ff83ede420d8b283a54c5afd030a6aa868f65201f3ba2d",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118"
+  },
+  "contrasts": [
+    {
+      "method": "weighted",
+      "mean_delta": 0.0034252649690989173,
+      "delta_ci95": [
+        0.0026929470146197054,
+        0.004315991247070587
+      ],
+      "mean_relative_gain": -1.6843760087579103,
+      "relative_gain_ci95": [
+        -2.387438246638258,
+        -1.1376834012206198
+      ],
+      "sign_flip_p": 9.999000099990002e-05,
+      "cases_improved": 1,
+      "cases_worsened": 63,
+      "holm_p": 0.00019998000199980003
+    },
+    {
+      "method": "structural",
+      "mean_delta": 0.0032670889441468913,
+      "delta_ci95": [
+        0.002562186022962839,
+        0.004121399264407471
+      ],
+      "mean_relative_gain": -1.5529124960428482,
+      "relative_gain_ci95": [
+        -2.1987891817686767,
+        -1.0298168751662224
+      ],
+      "sign_flip_p": 9.999000099990002e-05,
+      "cases_improved": 2,
+      "cases_worsened": 62,
+      "holm_p": 0.00019998000199980003
+    }
+  ],
+  "controls_max_rms": 1.1747199742795176e-05,
+  "bootstrap_question_resamples": 10000,
+  "primary_family_size": 2,
+  "inference_wall_seconds": 939.8301068489673,
+  "prepare_wall_seconds": 571.4991642780369,
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "gpu_hours": 0,
+  "full_task_accuracy": false,
+  "limitation": "Development comparison; not training-seed uncertainty or answer-generation accuracy."
+}

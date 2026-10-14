@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-11T19:48:15.716378+00:00",
+  "scope": "exploratory package A only; no frozen writes",
+  "code": {
+    "path": "execution/existing-data-followup/build_direct_contrasts.py",
+    "sha256": "8bedb47487d9c22a2c0485e4ba4597f093f7992198f8d749f7ccbe88890d2cd7",
+    "bytes": 22449
+  },
+  "inputs": [
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "sha256": "430c2265462aa02cd88c6b67bdfc0fba08380c42dd7f3204625fbd2bcf08c834",
+      "bytes": 3186237,
+      "verified_against": "docs/analysis-preparation/2026-10-11/manifests/bundle.json"
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "sha256": "44e1aff0454e2c3f3de281d80b40d7591a0ecdf4732403e3e094b85c7b88bc62",
+      "bytes": 22390,
+      "verified_against": "docs/analysis-preparation/2026-10-11/manifests/bundle.json"
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "sha256": "d5ee7c9cde49f644aeb259715d54a14e6981f7bd591d22871ede33e4faa2bdb5",
+      "bytes": 11925,
+      "verified_against": "docs/analysis-preparation/2026-10-11/manifests/bundle.json"
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "sha256": "4694cf96c55ff6dcf031214962753aa9f7709b39cf80a5cd32fdece6e5902b05",
+      "bytes": 3949,
+      "verified_against": "docs/analysis-preparation/2026-10-11/manifests/bundle.json"
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/paired-outcome-transitions.csv",
+      "sha256": "9d61123def75ce241f41f146a09e9711f5c1b81ad9b9896cd126aea1b5251a2f",
+      "bytes": 37280,
+      "verified_against": "docs/analysis/2026-10-11/results/analysis-manifest.json"
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "sha256": "2c3a1a62afe3c0e8f052031c6af4b24b581fe41bc188e7f344a1e39ed42306ab",
+      "bytes": 9283
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/analysis-manifest.json",
+      "sha256": "bc9d188e8460a9f3b56c1319b0dda58d8a7c3387131007cccee11dbb3803c9ed",
+      "bytes": 64021
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/SPEC.md",
+      "sha256": "fa5b8d839741bcd79fcfb6f25e038b1c3736de7b9df5bac05ba9516e11133759",
+      "bytes": 12158
+    }
+  ],
+  "outputs": [
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/direct-contrasts.csv",
+      "sha256": "1ca53f39377fcb45c17d90079f321d2f76aa5211eec1a1f004390181696b20d3",
+      "bytes": 4448
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/FINDINGS.md",
+      "sha256": "a4b29d8046f3c0516c6cb1730c448a91ef68a40dee35742952ff7b7171459f76",
+      "bytes": 3696
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/METHOD.md",
+      "sha256": "e965ff030817cdcc8659304a06d1db04a75ca9d9ff7b50a6e94e2d74d4b40a62",
+      "bytes": 4910
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/resources.json",
+      "sha256": "d538ee82720d50c6b69067132d8bdce385c4da0f217098ad4d581fe0d2ab9fbe",
+      "bytes": 929
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/validation.json",
+      "sha256": "af7006f9bf89cbcc8f8807284c22924a5f3e14204233dc25f7c887ec3b046ada",
+      "bytes": 21103
+    }
+  ],
+  "exclusions": [
+    "manifest.json: self hash",
+    "mirror-verification.json: verification added after local/server copy"
+  ],
+  "bootstrap_B": 50000,
+  "seeds": [
+    2026101140,
+    2026101141,
+    2026101142,
+    2026101143,
+    2026101144,
+    2026101145,
+    2026101146,
+    2026101147
+  ],
+  "family_size": 8,
+  "difference_direction": "right-minus-left"
+}

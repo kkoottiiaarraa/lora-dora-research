@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "cases": 8,
+  "rows": 24,
+  "tokens_per_condition": 256,
+  "quality": [
+    {
+      "label": "kfac_fp32_r8",
+      "cases": 8,
+      "tokens": 256,
+      "mean_kl": 0.001963310791724253,
+      "mean_nll_delta": 0.023673359855278388,
+      "mean_rms": 0.1321426650008307,
+      "argmax_disagreements": 4,
+      "payload_bytes": 23592960,
+      "rank": 8
+    },
+    {
+      "label": "structural_fp16_r15",
+      "cases": 8,
+      "tokens": 256,
+      "mean_kl": 0.00033710740126598584,
+      "mean_nll_delta": 0.010968930420965266,
+      "mean_rms": 0.05840055476611846,
+      "argmax_disagreements": 2,
+      "payload_bytes": 23371776,
+      "archive_bytes": 23425760,
+      "config_bytes": 186,
+      "sha256": "05ff837598731d6de181624ac7bc283709e916d3933bab6d65afc3210b87a4b7",
+      "config_sha256": "92fa281c309bb5c5c9b8b2e83c2d6bc9b4be7f9d71685175dbc205a04f625c1b",
+      "tensor_count": 432,
+      "dtypes": [
+        "torch.float16",
+        "torch.float32"
+      ],
+      "total_file_bytes": 23425946
+    },
+    {
+      "label": "structural_int8_r30",
+      "cases": 8,
+      "tokens": 256,
+      "mean_kl": 7.451897577196846e-06,
+      "mean_nll_delta": 0.0009003355886802716,
+      "mean_rms": 0.01162086408453937,
+      "argmax_disagreements": 0,
+      "payload_bytes": 23406336,
+      "archive_bytes": 23496176,
+      "config_bytes": 215,
+      "sha256": "2f0de4345eb2978345d6677dc5769a61daf956e473327d16569208ea67b33941",
+      "config_sha256": "a96c090d1be2526f398d12e8ce2b40dc9803633e8b8bd65ea5cfb62d17d70bad",
+      "tensor_count": 720,
+      "dtypes": [
+        "torch.float32",
+        "torch.int8"
+      ],
+      "total_file_bytes": 23496391
+    }
+  ],
+  "contrasts": [],
+  "controls_max_rms": 9.564688927000566e-06,
+  "cases_sha256": "a3af019e1bf383c82ba5c9856a4384b9364d71ad9714d6700a62fced73dabdd2",
+  "source_sha256": {
+    "lora_dora_study/adapter_storage.py": "47f7866d9c1d627cc844e9e58fa7099e62f142b3e58d3957c2f7d4fc3c5960ae",
+    "tests/test_adapter_storage.py": "b12e3cb953314034c5bbb4e06daedd95fcc0541eefd9e40da4f47a856632ae9f",
+    "execution/next-experiments/byte_budget_screen.py": "8029beb4beeac067f09b4042ab197038e5d493d7ed4a0c453f52a44526b8e4ca",
+    "docs/analysis/2026-10-14-byte-budget/SPEC.md": "f63fdd571af197178ac625aa5f01033e1b992c88d093862fa2fd5b7b981324e9",
+    "docs/analysis/2026-10-14-byte-budget/PRIOR.md": "c8db933bf9dc27d67bee5ada05ceda03c7868da1e4a7adf4d2fbe307246c681a",
+    "lora_dora_study/full_compression.py": "843f0b8da4c20b0f4fa7efd1319fc185af481ff25fdcf02beda2a0dcc9052517",
+    "lora_dora_study/fidelity_audit.py": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+    "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118",
+    "lora_dora_study/rank_budget.py": "3b6eb1b0eb9fbef2fe26d57651b18aca079ce63abca8a952fc24e60636883352"
+  },
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "artifacts": {
+    "base": {
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+    },
+    "dora": {
+      "repo_id": "shadow-llm/Qwen3-4B-GSM8k-DoRA",
+      "revision": "07f6a59c2ab6b36b1cecb5feb66187638202521d"
+    }
+  },
+  "wall_seconds": 121.46956675103866,
+  "rss_bytes": 20757192704,
+  "gpu_hours": 0,
+  "source_tensor_count": 432,
+  "full_task_accuracy": false,
+  "new_independent_test": false,
+  "new_algorithm": false,
+  "runtime_vram_or_speed_measured": false,
+  "conference_level_established": false,
+  "storage_archive_audit_still_required": false,
+  "source_storage": {
+    "payload_bytes": 95625216,
+    "file_bytes": 95684080,
+    "tensor_count": 432,
+    "dtypes": {
+      "F32": 432
+    },
+    "sha256": "d3f6e22524c7caf60c81dd3133aed0c3f2df4bd503e542ebe1fa152b2da46d3c"
+  },
+  "input_sha256": {
+    "controls.json": "5960e7ae1a7b08d37e09639c0159e4fec24e3deb7e2acb150e9396f7efc2b7da",
+    "per-case.jsonl": "fbc2b573562b1215710acbc77c7e5021d2ce7c40671a68891b5ca4687a9ff359",
+    "cases.json": "a3af019e1bf383c82ba5c9856a4384b9364d71ad9714d6700a62fced73dabdd2",
+    "frozen.json": "8304adbf4fd53c3397bef83e3fe524f890ea5955fd8d477580c083d0cf042cb6",
+    "storage.json": "248df040644d1d97393ddabea7c72bdcf3be235cedb2c70c32ae2929678b1db9",
+    "summary.json": "379329072137378fc513bfb5450120747dc5b2857971547b927616facfa03e19",
+    "native-checks.json": "02b86b35dcbffe9126f30ceed5d49e88991004e9a966973387d09134f97c4e6e"
+  }
+}

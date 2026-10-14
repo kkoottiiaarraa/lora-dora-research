@@ -45,3 +45,6 @@ Thumbs.db
 # Private infrastructure context
 /OPERATIONS_PRIVATE.md
 /local-only/
+
+# Private experiment locators and operational manifests
+*-private.json

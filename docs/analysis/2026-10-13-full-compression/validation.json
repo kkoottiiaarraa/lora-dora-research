@@ -1,0 +1,216 @@
+{
+  "status": "validated",
+  "full_adapter": true,
+  "adapted_modules": 144,
+  "questions": 32,
+  "target_positions": 1024,
+  "source_adapter_elements": 23906304,
+  "contrasts": [
+    {
+      "rank_budget": 16,
+      "changed": "weighted_16",
+      "reference": "raw_16",
+      "kl_delta": 1.7940706810957352e-05,
+      "descriptive_kl_ci95": [
+        -2.663501748863082e-05,
+        6.622394421040072e-05
+      ],
+      "relative_kl_delta": 0.0481440364171614,
+      "nll_delta": 0.001295208209516086,
+      "descriptive_nll_ci95": [
+        0.00026569481568171653,
+        0.002314645566332211
+      ],
+      "lower_kl_cases": 18,
+      "higher_kl_cases": 14
+    },
+    {
+      "rank_budget": 16,
+      "changed": "structural_16",
+      "reference": "weighted_16",
+      "kl_delta": -0.0001058063465244783,
+      "descriptive_kl_ci95": [
+        -0.00015424939183118107,
+        -6.4916427113148e-05
+      ],
+      "relative_kl_delta": -0.2708904538293189,
+      "nll_delta": -0.0018680435661591094,
+      "descriptive_nll_ci95": [
+        -0.0026904070558274196,
+        -0.001047282952354553
+      ],
+      "lower_kl_cases": 30,
+      "higher_kl_cases": 2
+    },
+    {
+      "rank_budget": 16,
+      "changed": "structural_16",
+      "reference": "raw_16",
+      "kl_delta": -8.786563971352094e-05,
+      "descriptive_kl_ci95": [
+        -0.00013244579618873018,
+        -4.510384172445073e-05
+      ],
+      "relative_kl_delta": -0.2357881772863776,
+      "nll_delta": -0.0005728353566430233,
+      "descriptive_nll_ci95": [
+        -0.0017151303084780593,
+        0.0005541924477326051
+      ],
+      "lower_kl_cases": 23,
+      "higher_kl_cases": 9
+    },
+    {
+      "rank_budget": 8,
+      "changed": "weighted_8",
+      "reference": "raw_8",
+      "kl_delta": -1.2975661903456697e-05,
+      "descriptive_kl_ci95": [
+        -0.00019263685143312584,
+        0.00016038902217837243
+      ],
+      "relative_kl_delta": -0.00672402748314318,
+      "nll_delta": 0.0016678300605822865,
+      "descriptive_nll_ci95": [
+        0.00010042364541347016,
+        0.003330290374569715
+      ],
+      "lower_kl_cases": 17,
+      "higher_kl_cases": 15
+    },
+    {
+      "rank_budget": 8,
+      "changed": "structural_8",
+      "reference": "weighted_8",
+      "kl_delta": 0.0002013133525545409,
+      "descriptive_kl_ci95": [
+        4.875462505312482e-05,
+        0.0004114986746663697
+      ],
+      "relative_kl_delta": 0.10502739900509334,
+      "nll_delta": 0.0006825974465014643,
+      "descriptive_nll_ci95": [
+        -0.00033679932252146704,
+        0.0017473203055515087
+      ],
+      "lower_kl_cases": 12,
+      "higher_kl_cases": 20
+    },
+    {
+      "rank_budget": 8,
+      "changed": "structural_8",
+      "reference": "raw_8",
+      "kl_delta": 0.0001883376906510842,
+      "descriptive_kl_ci95": [
+        -4.986157740017116e-05,
+        0.0004874418547177472
+      ],
+      "relative_kl_delta": 0.09759716440455687,
+      "nll_delta": 0.002350427507083751,
+      "descriptive_nll_ci95": [
+        0.00026719237866208376,
+        0.004546253996111083
+      ],
+      "lower_kl_cases": 14,
+      "higher_kl_cases": 18
+    }
+  ],
+  "baseline_screen_signal": {
+    "raw_16": true,
+    "raw_8": true,
+    "weighted_16": true,
+    "weighted_8": true
+  },
+  "uncertainty": "Exploratory whole-question percentile bootstrap10000 seed20261013; all six contrasts reported, no confirmatory multiplicity claim",
+  "scope": "Full adapter, new posthoc-development train questions, teacher-forced prefixes; no GSM8K accuracy or latency measurement",
+  "format": "Raw/W: ordinary fixed-base low-rank updates. Structural: fixed diagonal plus low-rank update; diagonal included in budget; not ordinary LoRA export.",
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "source_sha256": {
+    "execution/next-experiments/full_compression_screen.py": "27a347b414f034560a0bb021b3bee903506d470ac4c1d0dd27332247e08ecff3",
+    "lora_dora_study/full_compression.py": "843f0b8da4c20b0f4fa7efd1319fc185af481ff25fdcf02beda2a0dcc9052517",
+    "tests/test_full_compression.py": "b31c60b5bb6d1a686675538f7e1bbe7318110b53b47800e2dae492c77ebea7f7",
+    "docs/analysis/2026-10-13-full-compression/SPEC.md": "e5b7bb19d6ddd720f5cbd7520fad136a5f5954cfada9e6d7ea8ab56c9df3ca31",
+    "lora_dora_study/rank_budget.py": "3b6eb1b0eb9fbef2fe26d57651b18aca079ce63abca8a952fc24e60636883352",
+    "lora_dora_study/weighted_compression.py": "93874de554e61d7ed9d6a4252a4a3395c24a0bdece7945122c1bf1de94b55bc6",
+    "lora_dora_study/compression_audit.py": "97555cea8f49d1f7a114a988aa21e7f0380baf73bd27b4db9d6385ba7baf7bf2",
+    "lora_dora_study/rank_symmetry.py": "d50047efc0bc82778a511300d89a2555d462a7be95794fa23dfbb601d9132079",
+    "lora_dora_study/fidelity_audit.py": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+    "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/benchmarks.py": "1abd84b8e6b5e1c145ff83ede420d8b283a54c5afd030a6aa868f65201f3ba2d"
+  },
+  "storage_audit": {
+    "source_dtype_counts": {
+      "F32": 23906304
+    },
+    "source_tensor_keys": 432,
+    "source_elements": 23906304,
+    "source_file_sha256": "d3f6e22524c7caf60c81dd3133aed0c3f2df4bd503e542ebe1fa152b2da46d3c",
+    "artifacts": {
+      "base": {
+        "repo_id": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+      },
+      "dora": {
+        "repo_id": "shadow-llm/Qwen3-4B-GSM8k-DoRA",
+        "revision": "07f6a59c2ab6b36b1cecb5feb66187638202521d"
+      }
+    },
+    "saved_factor_shapes_counts_dtypes_finite_verified": true,
+    "diagonals_equal_source_control": true,
+    "actual_factor_elements": {
+      "raw_16": 11796480,
+      "weighted_16": 11796480,
+      "structural_16": 11796480,
+      "raw_8": 5898240,
+      "weighted_8": 5898240,
+      "structural_8": 5898240
+    },
+    "calibration_test_first232_disjoint_verified": true,
+    "factors_sha256": "755a3f40a163baeb9842746d2e82d75e481a91b1ec98411e45c2d291bc036c55"
+  },
+  "controls": {
+    "max_rms": 9.61220867273121e-06,
+    "minimum_compression_rms": 0.05167356591792855
+  },
+  "resources": {
+    "gpu_hours": 0,
+    "phases": [
+      {
+        "phase": "capture",
+        "exit_code": 0,
+        "wall_seconds": 368.6906828220235
+      },
+      {
+        "phase": "prepare",
+        "exit_code": 0,
+        "wall_seconds": 593.2587957410142
+      },
+      {
+        "phase": "evaluate",
+        "exit_code": 0,
+        "wall_seconds": 393.2543278639205
+      }
+    ],
+    "peak_evaluate_rss_bytes": 21728444416
+  },
+  "input_sha256": {
+    "storage-audit.json": "c4331f1da7a261de5000009547c9837e34c98d493fc0397de7e2201203903d42",
+    "manifest-private.json": "961af90d8c45120dfd8f61145b3f1626e4083110e0146ebb87f74f76f8fcb57e",
+    "state.json": "09a08c16a1403ed3afacb2911875a542db95f0c7bea87e730ad1e32f437b71b6",
+    "cases.json": "222efa7b6719a48ab512933242945edefe2aa2d91dc58642cbc6720167cf25c7",
+    "evaluate/controls.json": "b5a535c00b47a9a643d5a954ea59c76f1d9446048dd7e89d45430b5c19819d76",
+    "evaluate/per-case.jsonl": "0184df7120ae63c813c3d75a8cd53701850ec232f9346fe95e28927d4700e4d0",
+    "evaluate/summary.json": "4909dd76c2f7ab8a0971b3e255d4cbeda79c78cfa507abd4b0c56f7c37e8f8ec",
+    "capture/summary.json": "5776fc381f428d48a7acd18219acc901cdad4a4b3cf62f5b342187659d9f9b15",
+    "prepare/diagnostics.json": "235202b194abe9f259c357fbd3f8fbf8215e766130ddae34d2bc90cc4ca5a2c5",
+    "prepare/summary.json": "c00960755b7269a817276bde18104e95969cb3d5cb5c0fc6a972aec5fbbf9d85"
+  }
+}

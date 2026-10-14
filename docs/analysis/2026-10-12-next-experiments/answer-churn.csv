@@ -1,0 +1,4 @@
+run,n,changed_texts,correctness_flips,flips_shared_with_remove_d,flips_union_with_remove_d
+gsm8k-remove_d-all_dora,1319,542,64,64,64
+permuted,1319,540,63,29,98
+directional,1319,681,83,31,116

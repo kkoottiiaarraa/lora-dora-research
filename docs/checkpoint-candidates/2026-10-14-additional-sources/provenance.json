@@ -1,0 +1,368 @@
+{
+  "date": "2026-10-14",
+  "github": [
+    {
+      "repo": "Remilia-Kirisame/ELEN90088-SOML",
+      "revision": "2504b35dcbbcd4e7e1201beae9051d92147262fc",
+      "truncated": false,
+      "scoped_file_count": 308,
+      "weight_files": []
+    },
+    {
+      "repo": "Benjamin-Pong/PEFT-Multilingual-Content-Safety-Moderation",
+      "revision": "760261036df0c0cb000074ab7e563ff4a3b56a41",
+      "truncated": false,
+      "scoped_file_count": 10,
+      "weight_files": []
+    }
+  ],
+  "huggingface": [
+    {
+      "repo": "Benjaminpwh/qwen2.5-7b-instruct-poly-QDpra-1",
+      "revision": "c7d4fd542b286ce2c0cfba0b600f3666c7233397",
+      "gated": false,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "lfs": null
+        },
+        {
+          "path": "adapter_config.json",
+          "size": 874,
+          "lfs": null
+        },
+        {
+          "path": "adapter_model.safetensors",
+          "size": 86381480,
+          "lfs": {
+            "sha256": "2b4d7e3189b659cd2a85484775c468b2901b8d3c3d5bac320ac953965e5a40d6",
+            "size": 86381480,
+            "pointerSize": 133
+          }
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 605,
+          "lfs": null
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 2507,
+          "lfs": null
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671853,
+          "lfs": null
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 614,
+          "lfs": null
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11421995,
+          "lfs": {
+            "sha256": "145191e3b102f64e84dab1926006ee71528c1ea536df048ef9ff6c48d01f95de",
+            "size": 11421995,
+            "pointerSize": 133
+          }
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 4713,
+          "lfs": null
+        },
+        {
+          "path": "training_args.bin",
+          "size": 6097,
+          "lfs": {
+            "sha256": "01f7a88314b9a4ed4b42d6df95d3a419bc0c6a194724202940951563bf32b1a6",
+            "size": 6097,
+            "pointerSize": 129
+          }
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "lfs": null
+        }
+      ]
+    },
+    {
+      "repo": "Benjaminpwh/qwen2.5-7b-instruct-poly-Dora",
+      "revision": "79728b2950929fe44b96b6d33819e0769db941d8",
+      "gated": false,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "lfs": null
+        },
+        {
+          "path": "adapter_config.json",
+          "size": 857,
+          "lfs": null
+        },
+        {
+          "path": "adapter_model.safetensors",
+          "size": 86381480,
+          "lfs": {
+            "sha256": "73677bf55d572733f5b031f90073a5c169e46e309ba7cc0fe2a31233ddfd77fd",
+            "size": 86381480,
+            "pointerSize": 133
+          }
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 605,
+          "lfs": null
+        },
+        {
+          "path": "chat_template.jinja",
+          "size": 2507,
+          "lfs": null
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671853,
+          "lfs": null
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 614,
+          "lfs": null
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11421995,
+          "lfs": {
+            "sha256": "145191e3b102f64e84dab1926006ee71528c1ea536df048ef9ff6c48d01f95de",
+            "size": 11421995,
+            "pointerSize": 133
+          }
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 4713,
+          "lfs": null
+        },
+        {
+          "path": "training_args.bin",
+          "size": 6097,
+          "lfs": {
+            "sha256": "78436af70ede68a0044c488f562127dba9c91d35cd72ee1dda31bc28ad95a2f7",
+            "size": 6097,
+            "pointerSize": 129
+          }
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "lfs": null
+        }
+      ]
+    },
+    {
+      "repo": "ToxicityPrompts/PolyGuard-Qwen",
+      "revision": "644bfe73ff498c9a14818b72a11187eaf23f0ff1",
+      "gated": false,
+      "files": [
+        {
+          "path": ".gitattributes",
+          "size": 1570,
+          "lfs": null
+        },
+        {
+          "path": "README.md",
+          "size": 4012,
+          "lfs": null
+        },
+        {
+          "path": "added_tokens.json",
+          "size": 605,
+          "lfs": null
+        },
+        {
+          "path": "config.json",
+          "size": 731,
+          "lfs": null
+        },
+        {
+          "path": "generation_config.json",
+          "size": 243,
+          "lfs": null
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671853,
+          "lfs": null
+        },
+        {
+          "path": "model-00001-of-00007.safetensors",
+          "size": 4976687216,
+          "lfs": {
+            "sha256": "e679ead3902209333b065dff70e037bb946f42487b09071e7f8f5b128f43d92f",
+            "size": 4976687216,
+            "pointerSize": 135
+          }
+        },
+        {
+          "path": "model-00002-of-00007.safetensors",
+          "size": 4778622352,
+          "lfs": {
+            "sha256": "cd779c3caaad1ad4545a0a893e1d2809c7e92f54477bcaaab4d5e5071f468bbe",
+            "size": 4778622352,
+            "pointerSize": 135
+          }
+        },
+        {
+          "path": "model-00003-of-00007.safetensors",
+          "size": 4932743960,
+          "lfs": {
+            "sha256": "771b65415528ea20c0ccc03427246f9d0d3941d625f5a2a877ee3649eb24c597",
+            "size": 4932743960,
+            "pointerSize": 135
+          }
+        },
+        {
+          "path": "model-00004-of-00007.safetensors",
+          "size": 4932743992,
+          "lfs": {
+            "sha256": "aab7652c05f720eb840ba7194a3685cece8c6f8b49638926207c333730e5d15f",
+            "size": 4932743992,
+            "pointerSize": 135
+          }
+        },
+        {
+          "path": "model-00005-of-00007.safetensors",
+          "size": 4998852296,
+          "lfs": {
+            "sha256": "1c4b3adb97b7376ee6b4f84db8726f2e9b96d34280b9e1699b3060b56d0e39d8",
+            "size": 4998852296,
+            "pointerSize": 135
+          }
+        },
+        {
+          "path": "model-00006-of-00007.safetensors",
+          "size": 3662865184,
+          "lfs": {
+            "sha256": "57a822b74db31562ef25dfe9419595b6c1e1fedae0358ed42b43902928651524",
+            "size": 3662865184,
+            "pointerSize": 135
+          }
+        },
+        {
+          "path": "model-00007-of-00007.safetensors",
+          "size": 2179989632,
+          "lfs": {
+            "sha256": "154114701324787157d446b6f495a7760000ee7f2816e708d75284ad6b745d12",
+            "size": 2179989632,
+            "pointerSize": 135
+          }
+        },
+        {
+          "path": "model.safetensors.index.json",
+          "size": 27752,
+          "lfs": null
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 613,
+          "lfs": null
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 11421896,
+          "lfs": {
+            "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+            "size": 11421896,
+            "pointerSize": 133
+          }
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 7306,
+          "lfs": null
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "lfs": null
+        }
+      ]
+    }
+  ],
+  "source_file_hashes": [
+    {
+      "source_group": "dora_alt_metadata.json",
+      "path": "dora_alt_metadata.json",
+      "sha256": "a588572e57c1ed2560dd7889aed426041056b57e466472224a1e100d27fe353a"
+    },
+    {
+      "source_group": "dora_metadata.json",
+      "path": "dora_metadata.json",
+      "sha256": "979230760d566f6f5964145277cade601750cd7d176f24d58dbb9d5ca69bea06"
+    },
+    {
+      "source_group": "Remilia-Kirisame-tree.json",
+      "path": "Remilia-Kirisame-tree.json",
+      "sha256": "d6fe4b966e87aaa840b6476d72558326337612a1d77caf610dad4e7b2461ce5f"
+    },
+    {
+      "source_group": "Benjamin-Pong-tree.json",
+      "path": "Benjamin-Pong-tree.json",
+      "sha256": "4f7438c20b8b714e190f13772c088a8892f8be876f2ef63f8b980dce61143ef2"
+    },
+    {
+      "source_group": "poly_metadata.json",
+      "path": "poly_metadata.json",
+      "sha256": "83c6be84afe97f1b98f0451e9a709c8165cc96bcf0423968e1e4b82f0f4ba86a"
+    },
+    {
+      "source_group": "poly_models.json",
+      "path": "poly_models.json",
+      "sha256": "f211f52a7dffefab93c0340739daab0ac93d4155469b2f4933d1f5e56ffb7575"
+    },
+    {
+      "source_group": "dora_config.json",
+      "path": "dora_config.json",
+      "sha256": "d7ea24b08850ae2e536936c4ac5cf4978c9418119448056634f83efde8ff5060"
+    },
+    {
+      "source_group": "benjamin_models.json",
+      "path": "benjamin_models.json",
+      "sha256": "14ea034900685fc3986391a76dd35072a3f2ff93c5aad39ff305ffade7aff5e8"
+    },
+    {
+      "source_group": "Benjamin-Pong",
+      "path": "Benjamin-Pong/qwen_dora_finetuning.py",
+      "sha256": "d3ea6e23bb83d84b3fb2a7f0ffb4e78d490bf18d871431e4bfb973be5011e9c3"
+    },
+    {
+      "source_group": "Benjamin-Pong",
+      "path": "Benjamin-Pong/qwen_eval.py",
+      "sha256": "5c4ad5ce27784eb60c111b88567ba5360560ce464ad0936c604fc5ace4bc1076"
+    },
+    {
+      "source_group": "Benjamin-Pong",
+      "path": "Benjamin-Pong/README.md",
+      "sha256": "ed787581b6d01f0e41c61a215563f67bff90fd3e2db7dd685e05912a25872106"
+    },
+    {
+      "source_group": "Remilia-Kirisame",
+      "path": "Remilia-Kirisame/mini-project-DoRA/README.md",
+      "sha256": "17f1e44247a35315a4700683eac45071f9bb6e3ab27763c23b5db1b3c8466afa"
+    },
+    {
+      "source_group": "Remilia-Kirisame",
+      "path": "Remilia-Kirisame/mini-project-DoRA/src/dora_mini/models.py",
+      "sha256": "d5c4c4267dbe63a5ce89cf97fa21510502175217fbd165cb50e5112e0aafc3fb"
+    }
+  ],
+  "weights_downloaded": false,
+  "model_runs": 0,
+  "gpu_hours": 0
+}

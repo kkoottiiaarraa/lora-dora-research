@@ -1,0 +1,863 @@
+{
+  "passed": true,
+  "complete": true,
+  "checks": 37140,
+  "failed": 0,
+  "hypotheses": 8,
+  "aligned_examples": 1319,
+  "accepted_transition_rows_verified": 4,
+  "input_hashes_unchanged": true,
+  "records": [
+    {
+      "check": "McNemar no discordance",
+      "passed": true
+    },
+    {
+      "check": "McNemar all six discordances one direction",
+      "passed": true
+    },
+    {
+      "check": "McNemar balanced",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 0:0",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 0:1",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 0:2",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 0:3",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 0:4",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 0:5",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 0:6",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 0:7",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 1:0",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 1:1",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 1:2",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 1:3",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 1:4",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 1:5",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 1:6",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 1:7",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 2:0",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 2:1",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 2:2",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 2:3",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 2:4",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 2:5",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 2:6",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 2:7",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 3:0",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 3:1",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 3:2",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 3:3",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 3:4",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 3:5",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 3:6",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 3:7",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 4:0",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 4:1",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 4:2",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 4:3",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 4:4",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 4:5",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 4:6",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 4:7",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 5:0",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 5:1",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 5:2",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 5:3",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 5:4",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 5:5",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 5:6",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 5:7",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 6:0",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 6:1",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 6:2",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 6:3",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 6:4",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 6:5",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 6:6",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 6:7",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 7:0",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 7:1",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 7:2",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 7:3",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 7:4",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 7:5",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 7:6",
+      "passed": true
+    },
+    {
+      "check": "McNemar symmetry 7:7",
+      "passed": true
+    },
+    {
+      "check": "Holm known ordered example",
+      "passed": true
+    },
+    {
+      "check": "Holm ties",
+      "passed": true
+    },
+    {
+      "check": "Exact indexed/multinomial bootstrap distribution (3, 0, 0)",
+      "passed": true
+    },
+    {
+      "check": "Exact indexed/multinomial bootstrap distribution (2, 1, 0)",
+      "passed": true
+    },
+    {
+      "check": "Exact indexed/multinomial bootstrap distribution (2, 0, 1)",
+      "passed": true
+    },
+    {
+      "check": "Exact indexed/multinomial bootstrap distribution (1, 2, 0)",
+      "passed": true
+    },
+    {
+      "check": "Exact indexed/multinomial bootstrap distribution (1, 1, 1)",
+      "passed": true
+    },
+    {
+      "check": "Exact indexed/multinomial bootstrap distribution (1, 0, 2)",
+      "passed": true
+    },
+    {
+      "check": "Exact indexed/multinomial bootstrap distribution (0, 3, 0)",
+      "passed": true
+    },
+    {
+      "check": "Exact indexed/multinomial bootstrap distribution (0, 2, 1)",
+      "passed": true
+    },
+    {
+      "check": "Exact indexed/multinomial bootstrap distribution (0, 1, 2)",
+      "passed": true
+    },
+    {
+      "check": "Exact indexed/multinomial bootstrap distribution (0, 0, 3)",
+      "passed": true
+    },
+    {
+      "check": "Constant z=-1 bootstrap",
+      "passed": true
+    },
+    {
+      "check": "Constant z=0 bootstrap",
+      "passed": true
+    },
+    {
+      "check": "Constant z=1 bootstrap",
+      "passed": true
+    },
+    {
+      "check": "Toy bootstrap mean",
+      "passed": true
+    },
+    {
+      "check": "Toy bootstrap variance",
+      "passed": true
+    },
+    {
+      "check": "Bootstrap deterministic repeated seed",
+      "passed": true
+    },
+    {
+      "check": "Frozen hash docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "Frozen hash docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen hash docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen hash docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "passed": true
+    },
+    {
+      "check": "Accepted transitions manifest entry unique",
+      "passed": true
+    },
+    {
+      "check": "Accepted transitions frozen hash",
+      "passed": true
+    },
+    {
+      "check": "Exact required run IDs present",
+      "passed": true,
+      "runs": [
+        "gsm8k-base_magnitude-all/dora",
+        "gsm8k-base_magnitude-k/dora",
+        "gsm8k-base_magnitude-q/dora",
+        "gsm8k-quality-greedy/lora",
+        "gsm8k-remove_d-all/dora",
+        "gsm8k-remove_d-k/dora",
+        "gsm8k-remove_d-q/dora"
+      ]
+    },
+    {
+      "check": "Complete indices ('gsm8k-quality-greedy/lora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-quality-greedy/lora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-base_magnitude-q/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-base_magnitude-q/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-base_magnitude-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-base_magnitude-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-base_magnitude-k/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-base_magnitude-k/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-remove_d-q/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-remove_d-q/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-remove_d-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-remove_d-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-remove_d-k/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "Complete indices ('gsm8k-remove_d-k/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-base_magnitude-all/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-base_magnitude-all/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-base_magnitude-all/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-base_magnitude-all/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-base_magnitude-k/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-base_magnitude-k/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-base_magnitude-k/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-base_magnitude-k/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-base_magnitude-q/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-base_magnitude-q/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-base_magnitude-q/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-base_magnitude-q/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-remove_d-all/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-remove_d-all/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-remove_d-all/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-remove_d-all/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-remove_d-k/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-remove_d-k/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-remove_d-k/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-remove_d-k/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-remove_d-q/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-remove_d-q/doraauthor_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric unique gsm8k-remove_d-q/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "Frozen metric mean gsm8k-remove_d-q/dorafinal_em",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em transition marginal sums",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em bootstrap counts",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em bootstrap finite/bounded",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em bootstrap mean consistency",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em accepted transition row unique",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em accepted wrong_to_wrong",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em accepted wrong_to_correct",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em accepted correct_to_wrong",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em accepted correct_to_correct",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em accepted n",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em accepted reference_mean",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em accepted intervention_mean",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAauthor_em accepted difference",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em transition marginal sums",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em bootstrap counts",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em bootstrap finite/bounded",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em bootstrap mean consistency",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em accepted transition row unique",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em accepted wrong_to_wrong",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em accepted wrong_to_correct",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em accepted correct_to_wrong",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em accepted correct_to_correct",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em accepted n",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em accepted reference_mean",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em accepted intervention_mean",
+      "passed": true
+    },
+    {
+      "check": "remove_D_all_minus_LoRAfinal_em accepted difference",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em transition marginal sums",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em bootstrap counts",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em bootstrap finite/bounded",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em bootstrap mean consistency",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em accepted transition row unique",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em accepted wrong_to_wrong",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em accepted wrong_to_correct",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em accepted correct_to_wrong",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em accepted correct_to_correct",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em accepted n",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em accepted reference_mean",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em accepted intervention_mean",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAauthor_em accepted difference",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em transition marginal sums",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em bootstrap counts",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em bootstrap finite/bounded",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em bootstrap mean consistency",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em accepted transition row unique",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em accepted wrong_to_wrong",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em accepted wrong_to_correct",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em accepted correct_to_wrong",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em accepted correct_to_correct",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em accepted n",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em accepted reference_mean",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em accepted intervention_mean",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_all_minus_LoRAfinal_em accepted difference",
+      "passed": true
+    },
+    {
+      "check": "remove_D_Q_minus_Kauthor_em transition marginal sums",
+      "passed": true
+    },
+    {
+      "check": "remove_D_Q_minus_Kauthor_em bootstrap counts",
+      "passed": true
+    },
+    {
+      "check": "remove_D_Q_minus_Kauthor_em bootstrap finite/bounded",
+      "passed": true
+    },
+    {
+      "check": "remove_D_Q_minus_Kauthor_em bootstrap mean consistency",
+      "passed": true
+    },
+    {
+      "check": "remove_D_Q_minus_Kfinal_em transition marginal sums",
+      "passed": true
+    },
+    {
+      "check": "remove_D_Q_minus_Kfinal_em bootstrap counts",
+      "passed": true
+    },
+    {
+      "check": "remove_D_Q_minus_Kfinal_em bootstrap finite/bounded",
+      "passed": true
+    },
+    {
+      "check": "remove_D_Q_minus_Kfinal_em bootstrap mean consistency",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_Q_minus_Kauthor_em transition marginal sums",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_Q_minus_Kauthor_em bootstrap counts",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_Q_minus_Kauthor_em bootstrap finite/bounded",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_Q_minus_Kauthor_em bootstrap mean consistency",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_Q_minus_Kfinal_em transition marginal sums",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_Q_minus_Kfinal_em bootstrap counts",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_Q_minus_Kfinal_em bootstrap finite/bounded",
+      "passed": true
+    },
+    {
+      "check": "base_magnitude_Q_minus_Kfinal_em bootstrap mean consistency",
+      "passed": true
+    },
+    {
+      "check": "Exactly eight hypotheses",
+      "passed": true
+    },
+    {
+      "check": "Holm bounds",
+      "passed": true
+    },
+    {
+      "check": "Input unchanged after run docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "Input unchanged after run docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "Input unchanged after run docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "Input unchanged after run docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "passed": true
+    },
+    {
+      "check": "Input unchanged after run docs/analysis/2026-10-11/results/paired-outcome-transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "Input unchanged after run docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "passed": true
+    },
+    {
+      "check": "Input unchanged after run docs/analysis/2026-10-11/results/analysis-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "Input unchanged after run docs/analysis-followup/2026-10-11/SPEC.md",
+      "passed": true
+    },
+    {
+      "check": "Binary unique",
+      "passed": true,
+      "case_checks": 18466
+    },
+    {
+      "check": "Aligned identifiers/hashes",
+      "passed": true,
+      "case_checks": 18466
+    }
+  ]
+}

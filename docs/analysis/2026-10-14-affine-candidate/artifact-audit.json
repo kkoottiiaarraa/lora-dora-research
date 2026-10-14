@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "conditions": 6,
+  "modules_per_condition": 144,
+  "cases": 128,
+  "tokens_per_condition": 4096,
+  "rows": 768,
+  "actual_factor_elements": {
+    "weighted_uniform": 5898240,
+    "kfac_uniform": 5898240,
+    "structural_kfac": 5898240,
+    "joint_kfac": 5898240,
+    "native_m_input": 5898240,
+    "native_m_kfac": 5898240
+  },
+  "actual_payload_bytes": {
+    "weighted_uniform": 23592960,
+    "kfac_uniform": 23592960,
+    "structural_kfac": 23592960,
+    "joint_kfac": 23592960,
+    "native_m_input": 23592960,
+    "native_m_kfac": 23592960
+  },
+  "finite_fp32_tensors": true,
+  "factor_hashes_match": true,
+  "source_hashes_match": true,
+  "cases_disjoint_from_previous_and_test": true,
+  "paired_native_teacher_identical": true,
+  "aggregates_recomputed": true,
+  "gpu_hours": 0
+}

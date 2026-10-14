@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "primary_reversal_confirmed": true,
+  "files": {
+    "FRESH_REPORT.md": "5a2dd2e9ae7d27458d63dd7672c63f5867c9533eea705e66bf82afe54faa8e35",
+    "MECHANISM.md": "d9ce0352878787c1e551880dc7361ff7937f7cb63490afd5f6b454607e068a6a",
+    "PRIOR.md": "de6490a59281109a5d60b1fada0819d80e23c6f3c34ec53fd3b684dd406f2366",
+    "SCREEN_REPORT.md": "2bc615c363ab0bba6badc720f076cbb0910300e28a04d2fa7dfb15d1ea948f09",
+    "SPEC.md": "47acea844038b284541710b6203064cff3957b3f22642eeef2caea7478357976",
+    "VALIDATION_SPEC.md": "2627bb501866d49ae4220e5f226e7c08b9f5157b31e93655b68ba802bbff8a29",
+    "fresh-case-audit.json": "6074bedea8e2e06c67d992159715667a712d75b8955a529b750916ec146543c0",
+    "fresh-contrasts.csv": "b95e9a68eecf8ca4b7524f9024b427a6e42e113f3a30c7a5d71ae739b81dfbbd",
+    "fresh-quality.csv": "a5425ac7b748da5c2fbcc675a21f69afb8c866020dd81c99f4aabb8e3fde76b6",
+    "fresh-validation.json": "a6045f43b3ce6947092cbd5e01320871cd9fcd9ec3decd0a5cb08fd4ea8e4387",
+    "gauge-contrasts.csv": "537ee4e8e0c22fd852f9fed0830909579087f719b4f8e076498bd0b0f7dbfad8",
+    "quality.csv": "ee8924717ba0f939d459b064b766254b04ceaea79fb5f6269cb8326e4138991a",
+    "validation.json": "4910740a22ea055a0b13bfec917915b409d14c9d2082a63ac4927468d1d1428d"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "passed_practical_gate": false,
+  "files": {
+    "METHOD.md": "1daf872b8bca71e5729bb855e3af60e953a8e6c969a0e2843f76493b1207fef5",
+    "REPORT.md": "2b4661d3cd5a44c05c146983c2ce20a3e34687722d373dd9c9d5360efa62360c",
+    "SPEC.md": "5a59182fd0e3ac883b618ff3ad6be63892e89b7441d4cda26ea26aadf7f629c4",
+    "bounds.csv": "05f14c41ce573974bc52c96846715e7263add652900fe4788d1df038ead63710",
+    "spectra.csv": "2dea656d0d0c6a164787c2b85d64599db4b56a87f3aab0758610ed30dec18167",
+    "validation.json": "dd8d7d1848e01e812ff5ede2decc71a0f85dc0d1fdbda9b0135988a11b058443"
+  }
+}

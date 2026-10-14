@@ -1,0 +1,226 @@
+{
+  "created_utc": "2026-10-11T06:14:32.335782+00:00",
+  "path_base": "repository root",
+  "scope": "all files in bundle directory, MEMORY.md, AGENTS.md and analysis-preparation Python extractors/verifier",
+  "excluded": [
+    "docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+    "docs/analysis-preparation/2026-10-11/validation/bundle.json"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "d901bd2e507200e9b09f003994a4eaf04a094da23305f84d4e07c6fd8aaedcfc",
+      "bytes": 2953
+    },
+    {
+      "path": "MEMORY.md",
+      "sha256": "b002858c97ffa058e6d6fb791f06f1314b133b40375c567064c15813452f8e9a",
+      "bytes": 4605
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/README.md",
+      "sha256": "eebec3b981c29f0605752c023d305ca6324fd19fcf43145b7ecd8aa2bd7f0818",
+      "bytes": 4397
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/manifests/export.json",
+      "sha256": "4004313c390664d6696c03acabf75b5186246dcd799be0292a75d8fc3bed0a9f",
+      "bytes": 35469
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/attempts.csv",
+      "sha256": "7eb14614eed4f2e397af37c852c9477ea503bc0cdb4a10471ebbc5714efc7706",
+      "bytes": 11215
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_contrasts.csv",
+      "sha256": "da03b9ea9b4e2e42b57dc196aa142cabad3a3c73e73790094d3e2f6466190071",
+      "bytes": 8617
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_metrics.csv",
+      "sha256": "8592a9b19d2a2371a45ccc811245c74e8a26961039132bb2d8fbccf47b7f49c6",
+      "bytes": 2887
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_pair_transitions.csv",
+      "sha256": "4df18de8c70003c123d398629c3020c73f2c14235ca515479277a39ba3104d25",
+      "bytes": 2255
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/comparability.csv",
+      "sha256": "4a8ddaacde52cfb7c1ea16cc9b24a2a69731ba6d34a38ce1431c74e5e72cbfec",
+      "bytes": 7784
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/coverage.csv",
+      "sha256": "34d00fc27c8fb0e136e268712f3f093d8f83daf71dc5598aa756d2c9e0c39705",
+      "bytes": 4256
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/gsm8k_scorer_agreement.csv",
+      "sha256": "159bad65dde440ba43c09473a25eb4d5d8b035c8ff2f8abfde38af36424cf887",
+      "bytes": 505
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/gsm8k_token_limits.csv",
+      "sha256": "583d1e7bca7e01b33e4bd8ad0a71a83cf27bf6e5d342731522012f06368473dd",
+      "bytes": 211
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/mmlu_subject_metrics.csv",
+      "sha256": "895d833e5bdfc3cde6e78365a430f328ef0b2c4954bc3eadafaba7fa0c6fcab9",
+      "bytes": 14851
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/run_inventory.csv",
+      "sha256": "a620c6a457088608ec3e6e8c0d491991d80521e1d9d81263775fbe13486b238d",
+      "bytes": 37452
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/squadv2_answerability.csv",
+      "sha256": "e11c2cdf6027810634935b3eb7bb4af735988f7172e8baea205c2aaef07d45dc",
+      "bytes": 2113
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/validation/integrity.json",
+      "sha256": "da8d994fade4de6579264c639b224d780463c02949ae9ba3c195a3cdfd854d55",
+      "bytes": 97506
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/README.md",
+      "sha256": "b6452ade0be2a817cc97a15bb823c73795b29b6d9a58a12f4c387ec77e05c6bc",
+      "bytes": 4725
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/manifests/export.json",
+      "sha256": "b94444e8dc24bbe433d52dd8b639e893652dcba01cbf863300354c94cb096f44",
+      "bytes": 23281
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "sha256": "44e1aff0454e2c3f3de281d80b40d7591a0ecdf4732403e3e094b85c7b88bc62",
+      "bytes": 22390
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "sha256": "4694cf96c55ff6dcf031214962753aa9f7709b39cf80a5cd32fdece6e5902b05",
+      "bytes": 3949
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_interactions.csv",
+      "sha256": "6b99ba51a77b3e5ea93be5da0595903bdb2460d8cbecb7e22f8dd4ddaf12ba6e",
+      "bytes": 6749
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/numerical_control_contrasts.csv",
+      "sha256": "ef2f1b5fb38871ba5d20de1ebba9e6d4549278d98858702db46a355cadcc4f16",
+      "bytes": 5777
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "sha256": "d5ee7c9cde49f644aeb259715d54a14e6981f7bd591d22871ede33e4faa2bdb5",
+      "bytes": 11925
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "sha256": "430c2265462aa02cd88c6b67bdfc0fba08380c42dd7f3204625fbd2bcf08c834",
+      "bytes": 3186237
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/validation/checks.json",
+      "sha256": "6202a0fe7b9d2c79a7df93595f86324ce3673efff4cb7db4a94bf5fe4fe2d344",
+      "bytes": 27953
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/README.md",
+      "sha256": "bb582364e23d64f5dc15d5d08c180210b5681d015380e6864389f06ac2c427aa",
+      "bytes": 3086
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/manifests/hashes.json",
+      "sha256": "ac1d9b7aec2ab1a9e640f368cb49ab671f07a3e2e7f5b68b1aa54614ea7973eb",
+      "bytes": 32225
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/manifests/schemas.json",
+      "sha256": "0a65ff8ee79f0bae276c436dedaf4b715076ac0b90c961975c5a6ae4bfe284b4",
+      "bytes": 3278
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/attempts.csv",
+      "sha256": "cf86761cb3d5a812488678360f70647eec2fe2b0c956b11ba3dc90467d35501e",
+      "bytes": 12582
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/availability.csv",
+      "sha256": "6fa34492499ed7ed890f1c5ba6c3bd666681cb625a2fd4fec3b1db0ba7aa8e3b",
+      "bytes": 46237
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/matched_impact_checks.csv",
+      "sha256": "71a87ce6de07e0babc26fa4d5a0917db4fbed27d5d834649cfa2f1156fb92b52",
+      "bytes": 81133
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/numerical_fidelity.csv",
+      "sha256": "820c31abe1bcc15dcdbc6059a7cc98bccd800fc95b2150ad584c399861a7973d",
+      "bytes": 13062
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/rank_job_summary.csv",
+      "sha256": "5436f9871c4f9d571ec0795c50d4cdcd8b8cbbc347680b30c5c2266f6c15d0b4",
+      "bytes": 14413
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/rank_modules.csv",
+      "sha256": "fa3fa06baab315b7542574a9962563279c32ad4320fe7454e1b05c3439d0626f",
+      "bytes": 718766
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/resources.csv",
+      "sha256": "945c2df70213ce0788271b54a261ff94067a3ee9bda7aced0114f24dc91e67b0",
+      "bytes": 16198
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/symmetry_statistics.csv",
+      "sha256": "77a1c032dcd15757bcddbabc6dc0d9fbd5c15f485daa34c4231308d3934ac609",
+      "bytes": 64217
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/validation/checks.json",
+      "sha256": "e3283330d5590bef58d81a909e8fda62a466ae03fea919360fdd094ce4513821",
+      "bytes": 302190
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/README.md",
+      "sha256": "2b28c6a9bae81ee24ab1198f6473adc49a6cfc30809761f3bf1b18790e64e0c4",
+      "bytes": 6375
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/SPEC.md",
+      "sha256": "ab9314e4847ea8a39854435697c2d0e416ab000697a8a2afe838231844173337",
+      "bytes": 17510
+    },
+    {
+      "path": "execution/analysis-preparation/build_corpus_quality.py",
+      "sha256": "99f45ae2471cd624039a0b29587078542d19533a51b0b3c370ca2b2b3f940631",
+      "bytes": 18029
+    },
+    {
+      "path": "execution/analysis-preparation/build_diagnostics.py",
+      "sha256": "d0a41e0ba5450b8cc23b15e0de96bb8c4781703179b6e7af5600e19e1e7fcb11",
+      "bytes": 16514
+    },
+    {
+      "path": "execution/analysis-preparation/build_interventions.py",
+      "sha256": "bda59b50085f0327b684c27914be4151c83b79a5492be854d06d0efc4bfcabf5",
+      "bytes": 13926
+    },
+    {
+      "path": "execution/analysis-preparation/verify_bundle.py",
+      "sha256": "2e9c7b9b5319b8ca119a28e8339531d71d867014434f1f1726ee2ea5dcd697b4",
+      "bytes": 7419
+    }
+  ]
+}

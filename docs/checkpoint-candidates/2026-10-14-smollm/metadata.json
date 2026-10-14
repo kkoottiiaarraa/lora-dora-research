@@ -1,0 +1,19 @@
+{
+  "status": "metadata_only",
+  "adapter_repo_id": "kon172verma/intent-classifier-experiments",
+  "adapter_revision": "225a5766f66d752de4090ea228611418c7847a7b",
+  "base_repo_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "base_revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+  "base_gated": false,
+  "adapter_gated": false,
+  "github_revisions": {
+    "kon172verma/intent-classifier": "d0196d9122f84597eec8b44254a48d6885e1b90f",
+    "kon172verma/intent-classifier-inference": "0983e1c2865533960153fc12acb1e35e895d14f9",
+    "MaeChd/SORA": "24f62bfe84741e5613ae2e9f387f2e1f9bb64ba8"
+  },
+  "source_training_seed_confirmed": false,
+  "author_base_revision_confirmed": false,
+  "checkpoints_loaded": false,
+  "new_weights_downloaded": false,
+  "gpu_hours": 0
+}

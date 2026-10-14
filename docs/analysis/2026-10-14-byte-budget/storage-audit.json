@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "archives": {
+    "structural_fp16_r15": {
+      "payload_bytes": 23371776,
+      "file_bytes": 23425760,
+      "tensor_count": 432,
+      "dtypes": {
+        "F32": 144,
+        "F16": 288
+      },
+      "sha256": "05ff837598731d6de181624ac7bc283709e916d3933bab6d65afc3210b87a4b7",
+      "total_file_bytes": 23425946,
+      "modules": 144,
+      "rank": 15
+    },
+    "structural_int8_r30": {
+      "payload_bytes": 23406336,
+      "file_bytes": 23496176,
+      "tensor_count": 720,
+      "dtypes": {
+        "F32": 432,
+        "I8": 288
+      },
+      "sha256": "2f0de4345eb2978345d6677dc5769a61daf956e473327d16569208ea67b33941",
+      "total_file_bytes": 23496391,
+      "modules": 144,
+      "rank": 30
+    }
+  },
+  "source_adapter": {
+    "payload_bytes": 95625216,
+    "file_bytes": 95684080,
+    "tensor_count": 432,
+    "dtypes": {
+      "F32": 432
+    },
+    "sha256": "d3f6e22524c7caf60c81dd3133aed0c3f2df4bd503e542ebe1fa152b2da46d3c"
+  },
+  "base_in_budget": false,
+  "model_loaded": false,
+  "gpu_hours": 0,
+  "runtime_storage_saving_claimed": false
+}

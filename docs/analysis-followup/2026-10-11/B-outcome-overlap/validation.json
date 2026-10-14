@@ -1,0 +1,1596 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-11T19:48:47.279114+00:00",
+  "passed": true,
+  "complete": true,
+  "counts": {
+    "run_summary": 16,
+    "pairwise_outcomes": 56,
+    "overlap": 42,
+    "case_patterns": 2638
+  },
+  "checks": [
+    {
+      "name": "immutable SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "immutable SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "immutable SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true
+    },
+    {
+      "name": "immutable SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "immutable SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_pair_transitions.csv",
+      "passed": true
+    },
+    {
+      "name": "accepted manifest entry paired-outcome-transitions.csv",
+      "passed": true
+    },
+    {
+      "name": "accepted SHA paired-outcome-transitions.csv",
+      "passed": true
+    },
+    {
+      "name": "accepted manifest entry compression-original-reference.csv",
+      "passed": true
+    },
+    {
+      "name": "accepted SHA compression-original-reference.csv",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-quality-greedy/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-quality-greedy/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-quality-greedy/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-quality-greedy/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-quality-greedy/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-quality-greedy/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-quality-greedy/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-quality-greedy/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-quality-greedy/lora author_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-quality-greedy/lora author_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-quality-greedy/lora author_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-quality-greedy/lora author_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-quality-greedy/lora final_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-quality-greedy/lora final_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-quality-greedy/lora final_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-quality-greedy/lora final_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-dense-dora/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-dense-dora/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-dense-dora/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-dense-dora/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-dense-dora/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-dense-dora/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-dense-dora/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-dense-dora/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-remove_d-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-remove_d-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-remove_d-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-remove_d-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-remove_d-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-remove_d-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-remove_d-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-remove_d-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-base_magnitude-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-base_magnitude-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-base_magnitude-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-base_magnitude-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-base_magnitude-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-base_magnitude-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-base_magnitude-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-base_magnitude-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-r32/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-r32/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-r32/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-r32/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-r32/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-r32/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-r32/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-r32/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-e95/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-e95/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-e95/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-e95/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-e95/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-e95/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-e95/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-e95/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-e99/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-e99/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-e99/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-e99/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "full ordered index set gsm8k-e99/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "valid SHA256 identifiers gsm8k-e99/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "unique source IDs gsm8k-e99/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "aligned IDs and hashes gsm8k-e99/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "exact selected 8x2 groups",
+      "passed": true
+    },
+    {
+      "name": "baseline marginal ('gsm8k-quality-greedy/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "baseline marginal ('gsm8k-quality-greedy/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "baseline marginal ('gsm8k-quality-greedy/lora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "baseline marginal ('gsm8k-quality-greedy/lora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "baseline pair ('gsm8k-quality-greedy/lora', 'gsm8k-quality-greedy/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "baseline pair ('gsm8k-quality-greedy/lora', 'gsm8k-quality-greedy/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-quality-greedy/dora', 'gsm8k-dense-dora/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-quality-greedy/dora', 'gsm8k-dense-dora/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-quality-greedy/dora', 'gsm8k-dense-dora/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-quality-greedy/dora', 'gsm8k-dense-dora/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-dense-dora/dora', 'gsm8k-r32/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-dense-dora/dora', 'gsm8k-r32/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-dense-dora/dora', 'gsm8k-r32/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-dense-dora/dora', 'gsm8k-r32/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-dense-dora/dora', 'gsm8k-e95/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-dense-dora/dora', 'gsm8k-e95/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-dense-dora/dora', 'gsm8k-e95/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-dense-dora/dora', 'gsm8k-e95/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-quality-greedy/dora', 'gsm8k-base_magnitude-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-quality-greedy/dora', 'gsm8k-base_magnitude-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-quality-greedy/dora', 'gsm8k-base_magnitude-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-quality-greedy/dora', 'gsm8k-base_magnitude-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-quality-greedy/dora', 'gsm8k-remove_d-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-quality-greedy/dora', 'gsm8k-remove_d-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-quality-greedy/dora', 'gsm8k-remove_d-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-quality-greedy/dora', 'gsm8k-remove_d-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-dense-dora/dora', 'gsm8k-e99/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-dense-dora/dora', 'gsm8k-e99/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "intervention marginal ('gsm8k-dense-dora/dora', 'gsm8k-e99/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "frozen transition actual reference ('gsm8k-dense-dora/dora', 'gsm8k-e99/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "accepted transition ('gsm8k-quality-greedy/dora', 'gsm8k-remove_d-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "accepted transition ('gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "accepted transition ('gsm8k-quality-greedy/dora', 'gsm8k-remove_d-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "accepted transition ('gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "accepted transition ('gsm8k-quality-greedy/dora', 'gsm8k-base_magnitude-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "accepted transition ('gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "accepted transition ('gsm8k-quality-greedy/dora', 'gsm8k-base_magnitude-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "accepted transition ('gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "compression original reference ('gsm8k-r32/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "compression original reference ('gsm8k-r32/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "compression original reference ('gsm8k-e95/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "compression original reference ('gsm8k-e95/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "compression original reference ('gsm8k-e99/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "name": "compression original reference ('gsm8k-e99/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "name": "expected cross-check coverage",
+      "passed": true,
+      "actual": [
+        2,
+        12,
+        8,
+        6
+      ]
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-quality-greedy/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-quality-greedy/lora author_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-dense-dora/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-remove_d-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-base_magnitude-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-r32/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-e95/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-e99/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/dora', 'gsm8k-quality-greedy/lora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/dora', 'gsm8k-dense-dora/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/dora', 'gsm8k-remove_d-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/dora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-dense-dora/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-remove_d-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-r32/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-r32/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('author_em', 'gsm8k-e95/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-dense-dora/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-dense-dora/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-dense-dora/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-dense-dora/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-r32/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-r32/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-r32/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e95/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e95/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e95/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-remove_d-all/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-remove_d-all/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-remove_d-all/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-remove_d-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-base_magnitude-all/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-base_magnitude-all/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-base_magnitude-all/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-r32/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-r32/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-r32/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-e95/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-e95/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-e95/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-dense-dora/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-base_magnitude-all/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-base_magnitude-all/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-base_magnitude-all/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-r32/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-r32/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-r32/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e95/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e95/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e95/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-r32/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-r32/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-r32/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e95/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e95/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e95/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-r32/dora', 'gsm8k-e95/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-r32/dora', 'gsm8k-e95/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-r32/dora', 'gsm8k-e95/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-r32/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-r32/dora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-r32/dora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-r32/dora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-r32/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-e95/dora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-e95/dora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('author_em', 'gsm8k-e95/dora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('author_em', 'gsm8k-e95/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-quality-greedy/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-quality-greedy/lora final_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-dense-dora/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-remove_d-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-base_magnitude-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-r32/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-e95/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "disjoint repairs breaks partition gsm8k-e99/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/dora', 'gsm8k-quality-greedy/lora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/dora', 'gsm8k-dense-dora/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/dora', 'gsm8k-remove_d-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/dora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-dense-dora/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-remove_d-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-r32/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-r32/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "pairwise total and marginals ('final_em', 'gsm8k-e95/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-dense-dora/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-dense-dora/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-dense-dora/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-dense-dora/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-remove_d-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-r32/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-r32/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-r32/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e95/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e95/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e95/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-quality-greedy/lora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-remove_d-all/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-remove_d-all/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-remove_d-all/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-remove_d-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-base_magnitude-all/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-base_magnitude-all/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-base_magnitude-all/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-r32/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-r32/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-r32/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-e95/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-e95/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-e95/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-dense-dora/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-base_magnitude-all/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-base_magnitude-all/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-base_magnitude-all/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-base_magnitude-all/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-r32/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-r32/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-r32/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e95/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e95/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e95/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-remove_d-all/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-r32/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-r32/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-r32/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-r32/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e95/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e95/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e95/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-base_magnitude-all/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-r32/dora', 'gsm8k-e95/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-r32/dora', 'gsm8k-e95/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-r32/dora', 'gsm8k-e95/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-r32/dora', 'gsm8k-e95/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-r32/dora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-r32/dora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-r32/dora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-r32/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-e95/dora', 'gsm8k-e99/dora', 'repairs')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-e95/dora', 'gsm8k-e99/dora', 'breaks')",
+      "passed": true
+    },
+    {
+      "name": "overlap set identities ('final_em', 'gsm8k-e95/dora', 'gsm8k-e99/dora', 'changed_correctness')",
+      "passed": true
+    },
+    {
+      "name": "changed overlap partitions ('final_em', 'gsm8k-e95/dora', 'gsm8k-e99/dora')",
+      "passed": true
+    },
+    {
+      "name": "exact output row counts",
+      "passed": true
+    },
+    {
+      "name": "empty union explicitly undefined",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-quality-greedy/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-quality-greedy/lora author_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-dense-dora/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-remove_d-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-base_magnitude-all/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-r32/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-e95/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-e99/dora author_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-quality-greedy/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-quality-greedy/lora final_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-dense-dora/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-remove_d-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-base_magnitude-all/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-r32/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-e95/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "case-pattern vector roundtrip gsm8k-e99/dora final_em",
+      "passed": true
+    },
+    {
+      "name": "compressed case-pattern roundtrip rows",
+      "passed": true
+    },
+    {
+      "name": "input unchanged after calculation docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "passed": true
+    },
+    {
+      "name": "input unchanged after calculation docs/analysis/2026-10-11/results/analysis-manifest.json",
+      "passed": true
+    },
+    {
+      "name": "input unchanged after calculation docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "input unchanged after calculation docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "input unchanged after calculation docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true
+    },
+    {
+      "name": "input unchanged after calculation docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_metrics.csv",
+      "passed": true
+    },
+    {
+      "name": "input unchanged after calculation docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_pair_transitions.csv",
+      "passed": true
+    },
+    {
+      "name": "input unchanged after calculation docs/analysis/2026-10-11/results/paired-outcome-transitions.csv",
+      "passed": true
+    },
+    {
+      "name": "input unchanged after calculation docs/analysis/2026-10-11/results/compression-original-reference.csv",
+      "passed": true
+    },
+    {
+      "name": "input unchanged after calculation docs/analysis-followup/2026-10-11/SPEC.md",
+      "passed": true
+    }
+  ],
+  "check_count": 388,
+  "failed_checks": 0,
+  "resources": {
+    "wall_seconds": 0.5204133570659906,
+    "peak_rss_mib": 65.203125,
+    "numerical_thread_limits": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "MKL_NUM_THREADS": "2",
+      "NUMEXPR_NUM_THREADS": "2",
+      "VECLIB_MAXIMUM_THREADS": "2"
+    },
+    "cuda_visible_devices": "",
+    "gpu_used": false
+  },
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.39"
+  },
+  "seeds": null,
+  "deterministic": true,
+  "uncertainty_scope": "descriptive fixed-checkpoint saved-example outcomes only",
+  "development_note": "Initial pre-output run stopped on an incorrect expected accepted-pair count of 24; corrected to 8 eligible radial original/LoRA comparisons. Source data and computed counts were unchanged."
+}

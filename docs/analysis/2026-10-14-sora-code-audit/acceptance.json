@@ -1,0 +1,39 @@
+{
+  "controls_pass": true,
+  "arithmetic_source_hash_verified": true,
+  "author_fork_dispatcher_hash_verified": true,
+  "author_fork_python_files_verified": 124,
+  "correct_loader_all_tensors_exact": true,
+  "plain_loader_missing_tensors_detected": true,
+  "scope": "tiny CPU audit, no scientific quality replication",
+  "files": [
+    {
+      "path": "docs/analysis/2026-10-14-sora-code-audit/REPORT.md",
+      "sha256": "a6787ae8b532dde80d5098c603fec11e8b62d85eec73a7185a8c7f65af3a831e"
+    },
+    {
+      "path": "docs/analysis/2026-10-14-sora-code-audit/SPEC.md",
+      "sha256": "4b1d1082e5d8450e693035f48b077429cdc65aadfaf8f1dae1e47017a7b1ae69"
+    },
+    {
+      "path": "docs/analysis/2026-10-14-sora-code-audit/LOADER_SPEC.md",
+      "sha256": "d5f0b9484f8093c46d69341a8cf3422ed4f7aff6490cc58cd66019b690c3fa57"
+    },
+    {
+      "path": "docs/checkpoint-candidates/2026-10-14-additional-sources/REPORT.md",
+      "sha256": "384aeb75873769b4b26e34d058a5052bd2700b3662144cca4a79f62beb4c99ad"
+    },
+    {
+      "path": "docs/research-direction/2026-10-14-status/CLAIM_SCOPE.md",
+      "sha256": "185b343af8dfcace3de49190be95c062dd062727e5a890883ef612fae4f4720f"
+    },
+    {
+      "path": "docs/research-direction/2026-10-14-status/NEXT_QUESTION.md",
+      "sha256": "4afcbe1c804045eeae9afb1b448ca3a63f1ce43a43cb5ff4925fb5fa1df98f79"
+    },
+    {
+      "path": "docs/literature/2026-10-14-fisher-objective-audit.md",
+      "sha256": "ecaa585328866614c9bd89b1f2c09c879e807838041e336ea4b33b8d257b1cfc"
+    }
+  ]
+}

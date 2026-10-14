@@ -105,6 +105,10 @@
     "revision": "b667348c51e24d21f67c329c5f514f80e2c124d4"
   },
   "limits": {
+    "max_gpus": 3,
+    "default_gpus": 1,
+    "max_used_mib_before_start": 1024,
+    "max_gpu_utilization_before_start": 10,
     "batch_size": 1,
     "max_input_tokens": 256,
     "max_new_tokens": 64

@@ -2,6 +2,7 @@
 
 User asks whether existing results justify further analysis/paper, which prior
 claims they support or limit, and how their novelty compares with real papers
+at different venues. This is a read-only research/literature stage, not new GPU
 experiments, training, publication, or changes to accepted artifacts.
 
 Root owns synthesis in POSITIONING.md and HANDOFF. Two delegated source tasks
@@ -24,6 +25,7 @@ Examples to verify, not assume status: LoRA vs Full Fine-Tuning intruder
 dimensions; LoRA Learns Less and Forgets Less; LoRA-Squeeze; Shortcuts in the
 Tail; DeLoRA; EVA. Do not imply small idea means weak evidence or low standards.
 Return concise sourced findings; record status uncertainty instead of filling
+slots with unverified papers. No outreach, downloads of weights or GPU work.
 
 ## Prior claims task
 

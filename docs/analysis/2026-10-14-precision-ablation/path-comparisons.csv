@@ -1,0 +1,8 @@
+comparison,delta,gate_eligible,passes
+cpu_float32_matched_path,6.50407272361278e-07,True,False
+cuda_float32_matched_path,2.010648779762758e-08,True,False
+cuda_bfloat16_matched_path,0.0009623024142385705,True,False
+native_remove_d_cuda_precision,0.0012730187739490029,True,True
+native_remove_d_fp32_backend,1.468511981132098e-07,False,False
+dense_remove_d_cuda_precision,0.0022353010816997757,True,True
+dense_remove_d_fp32_backend,-4.834495864504407e-07,False,False

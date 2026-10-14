@@ -1,0 +1,8 @@
+c,radial_norm,update_norm,radial_over_update,measurement
+0.5,456.41941603558257,456.74342182230174,0.9992906175081264,algebraic FP32-weight-summary reconstruction; not a new model-output measurement
+0.99,5.338948951586479,14.419252564917635,0.37026530519177264,algebraic FP32-weight-summary reconstruction; not a new model-output measurement
+0.995,3.280024244357931,13.771056711060892,0.23818246581784971,algebraic FP32-weight-summary reconstruction; not a new model-output measurement
+1.0,2.4351457765931777,13.575457056985789,0.1793785480938984,algebraic FP32-weight-summary reconstruction; not a new model-output measurement
+1.005,3.704518525733584,13.840982363902551,0.2676485258297137,algebraic FP32-weight-summary reconstruction; not a new model-output measurement
+1.01,5.818316244369277,14.532544783964479,0.40036458382631873,algebraic FP32-weight-summary reconstruction; not a new model-output measurement
+2.0,327.8528523185766,328.0674495613247,0.9993458746271993,algebraic FP32-weight-summary reconstruction; not a new model-output measurement

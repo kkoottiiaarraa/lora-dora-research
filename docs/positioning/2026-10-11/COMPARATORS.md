@@ -73,3 +73,4 @@ A compact empirical or critical idea can support publication when independent va
 
 The unresolved contribution is whether **DoRA’s radial factor is active yet selectively dispensable at inference across independently trained/adapted checkpoints**, while retaining the claimed task/retention trade-off. Current data establish one active GSM8K endpoint with close mean accuracy, not “selectively” or independent replication. Removing D changes answers, so preserved mean accuracy is not unchanged function. Comparable-strength alternative perturbations matter particularly given Intruder’s neighboring-direction and EVA’s direction/scale controls. A training-mechanism claim needs training evidence; an endpoint paper can remain narrower but must state the boundary.
 
+No training, downloads of models, quality evaluation, GPU measurements, or edits to accepted artifacts were performed for this audit.

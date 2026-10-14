@@ -1,0 +1,8 @@
+condition,gains,losses,net_correct_loss,correctness_discordant,prediction_changes,primary_gate_eligible,passed_gate
+dora,0,0,0,0,0,False,False
+remove_d,0,0,0,0,1,True,False
+base_magnitude,0,0,0,0,1,True,False
+learned_only,0,1,1,1,1,False,False
+scalar_d,0,0,0,0,1,False,False
+centered_d,0,0,0,0,0,False,False
+lora,1,1,0,2,4,False,False

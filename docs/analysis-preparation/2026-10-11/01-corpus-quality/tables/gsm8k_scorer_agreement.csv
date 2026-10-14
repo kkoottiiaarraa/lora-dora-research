@@ -1,0 +1,13 @@
+run_id,role,author_em,final_em,n
+gsm8k-quality-greedy/base,base,0,0,467
+gsm8k-quality-greedy/base,base,0,1,836
+gsm8k-quality-greedy/base,base,1,0,10
+gsm8k-quality-greedy/base,base,1,1,6
+gsm8k-quality-greedy/dora,dora,0,0,293
+gsm8k-quality-greedy/dora,dora,0,1,3
+gsm8k-quality-greedy/dora,dora,1,0,0
+gsm8k-quality-greedy/dora,dora,1,1,1023
+gsm8k-quality-greedy/lora,lora,0,0,307
+gsm8k-quality-greedy/lora,lora,0,1,3
+gsm8k-quality-greedy/lora,lora,1,0,0
+gsm8k-quality-greedy/lora,lora,1,1,1009

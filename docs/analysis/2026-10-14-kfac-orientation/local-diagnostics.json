@@ -1,0 +1,146 @@
+[
+  {
+    "module": "35.self_attn.o_proj",
+    "shape": [
+      2560,
+      4096
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.2552846236023323,
+    "upstream_loss": 7.352587437625948e-07,
+    "correct_loss": 3.214094329767151e-07,
+    "upstream_to_optimum_ratio": 2.2876078556657093
+  },
+  {
+    "module": "35.self_attn.v_proj",
+    "shape": [
+      1024,
+      2560
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.1642120098687514,
+    "upstream_loss": 2.5831204617577257e-07,
+    "correct_loss": 1.7642416581665322e-07,
+    "upstream_to_optimum_ratio": 1.4641534224071115
+  },
+  {
+    "module": "35.self_attn.k_proj",
+    "shape": [
+      1024,
+      2560
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.3181952237522918,
+    "upstream_loss": 6.616037759094287e-07,
+    "correct_loss": 2.907808444858017e-07,
+    "upstream_to_optimum_ratio": 2.275266024071725
+  },
+  {
+    "module": "35.self_attn.q_proj",
+    "shape": [
+      4096,
+      2560
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.3621458925138907,
+    "upstream_loss": 1.6946063709218802e-06,
+    "correct_loss": 6.578244446685249e-07,
+    "upstream_to_optimum_ratio": 2.5760769224314637
+  },
+  {
+    "module": "17.self_attn.o_proj",
+    "shape": [
+      2560,
+      4096
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.2843733268470345,
+    "upstream_loss": 1.722574752922347e-06,
+    "correct_loss": 1.4160511348929829e-06,
+    "upstream_to_optimum_ratio": 1.2164636646772855
+  },
+  {
+    "module": "17.self_attn.v_proj",
+    "shape": [
+      1024,
+      2560
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.2355434449432132,
+    "upstream_loss": 3.962364810203925e-07,
+    "correct_loss": 3.064485793791326e-07,
+    "upstream_to_optimum_ratio": 1.2929950004113933
+  },
+  {
+    "module": "17.self_attn.k_proj",
+    "shape": [
+      1024,
+      2560
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.2374243590775629,
+    "upstream_loss": 5.936886893401857e-07,
+    "correct_loss": 3.7940015914817467e-07,
+    "upstream_to_optimum_ratio": 1.5648087514594864
+  },
+  {
+    "module": "17.self_attn.q_proj",
+    "shape": [
+      4096,
+      2560
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.335132744160786,
+    "upstream_loss": 3.894606134705829e-06,
+    "correct_loss": 2.6792204942309767e-06,
+    "upstream_to_optimum_ratio": 1.453634048818258
+  },
+  {
+    "module": "0.self_attn.o_proj",
+    "shape": [
+      2560,
+      4096
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.3170795230992298,
+    "upstream_loss": 4.322589897495716e-08,
+    "correct_loss": 2.7835386065274514e-08,
+    "upstream_to_optimum_ratio": 1.552911781916428
+  },
+  {
+    "module": "0.self_attn.v_proj",
+    "shape": [
+      1024,
+      2560
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.2873258036625281,
+    "upstream_loss": 4.25145525426827e-08,
+    "correct_loss": 2.7069950798501027e-08,
+    "upstream_to_optimum_ratio": 1.5705441380054854
+  },
+  {
+    "module": "0.self_attn.k_proj",
+    "shape": [
+      1024,
+      2560
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.2882708345297793,
+    "upstream_loss": 8.446145227400406e-09,
+    "correct_loss": 4.438321704342552e-09,
+    "upstream_to_optimum_ratio": 1.9030042863131147
+  },
+  {
+    "module": "0.self_attn.q_proj",
+    "shape": [
+      4096,
+      2560
+    ],
+    "gradient_tokens": 256,
+    "metric_covariance_relative_gap": 1.3951222442079683,
+    "upstream_loss": 2.2299839189145462e-07,
+    "correct_loss": 2.2083690616681786e-08,
+    "upstream_to_optimum_ratio": 10.097877015312106
+  }
+]

@@ -4,6 +4,7 @@
 complete=true,659 отдельных checks,0ошибок; mirror33checks/PASS;
 основной агент принял научный синтез.
 Это научная сводка
+анализа, не текст статьи и не её outline. Новые GPU-эксперименты ожидаются
 после отдельного выбора по итогам анализа; сейчас не запускались.
 
 ## Что добавлено к прежним результатам
@@ -151,12 +152,18 @@ denseBF16контроль. Это исключает объяснение бук
 ## Приёмка, артефакты и продолжение
 
 Код: execution/existing-data-followup/. Пакеты содержат собственные METHOD,
+validation, input/code/output hashes и измерения CPU/RSS/threads. Независимая
 приёмка — [acceptance/REVIEW.md](acceptance/REVIEW.md) и
 [acceptance/validation.json](acceptance/validation.json), текущий статус выше.
+Все расчёты на CPU gpu-host, максимум2потока на пакет; GPUh текущего этапа0.
+Bootstrap draws C хранятся только на сервере в
+/path/to/user-user/lora-dora-profiling/analysis-followup/2026-10-11/C-robustness/,
+путь/SHA/column order заданы в manifest; на VM только compact outputs.
 Frozen artifacts, evaluator, predictions, AGENTS.md/MEMORY.md не изменены.
 Новых Git commit/push на этом этапе нет.
 
 После общей приёмки текущий этап анализа завершается. Следующее отдельное
+решение — выбрать гипотезы и следующий набор GPU-экспериментов по реальным
 незакрытым вопросам: независимость наблюдения, специфичность вмешательства
 и его поведенческая цена. Здесь не выбран новый набор моделей/условий и
 не запущены очереди. Статья остаётся конечной целью; писать её сейчас не нужно.

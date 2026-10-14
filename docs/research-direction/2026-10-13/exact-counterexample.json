@@ -1,0 +1,43 @@
+{
+  "dimension": 8,
+  "method": "rational diagonal witness; identity bases; bias-free V/O composition",
+  "rows": [
+    {
+      "c": "1/2",
+      "base_fixed": true,
+      "directional_rank_v": 1,
+      "directional_rank_o": 1,
+      "delta_rank_v": 7,
+      "delta_rank_o": 8,
+      "delta_entropy_v": 1.9459101490553132,
+      "delta_entropy_o": 1.8937882323911377,
+      "original_function_exactly_equal": true,
+      "remove_d_function_exactly_equal": true
+    },
+    {
+      "c": "1",
+      "base_fixed": true,
+      "directional_rank_v": 1,
+      "directional_rank_o": 1,
+      "delta_rank_v": 1,
+      "delta_rank_o": 1,
+      "delta_entropy_v": -0.0,
+      "delta_entropy_o": -0.0,
+      "original_function_exactly_equal": true,
+      "remove_d_function_exactly_equal": true
+    },
+    {
+      "c": "2",
+      "base_fixed": true,
+      "directional_rank_v": 1,
+      "directional_rank_o": 1,
+      "delta_rank_v": 8,
+      "delta_rank_o": 8,
+      "delta_entropy_v": 1.5366498974881577,
+      "delta_entropy_o": 2.028804722698304,
+      "original_function_exactly_equal": true,
+      "remove_d_function_exactly_equal": true
+    }
+  ],
+  "limitations": "Real-arithmetic counterexample; not a claim about deployed BF16 equality, training dynamics, or all DoRA capacity."
+}

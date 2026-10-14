@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "source_sha256": "8b546f3299ee613582924ad5b1aec3bd5e601cf24552fc088eda2f347c8b0fbb",
+  "script_sha256": "46e44edcc7ea4f626192b4fcbe37ad4adf31be22cf789398a9d148f91ea2b06a",
+  "source_revision": "24f62bfe84741e5613ae2e9f387f2e1f9bb64ba8",
+  "execution": "unmodified selected author AST methods; minimal field harness",
+  "dtype": "float64",
+  "device": "cpu",
+  "torch_version": "2.5.1+cu121",
+  "peft_helper_version": "0.17.1",
+  "threads": 2,
+  "module_cases": [
+    {
+      "case": "initialization",
+      "native_dense_relative_error": 0.0,
+      "author_export_relative_error": 1.0,
+      "author_export_weight_norm": 0.0,
+      "merge_equals_author_export": true,
+      "author_roundtrip_relative_error": 1.0,
+      "corrected_export_relative_error": 0.0,
+      "explicit_restore_bitwise": true
+    },
+    {
+      "case": "nontrivial",
+      "native_dense_relative_error": 1.1706199936299882e-16,
+      "author_export_relative_error": 0.9984278166092677,
+      "author_export_weight_norm": 0.22789705973512056,
+      "merge_equals_author_export": true,
+      "author_roundtrip_relative_error": 1.0194022310984023,
+      "corrected_export_relative_error": 1.1706199936299885e-16,
+      "explicit_restore_bitwise": true
+    }
+  ],
+  "scale_cases": [
+    {
+      "t": 0.01,
+      "code_scale": 1.0,
+      "paper_scale_epsilon_001": 0.9803921568627451,
+      "code_skew_spectral_norm": 0.0001,
+      "code_orthogonality_defect": 9.99999993922529e-09,
+      "code_max_stretch": 1.000000005,
+      "defect_identity_max_abs": 6.07747099184471e-17,
+      "paper_max_stretch": 1.000000004805844
+    },
+    {
+      "t": 0.1,
+      "code_scale": 1.0,
+      "paper_scale_epsilon_001": 0.33333333333333326,
+      "code_skew_spectral_norm": 0.010000000000000002,
+      "code_orthogonality_defect": 9.999999999998899e-05,
+      "code_max_stretch": 1.0000499987500624,
+      "defect_identity_max_abs": 1.1058862159352145e-17,
+      "paper_max_stretch": 1.0000055555401235
+    },
+    {
+      "t": 1.0,
+      "code_scale": 0.499999750000125,
+      "paper_scale_epsilon_001": 0.0049751243781094535,
+      "code_skew_spectral_norm": 0.499999750000125,
+      "code_orthogonality_defect": 0.2499997500001876,
+      "code_max_stretch": 1.1180338769465743,
+      "defect_identity_max_abs": 1.1102230246251565e-16,
+      "paper_max_stretch": 1.000012375854708
+    },
+    {
+      "t": 10.0,
+      "code_scale": 0.04999999750000012,
+      "paper_scale_epsilon_001": 4.9997500124993755e-05,
+      "code_skew_spectral_norm": 4.999999750000012,
+      "code_orthogonality_defect": 24.999997500000184,
+      "code_max_stretch": 5.099019268447629,
+      "defect_identity_max_abs": 0.0,
+      "paper_max_stretch": 1.0000124986719854
+    }
+  ],
+  "arithmetic_controls_pass": true,
+  "gpu_hours": 0,
+  "wall_seconds": 3.3683050660183653,
+  "limitations": [
+    "No author checkpoints or benchmark outputs tested",
+    "No full author PEFT fork compatibility claim",
+    "Synthetic parameters do not establish trained orthogonality defect",
+    "Bias, dropout, fan_in_fan_out and multi-adapter cases excluded"
+  ]
+}

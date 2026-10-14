@@ -1,0 +1,73 @@
+{
+  "scope": "Reused 1319 GSM8K generations; no new quality evaluation",
+  "metrics": [
+    {
+      "job_id": "gsm8k-base_magnitude-all",
+      "metric": "final_em",
+      "actual_reference": "gsm8k-quality-greedy/dora",
+      "targets": "q_proj;k_proj;v_proj;o_proj",
+      "left_mean": "0.7778620166793025",
+      "right_mean": "0.7869598180439727",
+      "difference": "0.0090978013646702",
+      "difference_direction": "right-minus-left",
+      "existing_ci95_low": "-0.003032600454890068",
+      "existing_ci95_high": "0.02122820318423048",
+      "existing_raw_p": "0.1775822417758224",
+      "existing_holm_p": "1.0",
+      "family": "intervention-family-holm.json",
+      "family_size": "8",
+      "family_metric_hypotheses": "16",
+      "n": "1319",
+      "resamples": "10000",
+      "seed": "42",
+      "ci_adjustment": "none",
+      "scope": "paired evaluation examples, not independent training repetitions"
+    },
+    {
+      "job_id": "gsm8k-remove_d-all",
+      "metric": "final_em",
+      "actual_reference": "gsm8k-quality-greedy/dora",
+      "targets": "q_proj;k_proj;v_proj;o_proj",
+      "left_mean": "0.7778620166793025",
+      "right_mean": "0.7869598180439727",
+      "difference": "0.0090978013646702",
+      "difference_direction": "right-minus-left",
+      "existing_ci95_low": "-0.002274450341167551",
+      "existing_ci95_high": "0.02122820318423048",
+      "existing_raw_p": "0.16948305169483052",
+      "existing_holm_p": "1.0",
+      "family": "intervention-family-holm.json",
+      "family_size": "8",
+      "family_metric_hypotheses": "16",
+      "n": "1319",
+      "resamples": "10000",
+      "seed": "42",
+      "ci_adjustment": "none",
+      "scope": "paired evaluation examples, not independent training repetitions"
+    }
+  ],
+  "transitions": [
+    {
+      "job_id": "gsm8k-base_magnitude-all",
+      "metric": "final_em",
+      "n": "1319",
+      "correct_to_correct": "999",
+      "correct_to_wrong": "27",
+      "wrong_to_correct": "39",
+      "wrong_to_wrong": "254",
+      "generated_text_changes": "539",
+      "difference": "0.0090978013646702"
+    },
+    {
+      "job_id": "gsm8k-remove_d-all",
+      "metric": "final_em",
+      "n": "1319",
+      "correct_to_correct": "1000",
+      "correct_to_wrong": "26",
+      "wrong_to_correct": "38",
+      "wrong_to_wrong": "255",
+      "generated_text_changes": "542",
+      "difference": "0.0090978013646702"
+    }
+  ]
+}

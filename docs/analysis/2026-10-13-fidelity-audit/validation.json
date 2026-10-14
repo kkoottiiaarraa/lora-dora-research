@@ -1,0 +1,85 @@
+{
+  "status": "validated",
+  "case_count": 64,
+  "target_positions": 2048,
+  "entropy_definition": "p_i=sigma_i^2/sum_j(sigma_j^2); H=-sum_i p_i log(p_i)",
+  "effective_rank_definition": "exp(H); not algebraic rank or adapter rank",
+  "geometry_scope": "six preselected matrices, FP32 reconstruction, no BF16 spectra",
+  "fp64_block_max_relative_error": 9.359345642393128e-16,
+  "fp64_block_scope": "one deterministic input per selected V/O pair, not full attention evaluation",
+  "mean_ablation_path_interaction_rms": 0.10682787870436983,
+  "interaction_over_fp32_remove_d_rms": 1.7590642307936777,
+  "pooled_ablation_path_cosine": 0.4835445056290559,
+  "pooled_rms": {
+    "cpu_remove_d": 0.06201790361710366,
+    "gpu_remove_d": 0.12390607207061632,
+    "interaction": 0.10847783765217141
+  },
+  "exploratory_nll_intervals": {
+    "gpu": {
+      "mean": -3.559103691126134e-05,
+      "percentile95": [
+        -0.0015821332029428378,
+        0.0014829177741477206
+      ]
+    },
+    "cpu": {
+      "mean": 0.001356627612074259,
+      "percentile95": [
+        0.0006396181255340029,
+        0.002101523444568901
+      ]
+    }
+  },
+  "interval_method": "6000 percentile bootstrap resamples of 64 whole train cases; seed 20261013; no heldout accuracy claim or multiplicity claim",
+  "path_comparison_caveat": "dtype AND backend differ; no precision-only causality",
+  "metadata": {
+    "artifacts": {
+      "base": {
+        "repo_id": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+      },
+      "dora": {
+        "repo_id": "shadow-llm/Qwen3-4B-GSM8k-DoRA",
+        "revision": "07f6a59c2ab6b36b1cecb5feb66187638202521d"
+      }
+    },
+    "versions": {
+      "torch": "2.5.1+cu121",
+      "transformers": "4.57.1",
+      "peft": "0.17.1",
+      "safetensors": "0.6.2",
+      "accelerate": "1.11.0"
+    },
+    "runner_sha256": "70f60d06180a154dbc2ec9d7412d311d2fca6d52cb8de62f9a916654befc3c1a",
+    "helper_sha256": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+    "cases_sha256": "b1f226d1f9167f1d1ab1c4e87d90725ddb5d38d3f51621605a7904def1b26cb3"
+  },
+  "resources": {
+    "gpu": {
+      "wall_seconds": 134.1772236149991,
+      "max_process_rss_bytes": 5379497984,
+      "peak_allocated_bytes": 10303940096,
+      "peak_reserved_bytes": 10414456832
+    },
+    "cpu": {
+      "wall_seconds": 2357.7588871599874,
+      "max_process_rss_bytes": 21206339584
+    }
+  },
+  "checks": [
+    "gpu: completeness, finite metrics, independent aggregates, exact merge weights, adapter match, margin bound: PASS",
+    "cpu: completeness, finite metrics, independent aggregates, exact merge weights, adapter match, margin bound: PASS"
+  ],
+  "input_sha256": {
+    "analysis_script": "e412892d521ec4f8e9840ea7674f44d85569d41f7ed9b001d04b315fd77c593c",
+    "cases.json": "b1f226d1f9167f1d1ab1c4e87d90725ddb5d38d3f51621605a7904def1b26cb3",
+    "qwen-gpu/summary.json": "b9cb5486383157b237865366578e86f565aa94d063963e59321bc4429fc8e0da",
+    "qwen-gpu/metrics.csv": "5ff24a979011e95bc95bb19274c5708031b217056f8ec8e0923fc1cbfadfbaa5",
+    "qwen-gpu/per-case.jsonl": "b7fc30437335e65326726f09a642bff7a8f314c78501446d80619c22f32f4f89",
+    "qwen-cpu/summary.json": "c03c6d7a0e63b35603b2d13b404c2ae52ed60ef1d72dd8c82bf3a2cee1ad53e0",
+    "qwen-cpu/metrics.csv": "659dbfff6ea0f113983ff4ceea7cacec443934aaef5ee71f955ce17537582701",
+    "qwen-cpu/per-case.jsonl": "db41e943648118401a05e7b2b914a83693d05666cdb2d812a45bf9fc06b66880",
+    "qwen-cpu/geometry.csv": "4ef14ee8fffc91ca0461f3cd9bfd2886e6bd49bf22b6ee4301a444bf0668c442"
+  }
+}

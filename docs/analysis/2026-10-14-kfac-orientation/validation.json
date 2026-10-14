@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "gpu_count": 0,
+  "training": false,
+  "wall_seconds": 280.3020675519947,
+  "rss_bytes": 20380651520,
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "mean_objective_ratio": 2.4379452426241306,
+  "maximum_objective_ratio": 10.097877015312106,
+  "full_task_accuracy": false,
+  "source_sha256": {
+    "execution/next-experiments/kfac_orientation_probe.py": "2cfa0e9fa8c68c4d3af749247385ad03139e4c3dae46a4b05e221dfb82c0c626",
+    "docs/analysis/2026-10-14-kfac-orientation/SPEC.md": "a2c5b1ba731de19467fcb5171efb0967ead2bf9ab41cf018e3d5e7d651b2bdc3",
+    "lora_dora_study/full_compression.py": "843f0b8da4c20b0f4fa7efd1319fc185af481ff25fdcf02beda2a0dcc9052517",
+    "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118"
+  },
+  "calibration_cases_sha256": "b1f226d1f9167f1d1ab1c4e87d90725ddb5d38d3f51621605a7904def1b26cb3"
+}

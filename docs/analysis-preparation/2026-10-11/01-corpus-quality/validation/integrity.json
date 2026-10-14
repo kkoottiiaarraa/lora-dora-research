@@ -1,0 +1,4062 @@
+{
+  "checks": [
+    {
+      "expected": 14042,
+      "n": 14042,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "shadow_4b_mmlu/base",
+      "sha256_match": true,
+      "unique_indices": 14042
+    },
+    {
+      "metric": "accuracy",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "shadow_4b_mmlu/base"
+    },
+    {
+      "expected": 14042,
+      "n": 14042,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "shadow_4b_mmlu/dora",
+      "sha256_match": true,
+      "unique_indices": 14042
+    },
+    {
+      "metric": "accuracy",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "shadow_4b_mmlu/dora"
+    },
+    {
+      "expected": 14042,
+      "n": 14042,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "shadow_4b_mmlu/lora",
+      "sha256_match": true,
+      "unique_indices": 14042
+    },
+    {
+      "metric": "accuracy",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "shadow_4b_mmlu/lora"
+    },
+    {
+      "expected": 11873,
+      "n": 11873,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/base",
+      "sha256_match": true,
+      "unique_indices": 11873
+    },
+    {
+      "metric": "exact",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/base"
+    },
+    {
+      "metric": "f1",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/base"
+    },
+    {
+      "expected": 11873,
+      "n": 11873,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/dora",
+      "sha256_match": true,
+      "unique_indices": 11873
+    },
+    {
+      "metric": "exact",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/dora"
+    },
+    {
+      "metric": "f1",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/dora"
+    },
+    {
+      "expected": 11873,
+      "n": 11873,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/lora",
+      "sha256_match": true,
+      "unique_indices": 11873
+    },
+    {
+      "metric": "exact",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/lora"
+    },
+    {
+      "metric": "f1",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/lora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-all/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-all/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-all/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-k/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-k/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-k/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-o/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-o/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-o/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-q/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-q/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-q/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-qk/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-qk/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-qk/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-v/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-v/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-v/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-vo/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-vo/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-base_magnitude-vo/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-dense-dora/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-dense-dora/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-dense-dora/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-dense-lora/lora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-dense-lora/lora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-dense-lora/lora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-e95/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-e95/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-e95/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-e99/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-e99/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-e99/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-lora-matched-impact/lora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-lora-matched-impact/lora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-lora-matched-impact/lora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/base",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/base"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/base"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/lora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/lora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/lora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-r32/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-r32/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-r32/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-all/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-all/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-all/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-k/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-k/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-k/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-o/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-o/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-o/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-q/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-q/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-q/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-qk/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-qk/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-qk/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-v/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-v/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-v/dora"
+    },
+    {
+      "expected": 1319,
+      "n": 1319,
+      "name": "run_integrity",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-vo/dora",
+      "sha256_match": true,
+      "unique_indices": 1319
+    },
+    {
+      "metric": "author_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-vo/dora"
+    },
+    {
+      "metric": "final_em",
+      "name": "mean_reproduction",
+      "passed": true,
+      "run_id": "gsm8k-remove_d-vo/dora"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "shadow_4b_mmlu",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "shadow_4b_mmlu",
+      "metric": "accuracy",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "shadow_4b_mmlu",
+      "metric": "accuracy",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "abstract_algebra"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "anatomy"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "astronomy"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "business_ethics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "clinical_knowledge"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_biology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_chemistry"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_computer_science"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_mathematics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_medicine"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_physics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "computer_security"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "conceptual_physics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "econometrics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "electrical_engineering"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "elementary_mathematics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "formal_logic"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "global_facts"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_biology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_computer_science"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_european_history"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_geography"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_government_and_politics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_macroeconomics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_mathematics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_microeconomics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_physics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_psychology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_statistics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_us_history"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_world_history"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "human_aging"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "human_sexuality"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "international_law"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "jurisprudence"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "logical_fallacies"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "machine_learning"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "management"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "marketing"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "medical_genetics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "miscellaneous"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "moral_disputes"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "moral_scenarios"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "nutrition"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "philosophy"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "prehistory"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_accounting"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_law"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_medicine"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_psychology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "public_relations"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "security_studies"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "sociology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "us_foreign_policy"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "virology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "world_religions"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_subject_macro",
+      "passed": true,
+      "side": "left"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "abstract_algebra"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "anatomy"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "astronomy"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "business_ethics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "clinical_knowledge"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_biology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_chemistry"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_computer_science"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_mathematics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_medicine"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_physics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "computer_security"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "conceptual_physics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "econometrics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "electrical_engineering"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "elementary_mathematics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "formal_logic"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "global_facts"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_biology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_computer_science"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_european_history"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_geography"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_government_and_politics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_macroeconomics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_mathematics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_microeconomics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_physics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_psychology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_statistics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_us_history"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_world_history"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "human_aging"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "human_sexuality"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "international_law"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "jurisprudence"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "logical_fallacies"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "machine_learning"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "management"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "marketing"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "medical_genetics"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "miscellaneous"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "moral_disputes"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "moral_scenarios"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "nutrition"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "philosophy"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "prehistory"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_accounting"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_law"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_medicine"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_psychology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "public_relations"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "security_studies"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "sociology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "us_foreign_policy"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "virology"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "world_religions"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "name": "saved_subject_macro",
+      "passed": true,
+      "side": "right"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "shadow_4b_mmlu",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "shadow_4b_mmlu",
+      "metric": "accuracy",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "shadow_4b_mmlu",
+      "metric": "accuracy",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "abstract_algebra"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "anatomy"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "astronomy"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "business_ethics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "clinical_knowledge"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_biology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_chemistry"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_computer_science"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_mathematics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_medicine"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_physics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "computer_security"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "conceptual_physics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "econometrics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "electrical_engineering"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "elementary_mathematics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "formal_logic"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "global_facts"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_biology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_computer_science"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_european_history"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_geography"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_government_and_politics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_macroeconomics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_mathematics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_microeconomics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_physics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_psychology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_statistics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_us_history"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_world_history"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "human_aging"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "human_sexuality"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "international_law"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "jurisprudence"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "logical_fallacies"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "machine_learning"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "management"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "marketing"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "medical_genetics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "miscellaneous"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "moral_disputes"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "moral_scenarios"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "nutrition"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "philosophy"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "prehistory"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_accounting"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_law"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_medicine"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_psychology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "public_relations"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "security_studies"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "sociology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "us_foreign_policy"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "virology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "world_religions"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_subject_macro",
+      "passed": true,
+      "side": "left"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "abstract_algebra"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "anatomy"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "astronomy"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "business_ethics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "clinical_knowledge"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_biology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_chemistry"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_computer_science"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_mathematics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_medicine"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_physics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "computer_security"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "conceptual_physics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "econometrics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "electrical_engineering"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "elementary_mathematics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "formal_logic"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "global_facts"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_biology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_computer_science"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_european_history"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_geography"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_government_and_politics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_macroeconomics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_mathematics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_microeconomics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_physics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_psychology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_statistics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_us_history"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_world_history"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "human_aging"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "human_sexuality"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "international_law"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "jurisprudence"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "logical_fallacies"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "machine_learning"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "management"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "marketing"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "medical_genetics"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "miscellaneous"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "moral_disputes"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "moral_scenarios"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "nutrition"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "philosophy"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "prehistory"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_accounting"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_law"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_medicine"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_psychology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "public_relations"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "security_studies"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "sociology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "us_foreign_policy"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "virology"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "world_religions"
+    },
+    {
+      "contrast": "dora_minus_base",
+      "name": "saved_subject_macro",
+      "passed": true,
+      "side": "right"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "shadow_4b_mmlu",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "shadow_4b_mmlu",
+      "metric": "accuracy",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "shadow_4b_mmlu",
+      "metric": "accuracy",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "abstract_algebra"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "anatomy"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "astronomy"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "business_ethics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "clinical_knowledge"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_biology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_chemistry"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_computer_science"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_mathematics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_medicine"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "college_physics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "computer_security"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "conceptual_physics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "econometrics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "electrical_engineering"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "elementary_mathematics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "formal_logic"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "global_facts"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_biology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_computer_science"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_european_history"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_geography"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_government_and_politics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_macroeconomics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_mathematics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_microeconomics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_physics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_psychology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_statistics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_us_history"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "high_school_world_history"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "human_aging"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "human_sexuality"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "international_law"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "jurisprudence"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "logical_fallacies"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "machine_learning"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "management"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "marketing"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "medical_genetics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "miscellaneous"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "moral_disputes"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "moral_scenarios"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "nutrition"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "philosophy"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "prehistory"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_accounting"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_law"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_medicine"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "professional_psychology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "public_relations"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "security_studies"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "sociology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "us_foreign_policy"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "virology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "left",
+      "subject": "world_religions"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_subject_macro",
+      "passed": true,
+      "side": "left"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "abstract_algebra"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "anatomy"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "astronomy"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "business_ethics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "clinical_knowledge"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_biology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_chemistry"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_computer_science"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_mathematics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_medicine"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "college_physics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "computer_security"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "conceptual_physics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "econometrics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "electrical_engineering"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "elementary_mathematics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "formal_logic"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "global_facts"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_biology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_chemistry"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_computer_science"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_european_history"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_geography"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_government_and_politics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_macroeconomics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_mathematics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_microeconomics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_physics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_psychology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_statistics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_us_history"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "high_school_world_history"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "human_aging"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "human_sexuality"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "international_law"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "jurisprudence"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "logical_fallacies"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "machine_learning"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "management"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "marketing"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "medical_genetics"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "miscellaneous"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "moral_disputes"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "moral_scenarios"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "nutrition"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "philosophy"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "prehistory"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_accounting"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_law"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_medicine"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "professional_psychology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "public_relations"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "security_studies"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "sociology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "us_foreign_policy"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "virology"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_per_subject",
+      "passed": true,
+      "side": "right",
+      "subject": "world_religions"
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "name": "saved_subject_macro",
+      "passed": true,
+      "side": "right"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "shadow_4b_squadv2",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "shadow_4b_squadv2",
+      "metric": "exact",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "shadow_4b_squadv2",
+      "metric": "exact",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "shadow_4b_squadv2",
+      "metric": "f1",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "shadow_4b_squadv2",
+      "metric": "f1",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "shadow_4b_squadv2",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "shadow_4b_squadv2",
+      "metric": "exact",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "shadow_4b_squadv2",
+      "metric": "exact",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "shadow_4b_squadv2",
+      "metric": "f1",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "shadow_4b_squadv2",
+      "metric": "f1",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "shadow_4b_squadv2",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "shadow_4b_squadv2",
+      "metric": "exact",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "shadow_4b_squadv2",
+      "metric": "exact",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "shadow_4b_squadv2",
+      "metric": "f1",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "shadow_4b_squadv2",
+      "metric": "f1",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-all",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-all",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-all",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-k",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-k",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-k",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-o",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-o",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-o",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-q",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-q",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-q",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-qk",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-qk",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-qk",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-v",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-v",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-v",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-vo",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-vo",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-base_magnitude-vo",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-dense-dora",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-dense-dora",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-dense-dora",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-dense-lora",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-dense-lora",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-dense-lora",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-e95",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-e95",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-e95",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-e99",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-e99",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-e99",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-lora-matched-impact",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-lora-matched-impact",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-lora-matched-impact",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "gsm8k-quality-greedy",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "gsm8k-quality-greedy",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "gsm8k-quality-greedy",
+      "metric": "author_em",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "gsm8k-quality-greedy",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "lora_minus_base",
+      "job": "gsm8k-quality-greedy",
+      "metric": "final_em",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "gsm8k-quality-greedy",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "gsm8k-quality-greedy",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "gsm8k-quality-greedy",
+      "metric": "author_em",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "gsm8k-quality-greedy",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_base",
+      "job": "gsm8k-quality-greedy",
+      "metric": "final_em",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "gsm8k-quality-greedy",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "gsm8k-quality-greedy",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "gsm8k-quality-greedy",
+      "metric": "author_em",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "gsm8k-quality-greedy",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "dora_minus_lora",
+      "job": "gsm8k-quality-greedy",
+      "metric": "final_em",
+      "name": "baseline_transition_sum",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-r32",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-r32",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-r32",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-all",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-all",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-all",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-k",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-k",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-k",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-o",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-o",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-o",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-q",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-q",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-q",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-qk",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-qk",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-qk",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-v",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-v",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-v",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-vo",
+      "mismatched_fields": [],
+      "name": "comparability",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-vo",
+      "metric": "author_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "contrast": "intervention_minus_reference",
+      "job": "gsm8k-remove_d-vo",
+      "metric": "final_em",
+      "name": "saved_difference",
+      "passed": true
+    },
+    {
+      "name": "answerability_dataset_hash",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/base"
+    },
+    {
+      "name": "answerability_alignment",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/base"
+    },
+    {
+      "name": "answerability_counts",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/base"
+    },
+    {
+      "name": "answerability_dataset_hash",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/dora"
+    },
+    {
+      "name": "answerability_alignment",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/dora"
+    },
+    {
+      "name": "answerability_counts",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/dora"
+    },
+    {
+      "name": "answerability_dataset_hash",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/lora"
+    },
+    {
+      "name": "answerability_alignment",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/lora"
+    },
+    {
+      "name": "answerability_counts",
+      "passed": true,
+      "run_id": "shadow_4b_squadv2/lora"
+    },
+    {
+      "name": "gsm8k_limits",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/base"
+    },
+    {
+      "name": "gsm8k_limits",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/dora"
+    },
+    {
+      "name": "gsm8k_limits",
+      "passed": true,
+      "run_id": "gsm8k-quality-greedy/lora"
+    },
+    {
+      "actual": 29,
+      "expected_baseline": 9,
+      "expected_intervention": 20,
+      "name": "contrast_count",
+      "passed": true
+    },
+    {
+      "actual_baseline_triples": 3,
+      "actual_full": 29,
+      "actual_plan_jobs": 20,
+      "expected_baseline_triples": 3,
+      "expected_full": 29,
+      "expected_interventions": 20,
+      "name": "expected_counts",
+      "passed": true
+    },
+    {
+      "actual": [
+        "gsm8k-base_magnitude-all",
+        "gsm8k-base_magnitude-k",
+        "gsm8k-base_magnitude-o",
+        "gsm8k-base_magnitude-q",
+        "gsm8k-base_magnitude-qk",
+        "gsm8k-base_magnitude-v",
+        "gsm8k-base_magnitude-vo",
+        "gsm8k-dense-dora",
+        "gsm8k-dense-lora",
+        "gsm8k-e95",
+        "gsm8k-e99",
+        "gsm8k-lora-matched-impact",
+        "gsm8k-r32",
+        "gsm8k-remove_d-all",
+        "gsm8k-remove_d-k",
+        "gsm8k-remove_d-o",
+        "gsm8k-remove_d-q",
+        "gsm8k-remove_d-qk",
+        "gsm8k-remove_d-v",
+        "gsm8k-remove_d-vo"
+      ],
+      "expected": [
+        "gsm8k-base_magnitude-all",
+        "gsm8k-base_magnitude-k",
+        "gsm8k-base_magnitude-o",
+        "gsm8k-base_magnitude-q",
+        "gsm8k-base_magnitude-qk",
+        "gsm8k-base_magnitude-v",
+        "gsm8k-base_magnitude-vo",
+        "gsm8k-dense-dora",
+        "gsm8k-dense-lora",
+        "gsm8k-e95",
+        "gsm8k-e99",
+        "gsm8k-lora-matched-impact",
+        "gsm8k-r32",
+        "gsm8k-remove_d-all",
+        "gsm8k-remove_d-k",
+        "gsm8k-remove_d-o",
+        "gsm8k-remove_d-q",
+        "gsm8k-remove_d-qk",
+        "gsm8k-remove_d-v",
+        "gsm8k-remove_d-vo"
+      ],
+      "name": "planned_interventions_accepted",
+      "passed": true
+    }
+  ],
+  "missing_fields": [
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "shadow_4b_mmlu/base"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "shadow_4b_mmlu/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "shadow_4b_mmlu/lora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "shadow_4b_squadv2/base"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "shadow_4b_squadv2/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "shadow_4b_squadv2/lora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-base_magnitude-all/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-base_magnitude-k/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-base_magnitude-o/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-base_magnitude-q/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-base_magnitude-qk/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-base_magnitude-v/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-base_magnitude-vo/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-dense-dora/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-dense-lora/lora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-e95/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-e99/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-lora-matched-impact/lora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-quality-greedy/base"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-quality-greedy/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-quality-greedy/lora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-r32/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-remove_d-all/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-remove_d-k/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-remove_d-o/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-remove_d-q/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-remove_d-qk/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-remove_d-v/dora"
+    },
+    {
+      "fields": [
+        "quantization"
+      ],
+      "missing_reason": "not recorded as explicit summary fields",
+      "run_id": "gsm8k-remove_d-vo/dora"
+    }
+  ],
+  "passed": true,
+  "table_rows": {
+    "attempts.csv": 32,
+    "baseline_contrasts.csv": 15,
+    "baseline_metrics.csv": 15,
+    "baseline_pair_transitions.csv": 15,
+    "comparability.csv": 29,
+    "coverage.csv": 28,
+    "gsm8k_scorer_agreement.csv": 12,
+    "gsm8k_token_limits.csv": 3,
+    "mmlu_subject_metrics.csv": 177,
+    "run_inventory.csv": 29,
+    "squadv2_answerability.csv": 12
+  }
+}

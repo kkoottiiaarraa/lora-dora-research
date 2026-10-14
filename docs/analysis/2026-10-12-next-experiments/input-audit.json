@@ -1,0 +1,12 @@
+{
+  "dataset_sha256": {
+    "gsm8k": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+    "mmlu": "cb954f431230ce16aded61d82fac844af6ebbe535f2bad6da206600e309ca642",
+    "squadv2": "68b5785b66c11878db5db2f83fe13fad3130bafab58ad3985acbebb23e230d1e"
+  },
+  "calibration_file_sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+  "calibration_train_content_sha256": "95e126389faf182836873ddb5471fddfb4b4066dacbf27ea08867f3b4042b216",
+  "calibration_validation_content_sha256": "cb99f902b6acdaee472a9957785a73bbf5eb3208ce5e0dec77aba6e45722ce33",
+  "calibration_unique": 232,
+  "calibration_test_overlap": 0
+}

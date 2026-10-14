@@ -1,0 +1,10 @@
+{
+  "files_sha256": {
+    "gauge-norm-screen.csv": "77da215d29fc94b93d8d548bf80b35610c5b65a28c7091ed9523112ac3938a47",
+    "QUEUE.md": "0e71eda3dcfc4a341230a0b0e946e013f5bb19aa75e1dfda46a89e8e0bde37fd",
+    "screen.json": "92f9c14e39683ffab19dee73a331494b03a117f78d06a849bb919d0db8ef1fe4",
+    "THESIS.md": "496105d295bda5d8fff5f9a234b09dababd891bafb5c6591e6940b9f1249db01",
+    "exact-counterexample.json": "41d6028f212b4fcd49f2224e7d225f909b6f1f52c898067b7d88460ce898ab57",
+    "conversion-overlap.csv": "92f1ea4b13776512dbbb7fed33d584165c43ae7a572b8edf9cd6c1edb625bcc9"
+  }
+}

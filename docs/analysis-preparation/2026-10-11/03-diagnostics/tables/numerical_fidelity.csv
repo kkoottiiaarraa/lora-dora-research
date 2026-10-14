@@ -1,0 +1,72 @@
+allclose,argmax_agreement,dtype,dtype_missing_reason,index,input_tokens,job,max_abs_logits_error,reference,role,source,split
+,0.9814814925193787,,not explicitly recorded in summary,,,gsm8k-dense-dora,1.34375,original dora adapter before dense conversion,dora,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-dense-dora/full-dora-distributed-1/intervention.json,
+,0.9814814925193787,,not explicitly recorded in summary,,,gsm8k-dense-lora,1.578125,original lora adapter before dense conversion,lora,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-dense-lora/full-lora-distributed-1/intervention.json,
+,0.9814814925193787,,not explicitly recorded in summary,,,gsm8k-e95,1.34375,original dora adapter before dense conversion,dora,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-e95/full-dora-distributed-1/intervention.json,
+,0.9814814925193787,,not explicitly recorded in summary,,,gsm8k-e99,1.34375,original dora adapter before dense conversion,dora,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-e99/full-dora-distributed-1/intervention.json,
+,0.9814814925193787,,not explicitly recorded in summary,,,gsm8k-lora-matched-impact,1.578125,original lora adapter before dense conversion,lora,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-lora-matched-impact/full-lora-distributed-1/intervention.json,
+,0.9814814925193787,,not explicitly recorded in summary,,,gsm8k-r32,1.34375,original dora adapter before dense conversion,dora,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-r32/full-dora-distributed-1/intervention.json,
+True,1.0,,not recorded in validation artifact,0,54,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,1,47,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,2,76,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,3,69,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,4,42,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,5,81,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,6,73,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,7,122,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,8,125,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,9,83,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,10,92,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,11,113,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,12,55,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,13,83,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,14,46,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,15,86,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,16,72,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,17,96,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,18,80,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,19,80,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,20,88,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,21,67,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,22,73,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,23,73,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,24,97,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,25,109,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,26,71,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,27,101,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,28,69,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,29,71,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,30,71,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,31,79,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,train
+True,1.0,,not recorded in validation artifact,0,80,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,43,77,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,85,99,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,128,101,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,170,71,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,213,77,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,255,66,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,298,92,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,340,128,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,383,111,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,425,116,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,468,74,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,510,95,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,553,89,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,595,39,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,638,54,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,680,69,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,723,67,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,765,44,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,808,69,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,850,76,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,893,64,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,935,111,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,978,49,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,1020,55,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,1063,64,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,1105,77,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,1148,48,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,1190,114,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,1233,69,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,1275,89,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+True,1.0,,not recorded in validation artifact,1318,60,short-vo,0.0,dense reference,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,test
+,0.9814814925193787,,,,,short-vo-dense-conversion,1.34375,original DoRA adapter,,/path/to/user-user/lora-dora-profiling/distributed-important/short-vo-validation.json,

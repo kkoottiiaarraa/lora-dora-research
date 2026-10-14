@@ -1,0 +1,7 @@
+{
+  "same_cases_as_failed_attempt": true,
+  "native_bitwise_checks": 4,
+  "all_native_bitwise": true,
+  "worker_alive": true,
+  "native_file_hash_unchanged": true
+}

@@ -1,0 +1,16 @@
+run_id,task,role,metric,n,original_score,source_path
+shadow_4b_mmlu/base,mmlu,base,accuracy,14042,0.660518444666002,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_mmlu/full-base-attempt-1/summary.json
+shadow_4b_mmlu/dora,mmlu,dora,accuracy,14042,0.7037459051417178,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_mmlu/full-dora-attempt-1/summary.json
+shadow_4b_mmlu/lora,mmlu,lora,accuracy,14042,0.7031761857285287,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_mmlu/full-lora-attempt-1/summary.json
+shadow_4b_squadv2/base,squadv2,base,exact,11873,0.31929588141160614,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_squadv2/full-base-attempt-1/summary.json
+shadow_4b_squadv2/base,squadv2,base,f1,11873,0.4652671428162617,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_squadv2/full-base-attempt-1/summary.json
+shadow_4b_squadv2/dora,squadv2,dora,exact,11873,0.8593447317442938,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_squadv2/full-dora-attempt-1/summary.json
+shadow_4b_squadv2/dora,squadv2,dora,f1,11873,0.8904261912100635,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_squadv2/full-dora-attempt-1/summary.json
+shadow_4b_squadv2/lora,squadv2,lora,exact,11873,0.8606923271287796,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_squadv2/full-lora-attempt-1/summary.json
+shadow_4b_squadv2/lora,squadv2,lora,f1,11873,0.8930813387109182,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_squadv2/full-lora-attempt-1/summary.json
+gsm8k-quality-greedy/base,gsm8k,base,author_em,1319,0.012130401819560273,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-quality-greedy/full-base-attempt-1/summary.json
+gsm8k-quality-greedy/base,gsm8k,base,final_em,1319,0.6383623957543594,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-quality-greedy/full-base-attempt-1/summary.json
+gsm8k-quality-greedy/dora,gsm8k,dora,author_em,1319,0.775587566338135,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-quality-greedy/full-dora-attempt-1/summary.json
+gsm8k-quality-greedy/dora,gsm8k,dora,final_em,1319,0.7778620166793025,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-quality-greedy/full-dora-attempt-1/summary.json
+gsm8k-quality-greedy/lora,gsm8k,lora,author_em,1319,0.7649734647460197,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-quality-greedy/full-lora-attempt-1/summary.json
+gsm8k-quality-greedy/lora,gsm8k,lora,final_em,1319,0.7672479150871873,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-quality-greedy/full-lora-attempt-1/summary.json

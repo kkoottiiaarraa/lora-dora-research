@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "rows": 192,
+  "cases": 64,
+  "equal_budget": false,
+  "exploratory": true,
+  "comparisons": [
+    {
+      "condition": "weighted_uniform",
+      "paired_kl_change": -8.579670524692355e-07,
+      "ci95": [
+        -8.747780348702095e-06,
+        5.5978877761179815e-06
+      ]
+    },
+    {
+      "condition": "weighted_allocated",
+      "paired_kl_change": -0.00014156175272864743,
+      "ci95": [
+        -0.0002855906863162984,
+        1.045042963450445e-05
+      ],
+      "fraction_excess_rescued": 0.04132870128464485
+    },
+    {
+      "condition": "structural_allocated",
+      "paired_kl_change": -0.00016752864403068223,
+      "ci95": [
+        -0.0002989199943863582,
+        -2.815038907561774e-05
+      ],
+      "fraction_excess_rescued": 0.05127765019401014
+    }
+  ],
+  "conditions": [
+    {
+      "label": "weighted_uniform_restore_k1",
+      "status": "complete",
+      "cases_completed": 64,
+      "source_condition": "weighted_uniform",
+      "additional_elements": 87040,
+      "actual_adapter_elements": 5985280,
+      "mean_kl": 0.002032693301363406,
+      "mean_nll_delta": 0.017555009892309098,
+      "argmax_disagreements": 22
+    },
+    {
+      "label": "weighted_allocated_restore_k1",
+      "status": "complete",
+      "cases_completed": 64,
+      "source_condition": "weighted_allocated",
+      "additional_elements": 115712,
+      "actual_adapter_elements": 6013952,
+      "mean_kl": 0.005317254484786146,
+      "mean_nll_delta": 0.02296364525443716,
+      "argmax_disagreements": 36
+    },
+    {
+      "label": "structural_allocated_restore_k1",
+      "status": "complete",
+      "cases_completed": 64,
+      "source_condition": "structural_allocated",
+      "additional_elements": 114688,
+      "actual_adapter_elements": 6012928,
+      "mean_kl": 0.005203406429548569,
+      "mean_nll_delta": 0.0221968235010033,
+      "argmax_disagreements": 34
+    }
+  ],
+  "wall_seconds": 289.6880756429164,
+  "gpu_hours": 0,
+  "source_sha256": {
+    "execution/next-experiments/allocation_restore.py": "8c0b853032c57331c0640fa0cfb76c40cadcf900970dd01d90bc3b66bbdf64f7",
+    "docs/analysis/2026-10-14-allocation-diagnosis/RESTORATION_SPEC.md": "328c36b5a7b0890a2de2cf2399766b5c4d9367a09665edf65a968bdd2143c62f",
+    "lora_dora_study/full_compression.py": "843f0b8da4c20b0f4fa7efd1319fc185af481ff25fdcf02beda2a0dcc9052517",
+    "lora_dora_study/fidelity_audit.py": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+    "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118"
+  },
+  "cases_sha256": "cc30c2fa181cf9c10e464998d046b161cc8326118e78a79782bcb143684ab533",
+  "full_task_accuracy": false
+}

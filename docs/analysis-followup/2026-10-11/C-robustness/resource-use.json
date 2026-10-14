@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-10-11T19:52:55.730489+00:00",
+  "wall_seconds": 1.3884051160421222,
+  "cpu_seconds": 2.211485053,
+  "bootstrap_seconds": 0.6741772739915177,
+  "peak_rss_mib": 138.08984375,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "1.26.4",
+  "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.39",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "NUMEXPR_NUM_THREADS": "2",
+    "VECLIB_MAXIMUM_THREADS": "2",
+    "BLIS_NUM_THREADS": "2"
+  },
+  "cuda_visible_devices": "",
+  "gpu_used": false,
+  "resamples": 50000,
+  "seed": 2026101160,
+  "chunk_max": 256,
+  "joint_patterns": 187,
+  "draws_matrix_shape": [
+    50000,
+    46
+  ],
+  "draws_matrix_bytes": 18400000,
+  "draws_stored_on_disk": true,
+  "draws_artifact_path": "/path/to/user-user/lora-dora-profiling/analysis-followup/2026-10-11/C-robustness/bootstrap-means.npy",
+  "scope": "existing aligned score CSV and compact accepted activity reports only; no weights/forward/download/install"
+}

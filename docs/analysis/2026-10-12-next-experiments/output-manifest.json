@@ -1,0 +1,16 @@
+{
+  "files_sha256": {
+    "MISTRAL_DECISION.md": "a1e05c5ecbb2dbb56152ba925950136316e4b934a2310f887084830477ab0b3f",
+    "REPORT.md": "9cae526e7a05dda2270d10aa6bf1da7f744ed060ce091790618bbc9ce23706f9",
+    "answer-churn.csv": "8efed50c8d0a8847ae89acb885c1c3289b1bfbeb605fd1c7de277a0fbfc91845",
+    "calibration-modules.csv": "0cfcc85547975edf4a9bacf244cd5fc90bb78fcffdd145cd6340ce180eb3bead",
+    "input-audit.json": "dd398a49d72cf61937ab322378ae5de5933bf365743149198ff2361958713c8a",
+    "paired-contrasts.csv": "941c35cbef6c7f8a00ea4a17434e2f470a2af09a35a75d7855b31dd148d72674",
+    "protocol.json": "4661a0069426568c944dabba8a3a2908cf8aad4b6eec6dd6300ffa72d6b160f9",
+    "quality.csv": "6c7bd5765a9b85f238fac7cce39bbb848300e0bf109abaaba86f706ddce3a82f",
+    "squad-error-transitions.csv": "afc128535df989e4faae9a36f206fcc8fd8998af0e342355b1facf84db4ee91a",
+    "text-nll-contrasts.csv": "8e82627fdaaeb9c64e69a96fd4581ad78e9bcf57b65f1f2a8e9d7e86df8b91e5",
+    "text-nll.csv": "c954143f573b3def443fe0eba1622a0f0e08d55f34bb82f45dc8b95ad58c90db",
+    "validation.json": "a34430433c20d42ce20d24fbe9148fbed276d21be360b78f63f0aefbbcbb269d"
+  }
+}

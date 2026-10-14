@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "scientific_sign_reversal_confirmed": false,
+  "files": {
+    "REPORT.md": "e86ac585d15742d128b87125f5aacecc92c41c85649e586d39414663dd2c436a",
+    "SPEC.md": "601b4cc0dd9a589581b0de8615ab6465ac6b5d96a65fe434b4ff0bc2f7a51777",
+    "TECHNICAL_RETRY.md": "b5f898cad26a2b66b8aee3b739076ad60c4d9236dd45d8766cab2af93c456b31",
+    "matched-contrasts.csv": "dea6a8c19fdb21a137882bc8e9afccb021acc5a7865c8755741ee1b7e5ca8655",
+    "path-comparisons.csv": "40cbe7ccd81fddf995ccbf1f81cab57528b92ea207ccb00e3e66690e2fa4b30f",
+    "quality.csv": "827eb2e7fdc6c5af51e1ea851d0f126c850220bfd03bbe6644fda404c14b665d",
+    "validation.json": "e7930a1bef44c6c338e6c4b579dcbacddc89d972c389cb8bbebce22a0d4ffa0a"
+  }
+}

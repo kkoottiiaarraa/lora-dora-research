@@ -1,0 +1,169 @@
+{
+  "status": "validated",
+  "selection": {
+    "rule": "minimum mean full-vocabulary calibration KL, three fixed scales; c=1 tie preference",
+    "chosen": {
+      "svd": "svd_1.0",
+      "weighted": "weighted_1.0"
+    },
+    "calibration_mean_kl": {
+      "svd_1.0": 1.4888278366733897e-06,
+      "weighted_1.0": 1.1207038047053097e-06,
+      "svd_0.995": 2.358512188406871e-06,
+      "weighted_0.995": 2.7732715225570847e-06,
+      "svd_1.005": 2.4921043967010164e-06,
+      "weighted_1.005": 2.444124727691433e-06
+    },
+    "factors_sha256": "582869c1a8a913e5861ae999f25aa1774ff1971d03f0f31dd95eee9e9c13092e",
+    "validation_cases_sha256": "03a6da2a2bf38f0649fc4ca6b2c52d03a021966f1326678f572a258920fa90a6",
+    "frozen_before_validation": true
+  },
+  "contrasts": [
+    {
+      "kind": "primary",
+      "changed": "weighted_1.0",
+      "reference": "weighted_1.0",
+      "same_condition": true,
+      "kl_difference": 0.0,
+      "kl_ci95": [
+        0.0,
+        0.0
+      ],
+      "kl_ci97_5_family2": [
+        0.0,
+        0.0
+      ],
+      "relative_kl_gain": -0.0,
+      "nll_difference": 0.0,
+      "nll_ci95": [
+        0.0,
+        0.0
+      ],
+      "lower_kl_cases": 0,
+      "higher_kl_cases": 0,
+      "benefit_screen_passed": false
+    },
+    {
+      "kind": "secondary_weighting",
+      "changed": "weighted_1.0",
+      "reference": "svd_1.0",
+      "same_condition": false,
+      "kl_difference": -3.881854038011849e-07,
+      "kl_ci95": [
+        -5.821029847478563e-07,
+        -2.1537031182800302e-07
+      ],
+      "kl_ci97_5_family2": [
+        -6.10183591643573e-07,
+        -1.9270234602168173e-07
+      ],
+      "relative_kl_gain": 0.2158771238018467,
+      "nll_difference": 7.745603324193617e-05,
+      "nll_ci95": [
+        1.5956666855496083e-05,
+        0.00014060935010846076
+      ],
+      "lower_kl_cases": 47,
+      "higher_kl_cases": 17,
+      "benefit_screen_passed": true
+    },
+    {
+      "kind": "secondary_matched_search",
+      "changed": "weighted_1.0",
+      "reference": "svd_1.0",
+      "same_condition": false,
+      "kl_difference": -3.881854038011849e-07,
+      "kl_ci95": [
+        -5.821029847478563e-07,
+        -2.1537031182800302e-07
+      ],
+      "kl_ci97_5_family2": [
+        -6.10183591643573e-07,
+        -1.9270234602168173e-07
+      ],
+      "relative_kl_gain": 0.2158771238018467,
+      "nll_difference": 7.745603324193617e-05,
+      "nll_ci95": [
+        1.5956666855496083e-05,
+        0.00014060935010846076
+      ],
+      "lower_kl_cases": 47,
+      "higher_kl_cases": 17,
+      "benefit_screen_passed": true
+    }
+  ],
+  "inference_scope": "64 new train questions not used for posthoc method selection; not unseen by original training and not test accuracy",
+  "uncertainty": "paired whole-case percentile bootstrap10000 seed20261013; family2 with separate anchored primary: additional97.5% intervals; secondary descriptive",
+  "resources": [
+    {
+      "phase": "capture",
+      "exit_code": 0,
+      "wall_seconds": 318.85585806902964,
+      "gpu_count": 0
+    },
+    {
+      "phase": "prepare",
+      "exit_code": 0,
+      "wall_seconds": 83.39648592600133,
+      "gpu_count": 0
+    },
+    {
+      "phase": "evaluate",
+      "exit_code": 0,
+      "wall_seconds": 2829.988252538955,
+      "gpu_count": 0
+    }
+  ],
+  "execution": {
+    "capture": {
+      "device": "cpu_fp32",
+      "threads": 16,
+      "wall_seconds": 316.8104839141015
+    },
+    "prepare": {
+      "device": "cpu",
+      "threads": 4,
+      "wall_seconds": 82.80940725002438
+    },
+    "evaluate": {
+      "device": "cpu_fp32",
+      "threads": 16,
+      "wall_seconds": 2827.3217794150114
+    }
+  },
+  "metadata": {
+    "versions": {
+      "torch": "2.5.1+cu121",
+      "transformers": "4.57.1",
+      "peft": "0.17.1",
+      "safetensors": "0.6.2",
+      "accelerate": "1.11.0"
+    },
+    "source_sha256": {
+      "lora_dora_study/weighted_compression.py": "93874de554e61d7ed9d6a4252a4a3395c24a0bdece7945122c1bf1de94b55bc6",
+      "tests/test_weighted_compression.py": "bef9afd4e998eb6229a7d094066939072170519705ba843bcc4b9c3f77b685a6",
+      "execution/next-experiments/compression_followup.py": "c337df56860e449c92ccf5c8354bcc6e0f8de6c0a0d2f54d713c909e847708e5",
+      "execution/next-experiments/compression_followup_controller.py": "9126ba1057d55991e8564e553f83bef5decf73f0dfcc399a726012bad2b9e468",
+      "lora_dora_study/compression_audit.py": "97555cea8f49d1f7a114a988aa21e7f0380baf73bd27b4db9d6385ba7baf7bf2",
+      "lora_dora_study/fidelity_audit.py": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+      "lora_dora_study/rank_symmetry.py": "d50047efc0bc82778a511300d89a2555d462a7be95794fa23dfbb601d9132079",
+      "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+      "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+      "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118",
+      "lora_dora_study/benchmarks.py": "1abd84b8e6b5e1c145ff83ede420d8b283a54c5afd030a6aa868f65201f3ba2d",
+      "execution/next-experiments/admit_queues.py": "c9dd96029dfca505a64f4948d1c806c5274e2f26d3dec0c5c77ef4c25e7d0c30"
+    }
+  },
+  "input_sha256": {
+    "selection.json": "5311fb45cbae3fb3409d03390b58446846a58fb7fa3f67f25d52be4550f4de20",
+    "manifest-private.json": "53cbd7186c9abfe07642343392d05e8eaffcf176607541d89e23dee1d0e1cfa4",
+    "state.json": "99c18ef3be51017c905d6dd1e8917ea75c92d27bf43a1a9e9f78c0842919c86c",
+    "validation-cases.json": "03a6da2a2bf38f0649fc4ca6b2c52d03a021966f1326678f572a258920fa90a6",
+    "evaluate/metrics.csv": "3e5780e571ef1f3d8ce69aa9c1644b2702d6c4f7e35d77e3a89075d360b10b8e",
+    "evaluate/per-case.jsonl": "333981b8fa0a0327afa3b54d2ad3cc78544bff76ff5fa0f6265d0068dc263f2a",
+    "evaluate/summary.json": "1c77d8113854355550fce82827962761a1181c064e0db898f6e3414e6bce6ec2",
+    "capture/summary.json": "4230e737983a396b6ade18a38876a4bbe8d1050a0d5001eb85d12318f3c576c2",
+    "prepare/diagnostics.json": "f5de44e0a3a92f1112c33fd306e410dcc5f7c7f1cd51b78f71dd5f9fc915dd37",
+    "prepare/summary.json": "910c28ac21e07197f99ce58e11395e5f551463b27204d5225a61049d4d951ec1"
+  }
+}

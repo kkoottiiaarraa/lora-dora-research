@@ -133,7 +133,7 @@ def main():
     def accepted_csv(name):
         relative = ACCEPTED + "/" + name
         item = record(relative)
-        expected = accepted.get(relative) or accepted.get("./artifacts" + relative)
+        expected = accepted.get(relative) or accepted.get("/path/to/user-user/lora-dora-series/" + relative)
         check("accepted manifest entry " + name, expected is not None)
         check("accepted SHA " + name, item["sha256"] == expected["sha256"])
         return read_csv(repo / relative)

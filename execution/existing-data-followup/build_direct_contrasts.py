@@ -227,7 +227,7 @@ Toy проверки: exact известные McNemar значения/симм
 Вычисления только CPU исследовательского сервера в готовом окружении. Numerical threads принудительно <=2, CUDA_VISIBLE_DEVICES пуст. Модели, веса, Torch, forward, GPU, downloads и установки не используются. Resources содержит версии, runtime, RSS и настройки threads. Manifest исключает свой собственный hash; зеркальная идентичность проверяется отдельно после копирования. Эти checkpoint CI отражают resampling оценочных примеров, не вариацию обучения. Q−K не идентифицирует причинную роль групп, нулевая значимость не устанавливает эквивалентность функций.
 
 Воспроизведение на сервере:
-`./artifacts execution/existing-data-followup/build_direct_contrasts.py --repo-root ./artifacts`
+`/path/to/user-user/.venvs/lora-dora-research/bin/python execution/existing-data-followup/build_direct_contrasts.py --repo-root /path/to/user-user/lora-dora-series`
 '''
     (OUTPUT / 'METHOD.md').write_text(method)
     runtime = time.perf_counter() - start

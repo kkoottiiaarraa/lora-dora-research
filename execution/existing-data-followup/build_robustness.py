@@ -183,7 +183,7 @@ def claims_update(root, rows, cpu, cuda, v):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[2])
-    parser.add_argument("--draws-dir", type=Path, default=Path("./artifacts"))
+    parser.add_argument("--draws-dir", type=Path, default=Path("/path/to/user-user/lora-dora-profiling/analysis-followup/2026-10-11/C-robustness"))
     args = parser.parse_args()
     root = args.root.resolve()
     out = root / DEST

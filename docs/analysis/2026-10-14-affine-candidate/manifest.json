@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "passed_development_gate": false,
+  "files": {
+    "contrasts.csv": "980f73a27c1a36227f11a7c4362a479f0518c1fc58f68efb41341c516ee79f5a",
+    "BASELINE_ADDENDUM.md": "9d88330068744ddab9742832b4a4cbb8e94dcea9226d089fa14b397d9e7ecea8",
+    "REPORT.md": "bb4d5d348fe74a762b4653963d05926ff0af50dc8ed58bc620d8aee4430a12b8",
+    "SCALE_PROPERTY.md": "95291dfc9858692ce1a3a93a442bc84931f1c0e1aea353429748720c6dacf201",
+    "technical-retry-validation.json": "222b51fdcd333fe87b4ef2325b233ad8cfe574f91300302cd4c2e8bac166fb51",
+    "validation.json": "661509fa5035065528a0a9a161cb100184d3e0a2e095aa0bb44d3f00ca38d460",
+    "SPEC.md": "ffc32e1a043e3034d80e562065a1a5480afacc1af72088310a80d1fecf5b22d2",
+    "METHOD.md": "34cf621a3d27d5f16bcc93bc803208e332b832fabce869f9bc23e568c8150587",
+    "source-provenance.json": "df12aa71581c6f852519c7e6dc9c784f8148dc2fb61707a3d493bbdaf5edb9bf",
+    "quality.csv": "642d23fe40ba424f8bf9d878d6c979d8e1f293c6b1c19eb89fae82a732ee3a01",
+    "native-reference-diagnostic.json": "ba1083e4bdaef8aaf302cb02915644a235e395d9a6d731ff250862727163443c",
+    "artifact-audit.json": "85243af0298bd46f5708476cd8e9d53848c88e4afc6d63637c0dcd6e37fa215c",
+    "REPLICATION_READINESS.md": "85b9edb2dab4a506e03629ce1f1000e6c62ff30eb18f143755a8d2e6b9661010",
+    "scale-equivariance-check.json": "47ed6131f4557a394a5dad6ad58433f260633c13ccc8e7682f3f84e9bf6ec2b0"
+  }
+}

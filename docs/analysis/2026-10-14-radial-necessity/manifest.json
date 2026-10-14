@@ -1,0 +1,9 @@
+{
+  "artifacts": {
+    "contrasts.csv": "9fe77efa59daad5f042c86a20f9ee8a9e839df2b42afa860831904296811f130",
+    "REPORT.md": "959213eedfec6ea6aa0b4badff0d12b861605dd919fdb465ea42a39afb20653a",
+    "validation.json": "401e90d53bb666781bc905512773a387e1bd02e164fcf02468d27c841ae4c868",
+    "SPEC.md": "3ef7b5355e891eeb541418a42e1d70143e0db6b3e4955b5696b2f1d360d2db67",
+    "quality.csv": "a1028c420987f7e2a276ea0bc986fa6a342ea8378849fb4169f79bcd11f26ebf"
+  }
+}

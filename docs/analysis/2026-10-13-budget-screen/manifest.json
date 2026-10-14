@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "files": {
+    "CANDIDATES.md": "d42161214693b9b18f02f550c10150b3e94e7fa008472a6abfde7801969249bd",
+    "REPORT.md": "e3a882b4fa94deba289fe6d7072c02fe8e15171b76321fb620266f58e6c5f1db",
+    "SPEC.md": "76cfb65a2cbf19381f3f281bc6f6442bb72608ee0741964fa4636bd2f1a8b6cd",
+    "decisions.json": "52a33660e393847dc3a7d51ad4892cdbf6168e0cc60c8b3e9f86af7c7eccbcec",
+    "quality.csv": "b35de4f1c803d899ab684999aac68b0e181bf841d7c4f1415f91ff08e71f44ad",
+    "validation.json": "a4e7372dbf00606bc96d65725bcfbacb3376df216a0c9eba2040de02751e0ddf"
+  },
+  "code_sha256": {
+    "execution/next-experiments/budget_screen.py": "e0f9a5ad937d9f7d8eefbbccdc7fffef66da5696d30cbc7d0fd887c08b7e0fc2",
+    "lora_dora_study/rank_budget.py": "3b6eb1b0eb9fbef2fe26d57651b18aca079ce63abca8a952fc24e60636883352",
+    "tests/test_rank_budget.py": "67dd939c6918c11654daf1e9106ec5db2e6358b399502d2661a9463cd8e0c50b",
+    "execution/scientific-analysis/analyze_budget_screen.py": "9ce5620b5a5af6086ba4175d0af86e8dda7892ca7e5cfa3655cae084e3313060",
+    "execution/scientific-analysis/analyze_compression_followup.py": "f1482e591e92a18fe9b8182655bb34e32391eb3009c13e0c8ecd51828a2c497c"
+  }
+}

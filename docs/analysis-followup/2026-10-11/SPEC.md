@@ -2,9 +2,40 @@
 
 11 октября 2026. Последнее решение пользователя: статью сейчас не писать;
 закончить анализ имеющегося корпуса, затем отдельно определить следующие
+эксперименты и запустить их. Новые GPU-опыты ожидаются позже, не отменены.
 Этот этап выполняет существующий план прямых сравнений, изменений ответов
 и устойчивости выводов. Он не включает paper outline, текст статьи, новые
 weights/forward/quality runs/SVD или обучение.
+
+## Ограничения, входы и размещение
+
+Основной repo локально: work/lora-dora-series. На gpu-host:
+/path/to/user-user/.venvs/lora-dora-research. Ничего не устанавливать.
+Все численные расчёты — CPU gpu-host, максимум 2 numerical threads на пакет.
+VM 1GB/1core только управление/код/малые результаты. GPU не использовать.
+Не трогать чужие процессы, evaluator, исходные predictions и frozen bundles.
+AGENTS.md/MEMORY.md неизменяемы; новые предпочтения в MEMORY_CONTINUATION.md.
+
+Неизменяемые входы: docs/analysis-preparation/2026-10-11/ и выбранные файлы
+docs/analysis/2026-10-11/results/. Особенно 02-interventions/tables/
+per_example_scores.csv.gz, intervention_metrics.csv, paired_transitions.csv,
+localization_grid.csv; bundle manifest manifests/bundle.json.
+Новая activity диагностика: docs/diagnostics/radial-activity-2026-10-11/.
+Сверять SHA выбранных frozen inputs с bundle manifest, выровнять source_id,
+test_row_index, prompt_sha256, input_ids_sha256, metric, полные 1319 примеров.
+Scores бинарны. Не считать отдельные строки/матрицы независимыми обучениями.
+
+Новый код: execution/existing-data-followup/. Новые outputs исключительно
+docs/analysis-followup/2026-10-11/ с отдельными пакетами A/B/C. Существующие
+отчёты/CI/p/manifest не переписывать. Документировать точные hashes кода/inputs/
+outputs, версии Python/NumPy, runtime/RSS/threads, seeds и проверки.
+Каждый пакет имеет METHOD.md, FINDINGS.md, validation.json, manifest.json.
+Scientific prose на русском. Основной агент интегрирует/интерпретирует и
+обновляет HANDOFF. Технические задачи делегируются gpt-6.1-sol, high/xhigh.
+
+Весь новый этап exploratory: выбор сравнений сделан после просмотра данных.
+Семьи ниже фиксируются до новых расчётов, это не пререгистрация и не контроль
+всей истории адаптивного поиска. Нельзя трактовать checkpoint CI как seed CI.
 
 ## A — прямые сравнения
 
@@ -106,4 +137,6 @@ ANALYSIS_SUMMARY.md с итоговыми выводами и незакрыты
 анализа, не текст статьи и не paper outline. Обновить HANDOFF после этапов.
 
 Завершение текущего этапа: все три пакета приняты, результат проверки и точные
+пути сохранены локально/на сервере, выводы сформулированы без overclaim.
+Затем с пользователем определять следующий набор GPU-экспериментов;
 в текущем этапе их не запускать и не объявлять отменёнными.

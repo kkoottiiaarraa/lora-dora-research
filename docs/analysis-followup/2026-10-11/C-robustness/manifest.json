@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-11T19:52:57.140014+00:00",
+  "passed": true,
+  "complete": true,
+  "family": "46 exploratory signed GSM8K accuracy contrasts: 40 historical intervention scorer rows plus 6 compression-original scorer rows",
+  "code": {
+    "path": "execution/existing-data-followup/build_robustness.py",
+    "sha256": "8efaa2d56043c60d0415534de02ad2af48ed2eb44b95bc2c725bf6adc4dbb6bb",
+    "bytes": 48246
+  },
+  "inputs": [
+    {
+      "path": "docs/analysis-followup/2026-10-11/SPEC.md",
+      "sha256": "fa5b8d839741bcd79fcfb6f25e038b1c3736de7b9df5bac05ba9516e11133759",
+      "bytes": 12158,
+      "verification": "snapshot SHA and unchanged postrun; manifest/spec/prose dependency"
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "sha256": "2c3a1a62afe3c0e8f052031c6af4b24b581fe41bc188e7f344a1e39ed42306ab",
+      "bytes": 9283,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/analysis-manifest.json",
+      "sha256": "bc9d188e8460a9f3b56c1319b0dda58d8a7c3387131007cccee11dbb3803c9ed",
+      "bytes": 64021,
+      "verification": "snapshot SHA and unchanged postrun; manifest/spec/prose dependency"
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/manifest.json",
+      "sha256": "81859bfb4b609a0c95b2a53aca6cf3b5fb3052b2e460e422fe316ffbdb32dd6d",
+      "bytes": 6577,
+      "verification": "snapshot SHA and unchanged postrun; manifest/spec/prose dependency"
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/cuda-manifest.json",
+      "sha256": "59469490348f65a84b84edd1b4290dbe3fbfa7f08b51dbbc1db04a0a0afecadb",
+      "bytes": 8603,
+      "verification": "snapshot SHA and unchanged postrun; manifest/spec/prose dependency"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "d901bd2e507200e9b09f003994a4eaf04a094da23305f84d4e07c6fd8aaedcfc",
+      "bytes": 2953,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "MEMORY.md",
+      "sha256": "b002858c97ffa058e6d6fb791f06f1314b133b40375c567064c15813452f8e9a",
+      "bytes": 4605,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "sha256": "430c2265462aa02cd88c6b67bdfc0fba08380c42dd7f3204625fbd2bcf08c834",
+      "bytes": 3186237,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "sha256": "44e1aff0454e2c3f3de281d80b40d7591a0ecdf4732403e3e094b85c7b88bc62",
+      "bytes": 22390,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "sha256": "d5ee7c9cde49f644aeb259715d54a14e6981f7bd591d22871ede33e4faa2bdb5",
+      "bytes": 11925,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "sha256": "4694cf96c55ff6dcf031214962753aa9f7709b39cf80a5cd32fdece6e5902b05",
+      "bytes": 3949,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/all-intervention-evidence.csv",
+      "sha256": "f57585aa1509ba2a30e93aef8e3482864c92a726460bffd26bdf2320ba77cf15",
+      "bytes": 43198,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/compression-original-reference.csv",
+      "sha256": "a1551e9a21c3a346b4236b4244be62735bc2d12c8e02b15ba6f3c382f1dc6a09",
+      "bytes": 5038,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/claim-evidence.csv",
+      "sha256": "b4687a36fc0c91b31340b7e99b229d9ab42143fe03cb137808271ebba496315d",
+      "bytes": 8033,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/FINDINGS.md",
+      "sha256": "83c6a0d43a87a645cd06f449f986b5bb8f7ca48b062e6f698f5616ce662f86a1",
+      "bytes": 15353,
+      "verification": "snapshot SHA and unchanged postrun; manifest/spec/prose dependency"
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/group-activity.csv",
+      "sha256": "a9d1a1b6264babe597e8a4080124f4018f502bdf17a718a524fbf3edeed27181",
+      "bytes": 16299,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/cuda-group-activity.csv",
+      "sha256": "12f03be3604e4a3888c4bc1d6a9d00a79c17748bcf56b56272e8e8458debe552",
+      "bytes": 11528,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/validation.json",
+      "sha256": "95267435414146ef951a7a81db86072b26ab40594a5385e45647833a7645381c",
+      "bytes": 1041699,
+      "verification": "matched accepted manifest and unchanged postrun"
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/cuda-validation.json",
+      "sha256": "83dda92b73fded0edaa2fccdd5216ee7087bca912715db18cce4125fcaa4eddf",
+      "bytes": 320452,
+      "verification": "matched accepted manifest and unchanged postrun"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/FINDINGS.md",
+      "sha256": "58c7f4eede3c2bdde199438679cf15f176f5f71636a1464178a8e92475a7c152",
+      "bytes": 7435
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/METHOD.md",
+      "sha256": "212375a1af4555a7116cc5783c0e14bc63c4adb78ec04d9afced8eb9988c83e1",
+      "bytes": 7368
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/central-summary.csv",
+      "sha256": "70d9a912cc4df6cc33440a84601c20e76569473fa17bab40b498133ad0ca5ec5",
+      "bytes": 18228
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/claim-update.csv",
+      "sha256": "e06e8809b6480402db8e3f417e01c86b371c99880c73cf24d915b6344f8ba6fa",
+      "bytes": 10588
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/resource-use.json",
+      "sha256": "59bf82371845256352feed8f348def98c43291b09bd1c8247f3ad8127e53535f",
+      "bytes": 1068
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/robustness.csv",
+      "sha256": "218cf60ccc327dc615ef00b868e47bcf81b3e200877508f4cca7a84bb9740c8e",
+      "bytes": 51102
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/validation.json",
+      "sha256": "48787f7d6ec8317fefc71bbc05e18b2775a49be4829675dba30797697cacf1af",
+      "bytes": 70879
+    }
+  ],
+  "external_artifacts": [
+    {
+      "path": "/path/to/user-user/lora-dora-profiling/analysis-followup/2026-10-11/C-robustness/bootstrap-means.npy",
+      "sha256": "4727b80fbcd6d1bd9267506e62ba5cb65bacf7a5ddac8f735fcd2933fa6ce528",
+      "bytes": 18400128,
+      "shape": [
+        50000,
+        46
+      ],
+      "dtype": "float64",
+      "resamples": 50000,
+      "seed": 2026101160,
+      "column_order": [
+        {
+          "contrast_index": 0,
+          "job_id": "gsm8k-dense-dora",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-dense-dora/dora"
+        },
+        {
+          "contrast_index": 1,
+          "job_id": "gsm8k-dense-dora",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-dense-dora/dora"
+        },
+        {
+          "contrast_index": 2,
+          "job_id": "gsm8k-r32",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-dense-dora/dora",
+          "right_run_id": "gsm8k-r32/dora"
+        },
+        {
+          "contrast_index": 3,
+          "job_id": "gsm8k-r32",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-dense-dora/dora",
+          "right_run_id": "gsm8k-r32/dora"
+        },
+        {
+          "contrast_index": 4,
+          "job_id": "gsm8k-e95",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-dense-dora/dora",
+          "right_run_id": "gsm8k-e95/dora"
+        },
+        {
+          "contrast_index": 5,
+          "job_id": "gsm8k-e95",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-dense-dora/dora",
+          "right_run_id": "gsm8k-e95/dora"
+        },
+        {
+          "contrast_index": 6,
+          "job_id": "gsm8k-base_magnitude-all",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-all/dora"
+        },
+        {
+          "contrast_index": 7,
+          "job_id": "gsm8k-base_magnitude-all",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-all/dora"
+        },
+        {
+          "contrast_index": 8,
+          "job_id": "gsm8k-dense-lora",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/lora",
+          "right_run_id": "gsm8k-dense-lora/lora"
+        },
+        {
+          "contrast_index": 9,
+          "job_id": "gsm8k-dense-lora",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/lora",
+          "right_run_id": "gsm8k-dense-lora/lora"
+        },
+        {
+          "contrast_index": 10,
+          "job_id": "gsm8k-remove_d-all",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-all/dora"
+        },
+        {
+          "contrast_index": 11,
+          "job_id": "gsm8k-remove_d-all",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-all/dora"
+        },
+        {
+          "contrast_index": 12,
+          "job_id": "gsm8k-lora-matched-impact",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-dense-lora/lora",
+          "right_run_id": "gsm8k-lora-matched-impact/lora"
+        },
+        {
+          "contrast_index": 13,
+          "job_id": "gsm8k-lora-matched-impact",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-dense-lora/lora",
+          "right_run_id": "gsm8k-lora-matched-impact/lora"
+        },
+        {
+          "contrast_index": 14,
+          "job_id": "gsm8k-e99",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-dense-dora/dora",
+          "right_run_id": "gsm8k-e99/dora"
+        },
+        {
+          "contrast_index": 15,
+          "job_id": "gsm8k-e99",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-dense-dora/dora",
+          "right_run_id": "gsm8k-e99/dora"
+        },
+        {
+          "contrast_index": 16,
+          "job_id": "gsm8k-remove_d-q",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-q/dora"
+        },
+        {
+          "contrast_index": 17,
+          "job_id": "gsm8k-remove_d-q",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-q/dora"
+        },
+        {
+          "contrast_index": 18,
+          "job_id": "gsm8k-base_magnitude-v",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-v/dora"
+        },
+        {
+          "contrast_index": 19,
+          "job_id": "gsm8k-base_magnitude-v",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-v/dora"
+        },
+        {
+          "contrast_index": 20,
+          "job_id": "gsm8k-base_magnitude-q",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-q/dora"
+        },
+        {
+          "contrast_index": 21,
+          "job_id": "gsm8k-base_magnitude-q",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-q/dora"
+        },
+        {
+          "contrast_index": 22,
+          "job_id": "gsm8k-base_magnitude-vo",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-vo/dora"
+        },
+        {
+          "contrast_index": 23,
+          "job_id": "gsm8k-base_magnitude-vo",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-vo/dora"
+        },
+        {
+          "contrast_index": 24,
+          "job_id": "gsm8k-remove_d-k",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-k/dora"
+        },
+        {
+          "contrast_index": 25,
+          "job_id": "gsm8k-remove_d-k",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-k/dora"
+        },
+        {
+          "contrast_index": 26,
+          "job_id": "gsm8k-remove_d-v",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-v/dora"
+        },
+        {
+          "contrast_index": 27,
+          "job_id": "gsm8k-remove_d-v",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-v/dora"
+        },
+        {
+          "contrast_index": 28,
+          "job_id": "gsm8k-remove_d-o",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-o/dora"
+        },
+        {
+          "contrast_index": 29,
+          "job_id": "gsm8k-remove_d-o",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-o/dora"
+        },
+        {
+          "contrast_index": 30,
+          "job_id": "gsm8k-remove_d-qk",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-qk/dora"
+        },
+        {
+          "contrast_index": 31,
+          "job_id": "gsm8k-remove_d-qk",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-qk/dora"
+        },
+        {
+          "contrast_index": 32,
+          "job_id": "gsm8k-remove_d-vo",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-vo/dora"
+        },
+        {
+          "contrast_index": 33,
+          "job_id": "gsm8k-remove_d-vo",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-remove_d-vo/dora"
+        },
+        {
+          "contrast_index": 34,
+          "job_id": "gsm8k-base_magnitude-k",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-k/dora"
+        },
+        {
+          "contrast_index": 35,
+          "job_id": "gsm8k-base_magnitude-k",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-k/dora"
+        },
+        {
+          "contrast_index": 36,
+          "job_id": "gsm8k-base_magnitude-o",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-o/dora"
+        },
+        {
+          "contrast_index": 37,
+          "job_id": "gsm8k-base_magnitude-o",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-o/dora"
+        },
+        {
+          "contrast_index": 38,
+          "job_id": "gsm8k-base_magnitude-qk",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-qk/dora"
+        },
+        {
+          "contrast_index": 39,
+          "job_id": "gsm8k-base_magnitude-qk",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-base_magnitude-qk/dora"
+        },
+        {
+          "contrast_index": 40,
+          "job_id": "gsm8k-r32",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-r32/dora"
+        },
+        {
+          "contrast_index": 41,
+          "job_id": "gsm8k-r32",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-r32/dora"
+        },
+        {
+          "contrast_index": 42,
+          "job_id": "gsm8k-e95",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-e95/dora"
+        },
+        {
+          "contrast_index": 43,
+          "job_id": "gsm8k-e95",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-e95/dora"
+        },
+        {
+          "contrast_index": 44,
+          "job_id": "gsm8k-e99",
+          "metric": "author_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-e99/dora"
+        },
+        {
+          "contrast_index": 45,
+          "job_id": "gsm8k-e99",
+          "metric": "final_em",
+          "left_run_id": "gsm8k-quality-greedy/dora",
+          "right_run_id": "gsm8k-e99/dora"
+        }
+      ],
+      "scope": "server-only outside Git; do not download draws to VM"
+    }
+  ],
+  "exclusions": [
+    "manifest.json self hash",
+    "bootstrap matrix mirrored only on server, outside Git"
+  ],
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "1.26.4"
+  },
+  "resource_use": "resource-use.json",
+  "immutable_sources_modified": false
+}

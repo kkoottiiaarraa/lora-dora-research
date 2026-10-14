@@ -1,0 +1,29 @@
+job,planned,status,accepted_full_runs,source_decision,reason,smoke_as_replication
+shadow_4b_mmlu,True,completed,3,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_mmlu/status.json,null,False
+shadow_4b_squadv2,True,completed,3,/path/to/user-user/lora-dora-series/results/extra-series-greedy/jobs/shadow_4b_squadv2/status.json,null,False
+gsm8k-base_magnitude-all,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-base_magnitude-all/status.json,null,False
+gsm8k-base_magnitude-k,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-base_magnitude-k/status.json,null,False
+gsm8k-base_magnitude-o,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-base_magnitude-o/status.json,null,False
+gsm8k-base_magnitude-q,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-base_magnitude-q/status.json,null,False
+gsm8k-base_magnitude-qk,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-base_magnitude-qk/status.json,null,False
+gsm8k-base_magnitude-v,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-base_magnitude-v/status.json,null,False
+gsm8k-base_magnitude-vo,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-base_magnitude-vo/status.json,null,False
+gsm8k-dense-dora,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-dense-dora/status.json,null,False
+gsm8k-dense-lora,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-dense-lora/status.json,null,False
+gsm8k-e95,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-e95/status.json,null,False
+gsm8k-e99,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-e99/status.json,null,False
+gsm8k-lora-matched-impact,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-lora-matched-impact/status.json,null,False
+gsm8k-quality-greedy,True,completed,3,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-quality-greedy/status.json,null,False
+gsm8k-r32,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-r32/status.json,null,False
+gsm8k-remove_d-all,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-remove_d-all/status.json,null,False
+gsm8k-remove_d-k,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-remove_d-k/status.json,null,False
+gsm8k-remove_d-o,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-remove_d-o/status.json,null,False
+gsm8k-remove_d-q,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-remove_d-q/status.json,null,False
+gsm8k-remove_d-qk,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-remove_d-qk/status.json,null,False
+gsm8k-remove_d-v,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-remove_d-v/status.json,null,False
+gsm8k-remove_d-vo,True,completed,1,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-remove_d-vo/status.json,null,False
+gsm8k-unmodified-dora,True,cancelled_by_user,0,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-unmodified-dora/status.json,Redundant full repeat; original quality DoRA output reused as control,False
+gsm8k-vo-symmetry,True,cancelled_by_user,0,/path/to/user-user/lora-dora-series/results/first-series-greedy/jobs/gsm8k-vo-symmetry/status.json,User cancels full benchmark; retain short numerical/statistical symmetry validation,False
+Answer.AI,False,deferred,0,SPEC.md: Sources and reproducibility,scope decision; no inference implied,False
+Qwen3-8B,False,excluded,0,SPEC.md: Sources and reproducibility,scope decision; no inference implied,False
+LLaVA,False,excluded,0,SPEC.md: Sources and reproducibility,scope decision; no inference implied,False

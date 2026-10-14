@@ -1,0 +1,622 @@
+{
+  "created_utc": "2026-10-11T19:58:15.880291+00:00",
+  "status": "PASS",
+  "code": {
+    "path": "execution/existing-data-followup/verify_followup.py",
+    "sha256": "d90b7c1b618d08950b342b91e9c382e98b1645b45d66f33fb22f7787d212348b",
+    "bytes": 32032
+  },
+  "inputs": [
+    {
+      "path": "docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "sha256": "2c3a1a62afe3c0e8f052031c6af4b24b581fe41bc188e7f344a1e39ed42306ab",
+      "bytes": 9283
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "d901bd2e507200e9b09f003994a4eaf04a094da23305f84d4e07c6fd8aaedcfc",
+      "bytes": 2953
+    },
+    {
+      "path": "MEMORY.md",
+      "sha256": "b002858c97ffa058e6d6fb791f06f1314b133b40375c567064c15813452f8e9a",
+      "bytes": 4605
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/README.md",
+      "sha256": "eebec3b981c29f0605752c023d305ca6324fd19fcf43145b7ecd8aa2bd7f0818",
+      "bytes": 4397
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/manifests/export.json",
+      "sha256": "4004313c390664d6696c03acabf75b5186246dcd799be0292a75d8fc3bed0a9f",
+      "bytes": 35469
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/attempts.csv",
+      "sha256": "7eb14614eed4f2e397af37c852c9477ea503bc0cdb4a10471ebbc5714efc7706",
+      "bytes": 11215
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_contrasts.csv",
+      "sha256": "da03b9ea9b4e2e42b57dc196aa142cabad3a3c73e73790094d3e2f6466190071",
+      "bytes": 8617
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_metrics.csv",
+      "sha256": "8592a9b19d2a2371a45ccc811245c74e8a26961039132bb2d8fbccf47b7f49c6",
+      "bytes": 2887
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_pair_transitions.csv",
+      "sha256": "4df18de8c70003c123d398629c3020c73f2c14235ca515479277a39ba3104d25",
+      "bytes": 2255
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/comparability.csv",
+      "sha256": "4a8ddaacde52cfb7c1ea16cc9b24a2a69731ba6d34a38ce1431c74e5e72cbfec",
+      "bytes": 7784
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/coverage.csv",
+      "sha256": "34d00fc27c8fb0e136e268712f3f093d8f83daf71dc5598aa756d2c9e0c39705",
+      "bytes": 4256
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/gsm8k_scorer_agreement.csv",
+      "sha256": "159bad65dde440ba43c09473a25eb4d5d8b035c8ff2f8abfde38af36424cf887",
+      "bytes": 505
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/gsm8k_token_limits.csv",
+      "sha256": "583d1e7bca7e01b33e4bd8ad0a71a83cf27bf6e5d342731522012f06368473dd",
+      "bytes": 211
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/mmlu_subject_metrics.csv",
+      "sha256": "895d833e5bdfc3cde6e78365a430f328ef0b2c4954bc3eadafaba7fa0c6fcab9",
+      "bytes": 14851
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/run_inventory.csv",
+      "sha256": "a620c6a457088608ec3e6e8c0d491991d80521e1d9d81263775fbe13486b238d",
+      "bytes": 37452
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/squadv2_answerability.csv",
+      "sha256": "e11c2cdf6027810634935b3eb7bb4af735988f7172e8baea205c2aaef07d45dc",
+      "bytes": 2113
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/validation/integrity.json",
+      "sha256": "da8d994fade4de6579264c639b224d780463c02949ae9ba3c195a3cdfd854d55",
+      "bytes": 97506
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/README.md",
+      "sha256": "b6452ade0be2a817cc97a15bb823c73795b29b6d9a58a12f4c387ec77e05c6bc",
+      "bytes": 4725
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/manifests/export.json",
+      "sha256": "b94444e8dc24bbe433d52dd8b639e893652dcba01cbf863300354c94cb096f44",
+      "bytes": 23281
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "sha256": "44e1aff0454e2c3f3de281d80b40d7591a0ecdf4732403e3e094b85c7b88bc62",
+      "bytes": 22390
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "sha256": "4694cf96c55ff6dcf031214962753aa9f7709b39cf80a5cd32fdece6e5902b05",
+      "bytes": 3949
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_interactions.csv",
+      "sha256": "6b99ba51a77b3e5ea93be5da0595903bdb2460d8cbecb7e22f8dd4ddaf12ba6e",
+      "bytes": 6749
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/numerical_control_contrasts.csv",
+      "sha256": "ef2f1b5fb38871ba5d20de1ebba9e6d4549278d98858702db46a355cadcc4f16",
+      "bytes": 5777
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "sha256": "d5ee7c9cde49f644aeb259715d54a14e6981f7bd591d22871ede33e4faa2bdb5",
+      "bytes": 11925
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "sha256": "430c2265462aa02cd88c6b67bdfc0fba08380c42dd7f3204625fbd2bcf08c834",
+      "bytes": 3186237
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/validation/checks.json",
+      "sha256": "6202a0fe7b9d2c79a7df93595f86324ce3673efff4cb7db4a94bf5fe4fe2d344",
+      "bytes": 27953
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/README.md",
+      "sha256": "bb582364e23d64f5dc15d5d08c180210b5681d015380e6864389f06ac2c427aa",
+      "bytes": 3086
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/manifests/hashes.json",
+      "sha256": "ac1d9b7aec2ab1a9e640f368cb49ab671f07a3e2e7f5b68b1aa54614ea7973eb",
+      "bytes": 32225
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/manifests/schemas.json",
+      "sha256": "0a65ff8ee79f0bae276c436dedaf4b715076ac0b90c961975c5a6ae4bfe284b4",
+      "bytes": 3278
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/attempts.csv",
+      "sha256": "cf86761cb3d5a812488678360f70647eec2fe2b0c956b11ba3dc90467d35501e",
+      "bytes": 12582
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/availability.csv",
+      "sha256": "6fa34492499ed7ed890f1c5ba6c3bd666681cb625a2fd4fec3b1db0ba7aa8e3b",
+      "bytes": 46237
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/matched_impact_checks.csv",
+      "sha256": "71a87ce6de07e0babc26fa4d5a0917db4fbed27d5d834649cfa2f1156fb92b52",
+      "bytes": 81133
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/numerical_fidelity.csv",
+      "sha256": "820c31abe1bcc15dcdbc6059a7cc98bccd800fc95b2150ad584c399861a7973d",
+      "bytes": 13062
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/rank_job_summary.csv",
+      "sha256": "5436f9871c4f9d571ec0795c50d4cdcd8b8cbbc347680b30c5c2266f6c15d0b4",
+      "bytes": 14413
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/rank_modules.csv",
+      "sha256": "fa3fa06baab315b7542574a9962563279c32ad4320fe7454e1b05c3439d0626f",
+      "bytes": 718766
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/resources.csv",
+      "sha256": "945c2df70213ce0788271b54a261ff94067a3ee9bda7aced0114f24dc91e67b0",
+      "bytes": 16198
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/tables/symmetry_statistics.csv",
+      "sha256": "77a1c032dcd15757bcddbabc6dc0d9fbd5c15f485daa34c4231308d3934ac609",
+      "bytes": 64217
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/03-diagnostics/validation/checks.json",
+      "sha256": "e3283330d5590bef58d81a909e8fda62a466ae03fea919360fdd094ce4513821",
+      "bytes": 302190
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/README.md",
+      "sha256": "2b28c6a9bae81ee24ab1198f6473adc49a6cfc30809761f3bf1b18790e64e0c4",
+      "bytes": 6375
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/SPEC.md",
+      "sha256": "ab9314e4847ea8a39854435697c2d0e416ab000697a8a2afe838231844173337",
+      "bytes": 17510
+    },
+    {
+      "path": "execution/analysis-preparation/build_corpus_quality.py",
+      "sha256": "99f45ae2471cd624039a0b29587078542d19533a51b0b3c370ca2b2b3f940631",
+      "bytes": 18029
+    },
+    {
+      "path": "execution/analysis-preparation/build_diagnostics.py",
+      "sha256": "d0a41e0ba5450b8cc23b15e0de96bb8c4781703179b6e7af5600e19e1e7fcb11",
+      "bytes": 16514
+    },
+    {
+      "path": "execution/analysis-preparation/build_interventions.py",
+      "sha256": "bda59b50085f0327b684c27914be4151c83b79a5492be854d06d0efc4bfcabf5",
+      "bytes": 13926
+    },
+    {
+      "path": "execution/analysis-preparation/verify_bundle.py",
+      "sha256": "2e9c7b9b5319b8ca119a28e8339531d71d867014434f1f1726ee2ea5dcd697b4",
+      "bytes": 7419
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/analysis-manifest.json",
+      "sha256": "bc9d188e8460a9f3b56c1319b0dda58d8a7c3387131007cccee11dbb3803c9ed",
+      "bytes": 64021
+    },
+    {
+      "path": "docs/analysis/2026-10-11/CHECKPOINT.md",
+      "sha256": "ba93d805b50dc51feb9ef3b17b3d4e8106b0c3f0944eee8916823af2c38f929d",
+      "bytes": 15773
+    },
+    {
+      "path": "docs/analysis/2026-10-11/EXECUTION_SPEC.md",
+      "sha256": "9123f1a73138cbb544be223c3f1b3e0cfa6d6cf4b8c5da1b136d59e7e83d17c7",
+      "bytes": 11280
+    },
+    {
+      "path": "docs/analysis/2026-10-11/NOVELTY_AUDIT.md",
+      "sha256": "a4e583f1feca051335e97621165d951b81552e8188e0c0203a727236cd6c7089",
+      "bytes": 11786
+    },
+    {
+      "path": "docs/analysis/2026-10-11/PLAN.md",
+      "sha256": "0cc6b9eb429cf88fc115335ca785c8049c5b71f037f79ce580675570dbe99e60",
+      "bytes": 32927
+    },
+    {
+      "path": "docs/analysis/2026-10-11/RESUME_SPEC.md",
+      "sha256": "7745e4b876c43cc17d86421c5ab739f2427034f71b963a9146a9113624968ca9",
+      "bytes": 5435
+    },
+    {
+      "path": "docs/analysis/2026-10-11/SYNTHESIS_DECISIONS.md",
+      "sha256": "ec0c722c08ba179144221e89584eeba0331cd4d28aaeca68166163631bb6aaf3",
+      "bytes": 9821
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/REPORT.md",
+      "sha256": "2d9219d6d9d3357ecf0bcd28454e064532f64d5ae35bbb12c9db8aa9901ab4c4",
+      "bytes": 30633
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/all-intervention-evidence.csv",
+      "sha256": "f57585aa1509ba2a30e93aef8e3482864c92a726460bffd26bdf2320ba77cf15",
+      "bytes": 43198
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/claim-evidence.csv",
+      "sha256": "b4687a36fc0c91b31340b7e99b229d9ab42143fe03cb137808271ebba496315d",
+      "bytes": 8033
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/component-findings.md",
+      "sha256": "0d28618a8c10c4df45bc1b1a336c6df7e1a9aa13e86ba941b86bac2062bb2a6f",
+      "bytes": 7997
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/component-necessity.csv",
+      "sha256": "4c7cc170884bfd6a5e37c5ac605a302bafe07819d91bfe465109dfb389e86705",
+      "bytes": 6162
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/component-validation.json",
+      "sha256": "613c63db3acf0910f983b886b3f4d45780411d4c00e800a8fb9ede83c17e50fd",
+      "bytes": 201741
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/compression-difference-in-differences.csv",
+      "sha256": "2535b99e6b5c48639eeb1d640985c0213f1d6b281c64d59b67749aaf394e58a1",
+      "bytes": 1643
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/compression-original-reference.csv",
+      "sha256": "a1551e9a21c3a346b4236b4244be62735bc2d12c8e02b15ba6f3c382f1dc6a09",
+      "bytes": 5038
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/compression-quality.csv",
+      "sha256": "c63b952c93ccffdaacb3f00a04beea772d3619147d15b0c24ffc671ac06e3406",
+      "bytes": 18431
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/compression-quality.svg",
+      "sha256": "251cbd903f8e176c170987da1b43eddcc290bc3c2f9217f0b2da044079453e8e",
+      "bytes": 3302
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/joint-interactions.csv",
+      "sha256": "f08d8f15775d1915f51ccc14870fe773ddd09f5bdacb69c5b4df93199007ac39",
+      "bytes": 12595
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/limitations.md",
+      "sha256": "ce54e95606acd05aa16f575402c5a6e43952b5b227090b5871fe58e046a45abc",
+      "bytes": 7187
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/localization-effects.csv",
+      "sha256": "f77d38c9f9d92a4fdabdd43660a33c69e823fd52397d29cbe53b80e6592ba4f2",
+      "bytes": 35036
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/localization-effects.svg",
+      "sha256": "0c81383d7506cd82df05ff5f1dd73c07d144512c3b41cfc6e0a582df420bee5d",
+      "bytes": 13652
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/localization-findings.md",
+      "sha256": "2b4da16a7ada5726e33f0256fa53b5a981a7b53dfef83402450843e37cff7c96",
+      "bytes": 9514
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/localization-validation.json",
+      "sha256": "74167fa3fc7ef7d52ba189f73b89f10c887f59542f0dba9770d3d9295f31c784",
+      "bytes": 167586
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/matched-control-limitations.json",
+      "sha256": "a4e3ac615c322a67ce58adacae87159fb7ef363a1f008355b331b54432eff7a7",
+      "bytes": 78800
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/numerical-controls.csv",
+      "sha256": "8bd80ebdee507396043c7453d524762ff76c71dd99419dd36d275fdc71d662e5",
+      "bytes": 5975
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/paired-outcome-transitions.csv",
+      "sha256": "9d61123def75ce241f41f146a09e9711f5c1b81ad9b9896cd126aea1b5251a2f",
+      "bytes": 37280
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/quality-and-controls.svg",
+      "sha256": "604040df7b1cc2dbddeef3fb0497b7ca8ce10159f707d2cf8732526f88e3f87d",
+      "bytes": 3958
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/quality-findings.md",
+      "sha256": "e9e10d39c728112946758290ae38a307fd3f5efb05842bb71bb494684595a151",
+      "bytes": 10453
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/quality-overview.csv",
+      "sha256": "296608c03082460da500ee5bebea1861789c9a6423e6db6632415487603ac34c",
+      "bytes": 76091
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/quality-validation.json",
+      "sha256": "865f2498dbbd9676d23d729fee05ab17690367e6b5b413cbbfc446c3d3f9e370",
+      "bytes": 204838
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/spectral-entropy.csv",
+      "sha256": "f42ace7e83d7933dd827f77f30f2de153a3a12629ee07be5b8f252ce3298a30f",
+      "bytes": 375704
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/symmetry-scope.md",
+      "sha256": "82db4c3161c1b112882c638bf4e18b3514f87fb7de0ec05e660f72e09f9afdb7",
+      "bytes": 17708
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/theory-audit.md",
+      "sha256": "1fa232942f5396d9ffc51dff416111ecb26de9fbfba9a335597be3110544f671",
+      "bytes": 22155
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/theory-review.md",
+      "sha256": "0351079040463580662817dcc65f6670a1706d35519ac325e5de63d5e85fc411",
+      "bytes": 21777
+    },
+    {
+      "path": "execution/scientific-analysis/build_components.py",
+      "sha256": "68df4d0d920f61fe0534df0ec6ce3e85ba9a3c3e501df8c44b95bbef7ed40c71",
+      "bytes": 35862
+    },
+    {
+      "path": "execution/scientific-analysis/build_localizations.py",
+      "sha256": "d5e8d16d2568bc2b0a846748d16ec6d118e1f5f78f17dbe6f5c38753d8ecef9a",
+      "bytes": 27833
+    },
+    {
+      "path": "execution/scientific-analysis/build_quality.py",
+      "sha256": "3c66b5432301c77ed5dcf730cd02e1a04ef24dcfa0e19c3dbee270a8667f5b7e",
+      "bytes": 27978
+    },
+    {
+      "path": "execution/scientific-analysis/verify_analysis.py",
+      "sha256": "77149d849f13b0e457672b47be83f0ce83217580c8caf05ec6d2d93d336d5735",
+      "bytes": 21658
+    },
+    {
+      "path": "scripts/series_worker.py",
+      "sha256": "8f902d0ff539cf11d2743f98648a07c4015dd20f484f110ee6fbe97e97f61f9a",
+      "bytes": 9799
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/SPEC.md",
+      "sha256": "fa5b8d839741bcd79fcfb6f25e038b1c3736de7b9df5bac05ba9516e11133759",
+      "bytes": 12158
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/ACCEPTANCE_SPEC.md",
+      "sha256": "55fc0370f669e902d4403461618714d8cb8f6af53eba7f9d5e59670be4ee7ad9",
+      "bytes": 5022
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/manifest.json",
+      "sha256": "16f84fbf4c99d6ef3db49bba9a1b5ab39b89cfc9f0d563dfc9fb07a37ddfbc91",
+      "bytes": 3819
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/direct-contrasts.csv",
+      "sha256": "1ca53f39377fcb45c17d90079f321d2f76aa5211eec1a1f004390181696b20d3",
+      "bytes": 4448
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/FINDINGS.md",
+      "sha256": "a4b29d8046f3c0516c6cb1730c448a91ef68a40dee35742952ff7b7171459f76",
+      "bytes": 3696
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/METHOD.md",
+      "sha256": "e965ff030817cdcc8659304a06d1db04a75ca9d9ff7b50a6e94e2d74d4b40a62",
+      "bytes": 4910
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/resources.json",
+      "sha256": "d538ee82720d50c6b69067132d8bdce385c4da0f217098ad4d581fe0d2ab9fbe",
+      "bytes": 929
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/A-direct-contrasts/validation.json",
+      "sha256": "af7006f9bf89cbcc8f8807284c22924a5f3e14204233dc25f7c887ec3b046ada",
+      "bytes": 21103
+    },
+    {
+      "path": "execution/existing-data-followup/build_direct_contrasts.py",
+      "sha256": "8bedb47487d9c22a2c0485e4ba4597f093f7992198f8d749f7ccbe88890d2cd7",
+      "bytes": 22449
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/manifest.json",
+      "sha256": "aad3fd1da52493b69e9762496f0f59a3139a8988b8fa3c05096bfebca615ecfc",
+      "bytes": 5340
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/FINDINGS.md",
+      "sha256": "c86a12a34f134ebf926f5914a62752a30bba6e54cf7481d5d3982953ea4f870a",
+      "bytes": 3398
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/METHOD.md",
+      "sha256": "b151866008c46bb5269f143480b8f58e73fbf54babe2a86da3f86a244869a0d6",
+      "bytes": 5557
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/case-patterns.csv.gz",
+      "sha256": "298886443931323512862e4e4facf711aede2fd3b5981a8e5fe688e85785fbb4",
+      "bytes": 213532
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/overlap.csv",
+      "sha256": "1fe6821e1de05849d5ef3e6e7b17359095138aaddc6bf8d65532826eef379a9e",
+      "bytes": 12305
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/pairwise-outcomes.csv",
+      "sha256": "8d1223dc6ec735aef1661814049fe5452a472e5d5e52bc2663b9c3b82b40f04f",
+      "bytes": 8672
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/run-summary.csv",
+      "sha256": "8cf09266e0c26dd19e9c3f16fbbc1f90a2d94efd620937d7548743a92bcf6a4c",
+      "bytes": 2938
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/validation.json",
+      "sha256": "feb5e628b27bb97bb3cdf5cdda66dd109ccc621025163064126a0d2e60027a57",
+      "bytes": 53424
+    },
+    {
+      "path": "execution/existing-data-followup/build_outcome_overlap.py",
+      "sha256": "19466bd9288a6bae4939defc141d91eb17d442141bc0205a43d9685f16b0a6a7",
+      "bytes": 26708
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/manifest.json",
+      "sha256": "36e573d437679f8966fdb4fd069c6724def935481629debdd2694fe7e59902b4",
+      "bytes": 18382
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/manifest.json",
+      "sha256": "81859bfb4b609a0c95b2a53aca6cf3b5fb3052b2e460e422fe316ffbdb32dd6d",
+      "bytes": 6577
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/cuda-manifest.json",
+      "sha256": "59469490348f65a84b84edd1b4290dbe3fbfa7f08b51dbbc1db04a0a0afecadb",
+      "bytes": 8603
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/FINDINGS.md",
+      "sha256": "83c6a0d43a87a645cd06f449f986b5bb8f7ca48b062e6f698f5616ce662f86a1",
+      "bytes": 15353
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/group-activity.csv",
+      "sha256": "a9d1a1b6264babe597e8a4080124f4018f502bdf17a718a524fbf3edeed27181",
+      "bytes": 16299
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/cuda-group-activity.csv",
+      "sha256": "12f03be3604e4a3888c4bc1d6a9d00a79c17748bcf56b56272e8e8458debe552",
+      "bytes": 11528
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/validation.json",
+      "sha256": "95267435414146ef951a7a81db86072b26ab40594a5385e45647833a7645381c",
+      "bytes": 1041699
+    },
+    {
+      "path": "docs/diagnostics/radial-activity-2026-10-11/cuda-validation.json",
+      "sha256": "83dda92b73fded0edaa2fccdd5216ee7087bca912715db18cce4125fcaa4eddf",
+      "bytes": 320452
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/FINDINGS.md",
+      "sha256": "58c7f4eede3c2bdde199438679cf15f176f5f71636a1464178a8e92475a7c152",
+      "bytes": 7435
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/METHOD.md",
+      "sha256": "212375a1af4555a7116cc5783c0e14bc63c4adb78ec04d9afced8eb9988c83e1",
+      "bytes": 7368
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/central-summary.csv",
+      "sha256": "70d9a912cc4df6cc33440a84601c20e76569473fa17bab40b498133ad0ca5ec5",
+      "bytes": 18228
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/claim-update.csv",
+      "sha256": "e06e8809b6480402db8e3f417e01c86b371c99880c73cf24d915b6344f8ba6fa",
+      "bytes": 10588
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/resource-use.json",
+      "sha256": "59bf82371845256352feed8f348def98c43291b09bd1c8247f3ad8127e53535f",
+      "bytes": 1068
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/robustness.csv",
+      "sha256": "218cf60ccc327dc615ef00b868e47bcf81b3e200877508f4cca7a84bb9740c8e",
+      "bytes": 51102
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/C-robustness/validation.json",
+      "sha256": "48787f7d6ec8317fefc71bbc05e18b2775a49be4829675dba30797697cacf1af",
+      "bytes": 70879
+    },
+    {
+      "path": "execution/existing-data-followup/build_robustness.py",
+      "sha256": "8efaa2d56043c60d0415534de02ad2af48ed2eb44b95bc2c725bf6adc4dbb6bb",
+      "bytes": 48246
+    },
+    {
+      "path": "/path/to/user-user/lora-dora-profiling/analysis-followup/2026-10-11/C-robustness/bootstrap-means.npy",
+      "sha256": "4727b80fbcd6d1bd9267506e62ba5cb65bacf7a5ddac8f735fcd2933fa6ce528",
+      "bytes": 18400128
+    }
+  ],
+  "outputs": [
+    {
+      "path": "docs/analysis-followup/2026-10-11/acceptance/validation.json",
+      "sha256": "d99f28efcfae6686b23048ec98df9f94abb1769467ceda5c5b99067832dd0cf5",
+      "bytes": 80484
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/acceptance/REVIEW.md",
+      "sha256": "492b6a442ea1e1a72bbaa120d26d296ba7f6984522d12b606c0bd6f6e7817d83",
+      "bytes": 4100
+    }
+  ],
+  "exclusions": [
+    "manifest.json self hash",
+    "mirror-verification.json added after copying"
+  ],
+  "packages": [
+    "A",
+    "B",
+    "C"
+  ]
+}

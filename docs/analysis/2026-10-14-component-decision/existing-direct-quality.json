@@ -1,0 +1,19 @@
+{
+  "scope": "Existing full-test correctness, no new generation. Diagnostic reuse, not new independent evidence.",
+  "cases": 1319,
+  "direct_reset_m_vs_remove_d": {
+    "reset_only_correct": 31,
+    "remove_d_only_correct": 31,
+    "correctness_discordances": 62
+  },
+  "joint_outcomes": {
+    "111": 987,
+    "000": 236,
+    "101": 12,
+    "100": 14,
+    "011": 20,
+    "010": 18,
+    "001": 19,
+    "110": 13
+  }
+}

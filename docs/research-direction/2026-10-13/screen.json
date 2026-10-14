@@ -1,0 +1,18 @@
+{
+  "n": 1319,
+  "original_correct": 1026,
+  "dense_correct": 1017,
+  "dense_correctness_flips": 53,
+  "global_radial_directional_weight_cosine": -0.00483528901400699,
+  "limitations": [
+    "Overlap is descriptive and selected after observing outcomes.",
+    "Exchangeability baseline is not a mechanistic null or causal test.",
+    "Custom dense reconstruction is not verified official PEFT merge.",
+    "Global weight cosine is not functional orthogonality or independence."
+  ],
+  "input_sha256": {
+    "docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz": "430c2265462aa02cd88c6b67bdfc0fba08380c42dd7f3204625fbd2bcf08c834",
+    "docs/diagnostics/radial-activity-2026-10-11/module-activity.csv": "241ac4179e9a425052234f7f5eab0bffb47ca9505cd80f683027d5e2214bf83d"
+  },
+  "code_sha256": "971ca3cbabf5ed26ff1c866563fccea55429fdfaa6e22ce6e6dcc9405533f1c2"
+}

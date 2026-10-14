@@ -1,0 +1,263 @@
+{
+  "gpu": {
+    "index": "4",
+    "uuid": "GPU_UUID",
+    "name": "NVIDIA RTX A4000",
+    "total_mib": "16376",
+    "free_mib": "13417",
+    "used_mib": "2558",
+    "utilization_percent": "15",
+    "driver": "610.57.04"
+  },
+  "pid": 2606844,
+  "threads": 2,
+  "allocator_budget_bytes": 2147483648,
+  "allocated_peak_bytes": 265517056,
+  "reserved_peak_bytes": 291504128,
+  "nvidia_process_peak_mib": 480,
+  "before_workspace_cleanup_allocated_bytes": 8519680,
+  "cublas_workspace_cleanup_available": false,
+  "post_release_allocated_bytes": 8519680,
+  "post_release_reserved_bytes": 20971520,
+  "nvidia_before": [
+    {
+      "index": "0",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "532",
+      "used_mib": "15442",
+      "utilization_percent": "100",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "1",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "8609",
+      "used_mib": "7366",
+      "utilization_percent": "37",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "2",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "2324",
+      "used_mib": "13651",
+      "utilization_percent": "100",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "3",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "5549",
+      "used_mib": "10426",
+      "utilization_percent": "65",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "4",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "13417",
+      "used_mib": "2558",
+      "utilization_percent": "15",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "5",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "7485",
+      "used_mib": "8490",
+      "utilization_percent": "4",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "6",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "6596",
+      "used_mib": "9379",
+      "utilization_percent": "86",
+      "driver": "610.57.04"
+    }
+  ],
+  "nvidia_after_tensor_release": [
+    {
+      "index": "0",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "514",
+      "used_mib": "15460",
+      "utilization_percent": "100",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "1",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "8909",
+      "used_mib": "7066",
+      "utilization_percent": "89",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "2",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "2918",
+      "used_mib": "13057",
+      "utilization_percent": "98",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "3",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "7391",
+      "used_mib": "8584",
+      "utilization_percent": "0",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "4",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "13190",
+      "used_mib": "2785",
+      "utilization_percent": "18",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "5",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "7395",
+      "used_mib": "8580",
+      "utilization_percent": "2",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "6",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "5326",
+      "used_mib": "10649",
+      "utilization_percent": "81",
+      "driver": "610.57.04"
+    }
+  ],
+  "hash_io_seconds": 25.09020449896343,
+  "process_wall_seconds": 162.9919129878981,
+  "peak_rss_kib": 1242428,
+  "accepted_pilot_cuda_tensor_wall_seconds": 0.21021908603142947,
+  "failed_attempts_recorded_cuda_tensor_wall_seconds": 0.5641425410285592,
+  "failed_attempt_full_process_times_unavailable": true,
+  "gpu_residency_upper_bound_process_minus_hashio_seconds": 137.90170848893467,
+  "process_exit_verified": true,
+  "nvidia_snapshot_after_process_exit": [
+    {
+      "index": "0",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "514",
+      "used_mib": "15460",
+      "utilization_percent": "100",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "1",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "8589",
+      "used_mib": "7386",
+      "utilization_percent": "35",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "2",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "1968",
+      "used_mib": "14007",
+      "utilization_percent": "100",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "3",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "7421",
+      "used_mib": "8554",
+      "utilization_percent": "0",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "4",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "13417",
+      "used_mib": "2558",
+      "utilization_percent": "17",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "5",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "7425",
+      "used_mib": "8550",
+      "utilization_percent": "0",
+      "driver": "610.57.04"
+    },
+    {
+      "index": "6",
+      "uuid": "GPU_UUID",
+      "name": "NVIDIA RTX A4000",
+      "total_mib": "16376",
+      "free_mib": "5422",
+      "used_mib": "10553",
+      "utilization_percent": "91",
+      "driver": "610.57.04"
+    }
+  ],
+  "cuda_tensor_wall_seconds": 10.466694593196735,
+  "cuda_stream_event_seconds": 10.450797630310058,
+  "cpu_same_product_norm_seconds": 15.051262434921227,
+  "read_seconds": 6.022182782064192,
+  "cpu_join_seconds": 17.23646300600376,
+  "pilot": {
+    "process_wall_seconds": 34.23266255494673,
+    "allocated_peak_bytes": 265517056,
+    "reserved_peak_bytes": 291504128,
+    "nvidia_process_peak_mib": 480
+  },
+  "scheduler_observation": "squeue,sinfo,qstat absent; /etc/slurm,/etc/slurm.conf,/etc/pbs.conf absent; no /etc/motd allocation notice; user explicitly authorizes occupied GPUs",
+  "note": "CUDA tensor wall and stream-event intervals include transfers, host synchronization gaps and reduction loops; neither is pure compute/utilization or total process time. Process-minus-initial-hashio bounds GPU residency approximately through metadata snapshot, excluding import startup and tiny final output writes. Failed cleanup attempts are separately disclosed; full failed process times unavailable. Weak references verify own tensors released before exit; remaining allocator bytes are backend workspace/cache, explicitly reported. Process exit separately verified by nvidia-smi PID absence; driver context released on exit.",
+  "nvidia_process_vram_sampling": "Maximum sampled at module boundaries; not continuous peak",
+  "archived_prior_pilot_cuda_tensor_wall_seconds": 0.8002758170478046,
+  "all_recorded_cuda_tensor_wall_seconds": 12.041332037304528,
+  "final_full_and_pilot_process_wall_seconds": 197.22457554284483
+}

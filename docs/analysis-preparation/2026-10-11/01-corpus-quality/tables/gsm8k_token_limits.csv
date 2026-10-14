@@ -1,0 +1,4 @@
+run_id,n,max_new_tokens,max_input_tokens,hit_token_limit,prompt_truncated
+gsm8k-quality-greedy/base,1319,256,512,544,0
+gsm8k-quality-greedy/dora,1319,256,512,35,0
+gsm8k-quality-greedy/lora,1319,256,512,40,0

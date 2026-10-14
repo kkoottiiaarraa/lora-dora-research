@@ -1,0 +1,173 @@
+{
+  "source_revision": "24f62bfe84741e5613ae2e9f387f2e1f9bb64ba8",
+  "source_sha256": "8b546f3299ee613582924ad5b1aec3bd5e601cf24552fc088eda2f347c8b0fbb",
+  "script_sha256": "13688c5e45a8476f0cd3cb39605801128d1dc43908f786768bf91d142fa3b7c4",
+  "torch_version": "2.5.1+cu121",
+  "peft_version": "0.17.1",
+  "execution": "complete pinned SoraLinear with installed PEFT; no source modification",
+  "dtype": "float64",
+  "threads": 2,
+  "device": "cpu",
+  "gpu_hours": 0,
+  "cases": [
+    {
+      "case": "initialization",
+      "saved_tensor_count": 5,
+      "saved_keys": [
+        "base_model.model.linear.lora_A.weight",
+        "base_model.model.linear.lora_B.weight",
+        "base_model.model.linear.lora_C.weight",
+        "base_model.model.linear.lora_D.weight",
+        "base_model.model.linear.lora_Diag.weight"
+      ],
+      "serialized_custom_mapping_present": false,
+      "plain_layer_class": "Linear",
+      "proper_layer_class": "SoraLinear",
+      "native_dense_relative_error": 0.0,
+      "plain_output_relative_error": 0.0,
+      "proper_output_relative_error": 0.0,
+      "plain_tensor_checks": [
+        {
+          "key": "base_model.model.linear.lora_A.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_B.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_C.weight",
+          "present": false,
+          "exact": false
+        },
+        {
+          "key": "base_model.model.linear.lora_D.weight",
+          "present": false,
+          "exact": false
+        },
+        {
+          "key": "base_model.model.linear.lora_Diag.weight",
+          "present": false,
+          "exact": false
+        }
+      ],
+      "proper_tensor_checks": [
+        {
+          "key": "base_model.model.linear.lora_A.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_B.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_C.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_D.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_Diag.weight",
+          "present": true,
+          "exact": true
+        }
+      ],
+      "warnings": {
+        "save": [],
+        "plain": [],
+        "proper": []
+      }
+    },
+    {
+      "case": "nontrivial",
+      "saved_tensor_count": 5,
+      "saved_keys": [
+        "base_model.model.linear.lora_A.weight",
+        "base_model.model.linear.lora_B.weight",
+        "base_model.model.linear.lora_C.weight",
+        "base_model.model.linear.lora_D.weight",
+        "base_model.model.linear.lora_Diag.weight"
+      ],
+      "serialized_custom_mapping_present": false,
+      "plain_layer_class": "Linear",
+      "proper_layer_class": "SoraLinear",
+      "native_dense_relative_error": 1.1706199936299882e-16,
+      "plain_output_relative_error": 0.1958974254671545,
+      "proper_output_relative_error": 0.0,
+      "plain_tensor_checks": [
+        {
+          "key": "base_model.model.linear.lora_A.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_B.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_C.weight",
+          "present": false,
+          "exact": false
+        },
+        {
+          "key": "base_model.model.linear.lora_D.weight",
+          "present": false,
+          "exact": false
+        },
+        {
+          "key": "base_model.model.linear.lora_Diag.weight",
+          "present": false,
+          "exact": false
+        }
+      ],
+      "proper_tensor_checks": [
+        {
+          "key": "base_model.model.linear.lora_A.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_B.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_C.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_D.weight",
+          "present": true,
+          "exact": true
+        },
+        {
+          "key": "base_model.model.linear.lora_Diag.weight",
+          "present": true,
+          "exact": true
+        }
+      ],
+      "warnings": {
+        "save": [],
+        "plain": [],
+        "proper": []
+      }
+    }
+  ],
+  "controls_pass": true,
+  "wall_seconds": 4.034767949953675,
+  "limitations": [
+    "Installed PEFT0.17.1, not full author PEFT0.14.1.dev0 fork",
+    "Synthetic untrained adapter, no model quality claims",
+    "No inference that author paper scores used these exact public call sites"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "artifacts": {
+    "RESULTS_AUDIT.md": "998112a86714a401cc232fd73bf2fa40ace292e6e1b5c39a8e8a9d1fb40f6253",
+    "RESUME.md": "ba21f62db215357b006a8882d2d83edb6daf2b2aa71cd9d3f5c9441339da3548"
+  },
+  "user_requested_pause": true,
+  "removed_only_generated_caches": true,
+  "source_results_and_failed_hypotheses_preserved": true
+}

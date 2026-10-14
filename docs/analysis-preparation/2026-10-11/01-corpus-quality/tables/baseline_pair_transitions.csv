@@ -1,0 +1,16 @@
+job,contrast,metric,left_run,right_run,n,score_type,correct_correct,correct_wrong,wrong_correct,wrong_wrong,increase,equal,decrease,missing_reason
+shadow_4b_mmlu,lora_minus_base,accuracy,shadow_4b_mmlu/base,shadow_4b_mmlu/lora,14042,binary,8345,930,1529,3238,null,null,null,null
+shadow_4b_mmlu,dora_minus_base,accuracy,shadow_4b_mmlu/base,shadow_4b_mmlu/dora,14042,binary,8332,943,1550,3217,null,null,null,null
+shadow_4b_mmlu,dora_minus_lora,accuracy,shadow_4b_mmlu/lora,shadow_4b_mmlu/dora,14042,binary,9305,569,577,3591,null,null,null,null
+shadow_4b_squadv2,lora_minus_base,exact,shadow_4b_squadv2/base,shadow_4b_squadv2/lora,11873,binary,3730,61,6489,1593,null,null,null,null
+shadow_4b_squadv2,lora_minus_base,f1,shadow_4b_squadv2/base,shadow_4b_squadv2/lora,11873,continuous,null,null,null,null,6961,4532,380,null
+shadow_4b_squadv2,dora_minus_base,exact,shadow_4b_squadv2/base,shadow_4b_squadv2/dora,11873,binary,3736,55,6467,1615,null,null,null,null
+shadow_4b_squadv2,dora_minus_base,f1,shadow_4b_squadv2/base,shadow_4b_squadv2/dora,11873,continuous,null,null,null,null,6917,4579,377,null
+shadow_4b_squadv2,dora_minus_lora,exact,shadow_4b_squadv2/lora,shadow_4b_squadv2/dora,11873,binary,10001,218,202,1452,null,null,null,null
+shadow_4b_squadv2,dora_minus_lora,f1,shadow_4b_squadv2/lora,shadow_4b_squadv2/dora,11873,continuous,null,null,null,null,253,11351,269,null
+gsm8k-quality-greedy,lora_minus_base,author_em,gsm8k-quality-greedy/base,gsm8k-quality-greedy/lora,1319,binary,10,6,999,304,null,null,null,null
+gsm8k-quality-greedy,lora_minus_base,final_em,gsm8k-quality-greedy/base,gsm8k-quality-greedy/lora,1319,binary,746,96,266,211,null,null,null,null
+gsm8k-quality-greedy,dora_minus_base,author_em,gsm8k-quality-greedy/base,gsm8k-quality-greedy/dora,1319,binary,12,4,1011,292,null,null,null,null
+gsm8k-quality-greedy,dora_minus_base,final_em,gsm8k-quality-greedy/base,gsm8k-quality-greedy/dora,1319,binary,751,91,275,202,null,null,null,null
+gsm8k-quality-greedy,dora_minus_lora,author_em,gsm8k-quality-greedy/lora,gsm8k-quality-greedy/dora,1319,binary,954,55,69,241,null,null,null,null
+gsm8k-quality-greedy,dora_minus_lora,final_em,gsm8k-quality-greedy/lora,gsm8k-quality-greedy/dora,1319,binary,956,56,70,237,null,null,null,null

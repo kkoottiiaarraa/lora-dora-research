@@ -1,0 +1,3066 @@
+{
+  "created_utc": "2026-10-11T19:58:15.880291+00:00",
+  "status": "PASS",
+  "passed": true,
+  "complete": true,
+  "packages": [
+    "A",
+    "B",
+    "C"
+  ],
+  "checks": 659,
+  "failed": 0,
+  "errors": [],
+  "records": [
+    {
+      "check": "historical SHA AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA MEMORY.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/README.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/manifests/export.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/attempts.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_pair_transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/comparability.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/coverage.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/gsm8k_scorer_agreement.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/gsm8k_token_limits.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/mmlu_subject_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/run_inventory.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/squadv2_answerability.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/validation/integrity.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/README.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/manifests/export.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_interactions.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/numerical_control_contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/validation/checks.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/README.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/manifests/hashes.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/manifests/schemas.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/attempts.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/availability.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/matched_impact_checks.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/numerical_fidelity.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/rank_job_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/rank_modules.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/resources.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/symmetry_statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/validation/checks.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/README.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/SPEC.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/analysis-preparation/build_corpus_quality.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/analysis-preparation/build_diagnostics.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/analysis-preparation/build_interventions.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/analysis-preparation/verify_bundle.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA MEMORY.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/README.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/manifests/export.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/attempts.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_pair_transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/comparability.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/coverage.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/gsm8k_scorer_agreement.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/gsm8k_token_limits.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/mmlu_subject_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/run_inventory.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/squadv2_answerability.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/validation/integrity.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/README.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/manifests/export.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_interactions.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/numerical_control_contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/02-interventions/validation/checks.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/README.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/manifests/hashes.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/manifests/schemas.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/attempts.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/availability.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/matched_impact_checks.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/numerical_fidelity.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/rank_job_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/rank_modules.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/resources.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/tables/symmetry_statistics.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/03-diagnostics/validation/checks.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/README.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/SPEC.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/CHECKPOINT.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/EXECUTION_SPEC.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/NOVELTY_AUDIT.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/PLAN.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/RESUME_SPEC.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/SYNTHESIS_DECISIONS.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/REPORT.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/all-intervention-evidence.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/claim-evidence.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/component-findings.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/component-necessity.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/component-validation.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/compression-difference-in-differences.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/compression-original-reference.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/compression-quality.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/compression-quality.svg",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/joint-interactions.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/limitations.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/localization-effects.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/localization-effects.svg",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/localization-findings.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/localization-validation.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/matched-control-limitations.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/numerical-controls.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/paired-outcome-transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/quality-and-controls.svg",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/quality-findings.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/quality-overview.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/quality-validation.json",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/spectral-entropy.csv",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/symmetry-scope.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/theory-audit.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA docs/analysis/2026-10-11/results/theory-review.md",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/analysis-preparation/build_corpus_quality.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/analysis-preparation/build_diagnostics.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/analysis-preparation/build_interventions.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/analysis-preparation/verify_bundle.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/scientific-analysis/build_components.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/scientific-analysis/build_localizations.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/scientific-analysis/build_quality.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA execution/scientific-analysis/verify_analysis.py",
+      "passed": true
+    },
+    {
+      "check": "historical SHA scripts/series_worker.py",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis/2026-10-11/results/paired-outcome-transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis/2026-10-11/results/analysis-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-followup/2026-10-11/SPEC.md",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-followup/2026-10-11/A-direct-contrasts/direct-contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-followup/2026-10-11/A-direct-contrasts/FINDINGS.md",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-followup/2026-10-11/A-direct-contrasts/METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-followup/2026-10-11/A-direct-contrasts/resources.json",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA docs/analysis-followup/2026-10-11/A-direct-contrasts/validation.json",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts SHA execution/existing-data-followup/build_direct_contrasts.py",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts required reports",
+      "passed": true
+    },
+    {
+      "check": "A-direct-contrasts author validation PASS",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis/2026-10-11/results/analysis-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_pair_transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis/2026-10-11/results/paired-outcome-transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis/2026-10-11/results/compression-original-reference.csv",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-followup/2026-10-11/SPEC.md",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-followup/2026-10-11/B-outcome-overlap/FINDINGS.md",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-followup/2026-10-11/B-outcome-overlap/METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-followup/2026-10-11/B-outcome-overlap/case-patterns.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-followup/2026-10-11/B-outcome-overlap/overlap.csv",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-followup/2026-10-11/B-outcome-overlap/pairwise-outcomes.csv",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-followup/2026-10-11/B-outcome-overlap/run-summary.csv",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA docs/analysis-followup/2026-10-11/B-outcome-overlap/validation.json",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap SHA execution/existing-data-followup/build_outcome_overlap.py",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap required reports",
+      "passed": true
+    },
+    {
+      "check": "B-outcome-overlap author validation PASS",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-followup/2026-10-11/SPEC.md",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis/2026-10-11/results/analysis-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/diagnostics/radial-activity-2026-10-11/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/diagnostics/radial-activity-2026-10-11/cuda-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA AGENTS.md",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA MEMORY.md",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis/2026-10-11/results/all-intervention-evidence.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis/2026-10-11/results/compression-original-reference.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis/2026-10-11/results/claim-evidence.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/diagnostics/radial-activity-2026-10-11/FINDINGS.md",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/diagnostics/radial-activity-2026-10-11/group-activity.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/diagnostics/radial-activity-2026-10-11/cuda-group-activity.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/diagnostics/radial-activity-2026-10-11/validation.json",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/diagnostics/radial-activity-2026-10-11/cuda-validation.json",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-followup/2026-10-11/C-robustness/FINDINGS.md",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-followup/2026-10-11/C-robustness/METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-followup/2026-10-11/C-robustness/central-summary.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-followup/2026-10-11/C-robustness/claim-update.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-followup/2026-10-11/C-robustness/resource-use.json",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-followup/2026-10-11/C-robustness/robustness.csv",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA docs/analysis-followup/2026-10-11/C-robustness/validation.json",
+      "passed": true
+    },
+    {
+      "check": "C-robustness SHA execution/existing-data-followup/build_robustness.py",
+      "passed": true
+    },
+    {
+      "check": "C-robustness required reports",
+      "passed": true
+    },
+    {
+      "check": "C-robustness author validation PASS",
+      "passed": true
+    },
+    {
+      "check": "frozen vectors binary/unique",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-dense-dora/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-dense-dora/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-r32/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-r32/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-e95/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-e95/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-dense-lora/lora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-dense-lora/lora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-all/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-all/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-lora-matched-impact/lora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-lora-matched-impact/lora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-e99/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-e99/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-q/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-q/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-k/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-k/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-v/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-v/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-o/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-o/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-v/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-v/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-q/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-q/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-vo/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-vo/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-qk/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-qk/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-vo/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-remove_d-vo/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-k/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-k/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-o/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-o/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-qk/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-base_magnitude-qk/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-quality-greedy/base', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-quality-greedy/base', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-quality-greedy/lora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-quality-greedy/lora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-quality-greedy/dora', 'author_em')",
+      "passed": true
+    },
+    {
+      "check": "aligned vector ('gsm8k-quality-greedy/dora', 'final_em')",
+      "passed": true
+    },
+    {
+      "check": "A exact 8 hypotheses",
+      "passed": true
+    },
+    {
+      "check": "A hypothesis 0",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A accepted transition unique 0",
+      "passed": true
+    },
+    {
+      "check": "A accepted transition values 0",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A hypothesis 1",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A accepted transition unique 1",
+      "passed": true
+    },
+    {
+      "check": "A accepted transition values 1",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A hypothesis 2",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A accepted transition unique 2",
+      "passed": true
+    },
+    {
+      "check": "A accepted transition values 2",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A hypothesis 3",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A accepted transition unique 3",
+      "passed": true
+    },
+    {
+      "check": "A accepted transition values 3",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A hypothesis 4",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A hypothesis 5",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A hypothesis 6",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A hypothesis 7",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A Holm8 0",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A Holm8 1",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A Holm8 2",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A Holm8 3",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A Holm8 4",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A Holm8 5",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A Holm8 6",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A Holm8 7",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A runtime/thread/environment provenance",
+      "passed": true
+    },
+    {
+      "check": "A formula toys: null/direction/exact/Holm",
+      "passed": true
+    },
+    {
+      "check": "A bootstrap null toy zero width",
+      "passed": true
+    },
+    {
+      "check": "B output counts 16/56/42",
+      "passed": true
+    },
+    {
+      "check": "B exact summary inventory",
+      "passed": true
+    },
+    {
+      "check": "B exact pair inventory",
+      "passed": true
+    },
+    {
+      "check": "B exact overlap inventory",
+      "passed": true
+    },
+    {
+      "check": "B summary author_emgsm8k-quality-greedy/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary author_emgsm8k-quality-greedy/lora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary author_emgsm8k-dense-dora/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary author_emgsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary author_emgsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary author_emgsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary author_emgsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary author_emgsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary final_emgsm8k-quality-greedy/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary final_emgsm8k-quality-greedy/lora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary final_emgsm8k-dense-dora/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary final_emgsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary final_emgsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary final_emgsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary final_emgsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B summary final_emgsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/doragsm8k-quality-greedy/lora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/doragsm8k-dense-dora/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/doragsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/doragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/loragsm8k-dense-dora/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/loragsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/loragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/loragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/loragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-quality-greedy/loragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-dense-dora/doragsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-dense-dora/doragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-dense-dora/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-dense-dora/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-dense-dora/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-remove_d-all/doragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-remove_d-all/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-remove_d-all/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-remove_d-all/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-base_magnitude-all/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-base_magnitude-all/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-base_magnitude-all/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-r32/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-r32/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair author_emgsm8k-e95/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/doragsm8k-quality-greedy/lora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/doragsm8k-dense-dora/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/doragsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/doragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/loragsm8k-dense-dora/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/loragsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/loragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/loragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/loragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-quality-greedy/loragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-dense-dora/doragsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-dense-dora/doragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-dense-dora/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-dense-dora/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-dense-dora/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-remove_d-all/doragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-remove_d-all/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-remove_d-all/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-remove_d-all/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-base_magnitude-all/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-base_magnitude-all/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-base_magnitude-all/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-r32/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-r32/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B pair final_emgsm8k-e95/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-quality-greedy/loragsm8k-dense-dora/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-quality-greedy/loragsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-quality-greedy/loragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-quality-greedy/loragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-quality-greedy/loragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-quality-greedy/loragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-dense-dora/doragsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-dense-dora/doragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-dense-dora/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-dense-dora/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-dense-dora/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-remove_d-all/doragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-remove_d-all/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-remove_d-all/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-remove_d-all/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-base_magnitude-all/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-base_magnitude-all/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-base_magnitude-all/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-r32/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-r32/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap author_emgsm8k-e95/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-quality-greedy/loragsm8k-dense-dora/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-quality-greedy/loragsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-quality-greedy/loragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-quality-greedy/loragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-quality-greedy/loragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-quality-greedy/loragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-dense-dora/doragsm8k-remove_d-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-dense-dora/doragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-dense-dora/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-dense-dora/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-dense-dora/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-remove_d-all/doragsm8k-base_magnitude-all/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-remove_d-all/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-remove_d-all/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-remove_d-all/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-base_magnitude-all/doragsm8k-r32/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-base_magnitude-all/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-base_magnitude-all/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-r32/doragsm8k-e95/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-r32/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B overlap final_emgsm8k-e95/doragsm8k-e99/dora",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B all case patterns IDs/hashes/vector reconstruction",
+      "passed": true,
+      "rows": 2638
+    },
+    {
+      "check": "B empty union convention documented",
+      "passed": true
+    },
+    {
+      "check": "B runtime/thread/version/deterministic provenance",
+      "passed": true
+    },
+    {
+      "check": "A/B common pair unique 0",
+      "passed": true
+    },
+    {
+      "check": "A/B common pair 0",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A/B common pair unique 1",
+      "passed": true
+    },
+    {
+      "check": "A/B common pair 1",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A/B common pair unique 2",
+      "passed": true
+    },
+    {
+      "check": "A/B common pair 2",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "A/B common pair unique 3",
+      "passed": true
+    },
+    {
+      "check": "A/B common pair 3",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C exact inventory size 40+6=46",
+      "passed": true
+    },
+    {
+      "check": "C server raw draws SHA/size",
+      "passed": true
+    },
+    {
+      "check": "C server raw draws metadata",
+      "passed": true
+    },
+    {
+      "check": "C literal historical preservation 0",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 0",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 0",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 1",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 1",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 1",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 2",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 2",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 2",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 3",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 3",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 3",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 4",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 4",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 4",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 5",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 5",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 5",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 6",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 6",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 6",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 7",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 7",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 7",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 8",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 8",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 8",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 9",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 9",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 9",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 10",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 10",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 10",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 11",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 11",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 11",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 12",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 12",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 12",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 13",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 13",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 13",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 14",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 14",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 14",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 15",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 15",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 15",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 16",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 16",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 16",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 17",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 17",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 17",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 18",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 18",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 18",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 19",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 19",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 19",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 20",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 20",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 20",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 21",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 21",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 21",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 22",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 22",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 22",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 23",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 23",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 23",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 24",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 24",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 24",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 25",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 25",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 25",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 26",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 26",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 26",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 27",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 27",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 27",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 28",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 28",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 28",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 29",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 29",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 29",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 30",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 30",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 30",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 31",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 31",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 31",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 32",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 32",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 32",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 33",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 33",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 33",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 34",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 34",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 34",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 35",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 35",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 35",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 36",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 36",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 36",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 37",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 37",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 37",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 38",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 38",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 38",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 39",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 39",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 39",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 40",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 40",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 40",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 41",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 41",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 41",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 42",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 42",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 42",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 43",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 43",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 43",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 44",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 44",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 44",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C literal historical preservation 45",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C means/reference/transitions 45",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C accepted mean/effect consistency 45",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C raw draw exact column order",
+      "passed": true
+    },
+    {
+      "check": "C all intervals/9flags 0",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 1",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 2",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 3",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 4",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 5",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 6",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 7",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 8",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 9",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 10",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 11",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 12",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 13",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 14",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 15",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 16",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 17",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 18",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 19",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 20",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 21",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 22",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 23",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 24",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 25",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 26",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 27",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 28",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 29",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 30",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 31",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 32",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 33",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 34",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 35",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 36",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 37",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 38",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 39",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 40",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 41",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 42",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 43",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 44",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all intervals/9flags 45",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C all draws/bands finite/bounded",
+      "passed": true
+    },
+    {
+      "check": "C common patterns exact means/counts",
+      "passed": true
+    },
+    {
+      "check": "C common resamples initial256 exact reproduction",
+      "passed": true
+    },
+    {
+      "check": "C independent common-pattern multinomial/index equivalence toy",
+      "passed": true
+    },
+    {
+      "check": "C identical columns/scorers intervals (34, 35)",
+      "passed": true
+    },
+    {
+      "check": "C all-zero family zero-width toy",
+      "passed": true
+    },
+    {
+      "check": "C common bootstrap mean consistency",
+      "passed": true
+    },
+    {
+      "check": "C bootstrap construction containment >=95pct (not true coverage)",
+      "passed": true,
+      "construction_fraction": 0.95124,
+      "q95": 0.017437452615617893
+    },
+    {
+      "check": "C common max-deviation/containment identity",
+      "passed": true
+    },
+    {
+      "check": "C runtime/thread provenance",
+      "passed": true
+    },
+    {
+      "check": "C central summary 16 literal full rows",
+      "passed": true
+    },
+    {
+      "check": "B/C common reference pair unique 6",
+      "passed": true
+    },
+    {
+      "check": "B/C mean/repairs/breaks 6",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B/C common reference pair unique 7",
+      "passed": true
+    },
+    {
+      "check": "B/C mean/repairs/breaks 7",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B/C common reference pair unique 10",
+      "passed": true
+    },
+    {
+      "check": "B/C mean/repairs/breaks 10",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B/C common reference pair unique 11",
+      "passed": true
+    },
+    {
+      "check": "B/C mean/repairs/breaks 11",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B/C common reference pair unique 40",
+      "passed": true
+    },
+    {
+      "check": "B/C mean/repairs/breaks 40",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B/C common reference pair unique 41",
+      "passed": true
+    },
+    {
+      "check": "B/C mean/repairs/breaks 41",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B/C common reference pair unique 42",
+      "passed": true
+    },
+    {
+      "check": "B/C mean/repairs/breaks 42",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B/C common reference pair unique 43",
+      "passed": true
+    },
+    {
+      "check": "B/C mean/repairs/breaks 43",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B/C common reference pair unique 44",
+      "passed": true
+    },
+    {
+      "check": "B/C mean/repairs/breaks 44",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "B/C common reference pair unique 45",
+      "passed": true
+    },
+    {
+      "check": "B/C mean/repairs/breaks 45",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C exact ledger9 original IDs/order",
+      "passed": true
+    },
+    {
+      "check": "C historical ledger fields L1",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C ledger source links exist L1",
+      "passed": true,
+      "links": [
+        "METHOD.md",
+        "../../../analysis/2026-10-11/results/theory-audit.md"
+      ]
+    },
+    {
+      "check": "C ledger bounded fields nonempty L1",
+      "passed": true
+    },
+    {
+      "check": "C historical ledger fields L2",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C ledger source links exist L2",
+      "passed": true,
+      "links": [
+        "METHOD.md",
+        "../../../analysis/2026-10-11/results/spectral-entropy.csv"
+      ]
+    },
+    {
+      "check": "C ledger bounded fields nonempty L2",
+      "passed": true
+    },
+    {
+      "check": "C historical ledger fields L3",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C ledger source links exist L3",
+      "passed": true,
+      "links": [
+        "robustness.csv",
+        "central-summary.csv",
+        "../../../analysis/2026-10-11/results/compression-original-reference.csv"
+      ]
+    },
+    {
+      "check": "C ledger bounded fields nonempty L3",
+      "passed": true
+    },
+    {
+      "check": "C historical ledger fields L4",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C ledger source links exist L4",
+      "passed": true,
+      "links": [
+        "central-summary.csv",
+        "robustness.csv"
+      ]
+    },
+    {
+      "check": "C ledger bounded fields nonempty L4",
+      "passed": true
+    },
+    {
+      "check": "C historical ledger fields L5",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C ledger source links exist L5",
+      "passed": true,
+      "links": [
+        "robustness.csv",
+        "central-summary.csv",
+        "../../../diagnostics/radial-activity-2026-10-11/FINDINGS.md",
+        "../../../diagnostics/radial-activity-2026-10-11/group-activity.csv",
+        "../../../diagnostics/radial-activity-2026-10-11/cuda-group-activity.csv"
+      ]
+    },
+    {
+      "check": "C ledger bounded fields nonempty L5",
+      "passed": true
+    },
+    {
+      "check": "C historical ledger fields L6",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C ledger source links exist L6",
+      "passed": true,
+      "links": [
+        "METHOD.md",
+        "../../../analysis/2026-10-11/results/limitations.md"
+      ]
+    },
+    {
+      "check": "C ledger bounded fields nonempty L6",
+      "passed": true
+    },
+    {
+      "check": "C historical ledger fields L7",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C ledger source links exist L7",
+      "passed": true,
+      "links": [
+        "METHOD.md",
+        "../../../analysis/2026-10-11/results/quality-overview.csv"
+      ]
+    },
+    {
+      "check": "C ledger bounded fields nonempty L7",
+      "passed": true
+    },
+    {
+      "check": "C historical ledger fields L8",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C ledger source links exist L8",
+      "passed": true,
+      "links": [
+        "central-summary.csv",
+        "../../../analysis/2026-10-11/results/matched-control-limitations.json"
+      ]
+    },
+    {
+      "check": "C ledger bounded fields nonempty L8",
+      "passed": true
+    },
+    {
+      "check": "C historical ledger fields L9",
+      "passed": true,
+      "differences": {}
+    },
+    {
+      "check": "C ledger source links exist L9",
+      "passed": true,
+      "links": [
+        "METHOD.md",
+        "../../../analysis/2026-10-11/results/symmetry-scope.md"
+      ]
+    },
+    {
+      "check": "C ledger bounded fields nonempty L9",
+      "passed": true
+    },
+    {
+      "check": "C L5 activity exact source numbers",
+      "passed": true
+    },
+    {
+      "check": "C L5 preserves training/independence/specificity unknowns",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA /path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/module-activity.csv",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA /path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/group-activity.csv",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA /path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/validation.json",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA /path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/resource-use.json",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA /path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA /path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/full/row-activity.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA docs/diagnostics/radial-activity-2026-10-11/cuda-module-activity.csv",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA docs/diagnostics/radial-activity-2026-10-11/cuda-group-activity.csv",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA docs/diagnostics/radial-activity-2026-10-11/cuda-validation.json",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA docs/diagnostics/radial-activity-2026-10-11/cuda-resource-use.json",
+      "passed": true
+    },
+    {
+      "check": "C accepted activity SHA docs/diagnostics/radial-activity-2026-10-11/CUDA_METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "C FINDINGS counts/q95/construction quotes",
+      "passed": true,
+      "counts": {
+        "old_pointwise": [
+          17,
+          32,
+          46
+        ],
+        "new_pointwise": [
+          18,
+          32,
+          46
+        ],
+        "simultaneous": [
+          2,
+          13,
+          41
+        ]
+      }
+    },
+    {
+      "check": "C FINDINGS central16 numerical rows",
+      "passed": true
+    },
+    {
+      "check": "C manual scientific scope review",
+      "passed": true,
+      "review": "approximate family46, separate A8, fixed checkpoints, posthoc margins, construction versus true coverage, original/dense distinction, no equivalence/training/superiority/whole-paper-refutation claim"
+    },
+    {
+      "check": "A/B manual scientific scope review",
+      "passed": true,
+      "review": "all A table numbers reproduced; Holm8 and pointwise CI separated; scorer-dependent Q-minus-K; B correctness overlap explicitly distinct from texts/functions/mechanism"
+    },
+    {
+      "check": "all tracked input/package bytes unchanged after acceptance",
+      "passed": true,
+      "changed": []
+    }
+  ],
+  "resources": {
+    "hostname": "gpu-host",
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "runtime_seconds": 1.249311906984076,
+    "peak_rss_kib": 129372,
+    "numerical_threads": 2,
+    "cuda_visible_devices": ""
+  },
+  "scope": "independent CPU existing-data acceptance; no author build functions executed; no frozen/output rewrites"
+}

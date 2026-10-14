@@ -1,0 +1,32 @@
+{
+  "cpu_threads": 2,
+  "cuda_visible_devices": "",
+  "gpu_used": false,
+  "peak_rss_kib": 981744,
+  "hash_verification_seconds": 26.337257822044194,
+  "measurement_seconds": 119.29590738995466,
+  "wall_seconds": 146.57814546499867,
+  "proc_io_start": "rchar: 138928751\nwchar: 4970\nsyscr: 11282\nsyscw: 3\nread_bytes: 0\nwrite_bytes: 12288\ncancelled_write_bytes: 4096\n",
+  "proc_io_finish": "rchar: 8280200299\nwchar: 33396314\nsyscr: 12469\nsyscw: 1427\nread_bytes: 0\nwrite_bytes: 33460224\ncancelled_write_bytes: 4096\n",
+  "versions": {
+    "python": "3.12.3",
+    "torch": "2.5.1+cu121",
+    "numpy": "1.26.4",
+    "peft": "0.17.1"
+  },
+  "dtype_trace": {
+    "eye": "torch.float32",
+    "identity_A": "torch.bfloat16",
+    "identity_B": "torch.bfloat16",
+    "base": "torch.float32",
+    "addition": "torch.float32",
+    "norm": "torch.float32",
+    "magnitude": "torch.float32",
+    "quotient": "torch.float32"
+  },
+  "mode": "full",
+  "no_training": true,
+  "no_model_forward": true,
+  "no_svd": true,
+  "no_new_dependencies": true
+}

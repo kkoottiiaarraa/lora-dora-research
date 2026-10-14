@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """CPU-only package C; read frozen data, independently audit paired scores.
 
-Run on compute-host using the existing research venv and at most two BLAS threads.
+Run on gpu-host using the existing research venv and at most two BLAS threads.
 No model imports, weight reads, new decompositions, inference, or dependencies.
 New bootstrap estimands/method/seeds are fixed in EXECUTION_SPEC.md.
 """
@@ -418,7 +418,7 @@ def main():
               '## Multiplicity and practical criteria', '',
               f"All 40 saved contrasts and their literal historical estimates/CI/p are retained. Global Holm across all 40 raw p leaves {sum(p < .05 for p in global_p)} contrasts below 0.05; this sensitivity analysis does not replace historical families or account for the full adaptive research process.", '',
               'The 0.5/1/2 pp columns test lower_CI > −δ using existing pointwise intervals. They are thresholds for excluding specified accuracy losses, not formal simultaneous noninferiority, two-sided mathematical equivalence, function equivalence, or training uncertainty.', '',
-              'Reproduce on server: `OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 MKL_NUM_THREADS=2 ./artifacts execution/scientific-analysis/build_components.py --repo ./artifacts`.', '',
+              'Reproduce on server: `OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 MKL_NUM_THREADS=2 /path/to/user-user/.venvs/lora-dora-research/bin/python execution/scientific-analysis/build_components.py --repo /path/to/user-user/lora-dora-series`.', '',
               'Inputs and independent checks are recorded in component-validation.json; source metadata and scope details are in matched-control-limitations.json. New output manifest is coordinated by the main analysis agent.']
     (output / 'component-findings.md').write_text('\n'.join(lines) + '\n')
     for relative in ['docs/analysis/2026-10-11/PLAN.md', 'docs/analysis/2026-10-11/EXECUTION_SPEC.md', 'execution/scientific-analysis/build_components.py']:
@@ -429,7 +429,7 @@ def main():
                     'compression-quality.svg', 'component-findings.md']
     validation = dict(passed=all(r['passed'] for r in checks), checks=checks,
                       counts=dict(all_contrasts=len(evidence), radial_rows=len(radial), compression_rows=len(compression), did_rows=len(did), original_reference_rows=len(original_comparisons), entropy_rows=len(entropy_rows)),
-                      environment=dict(python=platform.python_version(), numpy=np.__version__, host_scope='CPU compute-host; no model computation'),
+                      environment=dict(python=platform.python_version(), numpy=np.__version__, host_scope='CPU gpu-host; no model computation'),
                       inputs=inputs, outputs={name: digest(output / name) for name in output_paths},
                       bootstrap=dict(B=50000, seeds={'author_em': 2026101101, 'final_em': 2026101102}, original_reference_seeds=list(range(2026101121, 2026101127)),
                                      method='NumPy default_rng multinomial common-index empirical distribution; percentile CI; centered two-sided p'),

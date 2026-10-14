@@ -1,0 +1,97 @@
+{
+  "acceptance": "PASS",
+  "exploratory": true,
+  "primary_transient_gate": false,
+  "opposite_growth_gate": false,
+  "early_to_late_normalized_role_fold": 39.44444573350445,
+  "log_fold_ci95": [
+    3.386521267570626,
+    3.9439318189677826
+  ],
+  "numeric_floor_ok": true,
+  "control_floor_rms": 1.8166819943148546e-05,
+  "cases": 16,
+  "rows": 144,
+  "table": [
+    {
+      "step": 64,
+      "condition": "remove_d",
+      "mean_kl": 3.733144825654164e-05,
+      "native_to_base_kl": 0.00013611735797826294,
+      "normalized_role": 0.2742592775162682,
+      "mean_nll_delta": -0.0018540479171692131,
+      "floor_fraction": 0.0016794938551398918
+    },
+    {
+      "step": 64,
+      "condition": "base_magnitude",
+      "mean_kl": 3.743113461800849e-05,
+      "native_to_base_kl": 0.00013611735797826294,
+      "normalized_role": 0.274991633498984,
+      "mean_nll_delta": -0.0018753223764729904,
+      "floor_fraction": 0.0016732523249627347
+    },
+    {
+      "step": 512,
+      "condition": "remove_d",
+      "mean_kl": 3.6359924737089605e-05,
+      "native_to_base_kl": 0.002689367633674697,
+      "normalized_role": 0.013519878904546844,
+      "mean_nll_delta": -0.0018030067345298356,
+      "floor_fraction": 0.0017224565967483723
+    },
+    {
+      "step": 512,
+      "condition": "base_magnitude",
+      "mean_kl": 3.6407199635330936e-05,
+      "native_to_base_kl": 0.002689367633674697,
+      "normalized_role": 0.013537457348508683,
+      "mean_nll_delta": -0.0018220550479722125,
+      "floor_fraction": 0.001719719574818555
+    },
+    {
+      "step": 1024,
+      "condition": "remove_d",
+      "mean_kl": 3.6406705221538654e-05,
+      "native_to_base_kl": 0.005236075590410949,
+      "normalized_role": 0.006953051878817758,
+      "mean_nll_delta": -0.0018007748586476163,
+      "floor_fraction": 0.0017381463703808405
+    },
+    {
+      "step": 1024,
+      "condition": "base_magnitude",
+      "mean_kl": 3.634545522606378e-05,
+      "native_to_base_kl": 0.005236075590410949,
+      "normalized_role": 0.006941354187595148,
+      "mean_nll_delta": -0.0018016797757855196,
+      "floor_fraction": 0.0017356693955933081
+    }
+  ],
+  "wall_seconds": 324.68060476798564,
+  "peak_rss_bytes": 20596588544,
+  "gpu_hours": 0,
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "cases_sha256": "1476edd043ff1de8b7293ca2d942aa8f772020af576bee46c5575775bb721500",
+  "source_sha256": {
+    "execution/next-experiments/perl_trajectory_screen.py": "b8dde3bd14ae16034f7b74a15b1755590d0d27fd1e216c134c53d8d74943ed50",
+    "execution/scientific-analysis/audit_perl_magnitude.py": "75c497ff55751b43cbc83ff0b0b99adecd3411320cda257214d15fbb2cee82a6",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118",
+    "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+    "lora_dora_study/fidelity_audit.py": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+    "lora_dora_study/rank_symmetry.py": "d50047efc0bc82778a511300d89a2555d462a7be95794fa23dfbb601d9132079",
+    "lora_dora_study/benchmarks.py": "1abd84b8e6b5e1c145ff83ede420d8b283a54c5afd030a6aa868f65201f3ba2d",
+    "tests/test_perl_trajectory.py": "f59a89d5287eb55ed9d5166b9bbd5f138153d43c33e1289baf53c365d05ded04"
+  },
+  "provenance_sha256": "0b710095ceab86e69d9c787ec32154b2911b1ffc2e0b0b59f1fdec62b998ff05",
+  "independent_seed_replication": false,
+  "training_causality_identified": false,
+  "benchmark_accuracy_measured": false
+}

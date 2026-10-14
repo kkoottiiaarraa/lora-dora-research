@@ -1,0 +1,14 @@
+answerable,original_outcome,remove_d_outcome,n
+False,correct,correct,5210
+False,correct,false_answer,26
+False,false_answer,correct,16
+False,false_answer,false_answer,693
+True,correct,correct,4910
+True,correct,false_abstention,9
+True,correct,wrong_span,48
+True,false_abstention,correct,8
+True,false_abstention,false_abstention,215
+True,false_abstention,wrong_span,7
+True,wrong_span,correct,33
+True,wrong_span,false_abstention,2
+True,wrong_span,wrong_span,696

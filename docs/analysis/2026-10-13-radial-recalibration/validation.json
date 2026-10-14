@@ -1,0 +1,130 @@
+{
+  "status": "validated",
+  "questions": 64,
+  "target_positions": 2048,
+  "adapted_modules": 144,
+  "adapter_elements": 5898240,
+  "primary": {
+    "kind": "primary",
+    "changed": "recalibrated_8",
+    "reference": "structural_8",
+    "kl_delta": -1.9094245852776553e-05,
+    "kl_ci95": [
+      -3.1051080206577936e-05,
+      -9.617209514321195e-06
+    ],
+    "relative_kl_gain": 0.008088584275720985,
+    "nll_delta": -8.633545683071442e-05,
+    "descriptive_nll_ci95": [
+      -0.00014877765300049211,
+      -2.580226356951984e-05
+    ],
+    "lower_kl_cases": 44,
+    "higher_kl_cases": 20,
+    "benefit_screen_passed": false
+  },
+  "contrasts": [
+    {
+      "kind": "primary",
+      "changed": "recalibrated_8",
+      "reference": "structural_8",
+      "kl_delta": -1.9094245852776553e-05,
+      "kl_ci95": [
+        -3.1051080206577936e-05,
+        -9.617209514321195e-06
+      ],
+      "relative_kl_gain": 0.008088584275720985,
+      "nll_delta": -8.633545683071442e-05,
+      "descriptive_nll_ci95": [
+        -0.00014877765300049211,
+        -2.580226356951984e-05
+      ],
+      "lower_kl_cases": 44,
+      "higher_kl_cases": 20,
+      "benefit_screen_passed": false
+    },
+    {
+      "kind": "secondary",
+      "changed": "recalibrated_8",
+      "reference": "weighted_8",
+      "kl_delta": 0.00015485621621405294,
+      "kl_ci95": [
+        4.3379146885435644e-05,
+        0.00028202800533230467
+      ],
+      "relative_kl_gain": -0.07081760973725595,
+      "nll_delta": -7.055916625564758e-05,
+      "descriptive_nll_ci95": [
+        -0.0008223423432094453,
+        0.0007011957239073539
+      ],
+      "lower_kl_cases": 25,
+      "higher_kl_cases": 39,
+      "benefit_screen_passed": false
+    },
+    {
+      "kind": "secondary",
+      "changed": "recalibrated_8",
+      "reference": "raw_8",
+      "kl_delta": 0.0001270114305676665,
+      "kl_ci95": [
+        -6.057562421695896e-05,
+        0.00029481964555129535
+      ],
+      "relative_kl_gain": -0.057353528643586255,
+      "nll_delta": 0.00033739123472390127,
+      "descriptive_nll_ci95": [
+        -0.0010734847020855078,
+        0.001749312758944955
+      ],
+      "lower_kl_cases": 30,
+      "higher_kl_cases": 34,
+      "benefit_screen_passed": false
+    }
+  ],
+  "better_mean_than_both_ordinary_baselines": false,
+  "calibration": {
+    "total_local_gain": 0.006706965680197019,
+    "median_module_local_gain": 0.007911136473513469,
+    "max_diagonal_change": 0.01760244369506836
+  },
+  "uncertainty": "One frozen primary comparison, paired whole-question percentile bootstrap10000 seed20261013 CI95; secondary exploratory, no task-accuracy inference",
+  "scope": "64 new posthoc-validation train questions; source adaptation may have seen them. Not GSM8K test accuracy.",
+  "resources": {
+    "gpu_hours": 0,
+    "prepare_wall_seconds": 113.27685541694518,
+    "total_wall_seconds": 674.7751768929884,
+    "evaluation_cpu_threads": 16,
+    "peak_rss_bytes": 21178355712
+  },
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "source_sha256": {
+    "execution/next-experiments/radial_followup.py": "f6ba604a39b3d8737fea842c0218a5856b0a38e47d2e9daf59cba9fb450045c8",
+    "lora_dora_study/radial_recalibration.py": "c59c7b9a3357bae196d80404e8c1f26379b49fa1431bf5d33719ecd79d9584c2",
+    "tests/test_radial_recalibration.py": "30e36cf39ecb897b195d79067bb47a26a841f759c4f892ae83e425a6d4ca70d1",
+    "docs/analysis/2026-10-13-radial-recalibration/SPEC.md": "50f9bc24b8531933e22dafba0e18677ba5c3ce6f4f9afc6131c53b138783cc1f",
+    "lora_dora_study/full_compression.py": "843f0b8da4c20b0f4fa7efd1319fc185af481ff25fdcf02beda2a0dcc9052517",
+    "lora_dora_study/rank_budget.py": "3b6eb1b0eb9fbef2fe26d57651b18aca079ce63abca8a952fc24e60636883352",
+    "lora_dora_study/fidelity_audit.py": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+    "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118",
+    "lora_dora_study/benchmarks.py": "1abd84b8e6b5e1c145ff83ede420d8b283a54c5afd030a6aa868f65201f3ba2d"
+  },
+  "input_sha256": {
+    "factor-audit.json": "b03dd695b42bf88568bb59d985105e97a812ae68a15ebd250c2f19c383b5ab21",
+    "controls.json": "96931c439c2fd2bb47634091f8d946f7ba751e57dd432cbf6e2f5deb57621539",
+    "manifest-private.json": "87ab912fcdd23c1079eed86f949100e4d49f74a08b7bdccfab0d46773ab7422d",
+    "per-case.jsonl": "1ba0104d3a86f21a64ec9541f485ec94e68b7a1f35ef3ef142f52616b67b7410",
+    "cases.json": "77f0fd64b0bb2f2ccce5d9eeb43d21c7b7bb3715bf3ba1e709d4f340a0ab5907",
+    "frozen.json": "8d0af0939e68e92092e636cc88047e137043d952ec4d6d1c7c84042cd6093d1b",
+    "diagnostics.json": "573f02db6952f0d8d4ee7aa421042a058e0a653ddb1e112671d5e0ab6e0e7f80",
+    "summary.json": "47b1bf941b6a84589393ac76e2639c1e89e29f0fe338e899a1e3a82dd842bd90"
+  }
+}

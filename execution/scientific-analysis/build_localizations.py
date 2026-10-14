@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Package L: CPU-only read-only analysis of frozen final-checkpoint scores.
 
-Run on compute-host with its existing research venv and <=2 numerical threads.
+Run on gpu-host with its existing research venv and <=2 numerical threads.
 No models, weights, new forward passes, SVD, or dependency installation.
 """
 import argparse
@@ -310,7 +310,7 @@ def main():
                    code_sha256=digest(Path(__file__)), plan_sha256=digest(repo / 'docs/analysis/2026-10-11/PLAN.md'),
                    execution_spec_sha256=digest(repo / 'docs/analysis/2026-10-11/EXECUTION_SPEC.md'),
                    outputs={p: digest(out / p) for p in outputs}, python=platform.python_version(), numpy=np.__version__, plotting="stdlib SVG (matplotlib absent; no dependencies installed)",
-                   execution='CPU compute-host; numerical thread limits supplied by launcher; no model computations',
+                   execution='CPU gpu-host; numerical thread limits supplied by launcher; no model computations',
                    seeds=[r['seed'] for r in interactions], bootstrap_resamples=B,
                    significant_global40_localization_rows=significant, significant_holm8_interactions=sig_i,
                    pointwise_loss_exclusion_counts=dict(zip(['0.5pp', '1pp', '2pp'], loss_counts)))

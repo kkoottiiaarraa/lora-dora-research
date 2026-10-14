@@ -12,4 +12,7 @@
 
 Toy проверки: exact известные McNemar значения/симметрия, Holm известные значения/равные p, полное перечисление 3^3 indexed resamples и сравнение с multinomial кратностями, константные z, ожидание/дисперсия/bootstrap determinism. На данных проверяются marginals, aligned means против frozen metrics, четыре accepted перехода radial-vs-LoRA, finite CI/bounds, bootstrap mean consistency с допуском шесть Monte Carlo SE. Проверяется сохранность входов после расчёта. Число проверок включает бинарность и alignment каждого примера и не является числом независимых наблюдений.
 
+Вычисления только CPU исследовательского сервера в готовом окружении. Numerical threads принудительно <=2, CUDA_VISIBLE_DEVICES пуст. Модели, веса, Torch, forward, GPU, downloads и установки не используются. Resources содержит версии, runtime, RSS и настройки threads. Manifest исключает свой собственный hash; зеркальная идентичность проверяется отдельно после копирования. Эти checkpoint CI отражают resampling оценочных примеров, не вариацию обучения. Q−K не идентифицирует причинную роль групп, нулевая значимость не устанавливает эквивалентность функций.
 
+Воспроизведение на сервере:
+`/path/to/user-user/.venvs/lora-dora-research/bin/python execution/existing-data-followup/build_direct_contrasts.py --repo-root /path/to/user-user/lora-dora-series`

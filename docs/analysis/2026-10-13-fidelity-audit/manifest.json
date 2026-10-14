@@ -1,0 +1,10 @@
+{
+  "files_sha256": {
+    "MISTRAL_DECISION.md": "ce0213dfda138a1c75d9ba1abaa6ffdfdca956e96a8ff9bf112fc145ed755c16",
+    "REPORT.md": "f5d6e0e3085ddbca9c08fda708e13d86c9cb0a2942691bfe9b3a030dc7f593dd",
+    "fidelity.csv": "6a91d7968061d430b3e30172da24f76ecb7ab20e75c1b46f8549e4b84c5f2f49",
+    "fp64-block-checks.csv": "53a8339c205d17c30a8e894ac0d717f21ddaf5ee9be96254dce71a6d9d4aa76f",
+    "geometry-comparisons.csv": "b5d33e1d8dfe37b2234a487be69932238a6824dafff1b2b08bd0904de13de9f6",
+    "validation.json": "8958e3bc004c51aca24b87c46a3c8d142e836148f08bfae3780c1c2ac20b9420"
+  }
+}

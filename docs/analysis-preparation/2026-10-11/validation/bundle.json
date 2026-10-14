@@ -1,0 +1,87 @@
+{
+  "checked_utc": "2026-10-11T06:15:08.298013+00:00",
+  "passed": true,
+  "offline": true,
+  "packages": {
+    "01-corpus-quality": {
+      "passed": true,
+      "command": [
+        "/usr/bin/python3",
+        "/path/to/user/Documents/Codex/2026-10-09/dora-lora-https-github-com-kkoottiiaarraa/work/lora-dora-series/execution/analysis-preparation/build_corpus_quality.py",
+        "--out",
+        "/path/to/user/Documents/Codex/2026-10-09/dora-lora-https-github-com-kkoottiiaarraa/work/lora-dora-series/docs/analysis-preparation/2026-10-11/01-corpus-quality",
+        "--verify-only"
+      ],
+      "stdout": "{\"passed\": true, \"verified_outputs\": 13, \"errors\": []}",
+      "table_rows": {
+        "attempts.csv": 32,
+        "baseline_contrasts.csv": 15,
+        "baseline_metrics.csv": 15,
+        "baseline_pair_transitions.csv": 15,
+        "comparability.csv": 29,
+        "coverage.csv": 28,
+        "gsm8k_scorer_agreement.csv": 12,
+        "gsm8k_token_limits.csv": 3,
+        "mmlu_subject_metrics.csv": 177,
+        "run_inventory.csv": 29,
+        "squadv2_answerability.csv": 12
+      }
+    },
+    "02-interventions": {
+      "passed": true,
+      "command": [
+        "/usr/bin/python3",
+        "/path/to/user/Documents/Codex/2026-10-09/dora-lora-https-github-com-kkoottiiaarraa/work/lora-dora-series/execution/analysis-preparation/build_interventions.py",
+        "--output",
+        "/path/to/user/Documents/Codex/2026-10-09/dora-lora-https-github-com-kkoottiiaarraa/work/lora-dora-series/docs/analysis-preparation/2026-10-11/02-interventions",
+        "--check"
+      ],
+      "stdout": "Output hash verification passed",
+      "table_rows": {
+        "intervention_metrics.csv": 40,
+        "paired_transitions.csv": 40,
+        "localization_grid.csv": 28,
+        "localization_interactions.csv": 8,
+        "numerical_control_contrasts.csv": 12,
+        "per_example_scores.csv.gz": 60674
+      }
+    },
+    "03-diagnostics": {
+      "passed": true,
+      "command": [
+        "/usr/bin/python3",
+        "/path/to/user/Documents/Codex/2026-10-09/dora-lora-https-github-com-kkoottiiaarraa/work/lora-dora-series/execution/analysis-preparation/build_diagnostics.py",
+        "--output",
+        "/path/to/user/Documents/Codex/2026-10-09/dora-lora-https-github-com-kkoottiiaarraa/work/lora-dora-series/docs/analysis-preparation/2026-10-11/03-diagnostics",
+        "--check",
+        "--verify-local"
+      ],
+      "stdout": "{\"passed\": true, \"failed_output_hashes\": [], \"extractor_hash_matches\": true}",
+      "table_rows": {
+        "attempts.csv": 35,
+        "resources.csv": 29,
+        "availability.csv": 206,
+        "rank_modules.csv": 1728,
+        "rank_job_summary.csv": 57,
+        "numerical_fidelity.csv": 71,
+        "matched_impact_checks.csv": 144,
+        "symmetry_statistics.csv": 255
+      }
+    }
+  },
+  "errors": [],
+  "attempts_scopes": {
+    "01-corpus-quality": {
+      "rows": 32,
+      "scope": "32 nonselected full/smoke directories in the two job roots"
+    },
+    "03-diagnostics": {
+      "rows": 35,
+      "scope": "35 discovered summaries/error artifacts/cancellations/short numerical check in specified diagnostic coverage"
+    },
+    "interpretation": "Expected distinct scopes, not a deduplicated or complete campaign total"
+  },
+  "verified_files": 43,
+  "total_bytes": 4917222,
+  "bundle_manifest_sha256": "2c3a1a62afe3c0e8f052031c6af4b24b581fe41bc188e7f344a1e39ed42306ab"
+}

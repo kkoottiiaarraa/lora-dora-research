@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "actual_factor_counts": {
+    "weighted_uniform": 5898240,
+    "weighted_allocated": 5898240,
+    "structural_uniform": 5898240,
+    "structural_allocated": 5898240
+  },
+  "all_finite_fp32": true,
+  "factors_sha256": "6fa37f17e220592e66b909b3da69a4605452278cb9d35128f4420204e694445f",
+  "previous_case_disjoint": true
+}

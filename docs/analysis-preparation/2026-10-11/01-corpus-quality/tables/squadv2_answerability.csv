@@ -1,0 +1,13 @@
+run_id,role,metric,answerability,n,mean,source_path,label_rule,missing_reason
+shadow_4b_squadv2/base,base,exact,unanswerable,5945,0.4693019343986543,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/base,base,f1,unanswerable,5945,0.4693019343986543,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/base,base,exact,answerable,5928,0.16885964912280702,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/base,base,f1,answerable,5928,0.46122078047528986,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/dora,dora,exact,unanswerable,5945,0.880740117746005,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/dora,dora,f1,unanswerable,5945,0.880740117746005,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/dora,dora,exact,answerable,5928,0.8378879892037787,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/dora,dora,f1,answerable,5928,0.9001400418753538,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/lora,lora,exact,unanswerable,5945,0.8871320437342305,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/lora,lora,f1,unanswerable,5945,0.8871320437342305,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/lora,lora,exact,answerable,5928,0.8341767881241565,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null
+shadow_4b_squadv2/lora,lora,f1,answerable,5928,0.8990476947561992,/path/to/user-user/lora-dora-series/datasets/squadv2-test.jsonl,nonempty explicit answers.text,null

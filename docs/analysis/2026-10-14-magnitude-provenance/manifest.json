@@ -1,0 +1,8 @@
+{
+  "artifacts": {
+    "REPORT.md": "b3be31b72055740d0b86e68ba3a17f03b78c7f5bbb54fc6b26f16e97df8b4d36",
+    "SPEC.md": "dce89c90df8ef4670bb0a70b6540acf65dd65d6fb2da3e48a1a9363be5bb8fcd",
+    "audit.json": "aa76db8d2fcc00a45665df285e81a8a6294b66ccc42b4ce9ccdd5f3dbcd24716"
+  },
+  "runner_sha256": "255254797bbb1f8758fd818add9c1298469bc7224c8def4c8427f0849d3e0a2c"
+}

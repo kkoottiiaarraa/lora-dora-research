@@ -263,7 +263,7 @@ def csvwrite(path, records):
 
 def main():
     p=argparse.ArgumentParser()
-    p.add_argument('--repo',type=Path,default=Path('./artifacts'))
+    p.add_argument('--repo',type=Path,default=Path('/path/to/user-user/lora-dora-series'))
     p.add_argument('--out',type=Path,required=True)
     p.add_argument('--raw',type=Path,required=True)
     p.add_argument('--pilot',action='store_true')

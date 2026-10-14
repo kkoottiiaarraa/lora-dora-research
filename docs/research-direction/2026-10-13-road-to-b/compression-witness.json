@@ -1,0 +1,124 @@
+{
+  "scope": "exact rational diagonal examples, not trained-model evidence",
+  "compression": "rank1 SVD of each full delta against fixed base; deterministic ties",
+  "canonicalization": "positive first V entry anchored to the corresponding base entry",
+  "fixtures": {
+    "smooth_rank1": {
+      "rows": [
+        {
+          "c": "199/200",
+          "source_function_exactly_preserved": true,
+          "compressed_relative_frobenius_error": 0.003577899817808322,
+          "compressed_drift_from_c1_over_original_norm": 0.003577899817808322,
+          "squared_error_exact": "62101/396010000",
+          "composition": [
+            "199/100",
+            "300/199",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "c": "1",
+          "source_function_exactly_preserved": true,
+          "compressed_relative_frobenius_error": 0.0,
+          "compressed_drift_from_c1_over_original_norm": 0.0,
+          "squared_error_exact": "0",
+          "composition": [
+            "2",
+            "3/2",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "c": "201/200",
+          "source_function_exactly_preserved": true,
+          "compressed_relative_frobenius_error": 0.003565042184823346,
+          "compressed_drift_from_c1_over_original_norm": 0.003565042184823346,
+          "squared_error_exact": "6989/44890000",
+          "composition": [
+            "201/100",
+            "100/67",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "local_compressed_output_spread_over_original_norm": 0.007142921430692918,
+      "canonical_compressed_relative_error": 0.2857142857142857,
+      "canonical_compression_exactly_gauge_invariant": true
+    },
+    "near_spectral_crossing_rank2": {
+      "rows": [
+        {
+          "c": "199/200",
+          "source_function_exactly_preserved": true,
+          "compressed_relative_frobenius_error": 0.2359238968578383,
+          "compressed_drift_from_c1_over_original_norm": 0.3514817797276852,
+          "squared_error_exact": "253979709/253446400",
+          "composition": [
+            "1",
+            "2189/2000",
+            "6/5",
+            "13/10",
+            "7/5",
+            "3/2",
+            "8/5",
+            "340/199"
+          ]
+        },
+        {
+          "c": "1",
+          "source_function_exactly_preserved": true,
+          "compressed_relative_frobenius_error": 0.25924367598185927,
+          "compressed_drift_from_c1_over_original_norm": 0.0,
+          "squared_error_exact": "121/100",
+          "composition": [
+            "2001/1000",
+            "11/5",
+            "6/5",
+            "13/10",
+            "7/5",
+            "3/2",
+            "8/5",
+            "17/10"
+          ]
+        },
+        {
+          "c": "201/200",
+          "source_function_exactly_preserved": true,
+          "compressed_relative_frobenius_error": 0.2592620615885612,
+          "compressed_drift_from_c1_over_original_norm": 0.0030875625602851007,
+          "squared_error_exact": "1955685765644401/1616040000000000",
+          "composition": [
+            "402201/200000",
+            "11/5",
+            "6/5",
+            "13/10",
+            "7/5",
+            "3/2",
+            "8/5",
+            "340/201"
+          ]
+        }
+      ],
+      "local_compressed_output_spread_over_original_norm": 0.35308572862683474,
+      "canonical_compressed_relative_error": 0.48302592666081295,
+      "canonical_compression_exactly_gauge_invariant": true
+    }
+  },
+  "script_sha256": "38eab7bcbeae8ae32d04780fc23f5cb8b750f8025c9486850ea123f3ccd4011a"
+}

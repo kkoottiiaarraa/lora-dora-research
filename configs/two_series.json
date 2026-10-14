@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "scope": "Only other main checkpoint pairs; all GSM8K interventions moved to first series",
+  "original_pipeline_unchanged": "/path/to/user-user/lora-dora-research/results/pipeline-20261009T1535Z",
+  "interval_seconds": 10,
+  "stable_checks": 2,
+  "max_gpus_total": 5,
+  "max_gpu_workers_per_series": 1,
+  "estimates": "Ready benchmarks: 5h MMLU, 11h SQuAD proxy; remaining custom loaders blocked, not measured ETA. Qwen8B moved to independent two-GPU queue.",
+  "ready_cost_basis": {
+    "dora_gsm8k_seconds_per_case": 17.265,
+    "lora_gsm8k_seconds_per_case": 6.629,
+    "mmlu_total_hours_proxy": 5,
+    "squadv2_total_hours_proxy": 11
+  },
+  "series": [
+    {
+      "series": 1,
+      "jobs": [
+        {
+          "implemented": true,
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "intervention": "none",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "id": "shadow_4b_mmlu",
+          "task": "mmlu",
+          "pair_id": "shadow_4b_mmlu",
+          "roles": [
+            "base",
+            "lora",
+            "dora"
+          ],
+          "priority": 0,
+          "estimated_gpu_seconds": 18000,
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/mmlu-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_mmlu-downloads.json"
+        },
+        {
+          "id": "answerai_llama2_100k",
+          "pair_id": "answerai_llama2_100k",
+          "implemented": false,
+          "readiness_reason": "waiting_for_quantized_custom_loader_and_base_access",
+          "priority": 4,
+          "estimated_gpu_seconds": 50400,
+          "estimate_kind": "unvalidated_proxy_not_inference_measurement",
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "source_revisions": {
+            "lora": "097759da69497292749c5eacf12ff666551d4ab7",
+            "dora": "7e327af1deba2425b19cc421384f29ec2980bba2"
+          },
+          "known_gaps": [
+            "custom checkpoint loading",
+            "exact base/quantization environment",
+            "single seed",
+            "no intermediate weights"
+          ]
+        },
+        {
+          "id": "answerai_llama3_100k",
+          "pair_id": "answerai_llama3_100k",
+          "implemented": false,
+          "readiness_reason": "waiting_for_quantized_custom_loader_and_base_access",
+          "priority": 4,
+          "estimated_gpu_seconds": 50400,
+          "estimate_kind": "unvalidated_proxy_not_inference_measurement",
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "source_revisions": {
+            "lora": "a082b5820bdb5d015fd875ec4abab25cf7ba0250",
+            "dora": "b059c9f55c0b4571229b609fb0ce0c2e81257525"
+          },
+          "known_gaps": [
+            "custom checkpoint loading",
+            "exact base/quantization environment",
+            "single seed",
+            "no intermediate weights"
+          ]
+        },
+        {
+          "id": "llava_7b",
+          "pair_id": "llava_7b",
+          "implemented": false,
+          "readiness_reason": "waiting_for_multimodal_loader_projector_images_and_evaluator",
+          "priority": 4,
+          "estimated_gpu_seconds": 50400,
+          "estimate_kind": "unvalidated_proxy_not_inference_measurement",
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "source_revisions": {
+            "lora": "9e448573c5cc914781d02074102381cf92b37287",
+            "dora": "c266e51523330848a9ea493054a43af7dfa737be"
+          },
+          "known_gaps": [
+            "separately trained projector",
+            "baseline training identity",
+            "some metrics require remote evaluation",
+            "no intermediate weights"
+          ]
+        }
+      ],
+      "estimated_gpu_seconds": 169200
+    },
+    {
+      "series": 2,
+      "jobs": [
+        {
+          "implemented": true,
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "intervention": "none",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "id": "shadow_4b_squadv2",
+          "task": "squadv2",
+          "pair_id": "shadow_4b_squadv2",
+          "roles": [
+            "base",
+            "lora",
+            "dora"
+          ],
+          "priority": 0,
+          "estimated_gpu_seconds": 39600,
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/squadv2-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_squadv2-downloads.json"
+        },
+        {
+          "id": "answerai_llama2_10k",
+          "pair_id": "answerai_llama2_10k",
+          "implemented": false,
+          "readiness_reason": "waiting_for_quantized_custom_loader_and_base_access",
+          "priority": 4,
+          "estimated_gpu_seconds": 50400,
+          "estimate_kind": "unvalidated_proxy_not_inference_measurement",
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "source_revisions": {
+            "lora": "8f1eaf4284987de5f409187ce40657bfddc8af07",
+            "dora": "ea139cf68eb4bb98af7fc97c59a34641b8e0d7cc"
+          },
+          "known_gaps": [
+            "custom checkpoint loading",
+            "exact base/quantization environment",
+            "single seed",
+            "no intermediate weights"
+          ]
+        },
+        {
+          "id": "answerai_llama3_10k",
+          "pair_id": "answerai_llama3_10k",
+          "implemented": false,
+          "readiness_reason": "waiting_for_quantized_custom_loader_and_base_access",
+          "priority": 4,
+          "estimated_gpu_seconds": 50400,
+          "estimate_kind": "unvalidated_proxy_not_inference_measurement",
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "source_revisions": {
+            "lora": "6c468d0821dc5facd1f6e445895807618919da3a",
+            "dora": "2b820a57c865c252335d72906d1b92a4db15e08b"
+          },
+          "known_gaps": [
+            "custom checkpoint loading",
+            "exact base/quantization environment",
+            "single seed",
+            "no intermediate weights"
+          ]
+        }
+      ],
+      "estimated_gpu_seconds": 140400
+    }
+  ],
+  "gpu_policy": "Acquire once after two idle checks 10 seconds apart, then retain GPU through the queue"
+}

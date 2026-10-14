@@ -34,7 +34,7 @@ torch.set_num_interop_threads(2)
 CHECKS = []
 ROOT = Path(__file__).resolve().parents[2]
 DOC = ROOT/'docs/diagnostics/radial-activity-2026-10-11'
-RAW = Path('./artifacts')
+RAW = Path('/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11')
 BUDGET = 2*1024**3
 
 

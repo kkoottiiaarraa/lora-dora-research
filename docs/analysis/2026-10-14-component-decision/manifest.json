@@ -1,0 +1,15 @@
+{
+  "artifacts": {
+    "REPORT.md": "11fbb941ab90d36011767ed4d5b4394d752c9fb18cd558432e1cc65a2d859b2d",
+    "SPEC.md": "169eaa09b8c7610252032b733fb0334e1bce331e598a5751b5de24633ee1a0b3",
+    "PRIOR.md": "136f3dc62135222fe4e013a35f847c35b9d20ae7671d1c534c79ad88266bd0a7",
+    "existing-direct-quality.json": "5398a422ab2a002e36b026c339b46dbc604e16765623ebc2e4c376dca88bfdee",
+    "existing-quality.json": "525781581524dd2b75bb333d4f4b884199bb75e3af36b7a5eaa8ae878b608103",
+    "development/radial-components.json": "4a50ee62df61afd730ffcc596c78d89adc02ee744100e1ae91a3ccb5be7299ff",
+    "development/validation.json": "d986edd8ab8a8daa2bee2dec10b1882117cc8bf62258d35854f90a81f7d33910",
+    "development/controls.json": "8f7d00a4c096da9af51116c298b9532a129e45fb3bdc90d56da1022b86fa8b3c",
+    "development/rows.json": "dc2acfd42a7a3081c6cc277073f5aa174095cd2e2a1868e3738d9029a45f2ba3",
+    "development/conditions.csv": "fe1a07e871326b8bd5b7aed878a46b16fd0af17dd2babf78b88ac650b60155f6"
+  },
+  "analysis_runner_sha256": "27ca87abdf8926662797a9dac7fffb31d37b2099a14d1c3b1dfefda81e70f5e2"
+}

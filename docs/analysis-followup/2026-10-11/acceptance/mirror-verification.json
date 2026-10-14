@@ -1,0 +1,143 @@
+{
+  "created_utc": "2026-10-11T19:58:43.414404+00:00",
+  "status": "PASS",
+  "passed": true,
+  "checks": 33,
+  "failed": 0,
+  "records": [
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/A-direct-contrasts/FINDINGS.md",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/A-direct-contrasts/METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/A-direct-contrasts/direct-contrasts.csv",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/A-direct-contrasts/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/A-direct-contrasts/mirror-verification.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/A-direct-contrasts/resources.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/A-direct-contrasts/validation.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/ACCEPTANCE_SPEC.md",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/B-outcome-overlap/FINDINGS.md",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/B-outcome-overlap/METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/B-outcome-overlap/case-patterns.csv.gz",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/B-outcome-overlap/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/B-outcome-overlap/overlap.csv",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/B-outcome-overlap/pairwise-outcomes.csv",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/B-outcome-overlap/run-summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/B-outcome-overlap/validation.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/C-robustness/FINDINGS.md",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/C-robustness/METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/C-robustness/central-summary.csv",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/C-robustness/claim-update.csv",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/C-robustness/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/C-robustness/resource-use.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/C-robustness/robustness.csv",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/C-robustness/validation.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/SPEC.md",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/acceptance/REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/acceptance/manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror docs/analysis-followup/2026-10-11/acceptance/validation.json",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror execution/existing-data-followup/build_direct_contrasts.py",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror execution/existing-data-followup/build_outcome_overlap.py",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror execution/existing-data-followup/build_robustness.py",
+      "passed": true
+    },
+    {
+      "check": "local/server byte mirror execution/existing-data-followup/verify_followup.py",
+      "passed": true
+    },
+    {
+      "check": "raw draws absent on VM",
+      "passed": true
+    }
+  ],
+  "local_inventory_sha256": "ee3d424533ea27e2628817e9b0916aacf00711592fe0190ecf07aa403ecd98a8",
+  "scope": "all compact A/B/C outputs, all followup code/specs, acceptance outputs and manifest; mirror report excludes itself; raw draws server only"
+}

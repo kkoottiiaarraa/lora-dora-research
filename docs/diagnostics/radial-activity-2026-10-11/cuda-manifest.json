@@ -1,0 +1,98 @@
+{
+  "code": {
+    "path": "/path/to/user-user/lora-dora-series/execution/radial-activity/probe_cuda_norm.py",
+    "sha256": "ccfdfe72b1a5e6383c6501e834a8b76c8b60f909c3b8b0abf5f44ede769a2768"
+  },
+  "spec_hashes": {
+    "/path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/SPEC.md": "417f754f2f03b95212a20082d5b049243da1daaded8f7813291e489cd017ad0f",
+    "/path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/INVENTORY.md": "29a53673b024be36720b8ba5219de6f28e17c84f5c8e7895227f40046833dc12",
+    "/path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/PRECISION_REVIEW.md": "6eaa3c2b56ceb9d01dcd90bdfd9737dcae09cfec76f2b2e653d47d3ee42dcb8a",
+    "/path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/CUDA_PROBE_SPEC.md": "832912d43649fb19fbd666a4a01e617e6068290de2d4740aadb5d3cf3e8779ca"
+  },
+  "input_hashes": {
+    "/path/to/user-user/lora-dora-series/configs/shadow_qwen3_4b_gsm8k.json": "2dbfd7dee4d72ebd1318f6e822200288a76b2fa867d5c6b4315b41d824727b60",
+    "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json": "630bf647c82a076617ba949c54455d51b404c3a2ca1bf1b812b542ef6f3605ca",
+    "/path/to/user-user/.cache/lora-dora-research/huggingface/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c/model.safetensors.index.json": "6dc0981b8829fead746441f68f38f24c5ca4a3a66351f652c26c6df0efc43ab2",
+    "/path/to/user-user/.cache/lora-dora-research/huggingface/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c/config.json": "8ba006f74fecfaaeb392872a60f4a480e7ec9860153d2e1b769ec81f9a147f8a",
+    "/path/to/user-user/.cache/lora-dora-research/huggingface/models--shadow-llm--Qwen3-4B-GSM8k-DoRA/snapshots/07f6a59c2ab6b36b1cecb5feb66187638202521d/adapter_config.json": "7f21f502e034dc135335139c6f49c98b380979d740b5f64ae837a7abf01105aa",
+    "/path/to/user-user/.cache/lora-dora-research/huggingface/models--shadow-llm--Qwen3-4B-GSM8k-DoRA/snapshots/07f6a59c2ab6b36b1cecb5feb66187638202521d/adapter_model.safetensors": "d3f6e22524c7caf60c81dd3133aed0c3f2df4bd503e542ebe1fa152b2da46d3c",
+    "/path/to/user-user/.cache/lora-dora-research/huggingface/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c/model-00001-of-00003.safetensors": "328a91d3122359d5547f9d79521205bc0a46e1f79a792dfe650e99fc2d651223",
+    "/path/to/user-user/.cache/lora-dora-research/huggingface/models--Qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c/model-00002-of-00003.safetensors": "6cd087b316306a68c562436b5492edbcf6e16c6dba3a1308279caa5a58e21ca5"
+  },
+  "library_source_hashes": {
+    "/path/to/user-user/.venvs/lora-dora-research/lib/python3.12/site-packages/peft/tuners/lora/dora.py": "07d514fd057d8aa9ec7b89bec3f3fbd04862951c1a8ff73153e833096481ecf5",
+    "/path/to/user-user/.venvs/lora-dora-research/lib/python3.12/site-packages/peft/__init__.py": "efabc3b44d7326eee59c07910e426fa38ee0c6419b773e8f75af87ae61d3fa32",
+    "/path/to/user-user/.venvs/lora-dora-research/lib/python3.12/site-packages/torch/__init__.py": "e1b5bf4151bd246a21e3ac5318f6edfcf2e6ef0fd4f233bfb77a264698ec1319"
+  },
+  "versions": {
+    "python": "3.12.3",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "peft": "0.17.1",
+    "numpy": "1.26.4",
+    "safetensors": "0.6.2"
+  },
+  "flags": {
+    "cuda_matmul_allow_tf32": false,
+    "cudnn_allow_tf32": true,
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": false,
+    "float32_matmul_precision": "highest",
+    "allow_fp16_reduced_precision_reduction": true,
+    "allow_bf16_reduced_precision_reduction": true,
+    "CUBLAS_WORKSPACE_CONFIG": null,
+    "autocast_dtype": "torch.bfloat16",
+    "autocast_cache_enabled": true
+  },
+  "dtype_trace": {
+    "identity": "torch.float32",
+    "first_linear": "torch.bfloat16",
+    "second_linear_transposed": "torch.bfloat16",
+    "base": "torch.bfloat16",
+    "addition": "torch.float32",
+    "norm": "torch.float32",
+    "magnitude": "torch.float32",
+    "quotient": "torch.float32"
+  },
+  "failed_attempt_files": {
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-pilot-failed-gc-shadow/cuda-row-activity.csv.gz": "1ec7e6fdf728921a059a2d33ffe239fc3ba1863d3088926250f026944a31c811",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-pilot-failed-gc-shadow/probe.log": "203b4a4ce043bdf20b04b84379909ecc42520c90a8530c41ebbe70ea7686c590",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-pilot-failed-workspace-cleanup/cuda-row-activity.csv.gz": "f9599271646f6420857030f75289dee0b687eb16fef65d8dcc1782383275e73e",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-pilot-failed-workspace-cleanup/probe.log": "1990cd5d70d8cef924216801b1c391345214fd60ab3f456cf3215c4c18806dd0"
+  },
+  "raw_files": {
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-full/cuda-row-activity.csv.gz": "77627a7c634b1afa764f71aa2e84607ec19f1d9d71d86c52190a37827f90c0be",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-pilot/cuda-row-activity.csv.gz": "7eb2bfe65446b2d655e9e812e490e3a95af77627fa05f7d52b323eda873ae284",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-full/run.json": "b38906bf7eeb944031a38e54040e3df179defe3a8fec9a853bf2db6699de7c28",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-pilot/run.json": "80a86b663196e4b8d09b7ce744d9086bff74855f42e3b71d63a445ff374ab28b",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-full/probe.log": "61245429b83d6fa554f665d6976233b2acf8e6daa22d65d39387b5ac65dc6095",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-pilot/probe.log": "d03823a69aacf64082b73d02faee01cc82e8298cacc284004520ad14b539bb04",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/full/row-activity.csv.gz": "729c72301e7815dcbb6eae358dd979f3027ad6f47d340fc3270bf1c4c48f84c5",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-pilot-before-final-code/cuda-row-activity.csv.gz": "5c2da2bcc0d2a3af25c85ad928459f98906e9659f6c3b04eee18c6b9c6c9d6a8",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-pilot-before-final-code/probe.log": "7ace0af4e5e5be547635aa6d812a840861f629bcd2f3569ac3880942ce3272dc",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-pilot-before-final-code/run.json": "73c09ab7652e68a64a92ee5769fba9bfcf6b63d57b5c682117cec2cc129f3ca2",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-full/probe_cuda_norm_frozen.py": "ccfdfe72b1a5e6383c6501e834a8b76c8b60f909c3b8b0abf5f44ede769a2768",
+    "/path/to/user-user/lora-dora-profiling/radial-activity-2026-10-11/cuda-full/join.log": "00856566a717c574d095061bbed55669cced40f21a230c740b0b0321c2bf3c4e"
+  },
+  "cpu_compact_dependencies": {
+    "/path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/module-activity.csv": "241ac4179e9a425052234f7f5eab0bffb47ca9505cd80f683027d5e2214bf83d",
+    "/path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/manifest.json": "81859bfb4b609a0c95b2a53aca6cf3b5fb3052b2e460e422fe316ffbdb32dd6d",
+    "/path/to/user-user/lora-dora-series/docs/diagnostics/radial-activity-2026-10-11/validation.json": "95267435414146ef951a7a81db86072b26ab40594a5385e45647833a7645381c"
+  },
+  "outputs": {
+    "cuda-module-activity.csv": "2c7e743e131a91ad1140ab3428aecc5d47b5d2d85b2f33a23967909be6d10b95",
+    "cuda-group-activity.csv": "12f03be3604e4a3888c4bc1d6a9d00a79c17748bcf56b56272e8e8458debe552",
+    "cuda-validation.json": "83dda92b73fded0edaa2fccdd5216ee7087bca912715db18cce4125fcaa4eddf",
+    "cuda-resource-use.json": "f03a31859c3c732e1dab3c01c7551de7ca20f38d40baca38ae566ae17137ccad",
+    "CUDA_METHOD.md": "76ffb0506ceef0ed496eb498d9e2bf68639292d4c91772c0e587a4cd01b823f7"
+  },
+  "hash_graph": "Outputs exclude this manifest; no circular hash. run.json hashes code/spec/input and raw rows.",
+  "scope": "Norm-only CUDA and CPU join; raw server-only; no model forward/training/download/install",
+  "post_execution_amendments": [
+    "Added independent frozen code/input SHA acceptance gate to validation",
+    "Clarified sampled NVIDIA VRAM and CUDA versus CPU base-norm references in METHOD/resource use",
+    "Added preserved earlier pilot/frozen source/join log hashes and recorded interval accounting"
+  ],
+  "prior_pilot_exact_code_bytes_available": false
+}

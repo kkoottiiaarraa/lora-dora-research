@@ -12,7 +12,10 @@ DoRA или причину обучения. Исходные отчёты/manif
 без D и endpoint с базовыми нормами; сохраняется ли отличие в BF16 и велико
 ли оно относительно всего изменения модели? Сначала Qwen3-4B/GSM8K,
 144проекции(36слоёв×Q/K/V/O), уже загруженные pinned веса. Ни новых моделей,
+ни обучения, SVD, полного evaluator или загрузки весов на VM. Стриминг
+safetensors на CPU исследовательского сервера, максимум2threads; всё новое
 в execution/radial-activity/ и docs/diagnostics/radial-activity-2026-10-11/.
+Сырые row-level данные/логи на сервере; локально код и компактные таблицы.
 Старые frozenbundle/evaluator/AGENTS/MEMORY/analysismanifest не менять.
 
 ## Входы и происхождение
@@ -26,6 +29,7 @@ base BF16. Предыдущая acceptedvalidation: exact_loaded_value_match=tru
 base stem после удаления base_model.model., далее .weight. Проверять все
 144A/B/msets, basekeymap, shapes, scaling32/32=1, отсутствиеpatterns/rslora/
 bias/fan_in_fan_out. SHA256 всех используемых весовых файлов проверить на
+сервере по configs/shadow_qwen3_4b_gsm8k.json; downloads manifest задаёт
 пути/revisions и список проверенных файлов, но не содержит самих SHA.
 Сверить согласованность config/manifest и сохранить hash обоих документов;
 не заменять ссылку/имя файла проверкой его содержимого.
@@ -36,10 +40,13 @@ bias/fan_in_fan_out. SHA256 всех используемых весовых ф�
    U=W0+L; n=rownorm(U); m=F32сохранённый вектор; g=m/n; WD=diag(g)U.
 2. Dense BF16 proxy: округлить каждую ideal матрицу WD/U/Wreset в BF16 и
    сравнить. Это веса materializeddense, не точный PEFTforward.
+3. Current-PEFT-operation CPU surrogate: в autocast CPU BF16 построить
    L_id=(B(A(I)))^T через дваLinear, как установленныйDoraLinearLayer.forward;
    weight W0.to(FP32), scaledL_id BF16, сумма/n вFP32, g=m/n FP32. Сверить
+   dtype/операции с actualPEFTsource; CPUkernel не объявлять CUDAbitwise.
    BF16(g)==1 — только counterfactualscalarcast: реальныйgвPEFTздесьFP32.
 
+Точное различие CPU/CUDA и runtimekernel ограничивает перенос; если оно
 становится существенным для вывода, следующий отдельно сформулированный
 этап — короткий runtimeконтроль на реальных calibrationвходах. Настоящий
 этап сам полныйmodelforward не запускает.
@@ -49,6 +56,7 @@ bias/fan_in_fan_out. SHA256 всех используемых весовых ф�
 Сохранить n/m/W0norm min/median/p90/p99/max; signedg−1 иabs(g−1) распределения,
 число g==1, g<0, m==0, нулевых/неfiniteнорм. Denom0/неfinite — явнаяошибка,
 не eps/скрытыйclamp. Сравнить m с FP32rownorm(W0), BF16округлённойFP32нормой
+и текущейCPU BF16нормой W0; сохранить exactmatches иabsrelative residuals.
 Эти показатели называть endpoint baseline residuals, а не learnedmovement:
 истинный traininginitializer/library/base revision неизвестен.
 
@@ -67,6 +75,7 @@ Delta²=R0²+GL²+2dot(R0,GL). Это full-rankconditioningterm, не то же 
 полностьюequal, sumsquaresотличия вFP32 над округлёнными значениями, maxabs,
 нормы отличия относительноBF16полногоDelta/L и базы. Литерал equality
 здесь не означает равенства PEFTфункции. Для quotientcounterfactual: доли
+BF16(g)==1, отдельно actualCPU-surrogateg==1/F32dtype, отличия idealg от
 surrogateg (absolute/relative). Сохранять все варианты и обеточкиотсчёта.
 
 Глобальные значения считать из суммsquares/counts, отдельно all/Q/K/V/O;
@@ -79,6 +88,7 @@ surrogateg (absolute/relative). Сохранять все варианты и о
 Код analyze_radial_activity.py в execution/radial-activity/. Компактные
 outputsв docs/diagnostics/radial-activity-2026-10-11/: module-activity.csv(144),
 group-activity.csv(5), validation.json, manifest.json, resource-use.json,
+METHOD.md. Серверные row-activity.csv.gz/логи отдельно внеGit; manifest
 указывает путь/hash/schema. Root пишет FINDINGS.md после проверки чисел.
 Не выбирать порог «почтиноль» по удобному результату; сначала непрерывные
 величины/exactcounts и сравнение с precision и полнымDelta. Никакихpvalues
@@ -86,9 +96,12 @@ group-activity.csv(5), validation.json, manifest.json, resource-use.json,
 Для BF16rounding использовать actualcast/nextafter; соседи1асимметричны
 (.99609375 и1.0078125), один симметричныйepsthreshold некорректен.
 
+Сначала meaningfulCPUtoychecks: g=1→R0; L0/m=baseNorm→Delta0;
 заданное g2/0.5→предсказуемаяscale; perturbation ниже/вышеBF16rounding;
 формулыglobalweightednorm иреальная dtypeтрасса; zeroденоминаторявноflag.
+Затем4модуля первого слоя Q/K/V/O какpilot: время/peakRSS/readbytes,
 проверкаshape/dtype/header/finite иCSVschema. При успехе полный144module
+streamingCPUrun, сравнить общиеpilot/fullrows. Сохранить версииPython/Torch/
 NumPy/PEFT, actuallibrarysourcehash, code/spec/input/outputhash безциклов.
 Всеошибки исправлять внеfrozenкода; новыхзависимостей неустанавливать.
 

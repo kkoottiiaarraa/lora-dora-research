@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Read-only acceptance of saved scientific analysis; only write own two reports.
 
-Run with the existing research Python on compute-host, CPU <=2 threads. No bootstrap,
+Run with the existing research Python on gpu-host, CPU <=2 threads. No bootstrap,
 model imports, weights, SVD, inference, dependency installation, or input rewrites.
 Default Q/C stage is explicitly incomplete; --final requires L/T and final report.
 """
@@ -308,7 +308,7 @@ def main():
         stage=manifest['stage'],staged_pending=staged,counts=counts,checks=checks,errors=errors,
         historical_provenance=historical,scope='hashes, saved acceptance, schemas/counts/ranges, literal historical fields, deterministic paired-score means/transitions/estimands/Holm; no bootstrap rerun; prose presence/ledger structure only, scientific acceptance by primary investigator',
         immutable_sources_modified=any(not r['passed'] for r in checks if r['name'].startswith('preserved ')),
-        environment=dict(python=platform.python_version(),compute='CPU compute-host, <=2 threads; standard library only'),
+        environment=dict(python=platform.python_version(),compute='CPU gpu-host, <=2 threads; standard library only'),
         manifest_sha256=None)
     (out/'analysis-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
     report['manifest_sha256'] = sha(out/'analysis-manifest.json')

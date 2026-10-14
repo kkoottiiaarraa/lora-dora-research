@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-11T19:48:47.288442+00:00",
+  "package": "B-outcome-overlap",
+  "complete": true,
+  "passed": true,
+  "inputs": [
+    {
+      "path": "docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "sha256": "2c3a1a62afe3c0e8f052031c6af4b24b581fe41bc188e7f344a1e39ed42306ab",
+      "bytes": 9283
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/analysis-manifest.json",
+      "sha256": "bc9d188e8460a9f3b56c1319b0dda58d8a7c3387131007cccee11dbb3803c9ed",
+      "bytes": 64021
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "sha256": "430c2265462aa02cd88c6b67bdfc0fba08380c42dd7f3204625fbd2bcf08c834",
+      "bytes": 3186237
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "sha256": "44e1aff0454e2c3f3de281d80b40d7591a0ecdf4732403e3e094b85c7b88bc62",
+      "bytes": 22390
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "sha256": "d5ee7c9cde49f644aeb259715d54a14e6981f7bd591d22871ede33e4faa2bdb5",
+      "bytes": 11925
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_metrics.csv",
+      "sha256": "8592a9b19d2a2371a45ccc811245c74e8a26961039132bb2d8fbccf47b7f49c6",
+      "bytes": 2887
+    },
+    {
+      "path": "docs/analysis-preparation/2026-10-11/01-corpus-quality/tables/baseline_pair_transitions.csv",
+      "sha256": "4df18de8c70003c123d398629c3020c73f2c14235ca515479277a39ba3104d25",
+      "bytes": 2255
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/paired-outcome-transitions.csv",
+      "sha256": "9d61123def75ce241f41f146a09e9711f5c1b81ad9b9896cd126aea1b5251a2f",
+      "bytes": 37280
+    },
+    {
+      "path": "docs/analysis/2026-10-11/results/compression-original-reference.csv",
+      "sha256": "a1551e9a21c3a346b4236b4244be62735bc2d12c8e02b15ba6f3c382f1dc6a09",
+      "bytes": 5038
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/SPEC.md",
+      "sha256": "fa5b8d839741bcd79fcfb6f25e038b1c3736de7b9df5bac05ba9516e11133759",
+      "bytes": 12158
+    }
+  ],
+  "code": {
+    "path": "execution/existing-data-followup/build_outcome_overlap.py",
+    "sha256": "19466bd9288a6bae4939defc141d91eb17d442141bc0205a43d9685f16b0a6a7",
+    "bytes": 26708
+  },
+  "outputs": [
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/FINDINGS.md",
+      "sha256": "c86a12a34f134ebf926f5914a62752a30bba6e54cf7481d5d3982953ea4f870a",
+      "bytes": 3398
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/METHOD.md",
+      "sha256": "b151866008c46bb5269f143480b8f58e73fbf54babe2a86da3f86a244869a0d6",
+      "bytes": 5557
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/case-patterns.csv.gz",
+      "sha256": "298886443931323512862e4e4facf711aede2fd3b5981a8e5fe688e85785fbb4",
+      "bytes": 213532
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/overlap.csv",
+      "sha256": "1fe6821e1de05849d5ef3e6e7b17359095138aaddc6bf8d65532826eef379a9e",
+      "bytes": 12305
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/pairwise-outcomes.csv",
+      "sha256": "8d1223dc6ec735aef1661814049fe5452a472e5d5e52bc2663b9c3b82b40f04f",
+      "bytes": 8672
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/run-summary.csv",
+      "sha256": "8cf09266e0c26dd19e9c3f16fbbc1f90a2d94efd620937d7548743a92bcf6a4c",
+      "bytes": 2938
+    },
+    {
+      "path": "docs/analysis-followup/2026-10-11/B-outcome-overlap/validation.json",
+      "sha256": "feb5e628b27bb97bb3cdf5cdda66dd109ccc621025163064126a0d2e60027a57",
+      "bytes": 53424
+    }
+  ],
+  "exclusions": [
+    "manifest.json self hash"
+  ],
+  "reference_run_id": "gsm8k-quality-greedy/dora",
+  "vector_order": [
+    {
+      "position": 1,
+      "run_id": "gsm8k-quality-greedy/dora",
+      "label": "original_DoRA"
+    },
+    {
+      "position": 2,
+      "run_id": "gsm8k-quality-greedy/lora",
+      "label": "trained_LoRA"
+    },
+    {
+      "position": 3,
+      "run_id": "gsm8k-dense-dora/dora",
+      "label": "dense_DoRA"
+    },
+    {
+      "position": 4,
+      "run_id": "gsm8k-remove_d-all/dora",
+      "label": "remove_D_all"
+    },
+    {
+      "position": 5,
+      "run_id": "gsm8k-base_magnitude-all/dora",
+      "label": "base_magnitude_all"
+    },
+    {
+      "position": 6,
+      "run_id": "gsm8k-r32/dora",
+      "label": "r32"
+    },
+    {
+      "position": 7,
+      "run_id": "gsm8k-e95/dora",
+      "label": "e95"
+    },
+    {
+      "position": 8,
+      "run_id": "gsm8k-e99/dora",
+      "label": "e99"
+    }
+  ],
+  "metrics": [
+    "author_em",
+    "final_em"
+  ],
+  "runtime": {
+    "wall_seconds": 0.5204133570659906,
+    "peak_rss_mib": 65.203125,
+    "numerical_thread_limits": {
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2",
+      "MKL_NUM_THREADS": "2",
+      "NUMEXPR_NUM_THREADS": "2",
+      "VECLIB_MAXIMUM_THREADS": "2"
+    },
+    "cuda_visible_devices": "",
+    "gpu_used": false
+  },
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "platform": "Linux-6.8.0-142-generic-x86_64-with-glibc2.39"
+  }
+}

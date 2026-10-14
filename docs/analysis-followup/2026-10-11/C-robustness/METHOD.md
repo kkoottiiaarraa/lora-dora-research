@@ -16,6 +16,7 @@ prompt_sha256, input_ids_sha256; в каждом 1319 примеров, инде
 Means/effects каждой строки сверены с принятыми таблицами до 1e−12,
 четыре перехода и их маргинальные суммы — с scores и прежними counts.
 Выбранные frozen inputs проверены по bundle/analysis manifest; activity CSV и
+validation — по принятым CPU/CUDA manifests. Все входные bytes повторно
 проверены после расчётов. manifest.json содержит точные SHA и размеры.
 Неизменяемые evaluator/predictions/bundle/старые CI/claim CSV не переписаны.
 
@@ -26,6 +27,7 @@ Means/effects каждой строки сверены с принятыми т�
 для всех 46 столбцов. B=50000, seed=2026101160, NumPy default_rng/PCG64,
 multinomial chunk≤256. Квантили np.quantile(method='linear').
 
+Для экономии памяти объединены идентичные полные 46-компонентные строки Z.
 Получено 187 совместных patterns. Если pattern k встречается
 c_k раз, при iid resampling1319 индексов число выбранных строк этого pattern
 имеет Multinomial(1319,c_k/1319). Поэтому один общий вектор counts, умноженный
@@ -33,6 +35,9 @@ c_k раз, при iid resampling1319 индексов число выбранн
 means, что и resampling индексов. Нельзя resample каждый столбец отдельно:
 это разрушило бы сохранённую зависимость вмешательств/scorers. Toy enumeration
 всех 27 index sequences для 3 примеров подтверждает совпадение распределений.
+Матрица draws B×46 занимает 18400000bytes в памяти.
+Для независимой приёмки сохранена только на сервере внеGit:
+/path/to/user-user/lora-dora-profiling/analysis-followup/2026-10-11/C-robustness/bootstrap-means.npy. SHA256=4727b80fbcd6d1bd9267506e62ba5cb65bacf7a5ddac8f735fcd2933fa6ce528;
 shape=[50000, 46],dtype=float64.
 Порядок столбцов: contrast_index0..45 в robustness.csv и полный column_order
 в manifest.json/external_artifacts. НаVM матрица не копируется.
@@ -65,3 +70,17 @@ functional equivalence. CI, включающий ноль, не доказате
 **проверка конструкции bootstrap**, не проверка истинной частотной coverage
 неизвестного распределения. Никаких independent datasets/seeds здесь не создано.
 
+## Реестр и ресурсы
+
+claim-update.csv сохраняет 9 исходных statements/dispositions и добавляет
+bounded conclusions. L5 обновлён по принятой activity диагностике: измеренная
+активность нормировщика и weight proxy, отдельно от функции/обучения.
+Статус ledger: {'complete': True, 'rows': 9}. Frozen claim-evidence.csv остаётся исходным.
+Литературу заново не проверяли; ссылки унаследованы от принятого реестра.
+
+Python3.12.3, NumPy1.26.4; CPU исследовательского
+сервера, численные thread limits2, CUDA_VISIBLE_DEVICES пуст.
+Bootstrap 0.674 с; анализ до записи документации
+1.388 с; peakRSS138.09MiB.
+Точные flags/версии/ресурсы — resource-use.json; проверки — validation.json.
+Новые weights/forward/SVD/download/install/GPU jobs не выполнялись.

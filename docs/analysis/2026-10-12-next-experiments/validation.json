@@ -1,0 +1,307 @@
+{
+  "status": "passed_recorded_artifact_checks",
+  "artifact_sha256": {
+    "gold.json": "36c1add94a04ad05fab57c67930037fbcc312217f33ed96dc94f70a6ee3f20f0",
+    "directional/summary.json": "b32457090ff4e905b805cd6e245b89988143859f11f45ce228353c5cab54ae4a",
+    "directional/predictions.jsonl": "d1687d4476124d7f6981b7fbdfcb75c99b91d22fb7e4e535273f11686977734d",
+    "directional/calibration.json": "7f6650d12513d2befca45489fedf378cad5ece775edbf2ddb1363c2886015df0",
+    "gsm8k-remove_d-all_dora/summary.json": "e124f63be22e2bba90a81508e8ec813cddba1a3bbd50c08917a248e436cbaa8c",
+    "gsm8k-remove_d-all_dora/predictions.jsonl": "c31a1b12e30673852913449789935ee8aa00e5796f35e57fc49f31ba7d2c6124",
+    "gsm8k_base/summary.json": "672f7f850f5627ad3e4a6add635a46bc52f687191fbedf3afceff88816b02838",
+    "gsm8k_base/predictions.jsonl": "e65e0503b8d71b4433038da8086bf7780d919805e603f734a440d5885c8ebd57",
+    "gsm8k_dora/summary.json": "ec9dcd28342c9a645e995f5ad4a997760da5b3bc44e5b6559b616e35fab385b9",
+    "gsm8k_dora/predictions.jsonl": "b239a89a68fc443248b9354f6636d4257b76c2d3ddef8a1e1d25e83ce6e972eb",
+    "gsm8k_lora/summary.json": "eb447cd04334bec0643c0d977182860fa1a3b8f875d5b7a2a3a24238312356f0",
+    "gsm8k_lora/predictions.jsonl": "97f380546e3d46255ca0d72f9f05499fcbd9e8a48e2119569e51a913eeed956a",
+    "mmlu_base/summary.json": "4a3b0215c98f5d076e7a327046a4b7e2b9e8aeef6a71940dc9c5b76f59c23470",
+    "mmlu_base/predictions.jsonl": "b61d66ced933f4efdbd407ee282cf7c8b6cf1971412723ce8ddc5357b1024738",
+    "mmlu_dora/summary.json": "e1bc4dda2fb1b03d04fe638d1cfcd82aa8a6c10b9ca37526f0971661ebbb9f60",
+    "mmlu_dora/predictions.jsonl": "2ba30bcc3a281a76ec3a710c2abeacb87ba0a0e09ecc573936275963776b9a66",
+    "mmlu_lora/summary.json": "de3db54ae7ab88b6a03d1a769f9ce6ed92c65f24005ce1c135a9b137a1d2135a",
+    "mmlu_lora/predictions.jsonl": "bedb93a702f8487b5df74bf2b40759e9e13e1325aad9c7e1e0e95df8127333bf",
+    "mmlu_remove/summary.json": "1001de5e03e3e03f13132d2a4a8c730b8a1c45581a12adc3ed30489f9683fac4",
+    "mmlu_remove/predictions.jsonl": "25d6a0ec04e29a6de8fd1820678ec077221f9d72c30b396657453e76783bfd08",
+    "permuted/summary.json": "26f9cc7da97aa9e778d83f5a40d8f346c69ab106bf52923bad34609c3032a9ba",
+    "permuted/predictions.jsonl": "e59929c29faef9b1b8cdd8b12ddd3c09cb0a884f83836702bf2070e849f65733",
+    "permuted/calibration.json": "7f6650d12513d2befca45489fedf378cad5ece775edbf2ddb1363c2886015df0",
+    "squad_remove/summary.json": "1b8bb40d890e81b1fbb6252c18e6f18c33e1cffa83825c737523e9cdcb1301fe",
+    "squad_remove/predictions.jsonl": "bfd93ad919139f794397ba059938bd895caa23c4bfeae090cba2afde8ee12a93",
+    "squadv2_base/summary.json": "b20ced37a531e2da4789904df9de89e14c11fde8097838361cf5cdd05ec679ba",
+    "squadv2_base/predictions.jsonl": "de810038af79c99bc05206ee98924a97227b9d7a5ac151683b71184a4b8d3190",
+    "squadv2_dora/summary.json": "6713d9779adb47871728bbf80c5b0a0f75a026ff999be595ffe511bed20c7e49",
+    "squadv2_dora/predictions.jsonl": "fc01daff26f86b50b68485eaa5ebb90a0c3f1cbdf31fa80a24e1da014e518620",
+    "squadv2_lora/summary.json": "7cfcd1e30fdaf41bb7e1a8ef6339dfd1c08d23277b25499ac004d59575424c98",
+    "squadv2_lora/predictions.jsonl": "e73f64fd27402d1b1ae61e8afe261e4a6acc217481b11759158be3f31ede04d8",
+    "text_base/summary.json": "39d4190ea737324b03f98c73f28e579de4207114edd1c430a663d46a41134476",
+    "text_dora/summary.json": "3cfa371b9e6785f2e1c5678dac5f91cd0af64a6e12692bd27cbde17c46b00d43",
+    "text_lora/summary.json": "693ceee5e15f90e4189d532e0aa9f6716149f1dfd6339623e1085600f96a41b2",
+    "text_remove_d/summary.json": "4f7afc327b1b7379143fec1b32147567cf183f6d5bd0c3dc1f81403c5e6a60ea"
+  },
+  "code_sha256": "ed5e4c2c95b1641d8651f31ecc7ab67f905c1db08deeb763d56af64cf1aafa91",
+  "scorer_sha256": {
+    "lora_dora_study/benchmarks.py": "1abd84b8e6b5e1c145ff83ede420d8b283a54c5afd030a6aa868f65201f3ba2d",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118"
+  },
+  "run_audit": [
+    {
+      "run": "directional",
+      "n": 1319,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 36,
+      "truncated": 0
+    },
+    {
+      "run": "gsm8k-remove_d-all_dora",
+      "n": 1319,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 35,
+      "truncated": 0
+    },
+    {
+      "run": "gsm8k_base",
+      "n": 1319,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 544,
+      "truncated": 0
+    },
+    {
+      "run": "gsm8k_dora",
+      "n": 1319,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 35,
+      "truncated": 0
+    },
+    {
+      "run": "gsm8k_lora",
+      "n": 1319,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 40,
+      "truncated": 0
+    },
+    {
+      "run": "mmlu_base",
+      "n": 14042,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 146,
+      "truncated": 136
+    },
+    {
+      "run": "mmlu_dora",
+      "n": 14042,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 135,
+      "truncated": 136
+    },
+    {
+      "run": "mmlu_lora",
+      "n": 14042,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 135,
+      "truncated": 136
+    },
+    {
+      "run": "mmlu_remove",
+      "n": 14042,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 134,
+      "truncated": 136
+    },
+    {
+      "run": "permuted",
+      "n": 1319,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 41,
+      "truncated": 0
+    },
+    {
+      "run": "squad_remove",
+      "n": 11873,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 162,
+      "truncated": 125
+    },
+    {
+      "run": "squadv2_base",
+      "n": 11873,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 2800,
+      "truncated": 125
+    },
+    {
+      "run": "squadv2_dora",
+      "n": 11873,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 159,
+      "truncated": 125
+    },
+    {
+      "run": "squadv2_lora",
+      "n": 11873,
+      "rescored": true,
+      "degenerate": 0,
+      "empty": 0,
+      "token_limit": 156,
+      "truncated": 125
+    }
+  ],
+  "compatibility": [
+    {
+      "left": "gsm8k-remove_d-all_dora",
+      "right": "permuted",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "gsm8k-remove_d-all_dora",
+      "right": "permuted",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "permuted",
+      "right": "gsm8k_dora",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "gsm8k-remove_d-all_dora",
+      "right": "directional",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "gsm8k-remove_d-all_dora",
+      "right": "directional",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "directional",
+      "right": "gsm8k_dora",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "gsm8k-remove_d-all_dora",
+      "right": "gsm8k_dora",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "mmlu_remove",
+      "right": "mmlu_dora",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "squad_remove",
+      "right": "squadv2_dora",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "squad_remove",
+      "right": "squadv2_dora",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "squad_remove",
+      "right": "squadv2_dora",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "squad_remove",
+      "right": "squadv2_dora",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "squad_remove",
+      "right": "squadv2_dora",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    },
+    {
+      "left": "squad_remove",
+      "right": "squadv2_dora",
+      "prompt_and_token_hashes_equal": true,
+      "versions_equal": true,
+      "shared_source_hashes_equal": true,
+      "dataset_and_revisions_equal": true
+    }
+  ],
+  "calibration_identical": true,
+  "zero_hook_fidelity": {
+    "permuted": {
+      "exact_equal": true,
+      "max_abs_error": 0.0,
+      "seconds": 0.2106747959041968
+    },
+    "directional": {
+      "exact_equal": true,
+      "max_abs_error": 0.0,
+      "seconds": 0.21352825593203306
+    }
+  },
+  "limitations": [
+    "No independent verification against finite device-memory corruption.",
+    "No training-seed uncertainty; one fixed permutation seed.",
+    "New controls subtract FP32 action and cast; native removeD uses different BF16 ordering.",
+    "NLL blocks are sensitivity units, not certified independent documents.",
+    "Task-specific noninferiority margins were not specified numerically before these runs."
+  ]
+}

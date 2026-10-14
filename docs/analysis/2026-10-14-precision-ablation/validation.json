@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "cases": 8,
+  "rows": 108,
+  "cases_sha256": "a3af019e1bf383c82ba5c9856a4384b9364d71ad9714d6700a62fced73dabdd2",
+  "engineering_gate": true,
+  "gate_threshold_nll": 0.001,
+  "contrasts": [
+    {
+      "cell": "cpu_float32",
+      "native_contrast": 0.001192976828622334,
+      "dense_matched_contrast": 0.0011936272358946953,
+      "native_to_dense_source_shift": -3.995639466358031e-07,
+      "mixed_contrast": 0.0011932276719480595,
+      "dense_minus_native_contrast": 6.50407272361278e-07
+    },
+    {
+      "cell": "cuda_float32",
+      "native_contrast": 0.0011931236798204473,
+      "dense_matched_contrast": 0.0011931437863082449,
+      "native_to_dense_source_shift": 2.572639168918478e-07,
+      "mixed_contrast": 0.0011934010502251367,
+      "dense_minus_native_contrast": 2.010648779762758e-08
+    },
+    {
+      "cell": "cuda_bfloat16",
+      "native_contrast": 0.00246614245376945,
+      "dense_matched_contrast": 0.0034284448680080206,
+      "native_to_dense_source_shift": -0.0017778724197386707,
+      "mixed_contrast": 0.00165057244826935,
+      "dense_minus_native_contrast": 0.0009623024142385705
+    }
+  ],
+  "comparisons": [
+    {
+      "comparison": "cpu_float32_matched_path",
+      "delta": 6.50407272361278e-07,
+      "gate_eligible": true,
+      "passes": false
+    },
+    {
+      "comparison": "cuda_float32_matched_path",
+      "delta": 2.010648779762758e-08,
+      "gate_eligible": true,
+      "passes": false
+    },
+    {
+      "comparison": "cuda_bfloat16_matched_path",
+      "delta": 0.0009623024142385705,
+      "gate_eligible": true,
+      "passes": false
+    },
+    {
+      "comparison": "native_remove_d_cuda_precision",
+      "delta": 0.0012730187739490029,
+      "gate_eligible": true,
+      "passes": true
+    },
+    {
+      "comparison": "native_remove_d_fp32_backend",
+      "delta": 1.468511981132098e-07,
+      "gate_eligible": false,
+      "passes": false
+    },
+    {
+      "comparison": "dense_remove_d_cuda_precision",
+      "delta": 0.0022353010816997757,
+      "gate_eligible": true,
+      "passes": true
+    },
+    {
+      "comparison": "dense_remove_d_fp32_backend",
+      "delta": -4.834495864504407e-07,
+      "gate_eligible": false,
+      "passes": false
+    }
+  ],
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "artifacts": {
+    "base": {
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+    },
+    "dora": {
+      "repo_id": "shadow-llm/Qwen3-4B-GSM8k-DoRA",
+      "revision": "07f6a59c2ab6b36b1cecb5feb66187638202521d"
+    }
+  },
+  "source_sha256": {
+    "lora_dora_study/resource_sampling.py": "93d62ec4c71460e1976b38654c56f8ae7584f2bbea1885719bd13db68b7863a3",
+    "execution/next-experiments/precision_ablation_screen.py": "aa047259127f6f8b1a41ddeb595e43db09f925f841f61f624bad29a36ac5776f",
+    "execution/next-experiments/admit_precision_check.py": "144620185c1d4a82f96784817a47c6bf6c754e1469bfe849704c2e2a70128f46",
+    "lora_dora_study/precision_ablation.py": "c66efa2051cddc051c5e044b12890a60da66ae05bb84fc3bd075c027bce2a0b6",
+    "tests/test_precision_ablation.py": "fc6e1fe208a9a5861e6372e5540bad5e7b4d20ce00dd01b14b7a46b8dd240e06",
+    "docs/analysis/2026-10-14-precision-ablation/SPEC.md": "601b4cc0dd9a589581b0de8615ab6465ac6b5d96a65fe434b4ff0bc2f7a51777",
+    "execution/next-experiments/admit_queues.py": "c9dd96029dfca505a64f4948d1c806c5274e2f26d3dec0c5c77ef4c25e7d0c30",
+    "lora_dora_study/fidelity_audit.py": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+    "lora_dora_study/rank_symmetry.py": "d50047efc0bc82778a511300d89a2555d462a7be95794fa23dfbb601d9132079",
+    "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118"
+  },
+  "gpu_success_wall_seconds": 116.50643887196202,
+  "gpu_failed_setup_wall_seconds": 16.509456033003516,
+  "gpu_total_wall_hours": 0.03694885969582376,
+  "cpu_wall_seconds": 141.9183568051085,
+  "gpu_memory": {
+    "cuda_float32": {
+      "peak_allocated_bytes": 14992472064,
+      "peak_reserved_bytes": 15028191232
+    },
+    "cuda_bfloat16": {
+      "peak_allocated_bytes": 7706412032,
+      "peak_reserved_bytes": 7746879488
+    }
+  },
+  "full_factorial": false,
+  "confirmed_scientific_sign_reversal": false,
+  "full_task_accuracy": false,
+  "conference_level_established": false
+}

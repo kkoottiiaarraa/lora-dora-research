@@ -1,0 +1,17 @@
+label,projection,modules,mean_rank,min_rank,max_rank,rank_zero_count,summed_local_loss
+weighted_uniform,q_proj,36,8,8,8,0,18.12162646159088
+weighted_uniform,k_proj,36,8,8,8,0,3.7544691770512344
+weighted_uniform,v_proj,36,8,8,8,0,1.880193026407787
+weighted_uniform,o_proj,36,8,8,8,0,1.2443041287343954
+weighted_allocated,q_proj,36,11.555555555555555,1,32,0,4.193347947171897
+weighted_allocated,k_proj,36,8.5,0,32,1,1.4540417952490923
+weighted_allocated,v_proj,36,6.055555555555555,1,26,0,1.456479086515493
+weighted_allocated,o_proj,36,5.222222222222222,1,13,0,1.2161768975784144
+structural_uniform,q_proj,36,7.305555555555555,7,8,0,16.701593312714973
+structural_uniform,k_proj,36,7.944444444444445,7,8,0,2.6988133673103367
+structural_uniform,v_proj,36,8,8,8,0,0.8029390132948355
+structural_uniform,o_proj,36,7.416666666666667,7,8,0,1.0901872688422722
+structural_allocated,q_proj,36,10.972222222222221,1,32,0,1.2635607947965715
+structural_allocated,k_proj,36,7.944444444444445,0,28,1,0.6821450271144358
+structural_allocated,v_proj,36,5.472222222222222,1,17,0,0.5967345075659662
+structural_allocated,o_proj,36,5.111111111111111,1,13,0,0.9247826244381401

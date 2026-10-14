@@ -1,0 +1,16 @@
+{
+  "files_sha256": {
+    "DISCOVERY.md": "56cef9651f13f247db49c717c379d38a66d2edefcae117c27b4bb31dd10348eb",
+    "NOVELTY.md": "ea0bded0a3d6facdbc993ea01b803c6766080da516201f75ca5e16c31ca31987",
+    "REPORT.md": "139af4f838bde220c3736f3f51d32550e6178a51455ca2b6e612904c9e8a386f",
+    "SPEC.md": "490a5b8fc9fb32d6741a56e2af027be7c68befaa4922b50368e25d7da68adb6b",
+    "analysis-source-sha256.json": "7bd4c5a8cd357e12d27768673986d9006feef56b21c0eb45277bf7a3242731e9",
+    "anchored-quality.csv": "663d54d9e6f9932145321da5119286c8c71c1caa60041aac135b71ebb59add9c",
+    "anchored-validation.json": "1561724a0b43dc5ec30957c8eebfd289f694ad28f6dc722c53c759f78306105a",
+    "discovery-budget.csv": "b376ba69fb5fcc0b2ff6c5893ca63f8dab998278519d59c05f539771843c3478",
+    "discovery-quality.csv": "d9d1fbd0c9a9b595d4dcfab5f8d0de4d5c073d0e6a5eda16004abfc8127a8c7b",
+    "discovery-validation.json": "d0cb0cd5ffdae629246e7f6317f38df2ecdbf6f07b9493aac8b72d751f562d9f",
+    "quality.csv": "d9bdcbee246e688bebf55275ff95ff69292aa8fafbc85ea5f476f330290b962e",
+    "validation.json": "098d9950d967a59c83f330ad3a95c1ac7551bdd48271ef6f1b375b2394740196"
+  }
+}

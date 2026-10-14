@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "cases": 128,
+  "excluded_content_hashes": 2111,
+  "exclusions_sha256": "2ba83394039e79c52313c5c1b8b6310243e0568882694d8a5484709d84a1d17e",
+  "cases_sha256": "14fd8ffaeeceaf53bdc65f7eba4294c4cb48ebff94e1e50dbbd2bf5636b658bf",
+  "all_question_identities_verified": true,
+  "all_input_and_target_tokens_rebuilt": true,
+  "no_prior_or_test_content_overlap": true,
+  "model_loaded": false,
+  "gpu_hours": 0
+}

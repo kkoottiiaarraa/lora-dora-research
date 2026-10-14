@@ -1,0 +1,2769 @@
+{
+  "passed": true,
+  "complete": true,
+  "checks_count": 424,
+  "failed": 0,
+  "n": 1319,
+  "family_size": 46,
+  "resamples": 50000,
+  "seed": 2026101160,
+  "joint_patterns": 187,
+  "q95": 0.017437452615617893,
+  "construction_fraction": 0.95124,
+  "construction_scope": "bootstrap band construction diagnostic; not true coverage verification",
+  "identical_difference_columns": [
+    [
+      34,
+      35
+    ]
+  ],
+  "identical_scorer_difference_columns": [
+    [
+      34,
+      35
+    ]
+  ],
+  "toy": {
+    "enumeration_tolerance": 1e-14,
+    "toy_resamples": 4000,
+    "toy_seed": 2026101161,
+    "zero_seed": 2026101162,
+    "opposite_seed": 2026101163
+  },
+  "ledger": {
+    "complete": true,
+    "rows": 9
+  },
+  "checks": [
+    {
+      "name": "manifest input hash docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "passed": true,
+      "details": {
+        "actual": "2c3a1a62afe3c0e8f052031c6af4b24b581fe41bc188e7f344a1e39ed42306ab",
+        "registered": [
+          "2c3a1a62afe3c0e8f052031c6af4b24b581fe41bc188e7f344a1e39ed42306ab"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash AGENTS.md",
+      "passed": true,
+      "details": {
+        "actual": "d901bd2e507200e9b09f003994a4eaf04a094da23305f84d4e07c6fd8aaedcfc",
+        "registered": [
+          "d901bd2e507200e9b09f003994a4eaf04a094da23305f84d4e07c6fd8aaedcfc",
+          "d901bd2e507200e9b09f003994a4eaf04a094da23305f84d4e07c6fd8aaedcfc"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash MEMORY.md",
+      "passed": true,
+      "details": {
+        "actual": "b002858c97ffa058e6d6fb791f06f1314b133b40375c567064c15813452f8e9a",
+        "registered": [
+          "b002858c97ffa058e6d6fb791f06f1314b133b40375c567064c15813452f8e9a",
+          "b002858c97ffa058e6d6fb791f06f1314b133b40375c567064c15813452f8e9a"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true,
+      "details": {
+        "actual": "430c2265462aa02cd88c6b67bdfc0fba08380c42dd7f3204625fbd2bcf08c834",
+        "registered": [
+          "430c2265462aa02cd88c6b67bdfc0fba08380c42dd7f3204625fbd2bcf08c834",
+          "430c2265462aa02cd88c6b67bdfc0fba08380c42dd7f3204625fbd2bcf08c834"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true,
+      "details": {
+        "actual": "44e1aff0454e2c3f3de281d80b40d7591a0ecdf4732403e3e094b85c7b88bc62",
+        "registered": [
+          "44e1aff0454e2c3f3de281d80b40d7591a0ecdf4732403e3e094b85c7b88bc62",
+          "44e1aff0454e2c3f3de281d80b40d7591a0ecdf4732403e3e094b85c7b88bc62"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true,
+      "details": {
+        "actual": "d5ee7c9cde49f644aeb259715d54a14e6981f7bd591d22871ede33e4faa2bdb5",
+        "registered": [
+          "d5ee7c9cde49f644aeb259715d54a14e6981f7bd591d22871ede33e4faa2bdb5",
+          "d5ee7c9cde49f644aeb259715d54a14e6981f7bd591d22871ede33e4faa2bdb5"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "passed": true,
+      "details": {
+        "actual": "4694cf96c55ff6dcf031214962753aa9f7709b39cf80a5cd32fdece6e5902b05",
+        "registered": [
+          "4694cf96c55ff6dcf031214962753aa9f7709b39cf80a5cd32fdece6e5902b05",
+          "4694cf96c55ff6dcf031214962753aa9f7709b39cf80a5cd32fdece6e5902b05"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/analysis/2026-10-11/results/all-intervention-evidence.csv",
+      "passed": true,
+      "details": {
+        "actual": "f57585aa1509ba2a30e93aef8e3482864c92a726460bffd26bdf2320ba77cf15",
+        "registered": [
+          "f57585aa1509ba2a30e93aef8e3482864c92a726460bffd26bdf2320ba77cf15"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/analysis/2026-10-11/results/compression-original-reference.csv",
+      "passed": true,
+      "details": {
+        "actual": "a1551e9a21c3a346b4236b4244be62735bc2d12c8e02b15ba6f3c382f1dc6a09",
+        "registered": [
+          "a1551e9a21c3a346b4236b4244be62735bc2d12c8e02b15ba6f3c382f1dc6a09"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/analysis/2026-10-11/results/claim-evidence.csv",
+      "passed": true,
+      "details": {
+        "actual": "b4687a36fc0c91b31340b7e99b229d9ab42143fe03cb137808271ebba496315d",
+        "registered": [
+          "b4687a36fc0c91b31340b7e99b229d9ab42143fe03cb137808271ebba496315d"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/diagnostics/radial-activity-2026-10-11/group-activity.csv",
+      "passed": true,
+      "details": {
+        "actual": "a9d1a1b6264babe597e8a4080124f4018f502bdf17a718a524fbf3edeed27181",
+        "registered": [
+          "a9d1a1b6264babe597e8a4080124f4018f502bdf17a718a524fbf3edeed27181"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/diagnostics/radial-activity-2026-10-11/cuda-group-activity.csv",
+      "passed": true,
+      "details": {
+        "actual": "12f03be3604e4a3888c4bc1d6a9d00a79c17748bcf56b56272e8e8458debe552",
+        "registered": [
+          "12f03be3604e4a3888c4bc1d6a9d00a79c17748bcf56b56272e8e8458debe552"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/diagnostics/radial-activity-2026-10-11/validation.json",
+      "passed": true,
+      "details": {
+        "actual": "95267435414146ef951a7a81db86072b26ab40594a5385e45647833a7645381c",
+        "registered": [
+          "95267435414146ef951a7a81db86072b26ab40594a5385e45647833a7645381c"
+        ]
+      }
+    },
+    {
+      "name": "manifest input hash docs/diagnostics/radial-activity-2026-10-11/cuda-validation.json",
+      "passed": true,
+      "details": {
+        "actual": "83dda92b73fded0edaa2fccdd5216ee7087bca912715db18cce4125fcaa4eddf",
+        "registered": [
+          "83dda92b73fded0edaa2fccdd5216ee7087bca912715db18cce4125fcaa4eddf"
+        ]
+      }
+    },
+    {
+      "name": "accepted CPU activity validation passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted CUDA activity validation passed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "historical family has all 40 rows and 20 jobs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "original-reference extension has exactly six rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-dense-doraauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-dense-dorafinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-r32author_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-r32final_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-e95author_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-e95final_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-allauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-allfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-dense-loraauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-dense-lorafinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-allauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-allfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-lora-matched-impactauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-lora-matched-impactfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-e99author_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-e99final_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-qauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-qfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-vauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-vfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-qauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-qfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-voauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-vofinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-kauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-kfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-vauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-vfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-oauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-ofinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-qkauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-qkfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-voauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-remove_d-vofinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-kauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-kfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-oauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-ofinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-qkauthor_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left all-intervention-evidence.csvgsm8k-base_magnitude-qkfinal_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compression coefficients gsm8k-r32author_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left compression-original-reference.csvgsm8k-r32author_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compression coefficients gsm8k-r32final_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left compression-original-reference.csvgsm8k-r32final_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compression coefficients gsm8k-e95author_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left compression-original-reference.csvgsm8k-e95author_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compression coefficients gsm8k-e95final_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left compression-original-reference.csvgsm8k-e95final_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compression coefficients gsm8k-e99author_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left compression-original-reference.csvgsm8k-e99author_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "compression coefficients gsm8k-e99final_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "actual reference matches left compression-original-reference.csvgsm8k-e99final_em",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "46 unique signed scorer contrasts",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "each signed pair has both specified scorers",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "reference covers exact test indices 0..1318",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-all/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-all/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-all/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-all/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-k/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-k/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-k/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-k/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-o/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-o/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-o/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-o/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-q/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-q/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-q/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-q/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-qk/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-qk/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-qk/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-qk/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-v/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-v/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-v/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-v/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-vo/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-vo/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-base_magnitude-vo/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-base_magnitude-vo/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-dense-dora/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-dense-dora/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-dense-dora/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-dense-dora/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-dense-lora/lora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-dense-lora/lora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-dense-lora/lora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-dense-lora/lora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-e95/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-e95/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-e95/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-e95/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-e99/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-e99/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-e99/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-e99/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-lora-matched-impact/lora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-lora-matched-impact/lora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-lora-matched-impact/lora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-lora-matched-impact/lora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-quality-greedy/base', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-quality-greedy/base', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-quality-greedy/base', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-quality-greedy/base', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-quality-greedy/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-quality-greedy/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-quality-greedy/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-quality-greedy/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-quality-greedy/lora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-quality-greedy/lora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-quality-greedy/lora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-quality-greedy/lora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-r32/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-r32/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-r32/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-r32/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-all/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-all/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-all/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-all/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-k/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-k/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-k/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-k/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-o/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-o/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-o/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-o/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-q/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-q/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-q/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-q/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-qk/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-qk/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-qk/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-qk/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-v/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-v/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-v/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-v/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-vo/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-vo/dora', 'author_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "full aligned run/scorer ('gsm8k-remove_d-vo/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "source IDs unique and hashes nonempty ('gsm8k-remove_d-vo/dora', 'final_em')",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "scores have exactly specified metrics",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted frozen metric and transition tables each cover40 rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 0",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7702805155420773,
+          -0.00530705079605762
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7702805155420773,
+          -0.005307050796057644
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 1",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7710386656557998,
+          -0.006823351023502654
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7710386656557998,
+          -0.006823351023502733
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 2",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7702805155420773,
+          0.77710386656558,
+          0.006823351023502654
+        ],
+        "accepted": [
+          0.7702805155420773,
+          0.77710386656558,
+          0.006823351023502622
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 3",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7710386656557998,
+          0.7793783169067475,
+          0.008339651250947688
+        ],
+        "accepted": [
+          0.7710386656557998,
+          0.7793783169067475,
+          0.00833965125094771
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 4",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7702805155420773,
+          0.7778620166793025,
+          0.0075815011372251705
+        ],
+        "accepted": [
+          0.7702805155420773,
+          0.7778620166793025,
+          0.007581501137225222
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 5",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7710386656557998,
+          0.78013646702047,
+          0.009097801364670205
+        ],
+        "accepted": [
+          0.7710386656557998,
+          0.78013646702047,
+          0.0090978013646702
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 6",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7846853677028052,
+          0.009097801364670205
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7846853677028052,
+          0.0090978013646702
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 7",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7869598180439727,
+          0.009097801364670205
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7869598180439727,
+          0.0090978013646702
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 8",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7649734647460197,
+          0.7649734647460197,
+          0.0
+        ],
+        "accepted": [
+          0.7649734647460197,
+          0.7649734647460197,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 9",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7672479150871873,
+          0.7664897649734648,
+          -0.000758150113722517
+        ],
+        "accepted": [
+          0.7672479150871873,
+          0.7664897649734648,
+          -0.0007581501137224889
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 10",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7854435178165277,
+          0.009855951478392721
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7854435178165277,
+          0.009855951478392688
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 11",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7869598180439727,
+          0.009097801364670205
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7869598180439727,
+          0.0090978013646702
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 11",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 11",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 11",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 11",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 12",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7649734647460197,
+          0.778620166793025,
+          0.013646702047005308
+        ],
+        "accepted": [
+          0.7649734647460197,
+          0.778620166793025,
+          0.013646702047005355
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 13",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7664897649734648,
+          0.7793783169067475,
+          0.01288855193328279
+        ],
+        "accepted": [
+          0.7664897649734648,
+          0.7793783169067475,
+          0.012888551933282755
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 14",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7702805155420773,
+          0.7733131159969674,
+          0.003032600454890068
+        ],
+        "accepted": [
+          0.7702805155420773,
+          0.7733131159969674,
+          0.0030326004548900665
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 14",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 14",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 14",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 14",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 15",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7710386656557998,
+          0.7748294162244125,
+          0.0037907505686125853
+        ],
+        "accepted": [
+          0.7710386656557998,
+          0.7748294162244125,
+          0.0037907505686126663
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 16",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7869598180439727,
+          0.011372251705837756
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7869598180439727,
+          0.011372251705837777
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 16",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 16",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 16",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 16",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 17",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7884761182714177,
+          0.01061410159211524
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7884761182714177,
+          0.010614101592115177
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 18",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7748294162244125,
+          -0.000758150113722517
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7748294162244125,
+          -0.0007581501137224889
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 19",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7778620166793025,
+          0.0
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7778620166793025,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 20",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7831690674753601,
+          0.0075815011372251705
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7831690674753601,
+          0.007581501137225111
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 20",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 20",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 20",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 20",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 21",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7846853677028052,
+          0.006823351023502654
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7846853677028052,
+          0.006823351023502622
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 21",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 21",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 21",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 21",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 22",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.78013646702047,
+          0.004548900682335102
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.78013646702047,
+          0.004548900682335044
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 22",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 22",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 22",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 22",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 23",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7824109173616376,
+          0.004548900682335102
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7824109173616376,
+          0.004548900682335044
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 23",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 23",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 23",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 23",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 24",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7695223654283548,
+          -0.006065200909780136
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7695223654283548,
+          -0.006065200909780133
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 25",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7733131159969674,
+          -0.004548900682335102
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7733131159969674,
+          -0.004548900682335155
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 25",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 25",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 25",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 25",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 26",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.77710386656558,
+          0.001516300227445034
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.77710386656558,
+          0.0015163002274449777
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 26",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 26",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 26",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 26",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 27",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7793783169067475,
+          0.001516300227445034
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7793783169067475,
+          0.0015163002274449777
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 27",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 27",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 27",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 27",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 28",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7793783169067475,
+          0.0037907505686125853
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7793783169067475,
+          0.0037907505686125553
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 28",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 28",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 28",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 28",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 29",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7793783169067475,
+          0.001516300227445034
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7793783169067475,
+          0.0015163002274449777
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 30",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7816527672479151,
+          0.006065200909780136
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7816527672479151,
+          0.006065200909780133
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 30",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 30",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 30",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 30",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 31",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7839272175890827,
+          0.006065200909780136
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7839272175890827,
+          0.006065200909780133
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 31",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 31",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 31",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 31",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 32",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7808946171341926,
+          0.00530705079605762
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7808946171341926,
+          0.005307050796057644
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 33",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7824109173616376,
+          0.004548900682335102
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7824109173616376,
+          0.004548900682335044
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 33",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 33",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 33",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 33",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 34",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7733131159969674,
+          -0.002274450341167551
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7733131159969674,
+          -0.0022744503411675776
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 35",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.775587566338135,
+          -0.002274450341167551
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.775587566338135,
+          -0.0022744503411675776
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 36",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7748294162244125,
+          -0.000758150113722517
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7748294162244125,
+          -0.0007581501137224889
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 37",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7778620166793025,
+          0.0
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7778620166793025,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 37",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 37",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 37",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 37",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 38",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7824109173616376,
+          0.006823351023502654
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7824109173616376,
+          0.006823351023502622
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 39",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7854435178165277,
+          0.0075815011372251705
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7854435178165277,
+          0.007581501137225111
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted transitions contrast 39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen metrics and paths match contrast 39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "frozen transitions and paths match contrast 39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 40",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.77710386656558,
+          0.001516300227445034
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.77710386656558,
+          0.001516300227445034
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 40",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted z distribution contrast 40",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 41",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7793783169067475,
+          0.001516300227445034
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7793783169067475,
+          0.001516300227445034
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted z distribution contrast 41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 42",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7778620166793025,
+          0.002274450341167551
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7778620166793025,
+          0.002274450341167551
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 42",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted z distribution contrast 42",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 43",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.78013646702047,
+          0.002274450341167551
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.78013646702047,
+          0.002274450341167551
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 43",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted z distribution contrast 43",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 44",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.775587566338135,
+          0.7733131159969674,
+          -0.002274450341167551
+        ],
+        "accepted": [
+          0.775587566338135,
+          0.7733131159969674,
+          -0.002274450341167551
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 44",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted z distribution contrast 44",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "means agree <=1e-12 contrast 45",
+      "passed": true,
+      "details": {
+        "actual": [
+          0.7778620166793025,
+          0.7748294162244125,
+          -0.003032600454890068
+        ],
+        "accepted": [
+          0.7778620166793025,
+          0.7748294162244125,
+          -0.003032600454890068
+        ]
+      }
+    },
+    {
+      "name": "transition marginals contrast 45",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "accepted z distribution contrast 45",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "toy exhaustive index resampling equals aggregated multinomial distribution",
+      "passed": true,
+      "details": {
+        "index_sequences": 27,
+        "joint_patterns": 2
+      }
+    },
+    {
+      "name": "toy duplicated columns have identical bootstrap draws and both interval types",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all-zero toy family has zero pointwise and simultaneous widths",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "toy common resampling preserves exact positive dependence",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "toy opposite columns share opposed draws",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "persisted bootstrap matrix roundtrip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "joint pattern counts preserve exact sample count",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "joint pattern weighted means equal original means",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bootstrap draws finite and bounded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "both interval types finite ordered and bounded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "simultaneous family has one shared unstudentized radius",
+      "passed": true,
+      "details": {
+        "q95": 0.017437452615617893,
+        "quantile_method": "linear",
+        "clipping_active": false
+      }
+    },
+    {
+      "name": "common bootstrap mean consistency <=6 Monte Carlo standard errors",
+      "passed": true,
+      "details": {
+        "max_absolute_mean_error": 6.147081122053356e-05,
+        "max_standard_errors": 2.3214434871966922
+      }
+    },
+    {
+      "name": "bootstrap marginal variances agree with iid empirical target within5pct",
+      "passed": true,
+      "details": {
+        "max_relative_error": 0.011048272189104464
+      }
+    },
+    {
+      "name": "identical columns yield identical draws/intervals (34, 35)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "bootstrap construction: >=95pct draws inside all46 bands",
+      "passed": true,
+      "details": {
+        "fraction": 0.95124,
+        "draws_contained": 47562,
+        "resamples": 50000,
+        "discrete_quantile_tolerance": 1e-15,
+        "scope": "construction diagnostic, not verification of true frequentist coverage"
+      }
+    },
+    {
+      "name": "max-deviation and all-band containment diagnostics agree",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "central summary has16 exact scorer/reference rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "activity measurements cover144 modules and313344 rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "original claim IDs are exactly L1-L9 in source order",
+      "passed": true,
+      "details": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9"
+      ]
+    },
+    {
+      "name": "input bytes unchanged after computation docs/analysis-followup/2026-10-11/SPEC.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/analysis-preparation/2026-10-11/manifests/bundle.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/analysis/2026-10-11/results/analysis-manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/diagnostics/radial-activity-2026-10-11/manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/diagnostics/radial-activity-2026-10-11/cuda-manifest.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation AGENTS.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation MEMORY.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/analysis-preparation/2026-10-11/02-interventions/tables/per_example_scores.csv.gz",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/analysis-preparation/2026-10-11/02-interventions/tables/intervention_metrics.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/analysis-preparation/2026-10-11/02-interventions/tables/paired_transitions.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/analysis-preparation/2026-10-11/02-interventions/tables/localization_grid.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/analysis/2026-10-11/results/all-intervention-evidence.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/analysis/2026-10-11/results/compression-original-reference.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/analysis/2026-10-11/results/claim-evidence.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/diagnostics/radial-activity-2026-10-11/FINDINGS.md",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/diagnostics/radial-activity-2026-10-11/group-activity.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/diagnostics/radial-activity-2026-10-11/cuda-group-activity.csv",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/diagnostics/radial-activity-2026-10-11/validation.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "input bytes unchanged after computation docs/diagnostics/radial-activity-2026-10-11/cuda-validation.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all numerical thread limits <=2",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

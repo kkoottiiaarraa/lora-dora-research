@@ -1,0 +1,801 @@
+{
+  "repo": "MaeChd/SORA",
+  "revision": "24f62bfe84741e5613ae2e9f387f2e1f9bb64ba8",
+  "files": [
+    {
+      "path": "finetune_commonsense.py",
+      "sha256": "a0d0d049448aebb8b3feda69af96f2db078ac15029e3b731a4e0c5eb004db7b8"
+    },
+    {
+      "path": "evaluate_gemma_math.py",
+      "sha256": "37e3586efc36e4e5ef02a3c7f8fe0e68f8abdbf78e3a43640dc4a584960029a0"
+    },
+    {
+      "path": "finetune_math.py",
+      "sha256": "8467c4e3c2203efb18beda7c13c0b6f7fe236348ae383ba8dddda7c8ddb43713"
+    },
+    {
+      "path": "run_glue.py",
+      "sha256": "82d490b1d8ba108456854fbc4d707dfba44f85a98402fa83457165107e354d7a"
+    },
+    {
+      "path": "peft/mapping.py",
+      "sha256": "2924fc1e594c56b9436d5ffcbbf7526903865f2d7927cb4f0a9428ad9d25cea3"
+    },
+    {
+      "path": "peft/peft_model.py",
+      "sha256": "323535718ebd55bc6152df8accae8bdd8e42014bb58b5df4ccd2f58afe5dd620"
+    },
+    {
+      "path": "lm-evaluation-harness/lm_eval/models/huggingface.py",
+      "sha256": "677bc73bb782f9f32af5f431243519c286ab1d1306cb976598066d452b31e635"
+    },
+    {
+      "path": "peft/tuners/lora/config.py",
+      "sha256": "fd9e0a5ddb387d3583799739ecc30e0a984999fdc84e6fec47d1fbf8e3f74869"
+    },
+    {
+      "path": "peft/tuners/lora/model.py",
+      "sha256": "e1f8b380a0b8c62405e9eccb234910694fac15d91408a71d7fcb8d54549a2b51"
+    },
+    {
+      "path": "peft/tuners/sora/layer.py",
+      "sha256": "8b546f3299ee613582924ad5b1aec3bd5e601cf24552fc088eda2f347c8b0fbb"
+    }
+  ],
+  "author_fork_manifest": {
+    "revision": "24f62bfe84741e5613ae2e9f387f2e1f9bb64ba8",
+    "archive_sha256": "1771101514b5edd35b68b0973e5fe615bd1df780d40b19208815c905074cef04",
+    "files": [
+      {
+        "path": "peft/__init__.py",
+        "sha256": "7dd89625dc1f2c18544f73421d03cb27ce48a4707a195b3af51ff7e2c007d3bd",
+        "git_blob_sha1": "6e4e124c18d6f92bf2a3e120de85550f2759afe9",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/auto.py",
+        "sha256": "49119c6feb4390b4b36e6e224d8bb129a314ecc59ed25328f4e3733bc45fffc0",
+        "git_blob_sha1": "18933be61e0ef3c23b91874c02927a7127e03e5b",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/config.py",
+        "sha256": "749f61adce552b8e3b101e8ed65d4827b4f5a51a55c0af915cfb3554d776a4a7",
+        "git_blob_sha1": "ae890b542cdd4acd46332e55128d76527a06694f",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/helpers.py",
+        "sha256": "c04e3513eec502fc896496d38882185b4e41a1309d2851b4b348839d949b8ae3",
+        "git_blob_sha1": "dc64486882b0a7592e754702b024dcbbfb15c648",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/import_utils.py",
+        "sha256": "1f276d50dae47b0e06dd317742e47012a33e90dfe41e872eb4bee57e0159c334",
+        "git_blob_sha1": "e13622972fef8c9ba7e84f6cdb62fcd096fc4147",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/mapping.py",
+        "sha256": "2924fc1e594c56b9436d5ffcbbf7526903865f2d7927cb4f0a9428ad9d25cea3",
+        "git_blob_sha1": "96e6a80c13747049dcfad029c538c8e3c08140ab",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/mixed_model.py",
+        "sha256": "7f438ad2a389b8aa266a12d967424768a018e95507971e075a7758c6996f68e3",
+        "git_blob_sha1": "098bd0d4fdefbc258620f1c2e8e3c875027bb284",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/optimizers/__init__.py",
+        "sha256": "fe3ae4a29d766067878865782a4bc26864c01431053e5665e873fc79889a97a9",
+        "git_blob_sha1": "98ad65c55432934af97b77c69626ac4f757c6a6a",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/optimizers/loraplus.py",
+        "sha256": "dc5311d57b8de0d3971078fc616bf896ce85c44767d52fc32d210f19f891b50c",
+        "git_blob_sha1": "0c4bd7d1e0b238bba692055f050e60b740f58107",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/peft_model.py",
+        "sha256": "323535718ebd55bc6152df8accae8bdd8e42014bb58b5df4ccd2f58afe5dd620",
+        "git_blob_sha1": "a48570fe7e05d995f9c9b41122fbad81ab53324e",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/__init__.py",
+        "sha256": "43e3c363364636380ffeb48ebeb7f584a7ede9afef8eee4a494103c6266cd9ca",
+        "git_blob_sha1": "bc3d08a0dba93e3a83ad7f8eb92ecc0ddc0afddb",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/_buffer_dict.py",
+        "sha256": "63689a8bd4e033a50792c60f2e7e07d17df63dbc677049628e3f7356e7dccbf6",
+        "git_blob_sha1": "80b2307d1d9a8c65bfc0fee1a0bc7560cf4166db",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adalora/__init__.py",
+        "sha256": "893f947a270a7b1f339cb230a0eafae36a1d315b9eb382999de37f7b51f3e8c4",
+        "git_blob_sha1": "4bdb8a540bed454fd95633265e8cdceb3e792e3b",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adalora/bnb.py",
+        "sha256": "4197926bce08e7ae301eaf8f8cd2a25f72145a2f63616d6dfc0955c6ba0d842b",
+        "git_blob_sha1": "b8c32a815cef22b938b840a1b6013592a338936b",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adalora/config.py",
+        "sha256": "e79247b7f48f26447bd1dad5f98e95b92d5b9bd8751bc7f714ac3e5bbdd420d1",
+        "git_blob_sha1": "4096e9ca78aa6143a7e416ee0cd87d87dd216506",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adalora/gptq.py",
+        "sha256": "9ec7a1c158cff5ed47eab5f0b92ddd203f25a8441b4572bdf07a20cec9bc31e1",
+        "git_blob_sha1": "910377c5db5908727ed4753fd15b24e68821ce00",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adalora/layer.py",
+        "sha256": "d9563a4d0eb6b86dcbae9c6568f4230857d717479ea4d8138b052646ffb20584",
+        "git_blob_sha1": "a3a1334d182dc8f60027b5aead03dde7af8eadd8",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adalora/model.py",
+        "sha256": "b4f2dbc3a9db956496d6fc223977f164fdbb344559fc1d1c8125719adc85d94f",
+        "git_blob_sha1": "db5759a5ac7ad637890d58e965e1e5edebfe4b12",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adaption_prompt/__init__.py",
+        "sha256": "80e7a74bfee3f3b093be06ffc4f696d8af3e3df5701e775bdc41dda1f5770465",
+        "git_blob_sha1": "4ede9455f70e41740768abe80f3198e78397053f",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adaption_prompt/config.py",
+        "sha256": "d16ba1626ea3adbed98e7197cdf176cbda121b7d555cc1db670419be80693def",
+        "git_blob_sha1": "52a405cebe821d68ba446d1a3e7a844c07b135de",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adaption_prompt/layer.py",
+        "sha256": "182056ff67841a650e652fc5c90f8781b6d63899022c22aaf3d077aae29328bb",
+        "git_blob_sha1": "31fb51e0de6a9842d14578c78a5a1aceba676483",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adaption_prompt/model.py",
+        "sha256": "139da28e7d31a2ba1ae2bd3bb12dce3b971404a04a6aed7961a06e72072bce5f",
+        "git_blob_sha1": "0f1b9d681171a50b4784aa34831748a907e77722",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/adaption_prompt/utils.py",
+        "sha256": "5bda8be0b2e0c323348cc712bd03b2d43cc4cc00d54732fad4687d1f1feb46fc",
+        "git_blob_sha1": "8f15d89f31aa0c92c7305897850342d3929292a6",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/boft/__init__.py",
+        "sha256": "4a098bf8cce2049960466014ba1bb667afe14e3ee50369f4c799dfa4df8af49e",
+        "git_blob_sha1": "5b72b7395167b90f9be562ee12973dbfef1781a9",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/boft/config.py",
+        "sha256": "79e51803e770288e6442a2c3384f299779e755aa9df619e0cca073b00e12f255",
+        "git_blob_sha1": "bedd915664c9d9970cd1da91978415e32b173008",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/boft/fbd/__init__.py",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/boft/layer.py",
+        "sha256": "5ad7b09c712e03510364ff2e27ba5b0b11d977e248d2c27453c45af937ade7ad",
+        "git_blob_sha1": "b8ee6c8763ab87fef33316921ba87e577847c3dd",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/boft/model.py",
+        "sha256": "7bfe8a95814eeb127ca7fc85bc2fd42f4a8a4c83c92d07668d6d5321fb4ebd0d",
+        "git_blob_sha1": "4a4bb8158fbf8f30508548d7c0d66161b57ded33",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/bone/__init__.py",
+        "sha256": "6d36f52798afc6727c42e1e632579303f99882ff327f70d4f97f112321c42e65",
+        "git_blob_sha1": "7d76fe6cb54c71d4488ae2762783b2e9fc647fb5",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/bone/config.py",
+        "sha256": "c9dbaca5793fe85329b23e36a24a27e87e88260128370dd65c1c89afd964d80f",
+        "git_blob_sha1": "b938bbfb76dc91b2e09354b5f45b18beaad30ddd",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/bone/layer.py",
+        "sha256": "7186e1d6e5580ba5a854df2097f40a7b10f5bec27ced4d51020c320ba41f3575",
+        "git_blob_sha1": "5c8b2637102122ee95605850e6be1f6bfed52726",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/bone/model.py",
+        "sha256": "aff40a9942ebde8f1efa63d3234c9c381ed78a65ffd728a13215389aadec82a2",
+        "git_blob_sha1": "07809a5d385329bb99145fab6b5cad8ecb5c5828",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/cpt/__init__.py",
+        "sha256": "219108fd1680deadaf617d42df99f0772f0e236c43f6288c8467f9fc24630024",
+        "git_blob_sha1": "f5018f89b1b754c5bfd52e6694027121c6f84a35",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/cpt/config.py",
+        "sha256": "da5eef816615dba9ca8144decc0ba351380b6fde6178220004c5a4d8917a33f9",
+        "git_blob_sha1": "971c30983f20ebabe24f2fe88a24df8f662d6a95",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/cpt/model.py",
+        "sha256": "1f32610da5c50c821c35a17fa65ca5bd8c8e2a9b20dd44a6e1d07724f6e406f4",
+        "git_blob_sha1": "934a3b7928c125bd433441f36cf4b26de15b535f",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/fourierft/__init__.py",
+        "sha256": "edbfe0b76a5a3893d71161f93f0d00490e55ef181bc006d905614ef290f79794",
+        "git_blob_sha1": "7646d9497c2e0d3a84c5b8293cd7a9e4efb61738",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/fourierft/config.py",
+        "sha256": "7ac49acf7c52a2dac71d7fba543752ba95484033b5c40870c197c72de91a7ca2",
+        "git_blob_sha1": "b8e354a207f4b2af6fad1c89017d6c889f47bf39",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/fourierft/layer.py",
+        "sha256": "c6267c3f176f80c5fcc27c97cf68c0239ada562fdc76ff2a2eaa0dda944a0b59",
+        "git_blob_sha1": "a8f615a989de08fd71d69d65dbb71913026166f4",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/fourierft/model.py",
+        "sha256": "7a7ee3945021364f6c7e837fa9acfa732dbb574e2a0923cfe1496e98baecd2d4",
+        "git_blob_sha1": "ce818d96a041af3aeb5c7f91d8d059002f4cd91d",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/hra/__init__.py",
+        "sha256": "2b52f3c7d20d6d088d84f0b44bcae44ebde7da33fedb31f900add014c0d0f077",
+        "git_blob_sha1": "08e57cc57da6553429131e7bd32500b0dbe14cf2",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/hra/config.py",
+        "sha256": "434e5e463bf462a9cabd9cbdd498123580039c9e20e566bb66b9bfccd077138e",
+        "git_blob_sha1": "bed92ef245c9e4d5ad51aa38be2193685a3216b2",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/hra/layer.py",
+        "sha256": "c1af3a7bda0c1166a325ae63d7773473a732ce6dbfec0240524c7e0aa70a2212",
+        "git_blob_sha1": "2494510c60ad7d5491993612ede1bd6e55f442c7",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/hra/model.py",
+        "sha256": "bd22174d612e6fdc597aede28e4f345ad3f5a75dd5efc5ba86cf75624811774e",
+        "git_blob_sha1": "1bfa0f12060542da5801b95cb14268eaaa91105c",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/ia3/__init__.py",
+        "sha256": "cd7a678a14b9a60806736b290e2b5e9f794ba02ab0accc6712651056a8032b5d",
+        "git_blob_sha1": "f88f8411a0ed0cc1e5710019381e95ff14c356f0",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/ia3/bnb.py",
+        "sha256": "1afa152904b4b78bb95e7abe8ac10c2e2f26fd581974164f73a2eb54465d1e43",
+        "git_blob_sha1": "628e3ce7229528a0b3157da349b2b34153573c51",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/ia3/config.py",
+        "sha256": "6a576713baf01f25f419d8980c7c318366e171ef561bce0fac5a2d372ac4ddb9",
+        "git_blob_sha1": "1c4161e5ed97998017b800535d4315c66c9d14cd",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/ia3/layer.py",
+        "sha256": "98bfedef7d665b6d5ba1c3a33dcd328cb8bc6d718ae0ddf56dab535f974249c0",
+        "git_blob_sha1": "e941089315e3f01f259fa8366791120db9a9daba",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/ia3/model.py",
+        "sha256": "489015ec8490cfe77e7a125a4f1acd95a93a1327a27f20e96dbf62a51a65310b",
+        "git_blob_sha1": "b7ce3f93a6f442b70253b568e3799057d49557ee",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/ln_tuning/__init__.py",
+        "sha256": "9156fbdaa5002f32f5208c92bc49a17f0ddeb77a53d64f5ed66547b24d8709f5",
+        "git_blob_sha1": "afaae73a4462cf8f7a31aafcbb40cd89d8627519",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/ln_tuning/config.py",
+        "sha256": "2df6ba068d6330ed2ff8a42b0e8f256ed0ac83d050881e410118a6298f37ed61",
+        "git_blob_sha1": "127ee9017333bce22706b58b13701049244b1da9",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/ln_tuning/layer.py",
+        "sha256": "6e8b4e42daa4e9eee8e0643b8d7626f23ad2d579e71bc96cacb155cdb8da30fe",
+        "git_blob_sha1": "1c90d4b9e618c6c343cad8279cfdfb4e2d4c6122",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/ln_tuning/model.py",
+        "sha256": "2b076729c026c780a1c06ab562b5d0fd12d3c0dab63145f045497717ecd5a748",
+        "git_blob_sha1": "3e16a7fad492c68e7ba14404f078d4d9c8f16dd2",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/loha/__init__.py",
+        "sha256": "947cdff7f4d7beca96e920959cc8de32c82a0fa55dbfc73a2f639bea3a1ea22a",
+        "git_blob_sha1": "2f39deee17ab9cb0e24b3a98d8b54eb7eeb27c1f",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/loha/config.py",
+        "sha256": "4c7f004ed2ed4c990779dd76c0e3bc7ce88bf930d1f7fa80abfcc7fc03d872f0",
+        "git_blob_sha1": "84374b6fe54d9df660efacced110e94be2cb1301",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/loha/layer.py",
+        "sha256": "fbf875b35dfc7752c5b54c0c31df81a2d6eed8f67688a58a8c38d60b26f157c6",
+        "git_blob_sha1": "6d294af66973a8e316fe1bc74b1b878e6ddd0b34",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/loha/model.py",
+        "sha256": "c4ca1e355756b0677dd635bfe0380b4c602adef8d921c42eeaeee89c3751525d",
+        "git_blob_sha1": "e1cbc50b344a602ab3b2389f6242baa9438a9bbb",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lokr/__init__.py",
+        "sha256": "b3ca3fb64add5e937b6545c4314a05c57c6683cfc58fda511e50ea9f5e887bc7",
+        "git_blob_sha1": "408cf2a54ae4c0befa9e3f1cad4ff93d71cfedc5",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lokr/config.py",
+        "sha256": "c7e7a408f279709b6b2e228644dc1780f686ec070bd51e1e652d6a823cbb3d3b",
+        "git_blob_sha1": "77b94088fa515910fb3715ff36ab0586c1ef766b",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lokr/layer.py",
+        "sha256": "9303f3175ace0588639fbca3ea1a263d1ac3c998005bedb3f8e64a001cd99ae6",
+        "git_blob_sha1": "1c8cf1bbd984d168c4b8d2e90063e8b1b3bb741d",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lokr/model.py",
+        "sha256": "e89c5e9f7fed411b69a3be175030ac9e1c25c625cbca1df7ceb8294eb12d0a71",
+        "git_blob_sha1": "5d64f0117894006ecedf0630e116187608e7e579",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/__init__.py",
+        "sha256": "b081ef4d3f66ea4e314becfc7fea1d3405a0973d0842d1dded412d075253e9e6",
+        "git_blob_sha1": "bc90b286b16ee8320987fa69ae883681752f76d4",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/aqlm.py",
+        "sha256": "c15998ec425b4a4a87d43692ac71a32dda3e276c5958bb76fa32a3dfbe5016ec",
+        "git_blob_sha1": "1715e626462577a4033fc3d5bd9d92f7b0dad876",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/awq.py",
+        "sha256": "0f5cce3b7c4a7f5af39cc94f5a8c4f18df11cdde9d44c48ceafb6be2d8968318",
+        "git_blob_sha1": "86989d900068b17b03cba0e758cc8c3628292d69",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/bnb.py",
+        "sha256": "f4669ec6b233a5549ddbb058cceecb25ce4830743b21f77adb5e843da6fcdb45",
+        "git_blob_sha1": "fbb1c712dd83743f3096ce4c7801f383bdad6bb3",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/config.py",
+        "sha256": "fd9e0a5ddb387d3583799739ecc30e0a984999fdc84e6fec47d1fbf8e3f74869",
+        "git_blob_sha1": "c275cabacd02d05a4d36f3af1d4e396cffc9a3c0",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/dora.py",
+        "sha256": "4eb23f4cf7fb3fb644fb942bb0f322a8b1a69905e64253c2f281c3ae0bc34f6b",
+        "git_blob_sha1": "9d8cd9a02f9201cea72f030c7c0119975b1dee47",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/eetq.py",
+        "sha256": "61e576b6daccdcbdf57551f654ec2e92c0448dbc00ce729c56ddf8f68269fe3c",
+        "git_blob_sha1": "d1eb79b8783ac77ed7d6854797363c4c1c406940",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/eva.py",
+        "sha256": "e6a59ae9189de3fc25aa2be3ec0cbe35987d6df069fd1b24f2f0e26848cf227e",
+        "git_blob_sha1": "8512dfdefc48c980e78f8cdd08890e8b07b3800a",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/gptq.py",
+        "sha256": "6f9f1b5f58173ee9aa77ae130eeb8f9d5eac1d3f1e0fbe75fc27c1e0a894aa3b",
+        "git_blob_sha1": "d4826016dc0ac8b26eeca21adf40c9839c0cebbe",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/hqq.py",
+        "sha256": "0344b9250c8870a83ddf6b0c953e90e4c3f917d789e53ff38607dd2b3074b477",
+        "git_blob_sha1": "d623f7ae2ab0382ec8b1a16a8b7acd00b5a4fe64",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/layer.py",
+        "sha256": "e140308e9d4c64a4a93f588e29a9e5a22796d8e1a82081230867f14bdf92b5bd",
+        "git_blob_sha1": "8965c5eefa600a8360aaa0fb0b33c90ba3993ecc",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/model.py",
+        "sha256": "e1f8b380a0b8c62405e9eccb234910694fac15d91408a71d7fcb8d54549a2b51",
+        "git_blob_sha1": "ba452027782cb9cd6b778dd4fa36707a982c91f1",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/torchao.py",
+        "sha256": "2c0eef1069b6dd8b8798a7ddb39ea2b4e996a6757642a3ca90caad2170d9abc9",
+        "git_blob_sha1": "05ffbc344567cd073061d26caa60872cc954eaec",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lora/tp_layer.py",
+        "sha256": "900ae5dbfdab0b875c35e0f5976b546a1918040f99556af2a7a2a5acd25cde8a",
+        "git_blob_sha1": "e12609d0086a756f651f3b3bd5766b808644e505",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/lycoris_utils.py",
+        "sha256": "fcd4745f01c8b1ffedd5dbdcfa003df63fde12e0acf04c722f6fa8bb6a605a4a",
+        "git_blob_sha1": "5cec45b596d00db764226c3106b795078e45ac93",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/mixed/__init__.py",
+        "sha256": "b1e7bb09b3a2249f84f16d5049206d20ae2841f167909394554e71724098cb3c",
+        "git_blob_sha1": "2955d7258ddcf76b47b38fd6fd5ebeb3d1d6110c",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/mixed/model.py",
+        "sha256": "34e855f80babc1c892ab4944b73eb3d1b0a8616dbce5998b0df7326cb98ce11d",
+        "git_blob_sha1": "4f83571e2582f89c22a0f3ec7f2cd7aed31a0ca4",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/multitask_prompt_tuning/__init__.py",
+        "sha256": "fd59b7c47b7d51100001883f5ed03e756242fafb0db37f615bc067b729b72fe2",
+        "git_blob_sha1": "214f7722486485bea4ede3b5c1a433aac447dd2b",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/multitask_prompt_tuning/config.py",
+        "sha256": "58c8ad51f25d3bebbb18079240c915eb8deea4a094e623a552c1dbe4ef92cc36",
+        "git_blob_sha1": "6cb279573559e4fa33a973aa35e052647a6ab8f9",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/multitask_prompt_tuning/model.py",
+        "sha256": "bd104dfcac7b04c6176f2ae38f80d884c613d8360064334d35a5d0389ac97654",
+        "git_blob_sha1": "3350999eaef8f4f53b196a08a5a66e51475df617",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/oft/__init__.py",
+        "sha256": "07d0e116a6a7b895b455265af45c1efa5501c3851ccc0bf706fb1068abbcc211",
+        "git_blob_sha1": "52ac7131e24bd5cf39bf97ab6336ed1f1d46e152",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/oft/config.py",
+        "sha256": "4a0e3df0768ab34ae93359bc3c67e0bfe9f2ada9c01e93ae771ad2c0d7c4925c",
+        "git_blob_sha1": "5a54759aa9c709f9089e0489646aaa2f97bd22c6",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/oft/layer.py",
+        "sha256": "841271085f3d766f2127481d06c962110c9bd1bb40e4eaf69648344ef9d369d6",
+        "git_blob_sha1": "7d58a8c023532e7a59304711c017065a4d757cac",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/oft/model.py",
+        "sha256": "f4cef2940d2c6abfe804cbd45c01d81712fea918f73402dedfe60b922f2a8b63",
+        "git_blob_sha1": "e44ced3b13b81b0021e480aa386360f924f55c3c",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/p_tuning/__init__.py",
+        "sha256": "5d441b313e464dfb5844218d9168967c0251043baff295a700b456ebb1ed1035",
+        "git_blob_sha1": "7dd3a6ba3e4442354302c5bfe3da75f1d6f69d02",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/p_tuning/config.py",
+        "sha256": "33380a28e3d0d6e8ade5e0f0e703794e39091d19d0da63d723347ccc87d5f9a7",
+        "git_blob_sha1": "a69c13db9c8a0f57a7daa7d312472625251fb6c8",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/p_tuning/model.py",
+        "sha256": "aefda66e63ce02b01e7deaa1274f4ecfb5cd19a49c586453d6180a96b7e17c0c",
+        "git_blob_sha1": "ade2b1128158376c134441687803b85d444cfb96",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/poly/__init__.py",
+        "sha256": "c828964ceee8dab5a6bc033808d2b2965bc8bed13afd09c7b848db2b1ee38602",
+        "git_blob_sha1": "b0f368695edbd7fb7bb3c68d9e918bd16752b873",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/poly/config.py",
+        "sha256": "9633fe3a6b4b6a3d56250b1aa325d3ec3f2983bad304060a5b10c8a35419da8a",
+        "git_blob_sha1": "040c1647a005fa59bc2046640dacdd4783aa11fe",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/poly/layer.py",
+        "sha256": "bff107a8f0cf1c2f2808b2f1338f5ea95748f1b84a1f4945ce5f54e7d581e736",
+        "git_blob_sha1": "5169d9ba72904898afdec7e032650c9fabbeec82",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/poly/model.py",
+        "sha256": "6a04139a34ad346cca3f0daffcc9a131fd9ed001b49836d846d3ec824e468d92",
+        "git_blob_sha1": "30313cdabbc2aaac9621ccd418fa7720db5b8ce9",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/poly/router.py",
+        "sha256": "a3443787ac8cf45c4958d1a1c0d38ca9a35ebaa6d5da170ec45c540d1ba67390",
+        "git_blob_sha1": "3dda3e75e35b6a9fbd5a2412815a0f05421f2ef4",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/prefix_tuning/__init__.py",
+        "sha256": "282427290a054dfc743361e4400345dfa3ceeb2eb6a03db882691d1a7a56ad77",
+        "git_blob_sha1": "28f4bedbb43bcf2b22146d60e0e1f2fe7b19d9eb",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/prefix_tuning/config.py",
+        "sha256": "57b0b197d6d69611a49cf939668f841fadbdba608d362a8cae02cc877f970330",
+        "git_blob_sha1": "6eed77167a6e0b928e59e7e07fbf842c2d7a2d83",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/prefix_tuning/model.py",
+        "sha256": "17213f101b6fbc0f5b6435fe19158deacd0c42d7147b9ecf2c3e2a453d800b0c",
+        "git_blob_sha1": "ffd51892a3cc074406791f6bc7d1b088d25148e3",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/prompt_tuning/__init__.py",
+        "sha256": "1f210d747f9fc0001dc2c12a157e0f77830b7c2019c418971aaca3c6f5380801",
+        "git_blob_sha1": "71795b61d819573ff41770e6d49c750e6c51b0ae",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/prompt_tuning/config.py",
+        "sha256": "eb9574caf57a82d84f632831b2c873bd1d322d4304c4cc3640cab4136e943e34",
+        "git_blob_sha1": "ee8ceb8d89ca09f44c5dd9b38f2c69a9d26705b9",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/prompt_tuning/model.py",
+        "sha256": "0fa60f654805905deae043daff402f2c91c90db1340ea223517512445b5e7ca2",
+        "git_blob_sha1": "ce9b6bc409e0b26f846ea159464bdb953f8b0c4e",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/sora/layer.py",
+        "sha256": "8b546f3299ee613582924ad5b1aec3bd5e601cf24552fc088eda2f347c8b0fbb",
+        "git_blob_sha1": "7b53406a114b5af0102aef7398bd68cf5400964d",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/tuners_utils.py",
+        "sha256": "a42a79c50f260b51c4d9d3986c31da6c4ffbcf1fa91693e019ef1c7d76376359",
+        "git_blob_sha1": "6c136acf94558b44d24e18a8e2cd07b3606fead3",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/vblora/__init__.py",
+        "sha256": "4bdd422fced85c4f3f5488fbb924d60533031a674fc4f5299a75feb24bbe51fd",
+        "git_blob_sha1": "838fc95fa0be81d0271aacbed954a1c8906e5f3b",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/vblora/config.py",
+        "sha256": "c246fa62b8fa20c53d666a6cbf190d4582c2d1ec169b927073a3cca52e1d3b87",
+        "git_blob_sha1": "4b951c60f0d1d04f9f70b1a5c1bcb64a7790fea1",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/vblora/layer.py",
+        "sha256": "04f39caaf0fe23bd569d1b2d34c6e6b8df73cb6e1670824dd3689c0a6b6632d7",
+        "git_blob_sha1": "1db8035dd980c775c6dafa1fc23d361da4c234f7",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/vblora/model.py",
+        "sha256": "2c6f3aa5f555677d5865fa3dc20ffb09cbdadb16ed0842a7345d06018457e3e4",
+        "git_blob_sha1": "9460549d3928daf04eaf743d6491b260ef03457e",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/vera/__init__.py",
+        "sha256": "ab5aa9a49ac7cfbff4d9f0dcdf5e2aa21be2c35a835c2c1efa70e3e665a55e29",
+        "git_blob_sha1": "816a499a77e3bc5a8029b4deb244a78712e6b91b",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/vera/bnb.py",
+        "sha256": "9d6b2710afb34821faef31016150f12b8f6c4a1f73010adefbb3f658b858193a",
+        "git_blob_sha1": "1bc6fbcdec76ee179807b0e49d181635dae51d05",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/vera/config.py",
+        "sha256": "f00366bb0c2a8a4feeb19047f9aaccc904ad1758923947a0fb3dcd2dad1dae6a",
+        "git_blob_sha1": "5a8eaa4cdc27505bf3b3d6b9404f61eaa76f9494",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/vera/layer.py",
+        "sha256": "178625280bdc4fc956e4342253288738ac8d0aa155e616839d3a2619874df13f",
+        "git_blob_sha1": "25789e8f59cdf70de58a280b620cd6d2bd356c75",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/vera/model.py",
+        "sha256": "fb819635df211b0c0e8c543e2b82b279f3c48ff7d3fc59875352128dcaf413c3",
+        "git_blob_sha1": "e129620ce8d5332cac016da72ed6eb0d336223b6",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/xlora/__init__.py",
+        "sha256": "afa8136868e9f280c40813f21ee3d8a42174d579e470c2df842c8ee8bd64338a",
+        "git_blob_sha1": "df41e1e611a53795368b85fde538739d8c91dea8",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/xlora/classifier.py",
+        "sha256": "0f6a0e7f158b76a876925ba3f6c85f894a09bf54dd48cef48ec64391ceee272d",
+        "git_blob_sha1": "1ccf9edf9db3178ba9dc4dd3e07989251a676cb8",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/xlora/config.py",
+        "sha256": "12b7fae15f9f7b6688408059c2d62e73d2568c87a96feefca3a22a549330cf2f",
+        "git_blob_sha1": "9cdb0f6e49f367c640ef4abf14e29b3b60f22fa6",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/xlora/layer.py",
+        "sha256": "29c82e5e7397600eca288e407196ca46a32c5a6a88847d800fa3621dabf40057",
+        "git_blob_sha1": "a5035456d4646446dde06eb60088319b2c533fc3",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/tuners/xlora/model.py",
+        "sha256": "451af09e73fa42cbbe0f4ad97cb8e310ab9adaf576641b6911a086298c4be77d",
+        "git_blob_sha1": "6e1c07b7cf2bfe8e72c11e3dc2d4242556aaa817",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/utils/__init__.py",
+        "sha256": "c707497f89c891882099aa07cfab81ef94ebe9b5fd722896822cd9df97f7ed68",
+        "git_blob_sha1": "d9bf8fbe280abff4fd41c50e8d837b5b1dba19b0",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/utils/constants.py",
+        "sha256": "1ec26ea3fe15f9c4600e051f99d5e715dc4fb45713864e5d9222194543cfd1bb",
+        "git_blob_sha1": "986be87bd6e6a6c557b94772ebed5adfb20b30dd",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/utils/hotswap.py",
+        "sha256": "caf6bcc497ed963a049c801ec2e5ecd0c9dc02e41f30bae5345dd1778ab148c2",
+        "git_blob_sha1": "3ff7caacced4e62735d47f29e2bdcd71562147cb",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/utils/incremental_pca.py",
+        "sha256": "4035d738d6d8487955471b400f6c8072e12ff27049cce81ef8e1e31c30c359ea",
+        "git_blob_sha1": "e703f11262c2b7defe8c0c448a1eb05f100ccff2",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/utils/integrations.py",
+        "sha256": "987cb89fc716d3c241811d436fdd5d5294d8fbab1a5c7fe50efffe6f9951feb9",
+        "git_blob_sha1": "5be6300c0fe165f569a57d4c0faef8e3f9607fee",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/utils/loftq_utils.py",
+        "sha256": "8332e75fd885b462ebecd740fad2f00539965ccfa80d6ad669d78b2252b772ed",
+        "git_blob_sha1": "fda66949f4af9515b6ad151adaa619ff428f990b",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/utils/merge_utils.py",
+        "sha256": "20077a0e56cfa30c40122b82e4e68cc20f6199d3bad3af03394d7c089d345485",
+        "git_blob_sha1": "900cb878e2d785e5e800caa58642f0532f4d574b",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/utils/other.py",
+        "sha256": "058b64627a9c0260d0f20aaf180e5cdbbec679cf7b6cf651f0416506df6ca595",
+        "git_blob_sha1": "fb32b562c9dab6a4cbc9b8dd4cd4112f235cad72",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/utils/peft_types.py",
+        "sha256": "ca17f8efb2a48fc9d18ad2a91482d47a5570ed494c0f8139fda8b715436be80a",
+        "git_blob_sha1": "d2f1539074a80656a4a2cb718cc7281a377ce8d9",
+        "expected_git_blob_verified": true
+      },
+      {
+        "path": "peft/utils/save_and_load.py",
+        "sha256": "886191d38d53e8e0f4f8c6e4002e020e457c2e367839fa59834b12aee8ffabf9",
+        "git_blob_sha1": "44a1cad5ff7ba016a2af4dbcbeca677d286f8265",
+        "expected_git_blob_verified": true
+      }
+    ]
+  },
+  "weights_found_in_pinned_tree": false,
+  "github_releases_found": 0,
+  "hf_search_author": "MaeChd",
+  "hf_search_result_count": 0,
+  "hf_identity_verified": false
+}

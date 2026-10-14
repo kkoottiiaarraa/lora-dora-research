@@ -1,0 +1,23 @@
+{
+  "protocol_id": "gsm8k-matched-v1",
+  "author_code_revision": "b667348c51e24d21f67c329c5f514f80e2c124d4",
+  "dataset_repository": "https://github.com/openai/grade-school-math",
+  "dataset_revision": "3101c7d5072418e28b9008a6636bde82a006892c",
+  "dataset_path": "grade_school_math/data/test.jsonl",
+  "expected_rows": 1319,
+  "split": "test",
+  "prompt": "Question: {question}\nAnswer:",
+  "enable_thinking": false,
+  "max_input_tokens": 512,
+  "max_new_tokens": 256,
+  "do_sample": false,
+  "use_cache": false,
+  "seed": 42,
+  "batch_size": 1,
+  "primary_scorer": "shadow-author-first-number-fallback",
+  "secondary_scorer": "marked-boxed-last-number",
+  "dtype": "bfloat16",
+  "autocast_dtype": "bfloat16",
+  "attention": "sdpa",
+  "dataset_sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+}

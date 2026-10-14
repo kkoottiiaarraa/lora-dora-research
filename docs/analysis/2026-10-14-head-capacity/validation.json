@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "heads": 9,
+  "calibration_rows_per_head": 2048,
+  "practical_heads": 0,
+  "passed_practical_gate": false,
+  "source_tail_range": [
+    9.760241343328564e-08,
+    2.5910485611639523e-06
+  ],
+  "outside_tail_range": [
+    4.929732850129756e-05,
+    0.011356399330789056
+  ],
+  "maximum_no_d_tail_fraction": 2.1067020696139596e-31,
+  "maximum_gauge_relative_tail_change": 7.139682008005854e-14,
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "artifacts": {
+    "base": {
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+    },
+    "dora": {
+      "repo_id": "shadow-llm/Qwen3-4B-GSM8k-DoRA",
+      "revision": "07f6a59c2ab6b36b1cecb5feb66187638202521d"
+    }
+  },
+  "adapter_weights_sha256": "d3f6e22524c7caf60c81dd3133aed0c3f2df4bd503e542ebe1fa152b2da46d3c",
+  "calibration_cases_sha256": "b1f226d1f9167f1d1ab1c4e87d90725ddb5d38d3f51621605a7904def1b26cb3",
+  "source_module_sha256": {
+    "0": "8969368c9eee6247129f1d1b7a50fb4038a707f2d8d476d53543922215782db4",
+    "17": "1e930c81df17ba54b4c1bd602e52b6058a2d10fb2f8d9d8e20bcfca9a67c6bb8",
+    "35": "9f5cdf3c25f44b8d69630be79000ec5ba61e0eebc160fe1b798dd8a69c6ad035"
+  },
+  "source_sha256": {
+    "lora_dora_study/head_capacity.py": "3fec30f0dd52e28ad630a670be752bb908f79e9c9138eda56e796c09633a5331",
+    "tests/test_head_capacity.py": "6c6fe97e254616f5aae68419ea3d58342d25259551f0d57b5d8485ccf9755314",
+    "execution/next-experiments/head_capacity_screen.py": "002335f3e948787484167fb0364f7e501cbadff4e4f504f4acd0265663721720",
+    "docs/analysis/2026-10-14-head-capacity/SPEC.md": "5a59182fd0e3ac883b618ff3ad6be63892e89b7441d4cda26ea26aadf7f629c4",
+    "docs/analysis/2026-10-14-head-capacity/METHOD.md": "1daf872b8bca71e5729bb855e3af60e953a8e6c969a0e2843f76493b1207fef5",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118"
+  },
+  "wall_seconds": 4.120184356928803,
+  "rss_bytes": 892706816,
+  "gpu_hours": 0,
+  "model_loaded": false,
+  "network_expressivity_lower_bound": false,
+  "task_quality": false,
+  "conference_level_established": false
+}

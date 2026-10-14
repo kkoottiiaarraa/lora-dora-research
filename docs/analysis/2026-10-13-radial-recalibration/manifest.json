@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "files": {
+    "REPORT.md": "e00eda9573cb8ad366e4e53ffaf073b2c2b61af7710b44ef98becda24aa206e8",
+    "SPEC.md": "50f9bc24b8531933e22dafba0e18677ba5c3ce6f4f9afc6131c53b138783cc1f",
+    "quality.csv": "82fdb83aacbe9b29fb552ef3a061221c13fddb5eb031e14eaaa5dad39171feb5",
+    "validation.json": "cc01395879a44b2156ce9f2500d5ccd677b8bf979bad0040cd9260374b295033"
+  },
+  "code_sha256": {
+    "lora_dora_study/radial_recalibration.py": "c59c7b9a3357bae196d80404e8c1f26379b49fa1431bf5d33719ecd79d9584c2",
+    "tests/test_radial_recalibration.py": "30e36cf39ecb897b195d79067bb47a26a841f759c4f892ae83e425a6d4ca70d1",
+    "execution/next-experiments/radial_followup.py": "f6ba604a39b3d8737fea842c0218a5856b0a38e47d2e9daf59cba9fb450045c8",
+    "execution/scientific-analysis/analyze_radial_recalibration.py": "6f59244ab321358b18a02466ba45c56cabb68fc8a9e30b372c2490db0ec328ad",
+    "execution/scientific-analysis/analyze_compression_followup.py": "f1482e591e92a18fe9b8182655bb34e32391eb3009c13e0c8ecd51828a2c497c"
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "source_revision": "24f62bfe84741e5613ae2e9f387f2e1f9bb64ba8",
+  "source_audit": [
+    {
+      "file": "run_glue.py",
+      "sha256": "82d490b1d8ba108456854fbc4d707dfba44f85a98402fa83457165107e354d7a",
+      "sora_class_import_or_reference": true,
+      "calls": [
+        {
+          "line": 326,
+          "call": "peft_config._register_custom_module"
+        },
+        {
+          "line": 507,
+          "call": "AutoConfig.from_pretrained"
+        },
+        {
+          "line": 519,
+          "call": "AutoTokenizer.from_pretrained"
+        },
+        {
+          "line": 530,
+          "call": "AutoModelForSequenceClassification.from_pretrained"
+        },
+        {
+          "line": 539,
+          "call": "get_peft_model"
+        },
+        {
+          "line": 715,
+          "call": "evaluate.load"
+        },
+        {
+          "line": 717,
+          "call": "evaluate.load"
+        },
+        {
+          "line": 719,
+          "call": "evaluate.load"
+        },
+        {
+          "line": 825,
+          "call": "trainer.evaluate"
+        }
+      ]
+    },
+    {
+      "file": "finetune_math.py",
+      "sha256": "8467c4e3c2203efb18beda7c13c0b6f7fe236348ae383ba8dddda7c8ddb43713",
+      "sora_class_import_or_reference": true,
+      "calls": [
+        {
+          "line": 208,
+          "call": "LlamaForCausalLM.from_pretrained"
+        },
+        {
+          "line": 216,
+          "call": "AutoTokenizer.from_pretrained"
+        },
+        {
+          "line": 225,
+          "call": "AutoModelForCausalLM.from_pretrained"
+        },
+        {
+          "line": 233,
+          "call": "AutoTokenizer.from_pretrained"
+        },
+        {
+          "line": 303,
+          "call": "get_peft_model"
+        },
+        {
+          "line": 329,
+          "call": "config._register_custom_module"
+        },
+        {
+          "line": 331,
+          "call": "get_peft_model"
+        }
+      ]
+    },
+    {
+      "file": "evaluate_gemma_math.py",
+      "sha256": "37e3586efc36e4e5ef02a3c7f8fe0e68f8abdbf78e3a43640dc4a584960029a0",
+      "sora_class_import_or_reference": false,
+      "calls": [
+        {
+          "line": 160,
+          "call": "evaluate_batch"
+        },
+        {
+          "line": 170,
+          "call": "evaluate_batch"
+        },
+        {
+          "line": 464,
+          "call": "LlamaTokenizer.from_pretrained"
+        },
+        {
+          "line": 466,
+          "call": "AutoTokenizer.from_pretrained"
+        },
+        {
+          "line": 469,
+          "call": "AutoModelForCausalLM.from_pretrained"
+        },
+        {
+          "line": 475,
+          "call": "PeftModel.from_pretrained"
+        },
+        {
+          "line": 483,
+          "call": "AutoModelForCausalLM.from_pretrained"
+        },
+        {
+          "line": 490,
+          "call": "PeftModel.from_pretrained"
+        },
+        {
+          "line": 498,
+          "call": "AutoModelForCausalLM.from_pretrained"
+        },
+        {
+          "line": 505,
+          "call": "PeftModel.from_pretrained"
+        },
+        {
+          "line": 512,
+          "call": "AutoModelForCausalLM.from_pretrained"
+        },
+        {
+          "line": 517,
+          "call": "PeftModel.from_pretrained"
+        }
+      ]
+    },
+    {
+      "file": "lm-evaluation-harness/lm_eval/models/huggingface.py",
+      "sha256": "677bc73bb782f9f32af5f431243519c286ab1d1306cb976598066d452b31e635",
+      "sora_class_import_or_reference": false,
+      "calls": [
+        {
+          "line": 522,
+          "call": "transformers.AutoConfig.from_pretrained"
+        },
+        {
+          "line": 588,
+          "call": "self.AUTO_MODEL_CLASS.from_pretrained"
+        },
+        {
+          "line": 656,
+          "call": "PeftConfig.from_pretrained"
+        },
+        {
+          "line": 671,
+          "call": "peft_config._register_custom_module"
+        },
+        {
+          "line": 672,
+          "call": "PeftModel.from_pretrained"
+        },
+        {
+          "line": 680,
+          "call": "self.AUTO_MODEL_CLASS.from_pretrained"
+        },
+        {
+          "line": 735,
+          "call": "transformers.AutoTokenizer.from_pretrained"
+        },
+        {
+          "line": 750,
+          "call": "transformers.AutoTokenizer.from_pretrained"
+        }
+      ]
+    }
+  ],
+  "restricted_theorem1": [
+    {
+      "r": 2,
+      "s": 4,
+      "alpha": 0.5,
+      "beta": 0.4795831523312719,
+      "gamma": 0.1,
+      "entropy_difference": 0.06684422924267663,
+      "proof_expression": 0.06684422924267663,
+      "error": 0.0
+    },
+    {
+      "r": 4,
+      "s": 7,
+      "alpha": 0.7,
+      "beta": 0.6708203932499369,
+      "gamma": 0.2,
+      "entropy_difference": 0.16826969785356383,
+      "proof_expression": 0.16826969785356377,
+      "error": 5.551115123125783e-17
+    },
+    {
+      "r": 8,
+      "s": 10,
+      "alpha": 0.8,
+      "beta": 0.798212288268514,
+      "gamma": 0.1,
+      "entropy_difference": 0.018819881793529447,
+      "proof_expression": 0.018819881793529482,
+      "error": 3.469446951953614e-17
+    }
+  ],
+  "higher_rank_counterexample": {
+    "lora_rank": 2,
+    "dora_rank": 4,
+    "directional_rank": 2,
+    "lora_energy": 2.0,
+    "dora_energy": 2.0000000000000004,
+    "lora_entropy": 0.6931471805599453,
+    "dora_entropy": 0.0016355118823179714,
+    "positive_m": true,
+    "reconstruction_max_error": 8.673617379884035e-18,
+    "violates_theorem1_assumptions": true
+  },
+  "upper_bound_is_not_nonzero_lower_bound": {
+    "nontrivial_D": [
+      2,
+      1,
+      1
+    ],
+    "directional_rank": 1,
+    "effective_delta": [
+      0.0,
+      0,
+      0
+    ]
+  },
+  "theorem2_literal_zero_generator": {
+    "P": "identity",
+    "T1_P": "identity",
+    "exp_P_minus_T1_norm": 1.718281828459045,
+    "epsilon": 0.01,
+    "interpretation": "notation/indexing inconsistency, not a failure of the corrected skew exponential bound"
+  },
+  "corrected_first_order_bound": {
+    "generator_norm_leq_epsilon": true,
+    "exp_minus_I_plus_K_bound": "epsilon^2/2",
+    "orthogonality_defect_bound": "epsilon^2",
+    "requires_product_normalization": "paper rule, not public sum-of-norms code rule"
+  },
+  "loader_accuracy_sign": {
+    "input": [
+      1.0,
+      0.75
+    ],
+    "plain_logits": [
+      1.0,
+      0.75
+    ],
+    "corrected_logits": [
+      0.6250001874999063,
+      1.249999750000125
+    ],
+    "examples": [
+      {
+        "label": 0,
+        "plain_correct": 1,
+        "corrected_correct": 0
+      },
+      {
+        "label": 1,
+        "plain_correct": 0,
+        "corrected_correct": 1
+      }
+    ],
+    "equal_mixture_net_accuracy_difference": 0.0,
+    "interpretation": "possible improvement, degradation or equality; no direction identified for trained models"
+  },
+  "gpu_hours": 0,
+  "model_loads": 0,
+  "training": false,
+  "script_sha256": "43295ba104951a990b0c0257cd4995a5aba3bcc6c098ea3e8f767c64b8107d7b"
+}

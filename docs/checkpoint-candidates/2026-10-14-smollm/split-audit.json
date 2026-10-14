@@ -1,0 +1,202 @@
+{
+  "status": "complete",
+  "revision": "d0196d9122f84597eec8b44254a48d6885e1b90f",
+  "files": [
+    {
+      "path": "dataset_full/sample_0001.json",
+      "sha256": "f597964594bae300e6e72f3d2413aa43501a35264301ea11b63ac64b615531ad",
+      "git_blob": "3de1ea4feee8e8be1a1d89c2cda8df3e3767c01b",
+      "bytes": 219957,
+      "rows": 100
+    },
+    {
+      "path": "dataset_full/sample_0002.json",
+      "sha256": "8596306dd1c9af60e9a5335d963e3cf528122a6842f267c384b18efbdc4b217a",
+      "git_blob": "6443c286b029a23cc5cb34cf8e2668b5b96a4a92",
+      "bytes": 232074,
+      "rows": 100
+    },
+    {
+      "path": "dataset_full/sample_0003.json",
+      "sha256": "f419cf432bc36ab1f6a0b03929fca4598528da87687350b4a4ae4c92b9d96e7f",
+      "git_blob": "228241fb61924526d672eecabeb8383ea06408b4",
+      "bytes": 207238,
+      "rows": 100
+    },
+    {
+      "path": "dataset_full/sample_0004.json",
+      "sha256": "f1d8cf6e588ca4c94fca60989d15d06f1981d42b702630f0850c34f01f9db069",
+      "git_blob": "d221e59feda05a66d6590029964e14bd6c406a0e",
+      "bytes": 211137,
+      "rows": 100
+    },
+    {
+      "path": "dataset_full/sample_0005.json",
+      "sha256": "715d06f397696219134fec496645008ad4e6714ac57b8258f3ba7575fdf61050",
+      "git_blob": "5b63d3aa007c701647712d3fcf3525226caaf672",
+      "bytes": 228238,
+      "rows": 100
+    },
+    {
+      "path": "dataset_full/sample_0006.json",
+      "sha256": "b5de31e36550c43e8c4b5b79fe53276249b1c6a3d0a516174303464d773fbd1d",
+      "git_blob": "f282795e294d2d2176012baa894712ac9d85e23d",
+      "bytes": 224277,
+      "rows": 100
+    },
+    {
+      "path": "dataset_full/sample_0007.json",
+      "sha256": "d71c338eef33f174463c9eb9477c9e410c6b1c2fa4a25ac3e63ed88d38bd0fac",
+      "git_blob": "24c5a37b43a2878cb685ae0c8e7e013de7dd3bb0",
+      "bytes": 240880,
+      "rows": 100
+    },
+    {
+      "path": "dataset_full/sample_0008.json",
+      "sha256": "5e2c5ee21a5c10921e622717caadfe0ff92346218586201c61d785ce8010ada0",
+      "git_blob": "4d5e24cc7f3214da012edc87a4754b2769f314b2",
+      "bytes": 221054,
+      "rows": 100
+    },
+    {
+      "path": "dataset_full/sample_0009.json",
+      "sha256": "9a70f683981565d722d90136a194c9eeb8a1013b7aab318fb0f948c9889217c3",
+      "git_blob": "af573c304b1ff06487d9ffc59e2d59b21e621964",
+      "bytes": 227679,
+      "rows": 100
+    },
+    {
+      "path": "dataset_full/sample_0010.json",
+      "sha256": "6c4dedef19be70a5990eb961e401417d61ce7e6891bdacc86be06cc0e5cc91fd",
+      "git_blob": "cf691d6f5440d3b0650c1281ed71761cc3eb2384",
+      "bytes": 232324,
+      "rows": 100
+    }
+  ],
+  "splits": {
+    "train": {
+      "rows": 800,
+      "unique_full": 800,
+      "unique_semantic": 800,
+      "unique_request": 224,
+      "no_tool": 146,
+      "tool_count_min": 1,
+      "tool_count_max": 30,
+      "label_counts": {
+        "-": 146,
+        "A": 1,
+        "a": 94,
+        "b": 78,
+        "c": 61,
+        "d": 46,
+        "e": 59,
+        "f": 48,
+        "g": 33,
+        "h": 37,
+        "i": 28,
+        "j": 29,
+        "k": 20,
+        "l": 24,
+        "m": 19,
+        "n": 16,
+        "o": 15,
+        "p": 18,
+        "q": 8,
+        "r": 2,
+        "s": 4,
+        "t": 2,
+        "u": 3,
+        "v": 2,
+        "w": 3,
+        "x": 3,
+        "z": 1
+      }
+    },
+    "validation": {
+      "rows": 100,
+      "unique_full": 100,
+      "unique_semantic": 100,
+      "unique_request": 86,
+      "no_tool": 17,
+      "tool_count_min": 1,
+      "tool_count_max": 30,
+      "label_counts": {
+        "-": 17,
+        "a": 12,
+        "b": 12,
+        "c": 8,
+        "d": 5,
+        "e": 5,
+        "f": 5,
+        "g": 4,
+        "h": 7,
+        "i": 2,
+        "j": 3,
+        "k": 3,
+        "l": 5,
+        "n": 6,
+        "o": 2,
+        "p": 2,
+        "v": 1,
+        "y": 1
+      }
+    },
+    "test": {
+      "rows": 100,
+      "unique_full": 100,
+      "unique_semantic": 100,
+      "unique_request": 78,
+      "no_tool": 20,
+      "tool_count_min": 1,
+      "tool_count_max": 30,
+      "label_counts": {
+        "-": 20,
+        "a": 12,
+        "b": 11,
+        "c": 5,
+        "d": 8,
+        "e": 9,
+        "f": 5,
+        "g": 7,
+        "h": 4,
+        "i": 2,
+        "j": 4,
+        "k": 2,
+        "l": 3,
+        "m": 1,
+        "n": 1,
+        "o": 2,
+        "p": 1,
+        "q": 1,
+        "r": 1,
+        "x": 1
+      }
+    }
+  },
+  "overlap": [
+    {
+      "left": "train",
+      "right": "validation",
+      "full": 0,
+      "semantic": 0,
+      "request": 82
+    },
+    {
+      "left": "train",
+      "right": "test",
+      "full": 0,
+      "semantic": 0,
+      "request": 73
+    },
+    {
+      "left": "validation",
+      "right": "test",
+      "full": 0,
+      "semantic": 0,
+      "request": 35
+    }
+  ],
+  "random_independent_sampling_established": false,
+  "synthetic_source": true,
+  "near_duplicates_excluded": false
+}

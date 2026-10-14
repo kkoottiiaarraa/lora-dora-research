@@ -1,0 +1,80 @@
+{
+  "series": [
+    {
+      "jobs": [
+        {
+          "implemented": true,
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "intervention": "none",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "base",
+            "lora",
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-quality-greedy",
+          "priority": 22,
+          "estimated_gpu_seconds": 45000
+        },
+        {
+          "implemented": true,
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "intervention": "none",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "id": "shadow_4b_mmlu",
+          "task": "mmlu",
+          "pair_id": "shadow_4b_mmlu",
+          "roles": [
+            "base",
+            "lora",
+            "dora"
+          ],
+          "priority": 0,
+          "estimated_gpu_seconds": 18000,
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/mmlu-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_mmlu-downloads.json"
+        },
+        {
+          "implemented": true,
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "intervention": "none",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "id": "shadow_4b_squadv2",
+          "task": "squadv2",
+          "pair_id": "shadow_4b_squadv2",
+          "roles": [
+            "base",
+            "lora",
+            "dora"
+          ],
+          "priority": 0,
+          "estimated_gpu_seconds": 39600,
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/squadv2-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_squadv2-downloads.json"
+        }
+      ]
+    }
+  ]
+}

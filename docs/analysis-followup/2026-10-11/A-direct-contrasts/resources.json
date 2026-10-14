@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-10-11T19:48:15.714695+00:00",
+  "hostname": "gpu-host",
+  "python": "3.12.3",
+  "numpy": "1.26.4",
+  "executable": "/path/to/user-user/.venvs/lora-dora-research/bin/python",
+  "runtime_seconds": 0.5601546540856361,
+  "peak_rss_kib": 48248,
+  "cpu_only": true,
+  "gpu_used": false,
+  "numerical_thread_cap": 2,
+  "environment": {
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "NUMEXPR_NUM_THREADS": "2",
+    "VECLIB_MAXIMUM_THREADS": "2",
+    "BLIS_NUM_THREADS": "2",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "script_sha256": "8bedb47487d9c22a2c0485e4ba4597f093f7992198f8d749f7ccbe88890d2cd7",
+  "bootstrap_resamples_per_contrast": 50000,
+  "seeds": [
+    2026101140,
+    2026101141,
+    2026101142,
+    2026101143,
+    2026101144,
+    2026101145,
+    2026101146,
+    2026101147
+  ],
+  "run_scope": "CPU research server; no models/forward/downloads/install"
+}

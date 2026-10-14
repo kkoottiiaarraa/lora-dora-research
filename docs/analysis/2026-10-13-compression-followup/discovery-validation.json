@@ -1,0 +1,10 @@
+{
+  "status": "validated",
+  "rows": 772,
+  "spectra": 18,
+  "inputs": {
+    "summary.json": "fe950de620a0e818fdd3ccba4a130925fef1ab970139bab69bc5e919794715a8",
+    "per-case.jsonl": "0e686aaa0b4470237808c4c760c34df279c7d71689fc26c0d405b02fba1a35c1",
+    "spectra.json": "454de1488b14338d74a2e67bbba16080bac51c212ed9f818bd68b6c32add332f"
+  }
+}

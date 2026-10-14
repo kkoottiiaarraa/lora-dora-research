@@ -1,0 +1,53 @@
+{
+  "artifacts": {
+    "base": {
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+    },
+    "dora": {
+      "repo_id": "shadow-llm/Qwen3-4B-GSM8k-DoRA",
+      "revision": "07f6a59c2ab6b36b1cecb5feb66187638202521d"
+    }
+  },
+  "datasets": {
+    "train": {
+      "sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465"
+    },
+    "test": {
+      "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    }
+  },
+  "calibration_cases_sha256": "b1f226d1f9167f1d1ab1c4e87d90725ddb5d38d3f51621605a7904def1b26cb3",
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "execution": {
+    "device": "CPU",
+    "dtype": "float32",
+    "attention": "sdpa",
+    "threads": 16,
+    "training": false
+  },
+  "evaluation": {
+    "dataset": "GSM8K",
+    "split": "train",
+    "cases": 128,
+    "gold_continuation_tokens_per_case": 32,
+    "metric": "full-vocabulary KL(native || compressed)",
+    "answer_generation": false,
+    "enable_thinking": false,
+    "selection": "First eligible distinct train questions after all prior/calibration/test exclusions",
+    "maximum_prompt_tokens": 512,
+    "minimum_gold_answer_tokens": 32
+  },
+  "limitations": [
+    "New development questions relative to our procedure; not guaranteed unseen during source checkpoint training.",
+    "Author training base revision and training seeds are not established.",
+    "Compression uses calibration activations and gold-CE output-gradient statistics; no original model parameter updates.",
+    "Sequential eligible sample of long gold answers; bootstrap intervals are conditional on these questions, not source-training-seed uncertainty."
+  ]
+}

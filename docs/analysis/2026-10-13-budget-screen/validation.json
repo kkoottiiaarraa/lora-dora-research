@@ -1,0 +1,307 @@
+{
+  "status": "validated",
+  "cases": 16,
+  "target_positions": 512,
+  "conditions": 12,
+  "factor_elements": 491520,
+  "native_elements": 993792,
+  "fraction_of_native_elements": 0.4945904173106646,
+  "ranks_change_across_source_gauges": {
+    "svd": false,
+    "weighted": false
+  },
+  "contrasts": [
+    {
+      "kind": "source_representation",
+      "changed": "svd_fixed_0.995",
+      "reference": "svd_fixed_1.0",
+      "kl_delta": 2.1793309989089862e-07,
+      "descriptive_kl_ci95": [
+        -1.1011380337905566e-07,
+        5.209410614126547e-07
+      ],
+      "relative_kl_delta": 0.08856848199746525,
+      "nll_delta": -2.421497428445156e-05,
+      "descriptive_nll_ci95": [
+        -9.676040985779483e-05,
+        4.5185667903464843e-05
+      ],
+      "lower_kl_cases": 5,
+      "higher_kl_cases": 11
+    },
+    {
+      "kind": "source_representation",
+      "changed": "svd_fixed_1.005",
+      "reference": "svd_fixed_1.0",
+      "kl_delta": 1.2993075371640266e-06,
+      "descriptive_kl_ci95": [
+        6.801767675378386e-07,
+        2.1766249674756222e-06
+      ],
+      "relative_kl_delta": 0.5280413864258942,
+      "nll_delta": 8.298994218125608e-05,
+      "descriptive_nll_ci95": [
+        -1.2516867630109861e-05,
+        0.00018197715033291696
+      ],
+      "lower_kl_cases": 1,
+      "higher_kl_cases": 15
+    },
+    {
+      "kind": "source_representation",
+      "changed": "svd_allocated_0.995",
+      "reference": "svd_allocated_1.0",
+      "kl_delta": 1.9593910341404135e-07,
+      "descriptive_kl_ci95": [
+        -2.7506758896626758e-08,
+        3.8630196100996336e-07
+      ],
+      "relative_kl_delta": 0.08302028780956555,
+      "nll_delta": -4.3283126691516516e-05,
+      "descriptive_nll_ci95": [
+        -0.00010861707496615577,
+        2.3444422856229268e-05
+      ],
+      "lower_kl_cases": 2,
+      "higher_kl_cases": 14
+    },
+    {
+      "kind": "source_representation",
+      "changed": "svd_allocated_1.005",
+      "reference": "svd_allocated_1.0",
+      "kl_delta": 8.942955775027166e-07,
+      "descriptive_kl_ci95": [
+        4.525341644470302e-07,
+        1.433604897247528e-06
+      ],
+      "relative_kl_delta": 0.37891709688091113,
+      "nll_delta": 9.292512604605358e-05,
+      "descriptive_nll_ci95": [
+        8.690358757934384e-06,
+        0.00017903665371067114
+      ],
+      "lower_kl_cases": 1,
+      "higher_kl_cases": 15
+    },
+    {
+      "kind": "allocation",
+      "changed": "svd_allocated_1.0",
+      "reference": "svd_fixed_1.0",
+      "kl_delta": -1.0048165992582003e-07,
+      "descriptive_kl_ci95": [
+        -5.868127700913639e-07,
+        2.9805749683827476e-07
+      ],
+      "relative_kl_delta": -0.04083596338817131,
+      "nll_delta": -5.722018787933554e-06,
+      "descriptive_nll_ci95": [
+        -7.917350684156967e-05,
+        6.630683964359025e-05
+      ],
+      "lower_kl_cases": 7,
+      "higher_kl_cases": 9
+    },
+    {
+      "kind": "source_representation",
+      "changed": "weighted_fixed_0.995",
+      "reference": "weighted_fixed_1.0",
+      "kl_delta": 1.2348179687304077e-06,
+      "descriptive_kl_ci95": [
+        4.3574600262974583e-07,
+        2.2019626622319974e-06
+      ],
+      "relative_kl_delta": 0.44281964859196243,
+      "nll_delta": -9.586642508667767e-05,
+      "descriptive_nll_ci95": [
+        -0.00023232769897266886,
+        3.012670116717131e-05
+      ],
+      "lower_kl_cases": 2,
+      "higher_kl_cases": 14
+    },
+    {
+      "kind": "source_representation",
+      "changed": "weighted_fixed_1.005",
+      "reference": "weighted_fixed_1.0",
+      "kl_delta": 2.3983574210485725e-06,
+      "descriptive_kl_ci95": [
+        1.3616251393731932e-06,
+        3.77572601341356e-06
+      ],
+      "relative_kl_delta": 0.8600780173928004,
+      "nll_delta": 0.00017690727642994623,
+      "descriptive_nll_ci95": [
+        9.057655130468526e-05,
+        0.00026884666635027844
+      ],
+      "lower_kl_cases": 0,
+      "higher_kl_cases": 16
+    },
+    {
+      "kind": "source_representation",
+      "changed": "weighted_allocated_0.995",
+      "reference": "weighted_allocated_1.0",
+      "kl_delta": 4.916395561937531e-07,
+      "descriptive_kl_ci95": [
+        -2.344164989197287e-07,
+        1.2160761683742067e-06
+      ],
+      "relative_kl_delta": 0.07699243975901449,
+      "nll_delta": -0.00018524245611407225,
+      "descriptive_nll_ci95": [
+        -0.00030210880810534885,
+        -7.175064415427049e-05
+      ],
+      "lower_kl_cases": 4,
+      "higher_kl_cases": 12
+    },
+    {
+      "kind": "source_representation",
+      "changed": "weighted_allocated_1.005",
+      "reference": "weighted_allocated_1.0",
+      "kl_delta": 3.389489536022277e-06,
+      "descriptive_kl_ci95": [
+        1.8110683650987448e-06,
+        5.467891163470355e-06
+      ],
+      "relative_kl_delta": 0.5308056799505365,
+      "nll_delta": 0.00012574816540995414,
+      "descriptive_nll_ci95": [
+        2.4686580680853554e-05,
+        0.0002341304876630236
+      ],
+      "lower_kl_cases": 0,
+      "higher_kl_cases": 16
+    },
+    {
+      "kind": "allocation",
+      "changed": "weighted_allocated_1.0",
+      "reference": "weighted_fixed_1.0",
+      "kl_delta": 3.5970215378438055e-06,
+      "descriptive_kl_ci95": [
+        2.3925399883306065e-06,
+        4.971832219057151e-06
+      ],
+      "relative_kl_delta": 1.2899324869749043,
+      "nll_delta": 7.870281368686175e-05,
+      "descriptive_nll_ci95": [
+        -4.227577009396823e-05,
+        0.00021106131240370037
+      ],
+      "lower_kl_cases": 0,
+      "higher_kl_cases": 16
+    },
+    {
+      "kind": "weighting",
+      "changed": "weighted_fixed_1.0",
+      "reference": "svd_fixed_1.0",
+      "kl_delta": 3.279178708776342e-07,
+      "descriptive_kl_ci95": [
+        -1.0177240112291765e-07,
+        8.346247410061152e-07
+      ],
+      "relative_kl_delta": 0.13326653022424056,
+      "nll_delta": -1.3460332762138018e-05,
+      "descriptive_nll_ci95": [
+        -0.00010519717190683991,
+        7.254651613102219e-05
+      ],
+      "lower_kl_cases": 6,
+      "higher_kl_cases": 10
+    },
+    {
+      "kind": "weighting",
+      "changed": "weighted_allocated_1.0",
+      "reference": "svd_allocated_1.0",
+      "kl_delta": 4.02542106864726e-06,
+      "descriptive_kl_ci95": [
+        2.5867737242194746e-06,
+        5.62750363906495e-06
+      ],
+      "relative_kl_delta": 1.7055891848581137,
+      "nll_delta": 7.096449971265729e-05,
+      "descriptive_nll_ci95": [
+        -6.85338716559002e-05,
+        0.00022004551065878813
+      ],
+      "lower_kl_cases": 0,
+      "higher_kl_cases": 16
+    }
+  ],
+  "relative_screen_signal": true,
+  "tiny_absolute_effect_everywhere": true,
+  "candidate_design_warranted": false,
+  "uncertainty": "Exploratory whole-case bootstrap10000 seed20261013; no multiplicity-adjusted confirmatory claims",
+  "scope": "Six V/O modules; 16 new development train questions; teacher-forced prefixes, not GSM8K accuracy",
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "source_sha256": {
+    "lora_dora_study/rank_budget.py": "3b6eb1b0eb9fbef2fe26d57651b18aca079ce63abca8a952fc24e60636883352",
+    "execution/next-experiments/budget_screen.py": "e0f9a5ad937d9f7d8eefbbccdc7fffef66da5696d30cbc7d0fd887c08b7e0fc2",
+    "tests/test_rank_budget.py": "67dd939c6918c11654daf1e9106ec5db2e6358b399502d2661a9463cd8e0c50b",
+    "docs/analysis/2026-10-13-budget-screen/SPEC.md": "76cfb65a2cbf19381f3f281bc6f6442bb72608ee0741964fa4636bd2f1a8b6cd",
+    "lora_dora_study/compression_audit.py": "97555cea8f49d1f7a114a988aa21e7f0380baf73bd27b4db9d6385ba7baf7bf2",
+    "lora_dora_study/fidelity_audit.py": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+    "lora_dora_study/rank_symmetry.py": "d50047efc0bc82778a511300d89a2555d462a7be95794fa23dfbb601d9132079",
+    "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/benchmarks.py": "1abd84b8e6b5e1c145ff83ede420d8b283a54c5afd030a6aa868f65201f3ba2d"
+  },
+  "storage_audit": {
+    "selected_source_dtype_counts": {
+      "F32": 993792
+    },
+    "source_tensor_payload_bytes": 3975168,
+    "compressed_tensor_payload_bytes": 1966080,
+    "scope": "Six selected modules, excludes base/model and metadata, no runtime RAM/latency claim",
+    "artifacts": {
+      "base": {
+        "repo_id": "Qwen/Qwen3-4B",
+        "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+      },
+      "dora": {
+        "repo_id": "shadow-llm/Qwen3-4B-GSM8k-DoRA",
+        "revision": "07f6a59c2ab6b36b1cecb5feb66187638202521d"
+      }
+    },
+    "factor_file_sha256": "e03790f91240722b17cbd1ee0843de2e8e76c8b8d1549b37baa6374b0bf126f0",
+    "all_factor_shapes_dtypes_finite_and_counts_verified": true,
+    "cost_per_rank": {
+      "base_model.model.model.layers.0.self_attn.v_proj": 3584,
+      "base_model.model.model.layers.0.self_attn.o_proj": 6656,
+      "base_model.model.model.layers.17.self_attn.v_proj": 3584,
+      "base_model.model.model.layers.17.self_attn.o_proj": 6656,
+      "base_model.model.model.layers.35.self_attn.v_proj": 3584,
+      "base_model.model.model.layers.35.self_attn.o_proj": 6656
+    },
+    "calibration_disjoint_verified": true
+  },
+  "resources": {
+    "gpu_hours": 0,
+    "prepare_wall_seconds": 4.3021196509944275,
+    "evaluate_wall_seconds": 854.5332209630869,
+    "cpu_threads": 16,
+    "peak_evaluate_rss_bytes": 20418670592
+  },
+  "controls": {
+    "max_rms": 7.68844460696698e-06,
+    "min_compression_rms": 0.007878828404702356
+  },
+  "input_sha256": {
+    "storage-audit.json": "de657d40ef82bb3f2e08b10481ed78dbc8b0bf1cdb5874b73d69cb2b8a2678d9",
+    "manifest-private.json": "6978687036517e2ce28e7f7b4b38044cf065b91775a4e9ed26c8d9a2b5399616",
+    "evaluate/controls.json": "6a5149102ed3fe357e4309ee8e808d6b976dd572040857fea84b7f46d6443026",
+    "evaluate/per-case.jsonl": "7769e02967059110c639536ab363b5464898d972c4e462e6f125a23961312105",
+    "evaluate/summary.json": "58ec03658403cdbeef52cd0eb82897f42fc4783551c34eeb93bef8d90ca44c54",
+    "prepare-failed-absolute-guard/summary.json": "fd2a9f4c261832e53f2ea2fd8475168403324f1b5fa2e146a19030b4b235dafd",
+    "prepare/cases.json": "2b00757e9e12371b114cf4236f20abfb015190e363d0da1beabbbf8f31571d40",
+    "prepare/summary.json": "789a4b254da8564488a544976447af636f16ae99acbf6c1c4d45aedf6d3ecdfc",
+    "prepare/decisions.json": "52a33660e393847dc3a7d51ad4892cdbf6168e0cc60c8b3e9f86af7c7eccbcec"
+  }
+}

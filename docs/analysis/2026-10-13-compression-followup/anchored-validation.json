@@ -1,0 +1,192 @@
+{
+  "status": "validated",
+  "selection": {
+    "chosen": "anchor_1.0",
+    "calibration_mean_kl": {
+      "anchor_1.0": 1.1367035732282694e-06,
+      "anchor_0.995": 2.2927349192019786e-06,
+      "anchor_1.005": 2.9408209115474594e-06
+    },
+    "rule": "minimum KL over three base-anchored candidates",
+    "validation_cases_sha256": "880db59304cd9150fd1778427b0bf5205a1a3eeed1e513ad505a6cb03dd040c4",
+    "frozen_before_validation": true,
+    "anchor_factors_sha256": "cbdefc907a15aa3c04680b453bdb5f72b4e0500c3d1932e8e002a4be04a01014",
+    "generic_selection": {
+      "rule": "minimum mean full-vocabulary calibration KL, three fixed scales; c=1 tie preference",
+      "chosen": {
+        "svd": "svd_1.0",
+        "weighted": "weighted_1.0"
+      },
+      "calibration_mean_kl": {
+        "svd_1.0": 1.4888278366733897e-06,
+        "weighted_1.0": 1.1207038047053097e-06,
+        "svd_0.995": 2.358512188406871e-06,
+        "weighted_0.995": 2.7732715225570847e-06,
+        "svd_1.005": 2.4921043967010164e-06,
+        "weighted_1.005": 2.444124727691433e-06
+      },
+      "factors_sha256": "582869c1a8a913e5861ae999f25aa1774ff1971d03f0f31dd95eee9e9c13092e",
+      "validation_cases_sha256": "03a6da2a2bf38f0649fc4ca6b2c52d03a021966f1326678f572a258920fa90a6",
+      "frozen_before_validation": true
+    },
+    "validation_labels": [
+      "svd_1.0",
+      "weighted_1.0",
+      "anchor_1.0"
+    ]
+  },
+  "contrasts": [
+    {
+      "kind": "primary",
+      "changed": "anchor_1.0",
+      "reference": "weighted_1.0",
+      "same_condition": false,
+      "kl_difference": 5.6542317249416127e-08,
+      "kl_ci95": [
+        1.0800053947026028e-08,
+        1.0330199939560527e-07
+      ],
+      "kl_ci97_5_family2": [
+        5.378555589342665e-09,
+        1.1086714298377638e-07
+      ],
+      "relative_kl_gain": -0.034899130061826385,
+      "nll_difference": 1.7704462379378063e-05,
+      "nll_ci95": [
+        3.953028788975985e-06,
+        3.1341029803758145e-05
+      ],
+      "lower_kl_cases": 21,
+      "higher_kl_cases": 43,
+      "benefit_screen_passed": false
+    },
+    {
+      "kind": "secondary_canonical_only",
+      "changed": "anchor_1.0",
+      "reference": "anchor_1.0",
+      "same_condition": true,
+      "kl_difference": 0.0,
+      "kl_ci95": [
+        0.0,
+        0.0
+      ],
+      "kl_ci97_5_family2": [
+        0.0,
+        0.0
+      ],
+      "relative_kl_gain": -0.0,
+      "nll_difference": 0.0,
+      "nll_ci95": [
+        0.0,
+        0.0
+      ],
+      "lower_kl_cases": 0,
+      "higher_kl_cases": 0,
+      "benefit_screen_passed": false
+    },
+    {
+      "kind": "secondary_raw",
+      "changed": "anchor_1.0",
+      "reference": "svd_1.0",
+      "same_condition": false,
+      "kl_difference": -1.779428788666761e-07,
+      "kl_ci95": [
+        -3.965371160646149e-07,
+        3.8171580502681726e-08
+      ],
+      "kl_ci97_5_family2": [
+        -4.3018548505992107e-07,
+        7.585951671170722e-08
+      ],
+      "relative_kl_gain": 0.09594421993066382,
+      "nll_difference": 5.908426440955289e-05,
+      "nll_ci95": [
+        5.73944523478984e-07,
+        0.00011727040701616908
+      ],
+      "lower_kl_cases": 40,
+      "higher_kl_cases": 24,
+      "benefit_screen_passed": false
+    },
+    {
+      "kind": "secondary_matched_search",
+      "changed": "anchor_1.0",
+      "reference": "weighted_1.0",
+      "same_condition": false,
+      "kl_difference": 5.6542317249416127e-08,
+      "kl_ci95": [
+        1.0800053947026028e-08,
+        1.0330199939560527e-07
+      ],
+      "kl_ci97_5_family2": [
+        5.378555589342665e-09,
+        1.1086714298377638e-07
+      ],
+      "relative_kl_gain": -0.034899130061826385,
+      "nll_difference": 1.7704462379378063e-05,
+      "nll_ci95": [
+        3.953028788975985e-06,
+        3.1341029803758145e-05
+      ],
+      "lower_kl_cases": 21,
+      "higher_kl_cases": 43,
+      "benefit_screen_passed": false
+    }
+  ],
+  "wall_seconds": 3083.466356496094,
+  "anchor_scales": {
+    "base_model.model.model.layers.0.self_attn": 1.000882627967587,
+    "base_model.model.model.layers.17.self_attn": 1.0009608525830067,
+    "base_model.model.model.layers.35.self_attn": 1.0004587602155235
+  },
+  "ideal_fp64_canonical_relative_errors": {
+    "base_model.model.model.layers.0.self_attn.v_proj": 8.505733433590872e-14,
+    "base_model.model.model.layers.0.self_attn.o_proj": 8.516456316814556e-14,
+    "base_model.model.model.layers.17.self_attn.v_proj": 9.495425908436481e-14,
+    "base_model.model.model.layers.17.self_attn.o_proj": 9.5110272108502e-14,
+    "base_model.model.model.layers.35.self_attn.v_proj": 8.405182943399856e-14,
+    "base_model.model.model.layers.35.self_attn.o_proj": 8.405365336335587e-14
+  },
+  "validation_disjoint_question_count": 192,
+  "inference_scope": "new train holdout for posthoc method selection, not unseen original-training data or task accuracy",
+  "uncertainty": "paired whole-question bootstrap10000 seed20261013; family2 primary CIs97.5; secondary exploratory",
+  "parameters": "rank32 in six V/O matrices, factor budget983040 elements, native adapter993792; no measured latency advantage",
+  "source_sha256": {
+    "lora_dora_study/anchored_compression.py": "dbc1573a406922d8fc124a1258d989c88f2b643a400d627a5fb5ef5e47a96174",
+    "execution/next-experiments/anchored_followup.py": "5004b229b2a18c6bb9d4ecd7c16c98ad756a9f72b5f649ee142309503087cd87",
+    "tests/test_anchored_compression.py": "be8c2d588682ca6beb5d0fd16e9663678f61b36c3ec1291f222c99a9619e7482",
+    "lora_dora_study/weighted_compression.py": "93874de554e61d7ed9d6a4252a4a3395c24a0bdece7945122c1bf1de94b55bc6",
+    "lora_dora_study/compression_audit.py": "97555cea8f49d1f7a114a988aa21e7f0380baf73bd27b4db9d6385ba7baf7bf2",
+    "lora_dora_study/fidelity_audit.py": "361a4b4541e715ed462256d256047d547acc3f0ddab9ffcbca4d5dbaee264fa0",
+    "lora_dora_study/rank_symmetry.py": "d50047efc0bc82778a511300d89a2555d462a7be95794fa23dfbb601d9132079",
+    "lora_dora_study/adapters.py": "4f91f9d1e20873cb0354517646ef6e84bd8447db14989cec88d9219c7f558729",
+    "lora_dora_study/benchmarks.py": "1abd84b8e6b5e1c145ff83ede420d8b283a54c5afd030a6aa868f65201f3ba2d",
+    "lora_dora_study/server.py": "80ce9961664b2530faea6161ee59982a7861fc801b301475da3ea7409105e077",
+    "lora_dora_study/evaluation.py": "800346b795e2ed9259bc906286d4cd3e7862b53ba46cac49872f85160f781118"
+  },
+  "versions": {
+    "torch": "2.5.1+cu121",
+    "transformers": "4.57.1",
+    "peft": "0.17.1",
+    "safetensors": "0.6.2",
+    "accelerate": "1.11.0"
+  },
+  "artifacts": {
+    "base": {
+      "repo_id": "Qwen/Qwen3-4B",
+      "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+    },
+    "dora": {
+      "repo_id": "shadow-llm/Qwen3-4B-GSM8k-DoRA",
+      "revision": "07f6a59c2ab6b36b1cecb5feb66187638202521d"
+    }
+  },
+  "input_sha256": {
+    "selection.json": "ae03e325e107c0582a114f9e2dac03a2c7e9807776e09cb37c77eb460f84b06c",
+    "manifest-private.json": "4583797d3abfa5b88cb235f6b8d7c81d7859a9467477fb2be67556a9d38eaff8",
+    "validation-cases.json": "880db59304cd9150fd1778427b0bf5205a1a3eeed1e513ad505a6cb03dd040c4",
+    "per-case.jsonl": "23c79e397efb22b7cb99c646d3518432c65d66b785728d4f127245a2fa69d0ec",
+    "diagnostics.json": "3f77f89c816d2573a4bc321dc9e31210f20b9f6277dafe1f3a3bdfa102e44a14",
+    "summary.json": "8fb436ccf7e34b9c299765b02ca5d4019f7ff08e4a8c6e5034b2068eae08813b"
+  }
+}

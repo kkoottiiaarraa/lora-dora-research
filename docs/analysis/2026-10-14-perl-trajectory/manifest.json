@@ -1,0 +1,10 @@
+{
+  "artifacts": {
+    "magnitude-audit.json": "2f81fef886824fb54d8c7787ee5fd05c4c103f78d06fb0536b6813adf1c51491",
+    "REPORT.md": "442c626ae96850119326ed0d9a987aa25905c8738c69a5b0d34c5b00358b736a",
+    "provenance.json": "cec269229fa02139f8d6954d69b65e56bf77589e362ef451a43fa53a88b4cb98",
+    "validation.json": "d24b98adf94dac5a08f349571c423dac1f950c2794f44edc0c5c36c172e03c9d",
+    "SPEC.md": "2e8c77e92de20a99575e56e38b927ae2c0a5cd06b5a879b21304da16600ca25f",
+    "trajectory.csv": "9c265d0beb0d275ef23008f6a14979926d176d8777dee82a1143b85aacfe035b"
+  }
+}

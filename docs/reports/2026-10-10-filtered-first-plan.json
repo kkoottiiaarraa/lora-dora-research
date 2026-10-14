@@ -1,0 +1,543 @@
+{
+  "scope": "User removed full no-op and full V/O symmetry. Reuse original DoRA baseline as control; retain short symmetry evidence; all other jobs unchanged.",
+  "gpu_policy": "Retain original assigned GPU",
+  "series": [
+    {
+      "series": 3,
+      "jobs": [
+        {
+          "implemented": true,
+          "dependencies": [],
+          "requires_primary_quality": false,
+          "intervention": "none",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "base",
+            "lora",
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-quality-greedy",
+          "priority": 22,
+          "estimated_gpu_seconds": 45000
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "dense_reference",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-dense-dora",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "calibration": "/path/to/user-user/lora-dora-series/datasets/gsm8k-train-calibration.jsonl",
+          "calibration_sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+          "rank": 32,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "dense_reference",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "lora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-dense-lora",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "calibration": "/path/to/user-user/lora-dora-series/datasets/gsm8k-train-calibration.jsonl",
+          "calibration_sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+          "rank": 32,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-dense-dora"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "rank_fixed",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-r32",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "calibration": "/path/to/user-user/lora-dora-series/datasets/gsm8k-train-calibration.jsonl",
+          "calibration_sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+          "rank": 32,
+          "reference_job": "gsm8k-dense-dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-dense-dora"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "rank_energy",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-e95",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "calibration": "/path/to/user-user/lora-dora-series/datasets/gsm8k-train-calibration.jsonl",
+          "calibration_sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+          "rank": 32,
+          "reference_job": "gsm8k-dense-dora",
+          "energy": 0.95
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-dense-dora"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "rank_energy",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-e99",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "calibration": "/path/to/user-user/lora-dora-series/datasets/gsm8k-train-calibration.jsonl",
+          "calibration_sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+          "rank": 32,
+          "reference_job": "gsm8k-dense-dora",
+          "energy": 0.99
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-r32",
+            "gsm8k-dense-lora"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "rank_lora_control",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "lora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-lora-matched-impact",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "calibration": "/path/to/user-user/lora-dora-series/datasets/gsm8k-train-calibration.jsonl",
+          "calibration_sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+          "rank": 32,
+          "reference_job": "gsm8k-dense-lora",
+          "reference_role": "lora",
+          "impact_reference": "gsm8k-r32"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "remove_d",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-remove_d-all",
+          "priority": 22,
+          "estimated_gpu_seconds": 8748.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "base_magnitude",
+          "targets": [
+            "k_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-base_magnitude-k",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "base_magnitude",
+          "targets": [
+            "q_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-base_magnitude-q",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "base_magnitude",
+          "targets": [
+            "v_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-base_magnitude-v",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "remove_d",
+          "targets": [
+            "k_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-remove_d-k",
+          "priority": 22,
+          "estimated_gpu_seconds": 8748.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "remove_d",
+          "targets": [
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-remove_d-o",
+          "priority": 22,
+          "estimated_gpu_seconds": 8748.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "remove_d",
+          "targets": [
+            "q_proj",
+            "k_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-remove_d-qk",
+          "priority": 22,
+          "estimated_gpu_seconds": 8748.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "remove_d",
+          "targets": [
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-remove_d-vo",
+          "priority": 22,
+          "estimated_gpu_seconds": 8748.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "base_magnitude",
+          "targets": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-base_magnitude-all",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "base_magnitude",
+          "targets": [
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-base_magnitude-o",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "base_magnitude",
+          "targets": [
+            "q_proj",
+            "k_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-base_magnitude-qk",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "base_magnitude",
+          "targets": [
+            "v_proj",
+            "o_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-base_magnitude-vo",
+          "priority": 22,
+          "estimated_gpu_seconds": 22788.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "remove_d",
+          "targets": [
+            "q_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-remove_d-q",
+          "priority": 22,
+          "estimated_gpu_seconds": 8748.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        },
+        {
+          "implemented": true,
+          "dependencies": [
+            "gsm8k-quality-greedy"
+          ],
+          "requires_primary_quality": true,
+          "intervention": "remove_d",
+          "targets": [
+            "v_proj"
+          ],
+          "task": "gsm8k",
+          "pair_id": "shadow_4b_gsm8k",
+          "roles": [
+            "dora"
+          ],
+          "dataset_manifest": "/path/to/user-user/lora-dora-series/results/gsm8k-dataset.json",
+          "downloads": "/path/to/user-user/lora-dora-series/results/shadow_4b_gsm8k-downloads.json",
+          "id": "gsm8k-remove_d-v",
+          "priority": 22,
+          "estimated_gpu_seconds": 8748.0,
+          "reference_job": "gsm8k-quality-greedy",
+          "reference_role": "dora"
+        }
+      ],
+      "estimated_gpu_seconds": 402480.0
+    }
+  ]
+}

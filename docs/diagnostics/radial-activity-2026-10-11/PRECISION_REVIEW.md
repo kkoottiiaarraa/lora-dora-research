@@ -1,6 +1,7 @@
 # Radial activity: precision review and offline diagnostic definitions
 
 Date: 2026-10-11. Scope: existing Qwen3-4B/GSM8K DoRA endpoint only;
+no training, full-model loading, model forward, SVD or GPU computation.
 This document specifies measurements; it does not claim numerical activity
 results from the full checkpoint. Historical analysis and frozen code remain
 unchanged.
@@ -75,6 +76,7 @@ and [operation policies](https://github.com/pytorch/pytorch/blob/v2.5.1/aten/src
 `linear` is in the lower-precision policy; norm operations include FP32 policies.
 The actual CUDA tensor values have not been measured by this review.
 
+A tiny CPU-only primitive probe in installed Torch 2.5.1+cu121 confirmed:
 scalar times BF16 -> BF16; FP32 plus BF16 -> FP32; its norm -> FP32; FP32 m
 divided by that norm -> FP32; FP32 g times a BF16 vector -> FP32. It loaded no
 checkpoint and called no model/PEFT forward.
@@ -179,11 +181,15 @@ ratio can cross a weight rounding boundary, and a nonunit ratio can leave a
 rounded dense row unchanged. Neither equality test establishes the equality
 of PEFT outputs, which use separate base and low-rank branches.
 
+### C. PEFT operation-informed CPU normalizer surrogate
 
+Construct P on CPU with explicitly rounded BF16 operands and BF16 matrix
 product output; then form `V = W0.float() + s*P` in the same dtype and order
 as `get_weight_norm`. Compute FP32 row norms and FP32 `m/n`. Call the results
+`peft_bf16_normalizer_cpu_surrogate`, never runtime-exact.
 
 The shortcut `P = BF16(B_bf16 @ A_bf16)` assumes the first identity projection
+returns A_bf16 transposed. Validate this using CPU tensor primitives on a
 deterministic small selection of identity column blocks, without constructing
 a full identity or calling a module/model forward. Record exact elementwise
 agreement and shape/dtype. Avoid silently replacing the two-stage product by
@@ -195,7 +201,9 @@ of sign/threshold/identity classifications changed, and separately the
 effect of using FP32 versus FP64 reductions of the same V. This attributes
 normalizer differences to operand/output rounding and reduction precision.
 
+CPU BF16 GEMM and CUDA BF16 GEMM can differ in accumulation/reduction and kernel
 selection. Block size can also change a kernel. Validate a few row blocks
+computed with two block sizes and disclose differences. Even exact CPU
 agreement with the algebra does not certify CUDA identity reconstruction,
 activation GEMMs or final output rounding. Do not build a surrogate merged
 matrix and call it the deployed PEFT model. Actual output/activity validation
@@ -214,6 +222,7 @@ operands or their quotient can erase a small nonzero residual. A changing
 normalizer can make g active even with fixed m.
 
 Compare m against (i) FP64 norm of the actual cached base values, (ii) FP32
+norm, (iii) BF16 rounding of the FP32 norm, and (iv) the current CPU BF16 base
 norm primitive. Record exact equality, absolute/relative residual, sign flips
 and threshold crossing. Include how many m values themselves lie exactly on
 the BF16 lattice. Comparisons (iii) and (iv) are initialization proxies; any
@@ -240,10 +249,13 @@ Read safetensors headers and the base index first. Match every A/B/m key to
 exactly one base key, verify 36 layers x four projections =144 modules,
 dimensions, rank/scaling/configuration, revisions and source digests. Preserve
 cached storage dtype and a separate intended evaluation dtype in provenance.
+Use cached files only, on the research server, with at most two numerical
+threads; no model construction, downloads, forward passes or GPU allocation.
 
 Slice one base matrix by output rows, corresponding B rows and m entries;
 retain only that module's small A. Compute products and all accumulators in
 row blocks, then release tensors. Do not use `get_tensor` on a whole multi-GB
+base shard. Keep peak RSS and wall time. Aggregate energies in FP64; keep only
 row scalars/compact tables, not full reconstructed weights. Exact quantiles of
 the few hundred thousand row scalars are feasible and should be distinguished
 from approximate streaming quantiles. Use a declared deterministic block size.
@@ -273,12 +285,17 @@ quality advantage.
 
 ## Follow-up recommendation: bounded CUDA normalizer control
 
+Design recommendation only; no GPU control has been launched by this review.
+The CPU surrogate is sufficient for a conclusion explicitly limited to ideal
 endpoint geometry and the stated rounding counterfactuals. It is insufficient
 by itself for the central claim that a given proportion of deployed CUDA
 ratios is exactly or materially different from 1. A numerical error bound
+could make a threshold classification robust, but ordinary CPU/GPU agreement
 has not supplied such a bound. For a CUDA ratio claim, run the following small
+normalizer-only control before interpreting CPU classifications as deployed
 activity.
 
+Stream all 144 modules through one selected GPU in a separate process with
 the same installed versions and BF16 autocast settings as the study. Keep only
 one module's W0/A/B/m and scratch tensors on the device. Reproduce the full
 identity-based two linear operations using tensor primitives, without loading
@@ -299,8 +316,14 @@ Here `F.linear` is a tensor primitive, not a model forward or inference on
 examples. Preserve the full identity and GEMM shapes: splitting them or using
 direct B@A changes the kernel problem. This control does not need a
 calibration prompt, tokenizer, generation, activation tensors, full model,
+optimizer or SVD. Numerical CPU work remains capped at two threads.
 
 Before a future launch, estimate peak live tensor memory from actual header
+shapes and impose the proposed 1 GiB allocation/reservation budget with a
+safety margin. An input dimension of 4096 uses 64 MiB for the FP32 identity;
+the BF16 identity cast adds 32 MiB. Module weights/products are tens of MiB,
+making a sub-GiB tensor budget plausible, but this is not a measured total
+process VRAM guarantee. CUDA context/library overhead and allocator reservation
 must be reported separately. Release module tensors between iterations; do not
 change product shapes merely to force an already-failed budget. Existing
 resource/preflight constraints still apply; this design authorizes no launch.
@@ -313,14 +336,18 @@ The minimum recorded measurements are:
    historical process flags were not captured, limiting exact replay claims.
 2. Actual dtypes of identity, first product, P, V, n and g for every shape
    family. Expected values are FP32/BF16/BF16/FP32/FP32/FP32.
+3. Per-row n and g for ideal FP32, CPU BF16 surrogate and CUDA control. Report
    max/quantiles/RMS absolute g discrepancy, relative n discrepancy, exact
    `g==1` counts, sign changes of `g-1`, and crossings of every declared
    activity threshold. Compare margin to threshold with observed discrepancy;
    disclose borderline rows rather than rounding them into a headline count.
+4. Recompute FP32 CPU norms using the actual P_cuda copied back for that
    module, without storing full matrices. This separates normalizer reduction
    differences from BF16 product differences. Retain the resulting row scalars;
+   copy neither full weights nor GPU products to the VM/report bundle.
 5. Repeat a deterministic selection covering each shape family and the rows
    nearest activity thresholds, checking g reproducibility. Record peak
+   allocated/reserved GPU memory, process VRAM if available, peak host RSS and
    elapsed time. Summaries must reconcile to module/row denominators.
 
 This would directly measure the normalizer and FP32 g under the recorded CUDA

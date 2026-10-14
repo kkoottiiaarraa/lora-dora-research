@@ -2,6 +2,7 @@
 
 Этап exploratory: условия выбраны после просмотра прежних данных. Используется
 одна фиксированная пара checkpoints GSM8K и сохранённые 1319 test examples;
+каждая метрика анализируется отдельно. Новых forward, GPU-работы, загрузки
 весов, обучения, установок, p-values, CI или subgroup search здесь нет.
 
 Вход per_example_scores.csv.gz проверяется по SHA256 frozen bundle; выбранные
@@ -45,6 +46,9 @@ case-patterns.csv.gz содержит 2638 строк (1319×2): metric, aligned
 
 Упаковка gzip детерминирована (mtime=0). Seeds не используются: расчёты
 детерминированны, resampling отсутствует. Код запускается существующей venv
+с CUDA_VISIBLE_DEVICES пустым и пятью thread env limits=2; Torch не импортируется.
+Runtime, peak RSS, Python/NumPy/platform записаны в validation.json. Peak RSS —
+high-water mark процесса по resource.getrusage, Linux KiB→MiB; wall включает
 входные проверки, расчёты и запись таблиц/отчётов до финальной validation.
 
 Проверки: hashes, alignment/binary/full N, saved marginals и transitions,

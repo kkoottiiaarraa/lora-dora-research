@@ -37,7 +37,7 @@ def write_csv(path, rows):
 
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument('--repo',type=Path,default=Path('./artifacts'))
+    ap.add_argument('--repo',type=Path,default=Path('/path/to/user-user/lora-dora-series'))
     ap.add_argument('--out',type=Path)
     a=ap.parse_args(); repo=a.repo
     bundle=repo/'docs/analysis-preparation/2026-10-11'
@@ -166,7 +166,7 @@ def main():
         check('dense_control_exact_reference',numerical['reference']==lid and numerical['status']=='existing_exact_pair')
         f=next(x for x in fidelity if x['job']==row['job_id'])
         intervention=load(f['source']);saved=load(Path(row['right_path']).parent/'matched-comparison.json')
-        fam_path=Path('./artifacts')/row['family']; family=load(fam_path)
+        fam_path=Path('/path/to/user-user/lora-dora-profiling/distributed-important')/row['family']; family=load(fam_path)
         check('dense_literal_statistics',all(float(row[col])==saved['metrics'][metric][key] for col,key in [('existing_raw_p','paired_sign_permutation_p')])
               and [float(row['existing_ci95_low']),float(row['existing_ci95_high'])]==saved['metrics'][metric]['ci95']
               and float(row['existing_holm_p'])==family['holm_pvalues'][row['job_id']+':'+metric])
@@ -279,8 +279,8 @@ def make_findings(contrasts, baseline, subjects, strata, controls, limits):
               '## Пределы происхождения и воспроизведение','',
               'Проверены точные pinned evaluation revisions и hashes сохранённых inputs. Они не восстанавливают неизвестные training revisions/seeds, оптимизаторные траектории, обучение и выбор гиперпараметров. Quantization отсутствует как явное поле summaries; неизвестное не превращено в подтверждённый факт. Независимых training repeats нет. Финальные checkpoints и posthoc вмешательства не идентифицируют причину различий во время обучения.', '',
               '`quality-overview.csv` содержит исходные fraction values, все 15 contrasts с точными историческими references/families и описательные means. `numerical-controls.csv` содержит 4 dense rows с transitions и fidelity source. `quality-validation.json` связывает read-only input hashes, код, PLAN/SPEC и outputs. SVG показывает только DoRA−LoRA и dense controls; полный набор таблицы не отобран по значимости.', '',
-              'CPU на compute-host, максимум два потока; только stdlib, без новых зависимостей, GPU/forward/SVD. Frozen venv не имеет matplotlib; SVG построен непосредственно средствами stdlib, с явными осями, единицами и pointwise CI.', '',
-              '```bash','OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 MKL_NUM_THREADS=2 ./artifacts ./artifacts','```','']
+              'CPU на gpu-host, максимум два потока; только stdlib, без новых зависимостей, GPU/forward/SVD. Frozen venv не имеет matplotlib; SVG построен непосредственно средствами stdlib, с явными осями, единицами и pointwise CI.', '',
+              '```bash','OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 MKL_NUM_THREADS=2 /path/to/user-user/.venvs/lora-dora-research/bin/python /path/to/user-user/lora-dora-series/execution/scientific-analysis/build_quality.py','```','']
     return '\n'.join(lines)
 
 if __name__=='__main__':main()

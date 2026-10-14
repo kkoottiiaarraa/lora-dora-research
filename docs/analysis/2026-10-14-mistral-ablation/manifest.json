@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "primary_sign_reversal_confirmed": false,
+  "confirmation_closed": true,
+  "files": {
+    "FRESH_REPORT.md": "2b7c57c85031ef22ac69a02d99ef31d10d570a33a234e11d364a747c788e5ae8",
+    "SCREEN_REPORT.md": "b50158f97042e865c8ff48f1c9f2758f1213d0c3114441026a8121813c7c4692",
+    "SPEC.md": "372eee0d3f5a1b938d037b07074e509220381cae35f38c8fc2888c2e5d50e140",
+    "VALIDATION_SPEC.md": "5ffcfb5c57bf80c342c5718645af93beb95d9ffe2da8265da514b73f2805697f",
+    "fresh-case-audit.json": "4ce00cfe123d8e4c1cbb1d6269bdfbfc6d13adc1efc1fc8882ffc239de65c7b6",
+    "fresh-gauge-responses.csv": "eb849586809c245be869ed7cf40765d54da918b55dd86cf362b20a5827add45c",
+    "fresh-nll-tests.csv": "4af65a3d29afae778c6a031f681902f1f5fec9b179e537293c64b9325e701033",
+    "fresh-quality.csv": "0ff8a56bee242e7507b94173e39ebca8e7f9c6878bdd55e0947c785b627e6f0c",
+    "fresh-validation.json": "c587a4a5332774e064d91fae5f0ec535935489121a491155d4c82db8c063135c",
+    "gauge-contrasts.csv": "201bb439a0e6bc53a76c78e1d0531c7dd5c3021d5071d8e22aff7aef25d86404",
+    "quality.csv": "2e75796544be191e98df7bbb3f0f69accdc60dfaa2e55362706422dd1f97a091",
+    "validation.json": "9fe0be4a12a52f19568fcf20842caaae2cc9b8d6a6066052781667c95e71779c"
+  }
+}
